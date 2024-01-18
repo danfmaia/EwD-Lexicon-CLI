@@ -1,0 +1,12 @@
+{
+  "[SE_word]": {
+    "whole": "[the_whole_corpus_row]",
+    "PI": {
+      "L1": "[L1_word]",
+      "L2": "[L2_word]",
+      "L3": "[L3_word]",
+      "FM": "[full_mode_word]"
+    },
+    "Sf": null
+  }
+}
