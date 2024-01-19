@@ -1,6 +1,4 @@
 {
-  // "editor.fontFamily": "'Noto Sans', 'Droid Sans Mono', 'monospace', monospace",
-  // "editor.letterSpacing": 0.1
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
   "editor.letterSpacing": -0.35,
 
@@ -9,5 +7,10 @@
     "editor.formatOnSave": true,
     "editor.detectIndentation": false,
     "editor.defaultFormatter": "ms-python.autopep8"
+  },
+
+  "[plaintext]": {
+    "editor.fontFamily": "'Noto Sans', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.letterSpacing": 0.1
   }
 }

@@ -74,7 +74,7 @@ dessert | des͝se͡rt < dės͝se̖rt > des͝se̖rt ¦ dės͝se͡rt
 detail | det(a̖/a̗)il < (dėta̖il/deta̗il) >
 detailed | det(a̖/a̗)ile̊d < (dėta̖ile̊d/dēta̗ile̊d) > det(a̖/a̗)iled
 diacritic | di̱acrĭtic < dia̬crĭtic > diacrĭtic ¦ di̱a̬crĭtic
-diaeresis | di̱(‹a̖›/‹e̖›)reṣiṣ < di(‹a̖›/‹e̖›)rė̬ṣiṣ > di(‹a̖›/‹e̖›)resis ¦ di̱(‹a̖›/‹e̖›)rė̬ṣiṣ
+diaeresis | di̱(‹a̖›/‹e̖›)reṣiṣ < di(‹a̖›/‹e̖›)rė̬ṣiṣ > di(‹a̖›/‹e̖›)reṣiṣ ¦ di̱(‹a̖›/‹e̖›)rė̬ṣiṣ
 direct | dire̖ct ¦ d(ī/i/i̬)re̖ct
 done | dône
 don't | dōn't
@@ -226,7 +226,7 @@ vaguely | vagůe̊ly
 variant | ** < varia̬nt >
 variation | varia̖tion < varia̖tio̬n >
 variety | varīˌety < va̬rīė̬ty >
-various | vario͜us < * > **
+various | vario͜uṣ < * > variouṣ
 vernacular | vernăcular < ve͜rnăcu̱la͜r >
 volley | ** < volle̱y >
 volleyball | ** < volle̱y·baᷱll >

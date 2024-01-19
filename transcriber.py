@@ -167,6 +167,7 @@ class Transcriber:
                     current_sentence_index += 1
                     break
                 elif user_action == 'q':
+                    print()
                     print("Exiting interactive transcription.")
                     sys.exit()
                 else:
