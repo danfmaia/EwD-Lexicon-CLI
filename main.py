@@ -1,8 +1,10 @@
 import argparse
 import os
 import sys
+
 from transcriber import Transcriber
-from dict_gen import DictionaryGenerator
+from dict.dict_gen import DictionaryGenerator
+from util import Util
 
 
 def main():
@@ -123,12 +125,14 @@ def exit_if_user_aborted(response):
 
 def choose_piss_variation():
     piss_variations = ['L1', 'L2', 'L3', 'FM']
-    print()
-    print("Please choose a PISS variation:")
+    Util.print_with_spacing("Please choose a PISS variation:")
     print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
+    print()
     chosen_variation = input("Enter your choice (L1/L2/L3/FM): ").upper()
     while chosen_variation not in piss_variations:
+        print()
         print("Invalid choice. Please choose from L1, L2, L3, or FM.")
+        print()
         chosen_variation = input("Enter your choice (L1/L2/L3/FM): ").upper()
     return chosen_variation
 

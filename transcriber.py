@@ -1,6 +1,10 @@
-import json
 import re
 import sys
+
+from typing import List
+
+from dict.dictionary import Dictionary
+from util import Util
 
 
 class Transcriber:
@@ -19,19 +23,11 @@ class Transcriber:
             'from': 'fro̬m'
         }
 
-    def load_pi_dictionary(self):
-        """
-        Function to load the PI dictionary, excluding words from preliminary replacements
-        """
-        # Implementation of load_pi_dictionary
-        with open('dict/pi_dictionary.json', 'r') as file:
-            pi_dictionary = json.load(file)
+        self.pi_dictionary = Dictionary(self.preliminar_replacements)
 
-        # Remove words already handled in preliminary replacements
-        for word in self.preliminar_replacements:
-            pi_dictionary.pop(word, None)
-
-        return pi_dictionary
+        self.pi_entry = None
+        self.current_sentence_index = 0
+        self.selected_word_index = 0
 
     def update_words_for_piss_variation(self, input_text, pi_dictionary, variation):
         """
@@ -114,64 +110,99 @@ class Transcriber:
         """
         Transcribe the provided text to PI format according to the specified variation.
         """
-        pi_dictionary = self.load_pi_dictionary()
         processed_text = self.perform_preliminar_replacements(input_text)
         processed_text = self.update_words_for_piss_variation(
-            processed_text, pi_dictionary, variation)
+            processed_text, self.pi_dictionary, variation)
         processed_text = self.transform_words_with_s_suffix(
-            processed_text, pi_dictionary, variation)
+            processed_text, self.pi_dictionary, variation)
         return processed_text
 
     def process_sentence_interactively(self, sentences, current_sentence_index, variation):
-        # Continues from the current sentence index
+        # Iterating through sentences
         while current_sentence_index < len(sentences):
             sentence = sentences[current_sentence_index]
             words = self.split_sentence_into_words(sentence)
-            selected_index = 0
+            selected_word_index = 0
 
-            while selected_index < len(words):
+            # Iterating through words in the current sentence
+            while selected_word_index < len(words):
+                selected_word = words[selected_word_index]  # type: ignore
                 display_sentence = self.highlight_selected_word(
-                    sentence, words[selected_index])
-                print()
-                print(display_sentence)
+                    sentence, selected_word)
+                Util.print_with_spacing(display_sentence)
 
                 # Lookup in PI dictionary for the selected word
-                pi_entry = self.lookup_pi_entry(words[selected_index])
-                print()
+                pi_entry = self.pi_dictionary.lookup_pi_entry(selected_word)
                 if pi_entry:
-                    print(f"PI Entry: {pi_entry['whole']}")
-                    print(f"{variation} word: {pi_entry['PI'][variation]}")
+                    Util.print_with_spacing(
+                        f"PI Entry: {pi_entry['whole']}\n{variation} word: {pi_entry['PI'][variation]}")
                 else:
                     print("No PI entry found for this word.")
 
+                # User action input
                 print()
                 user_action = input(
-                    "Navigate: (n)ext, (p)revious, (s)kip sentence, (q)uit: ").lower()
+                    "Options: (a)ccept, (n)ext (or hit 'Enter'), (p)revious, (s)kip sentence, (q)uit: ").lower()
 
-                if user_action == 'n':
-                    if selected_index < len(words) - 1:
-                        selected_index += 1
-                    else:
+                # Accept action: replace the word and move to the next
+                if user_action == 'a' and pi_entry:
+                    pi_word = pi_entry['PI'][variation]
+                    for i in range(len(sentences)):  # type: ignore
+                        sentences[i] = self.replace_word_in_sentence(
+                            sentences[i], selected_word, pi_word)
+                    print(
+                        f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
+
+                    # Update the current sentence with the latest changes
+                    sentence = sentences[current_sentence_index]
+                    words = self.split_sentence_into_words(sentence)
+
+                    # Move to the next word after replacement, ensuring we don't exceed the list length
+                    selected_word_index += 1
+                    if selected_word_index >= len(words):
                         current_sentence_index += 1
-                        break  # Break to move to the next sentence
+                        if current_sentence_index < len(sentences):
+                            sentence = sentences[current_sentence_index]
+                            words = self.split_sentence_into_words(sentence)
+                            selected_word_index = 0  # Start at the first word of the new sentence
+                # Next word action
+                elif user_action == 'n' or user_action == '':
+                    selected_word_index += 1
+                    # Move to the next sentence if end of current sentence is reached
+                    if selected_word_index >= len(words):
+                        current_sentence_index += 1
+                        if current_sentence_index < len(sentences):
+                            sentence = sentences[current_sentence_index]
+                            words = self.split_sentence_into_words(sentence)
+                            selected_word_index = 0
+                # Previous word action
                 elif user_action == 'p':
-                    if selected_index > 0:
-                        selected_index -= 1
-                    elif current_sentence_index > 0:
-                        current_sentence_index -= 1
-                        sentence = sentences[current_sentence_index]
-                        words = self.split_sentence_into_words(sentence)
-                        # Set to last selectable word
-                        selected_index = len(words) - 1
+                    if selected_word_index > 0:
+                        selected_word_index -= 1
+                    else:
+                        # Move to the previous sentence
+                        if current_sentence_index > 0:
+                            current_sentence_index -= 1
+                            sentence = sentences[current_sentence_index]
+                            words = self.split_sentence_into_words(sentence)
+                            selected_word_index = len(words) - 1
+                # Skip to the next sentence
                 elif user_action == 's':
                     current_sentence_index += 1
-                    break
+                    if current_sentence_index < len(sentences):
+                        sentence = sentences[current_sentence_index]
+                        words = self.split_sentence_into_words(sentence)
+                        selected_word_index = 0
+                # Quit action
                 elif user_action == 'q':
-                    print()
                     print("Exiting interactive transcription.")
-                    sys.exit()
+                    return
                 else:
-                    print("Invalid input. Please choose 'n', 'p', 's', or 'q'.")
+                    print(
+                        "Invalid input. Please choose 'a', 'n', '', 'p', 's', or 'q'.")
+
+            # Update the sentence in the list after processing
+            sentences[current_sentence_index] = sentence
 
     def split_into_sentences(self, text):
         """
@@ -202,12 +233,17 @@ class Transcriber:
             rf'\b{re.escape(selected_word)}\b', replace, sentence, count=1)
         return highlighted_sentence
 
-    def lookup_pi_entry(self, word):
-        """
-        Look up the PI dictionary entry for the given word.
-        """
-        pi_dictionary = self.load_pi_dictionary()
-        word_lower = word.lower()
-        if word_lower in pi_dictionary:
-            return pi_dictionary[word_lower]
-        return None
+    def replace_word_in_sentence(self, sentence, word, replacement):
+        def replace(match):
+            # Preserve case of the original word
+            matched_word = match.group(0)
+            if matched_word.isupper():
+                return replacement.upper()
+            elif matched_word.istitle():
+                return replacement.capitalize()
+            else:
+                return replacement
+
+        # Use regular expression to replace only whole words, case-insensitively
+        pattern = rf'\b{re.escape(word)}\b'
+        return re.sub(pattern, replace, sentence, flags=re.IGNORECASE)

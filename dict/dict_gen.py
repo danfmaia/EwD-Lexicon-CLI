@@ -5,10 +5,6 @@ This script, PI's Dictionary Generator (word_entries_gen), is a crucial componen
 # SE | PI L1 < PI L2 > PI L3 ¦ PI FM
 """
 
-
-# Row Format:
-# SE | PI L1 < PI L2 > PI L3 ¦ PI full mode
-
 import os
 import json
 import re
@@ -129,13 +125,13 @@ class DictionaryGenerator:
             corpus_row_parts = [se_word, se_word, se_word, se_word, se_word]
 
         L1_word = self.handle_special_cases(
-            corpus_row_parts[1], corpus_row_parts, se_word)
+            corpus_row_parts[1], corpus_row_parts, se_word)  # type: ignore
         L2_word = self.handle_special_cases(
-            corpus_row_parts[2], corpus_row_parts, L1_word or se_word)
+            corpus_row_parts[2], corpus_row_parts, L1_word or se_word)  # type: ignore
         L3_word = self.handle_special_cases(
-            corpus_row_parts[3], corpus_row_parts, L1_word or se_word)
+            corpus_row_parts[3], corpus_row_parts, L1_word or se_word)  # type: ignore
         L4_word = self.handle_special_cases(
-            corpus_row_parts[4], corpus_row_parts, L2_word or se_word)
+            corpus_row_parts[4], corpus_row_parts, L2_word or se_word)  # type: ignore
 
         pi_entry = {"L1": L1_word, "L2": L2_word, "L3": L3_word, "FM": L4_word}
 
