@@ -1,204 +1,212 @@
 import json
 import re
-import os
 import sys
 
-# Mapping for preliminary replace operations
-preliminar_replacements = {
-    'the': 'the̬',
-    'a': 'a̬',
-    'an': 'a̬n',
-    'of': '‹o̬v›',
-    'to': 'to̬',
-    'you': 'yöu',
-    'this': 'thiṣ',
-    'and': 'and',
-    'for': 'for',
-    'from': 'fro̬m'
-}
 
-# Function to load the PI dictionary, excluding words from preliminary replacements
+class Transcriber:
+    def __init__(self):
+        # Mapping for preliminary replace operations
+        self.preliminar_replacements = {
+            'the': 'the̬',
+            'a': 'a̬',
+            'an': 'a̬n',
+            'of': '‹o̬v›',
+            'to': 'to̬',
+            'you': 'yöu',
+            'this': 'thiṣ',
+            'and': 'and',
+            'for': 'for',
+            'from': 'fro̬m'
+        }
 
+    def load_pi_dictionary(self):
+        """
+        Function to load the PI dictionary, excluding words from preliminary replacements
+        """
+        # Implementation of load_pi_dictionary
+        with open('dict/pi_dictionary.json', 'r') as file:
+            pi_dictionary = json.load(file)
 
-def load_pi_dictionary():
-    with open('dict/pi_dictionary.json', 'r') as file:
-        pi_dictionary = json.load(file)
+        # Remove words already handled in preliminary replacements
+        for word in self.preliminar_replacements:
+            pi_dictionary.pop(word, None)
 
-    # Remove words already handled in preliminary replacements
-    for word in preliminar_replacements:
-        pi_dictionary.pop(word, None)
+        return pi_dictionary
 
-    return pi_dictionary
+    def update_words_for_piss_variation(self, input_text, pi_dictionary, variation):
+        """
+        Function to update words according to the chosen PISS variation
+        """
+        # Build a dictionary for replacements
+        replacement_dict = {word: pi_dictionary[word]["PI"].get(variation)
+                            for word in pi_dictionary
+                            if pi_dictionary[word]["PI"].get(variation)}
 
-# Function to update words according to the chosen PISS variation
+        # Function to replace a single word
+        def replace_word(word):
+            lower_word = word.lower()
+            if lower_word in replacement_dict:
+                replacement = replacement_dict[lower_word]
+                # Preserve case of the original word
+                if word.isupper():
+                    return replacement.upper()
+                elif word[0].isupper():
+                    return replacement[0].upper() + replacement[1:]
+                return replacement
+            return word
 
+        tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)
+        updated_tokens = [replace_word(
+            token) if token.strip() != '' else token for token in tokens]
+        return ''.join(updated_tokens)
 
-def update_words_for_piss_variation(input_text, pi_dictionary, variation):
-    # Build a dictionary for replacements
-    replacement_dict = {word: pi_dictionary[word]["PI"].get(variation)
-                        for word in pi_dictionary
-                        if pi_dictionary[word]["PI"].get(variation)}
+    def transform_words_with_s_suffix(self, input_text, pi_dictionary, variation):
+        """
+        Function to handle words with 's' suffix
+        """
+        # Function to transform a word with 's' suffix
+        def transform_word(word):
+            if word[-1] == 's' and (len(word) < 2 or word[-2] != 's'):
+                base_word = word[:-1]
+                lower_base_word = base_word.lower()
 
-    # Function to replace a single word
-    def replace_word(word):
-        lower_word = word.lower()
-        if lower_word in replacement_dict:
-            replacement = replacement_dict[lower_word]
+                # Check if the base word (without 's') is in the dictionary
+                if lower_base_word in pi_dictionary and variation in pi_dictionary[lower_base_word]["PI"]:
+                    replacement = pi_dictionary[lower_base_word]["PI"][variation]
+
+                    # Ensure replacement is not None before concatenating 's'
+                    if replacement is not None:
+                        # Preserve case of the original word
+                        if base_word[0].isupper():
+                            replacement = replacement.capitalize()
+                        return replacement + 's'
+            return word
+
+        tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)
+        updated_tokens = [transform_word(
+            token) if token.strip() != '' else token for token in tokens]
+        return ''.join(updated_tokens)
+
+    def perform_preliminar_replacements(self, input_text):
+        """
+        Function to perform preliminary text replacements
+        """
+        # Callback function for regex substitution
+        def replacement_callback(match):
+            word = match.group(0)
+            replacement = self.preliminar_replacements[word.lower()]
             # Preserve case of the original word
-            if word.isupper():
+            if word.istitle():
+                return replacement.capitalize()
+            elif word.isupper():
                 return replacement.upper()
-            elif word[0].isupper():
-                return replacement[0].upper() + replacement[1:]
-            return replacement
-        return word
+            else:
+                return replacement
 
-    tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)
-    updated_tokens = [replace_word(
-        token) if token.strip() != '' else token for token in tokens]
-    return ''.join(updated_tokens)
+        # Perform replace operations
+        for word in self.preliminar_replacements.keys():
+            input_text = re.sub(r'\b{}\b'.format(
+                word), replacement_callback, input_text, flags=re.IGNORECASE)
 
-# Function to handle words with 's' suffix
+        return input_text
 
+    def transcribe(self, input_text, variation='L1'):
+        """
+        Transcribe the provided text to PI format according to the specified variation.
+        """
+        pi_dictionary = self.load_pi_dictionary()
+        processed_text = self.perform_preliminar_replacements(input_text)
+        processed_text = self.update_words_for_piss_variation(
+            processed_text, pi_dictionary, variation)
+        processed_text = self.transform_words_with_s_suffix(
+            processed_text, pi_dictionary, variation)
+        return processed_text
 
-def transform_words_with_s_suffix(input_text, pi_dictionary, variation):
-    # Function to transform a word with 's' suffix
-    def transform_word(word):
-        if word[-1] == 's' and (len(word) < 2 or word[-2] != 's'):
-            base_word = word[:-1]
-            lower_base_word = base_word.lower()
+    def process_sentence_interactively(self, sentences, current_sentence_index, variation):
+        # Continues from the current sentence index
+        while current_sentence_index < len(sentences):
+            sentence = sentences[current_sentence_index]
+            words = self.split_sentence_into_words(sentence)
+            selected_index = 0
 
-            # Check if the base word (without 's') is in the dictionary
-            if lower_base_word in pi_dictionary and variation in pi_dictionary[lower_base_word]["PI"]:
-                replacement = pi_dictionary[lower_base_word]["PI"][variation]
+            while selected_index < len(words):
+                display_sentence = self.highlight_selected_word(
+                    sentence, words[selected_index])
+                print()
+                print(display_sentence)
 
-                # Ensure replacement is not None before concatenating 's'
-                if replacement is not None:
-                    # Preserve case of the original word
-                    if base_word[0].isupper():
-                        replacement = replacement.capitalize()
-                    return replacement + 's'
-        return word
+                # Lookup in PI dictionary for the selected word
+                pi_entry = self.lookup_pi_entry(words[selected_index])
+                print()
+                if pi_entry:
+                    print(f"PI Entry: {pi_entry['whole']}")
+                    print(f"{variation} word: {pi_entry['PI'][variation]}")
+                else:
+                    print("No PI entry found for this word.")
 
-    tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)
-    updated_tokens = [transform_word(
-        token) if token.strip() != '' else token for token in tokens]
-    return ''.join(updated_tokens)
+                print()
+                user_action = input(
+                    "Navigate: (n)ext, (p)revious, (s)kip sentence, (q)uit: ").lower()
 
-# Function to perform preliminary text replacements
+                if user_action == 'n':
+                    if selected_index < len(words) - 1:
+                        selected_index += 1
+                    else:
+                        current_sentence_index += 1
+                        break  # Break to move to the next sentence
+                elif user_action == 'p':
+                    if selected_index > 0:
+                        selected_index -= 1
+                    elif current_sentence_index > 0:
+                        current_sentence_index -= 1
+                        sentence = sentences[current_sentence_index]
+                        words = self.split_sentence_into_words(sentence)
+                        # Set to last selectable word
+                        selected_index = len(words) - 1
+                elif user_action == 's':
+                    current_sentence_index += 1
+                    break
+                elif user_action == 'q':
+                    print("Exiting interactive transcription.")
+                    sys.exit()
+                else:
+                    print("Invalid input. Please choose 'n', 'p', 's', or 'q'.")
 
+    def split_into_sentences(self, text):
+        """
+        Function to split text into sentences
+        """
+        # Simple sentence splitting based on punctuation
+        # Consider using more sophisticated methods for complex texts
+        sentences = re.split(
+            r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!|\n)\s', text)
+        return [sentence.strip() for sentence in sentences if sentence.strip()]
 
-def perform_preliminar_replacements(input_text):
-    # Callback function for regex substitution
-    def replacement_callback(match):
-        word = match.group(0)
-        replacement = preliminar_replacements[word.lower()]
-        # Preserve case of the original word
-        if word.istitle():
-            return replacement.capitalize()
-        elif word.isupper():
-            return replacement.upper()
-        else:
-            return replacement
+        # Placeholder function for processing each sentence interactively
 
-    # Perform replace operations
-    for word in preliminar_replacements.keys():
-        input_text = re.sub(r'\b{}\b'.format(
-            word), replacement_callback, input_text, flags=re.IGNORECASE)
+    def split_sentence_into_words(self, sentence):
+        # Include only words, excluding characters like colons
+        return re.findall(r'\b\w+\b', sentence)
 
-    return input_text
+        # Split based on spaces while keeping punctuation, but filter out non-word elements
+        # words_with_punctuation = re.findall(r'\w+|[^\w\s]+|\s+', sentence)
+        # return [word for word in words_with_punctuation if word.strip() and not word.isspace()]
 
-# Main function of the script
+    def highlight_selected_word(self, sentence, selected_word):
+        def replace(match):
+            return f'>{match.group(0)}<'
 
+        # Use a regular expression to replace only whole words
+        highlighted_sentence = re.sub(
+            rf'\b{re.escape(selected_word)}\b', replace, sentence, count=1)
+        return highlighted_sentence
 
-def main():
-    print("Welcome to the PI Transcriber Tool!")
-    print("This tool assists in converting standard English texts to the PI Scaffold-Spelling (PISS) format. It performs preliminary replacements and updates text according to the selected PISS variation.")
-
-    # Load input file
-    input_filename = 'io/input.md'
-    try:
-        with open(input_filename, 'r') as file:
-            input_text = file.read()
-    except FileNotFoundError:
-        print(f"Error: Input file '{input_filename}' not found.")
+    def lookup_pi_entry(self, word):
+        """
+        Look up the PI dictionary entry for the given word.
+        """
+        pi_dictionary = self.load_pi_dictionary()
+        word_lower = word.lower()
+        if word_lower in pi_dictionary:
+            return pi_dictionary[word_lower]
         return None
-    except Exception as e:
-        print(f"Error reading file '{input_filename}': {e}")
-        return None
-
-    # Preliminary replacements
-    user_response = input(
-        "Do you want to proceed with preliminary replacements? (y/n/q): ").lower()
-    if user_response == 'q':
-        print("Operation aborted by the user.")
-        sys.exit()
-    elif user_response != 'y':
-        print("Operation not confirmed. Exiting.")
-        sys.exit()
-
-    output_text = perform_preliminar_replacements(input_text)
-
-    # Save intermediate result
-    temp_filename = 'io/temp' + os.path.splitext(input_filename)[1]
-    try:
-        with open(temp_filename, 'w') as file:
-            file.write(output_text)
-        print(f"Intermediate result saved to {temp_filename}")
-    except Exception as e:
-        print(f"Error writing to file '{temp_filename}': {e}")
-        return None
-
-    # Choose PISS variation
-    piss_variations = ['L1', 'L2', 'L3', 'FM']
-    print("Please choose a PISS variation:")
-    print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
-    chosen_variation = input("Enter your choice (L1/L2/L3/FM): ").upper()
-    while chosen_variation not in piss_variations:
-        print("Invalid choice. Please choose from L1, L2, L3, or FM.")
-        chosen_variation = input("Enter your choice (L1/L2/L3/FM): ").upper()
-
-    # Process text based on the chosen variation
-    print(
-        f"Processing text based on the chosen PISS variation: {chosen_variation}")
-    pi_dictionary = load_pi_dictionary()
-    output_text = update_words_for_piss_variation(
-        output_text, pi_dictionary, chosen_variation)
-    output_text = transform_words_with_s_suffix(
-        output_text, pi_dictionary, chosen_variation)
-
-    # Save updated result again
-    try:
-        with open(temp_filename, 'w') as file:
-            file.write(output_text)
-        print(f"Intermediate result saved to {temp_filename}")
-    except Exception as e:
-        print(f"Error writing to file '{temp_filename}': {e}")
-        return None
-
-    # Final saving step
-    user_response = input(
-        "Do you want to save the final result? (y/n/q): ").lower()
-    if user_response == 'q':
-        print("Operation aborted by the user.")
-        sys.exit()
-    elif user_response != 'y':
-        print("Operation not confirmed. Exiting.")
-        sys.exit()
-
-    n = 1
-    output_filename = 'io/output_{}.md'.format(n)
-    while os.path.exists(output_filename):
-        n += 1
-        output_filename = 'io/output_{}.md'.format(n)
-
-    try:
-        with open(output_filename, 'w') as file:
-            file.write(output_text)
-        print(f"Final output saved to {output_filename}")
-    except Exception as e:
-        print(f"Error writing to file '{output_filename}': {e}")
-        return None
-
-
-if __name__ == "__main__":
-    main()

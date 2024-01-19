@@ -1,65 +1,74 @@
 # PI Text Processor
 
-## Components:
+## Overview
 
-- Main Code
+The PI Text Processor is a versatile tool designed for transcribing Standard English texts into Phonetic English (PI) format, adhering to the PI Scaffold-Spelling (PISS) system. It consists of two main components: the Transcriber and the Dictionary Generator.
 
-  > `main.py`
+## Components
 
-- PI Transcriber
+1. **Transcriber (`transcriber.py`)**:
 
-  > `trancriber.py`
+   - Handles the conversion of Standard English to various PISS variations (L1, L2, L3, Full Mode).
+   - Performs preliminary replacements and updates text based on selected PISS variation.
 
-- PI DictGen (Dictionary Generator)
+2. **Dictionary Generator (`dict_gen.py`)**:
+   - Generates and updates the PI dictionary using corpus files.
+   - Processes corpus rows into word entries, ensuring order and avoiding duplicates.
 
-  > `dict_gen.py`
+## Installation
 
-This is a script for processing a SE text and converting it (word by word) to PI, while incrementing the PI corpora during the process.
+Clone the repository or download the source code:
 
-## Main Code
+```bash
+git clone https://github.com/your-repository/PI-Text-Processor.git
+cd PI-Text-Processor
+```
 
-### Motivation
+## Usage
 
-The main motivation is incrementing PI's word collection, while also developing a text transcriber in the process.
+### Transcription
 
-### Actors
+To transcribe text from Standard English to PI:
 
-1. User
+```bash
+python main.py transcribe --file <input_file_path>
+```
 
-2. Script
+- `--file`: Path to the input text file for transcription.
 
-### Steps
+### Dictionary Update
 
-1. Before running the script, User puts the input text in the “txt” folder, under the name “input.txt”.
+To update the PI dictionary from corpus files:
 
-2. User runs Script.
+```bash
+python main.py update-dict
+```
 
-3. Script processes the corpus rows contained on the 3 corpora files located in the “corpora” folder. The files are named “corpus_1000.txt”, “corpus_misc.txt” and “corpus_auto.txt”. The word entry follows the format explained in the “corpus_info.md” file.
+## Interactive Workflow
 
-   3.1) Script process the files in the following order: “corpus_1000.txt” then “corpus_misc.txt” then “corpus_auto.txt”.
+The tool prompts users for inputs and confirms actions at various stages:
 
-   3.2) Script converts each corpus row into word entries. Each word entry has a minimum of 1 value (the SE word) and a maximum of 5 values (the SE word and its respective L1, L2, L3 and full mode words).
+- Confirming preliminary replacements.
+- Selecting PISS variation.
+- Saving intermediate and final results.
 
-   3.3) Scripts store all word entries in a single variable of suitable type.
+## Output
 
-   3.4) Script doesn't store a given word more than once. If a given word is located on more than one corpus (or twice in a single corpus), only the first occurrence is considered.
+- Outputs are saved in dynamically named files to prevent overwriting.
+- Intermediate results are stored temporarily for review.
 
-4. Script ask User to select the PI level or mode which he pretends to transcribe the text for. The available options are L1, L2, L3 and full mode.
+## Contributing
 
-5. Script start showing to User the words from the input text in the following manner:
+Contributions to the PI Text Processor are welcome. Please follow these steps:
 
-   5.1) Script shows to User 1 to 7 words from the current sentence, including punctuation and any special characters between each word, and respecting words' capitalization. It starts from the first sentence. A given word is always the “selected one”. This word will be placed between the characters > and <. E.g., >bird<.
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Submit a pull request with a detailed description of your changes.
 
-   5.2) A maximum of 3 words located to the left and 3 words located to the right of the selected word are also shown to User. That's why Script shows to User a minimum of 1 word (in case of single-word sentence) and a maximum of 7 words (in case of sentence with 7 or more words). [TODO - Give examples.]
+## License
 
-6. With the current sentence being shown to User:
+This project is licensed under [Your License Name].
 
-   6.1) Script browse the word entries for the currently selected word. In the word entry side, the word used for comparison (key) is always the SE word. The word comparison is case insensitive.
+## Contact
 
-   6.2) If a match happens:
-
-   6.2a) [To be continued]
-
-## PI Transcriber
-
-[TODO]
+For questions or suggestions, please contact [Your Contact Information].
