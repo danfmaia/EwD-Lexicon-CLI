@@ -41,7 +41,7 @@ def main():
     args = parser.parse_args()
     if args.command == 'transcribe':
         if args.interactive:
-            interactive_transcription(args)
+            transcribe_text_interactively(args)
         else:
             transcribe_text(args)
     elif args.command == 'update-dict':
@@ -70,6 +70,7 @@ def transcribe_text(args):
     print("This tool assists in converting standard English texts to the PI Scaffold-Spelling (PISS) format.")
 
     input_filename = args.file
+    extension = os.path.splitext(input_filename)[1]
     input_text = read_input_file(input_filename)
 
     user_response = input(
@@ -79,21 +80,16 @@ def transcribe_text(args):
     transcriber = Transcriber()
     output_text = transcriber.perform_preliminar_replacements(input_text)
 
-    # Save intermediate result
-    temp_filename = 'io/temp' + os.path.splitext(input_filename)[1]
-    save_to_file(temp_filename, output_text)
-    print(f"Intermediate result saved to {temp_filename}")
+    Util.save_temp_text(output_text, extension)
 
     chosen_variation = choose_piss_variation()
-    output_text = transcriber.transcribe(output_text, chosen_variation)
+    output_text = transcriber.transcribe(
+        output_text, chosen_variation)
 
-    # Dynamically name and save final output
-    output_filename = generate_output_filename()
-    save_to_file(output_filename, output_text)
-    print(f"Final output saved to {output_filename}")
+    Util.save_output_text(output_text, extension)
 
 
-def interactive_transcription(args):
+def transcribe_text_interactively(args):
     """
     Provides an interactive interface for transcription.
 
@@ -102,11 +98,12 @@ def interactive_transcription(args):
     Args:
         args: Command-line arguments containing input file and PISS variation information.
     """
-    # Read the input text
+    input_filename = args.file
+    extension = os.path.splitext(input_filename)[1]
     input_text = read_input_file(args.file)
 
     user_response = Util.input_with_spacing(
-        "Do you want to update the dictionary before starting transcription? (y/n): ").lower()
+        "Do you want to update the dictionary before starting transcription? (y/n): [n]").lower()
     if user_response == 'y':
         update_dictionary()
 
@@ -116,17 +113,10 @@ def interactive_transcription(args):
 
     # Split the text into sentences
     sentences = transcriber.split_into_sentences(input_text)
-    # print('sentences:')
-    # print(sentences)
 
-    # Initialize the current sentence index
-    current_sentence_index = 0
-
-    # Process each sentence interactively
-    while current_sentence_index < len(sentences):
-        transcriber.process_sentence_interactively(
-            sentences, current_sentence_index, chosen_variation)
-        current_sentence_index += 1  # Move to the next sentence after processing
+    extension = os.path.splitext(input_filename)[1]
+    transcriber.transcribe_interactively(
+        sentences, chosen_variation, extension)
 
 
 def read_input_file(file_path):
@@ -178,49 +168,15 @@ def choose_piss_variation():
     Util.print_with_spacing("Please choose a PISS variation:")
     print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
     chosen_variation = Util.input_with_spacing(
-        "Enter your choice (L1/L2/L3/FM): ").upper()
+        "Enter your choice (L1/L2/L3/FM): [default=L1]").upper()
+    if (chosen_variation == ''):
+        chosen_variation = 'L1'
     while chosen_variation not in piss_variations:
         Util.print_with_spacing(
             "Invalid choice. Please choose from L1, L2, L3, or FM.")
         chosen_variation = Util.input_with_spacing(
-            "Enter your choice (L1/L2/L3/FM): ").upper()
+            "Enter your choice (L1/L2/L3/FM): [default=L1]").upper()
     return chosen_variation
-
-
-def generate_output_filename():
-    """
-    Generates a unique filename for saving the output.
-
-    Creates a filename based on a sequential number to avoid overwriting existing files. The filename is generated in the 'io' directory with a '.md' extension.
-
-    Returns:
-        str: The generated unique output filename.
-    """
-    n = 1
-    output_filename = f'io/output_{n}.md'
-    while os.path.exists(output_filename):
-        n += 1
-        output_filename = f'io/output_{n}.md'
-    return output_filename
-
-
-def save_to_file(file_path, text):
-    """
-    Saves the given text to a specified file path.
-
-    Args:
-        file_path (str): The path to the file where the text will be saved.
-        text (str): The text to be written to the file.
-
-    Raises:
-        IOError: If there's an error in writing to the file.
-    """
-    try:
-        with open(file_path, 'w') as file:
-            file.write(text)
-    except Exception as e:
-        print(f"Error writing to file '{file_path}': {e}")
-        sys.exit()
 
 
 if __name__ == "__main__":

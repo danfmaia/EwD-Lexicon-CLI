@@ -1,6 +1,4 @@
-import re
-
-from typing import List
+import regex as re
 
 from dictionary import Dictionary
 from util import Util
@@ -182,18 +180,19 @@ class Transcriber:
             processed_text, self.pi_dictionary, variation)
         return processed_text
 
-    def process_sentence_interactively(self, sentences, current_sentence_index, variation):
+    def transcribe_interactively(self, sentences, variation, extension='.txt'):
         """
         Processes sentences interactively for manual transcription.
 
         Args:
             sentences (List[str]): The list of sentences to be processed.
-            current_sentence_index (int): The index of the current sentence.
             variation (str): The specified PISS variation.
 
         Returns:
             Tuple[List[str], int]: The updated list of sentences and the updated sentence index.
         """
+        # Initialize the current sentence index
+        current_sentence_index = 0
 
         # Iterating through sentences
         while current_sentence_index < len(sentences):
@@ -219,7 +218,9 @@ class Transcriber:
 
                 # User action input
                 user_action = Util.input_with_spacing(
-                    "Options: (a)ccept, (n)ext (or hit 'Enter'), (p)revious, (e)dit dictionary entry, (c)ustomize word, (s)kip sentence, (q)uit: ").lower()
+                    "Options: (a)ccept, (c)ustomize, (n)ext (or hit Enter), (p)revious, edit dictionary (e)ntry, next (s)entence, (q)uit: ").lower()
+
+                word_updated = False
 
                 # Accept action: replace the word and move to the next
                 if user_action == 'a' and pi_entry:
@@ -229,41 +230,73 @@ class Transcriber:
                     Util.print_with_spacing(
                         f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
 
+                    word_updated = True
+
+                    # # Update the current sentence with the latest changes
+                    # sentence = sentences[current_sentence_index]
+                    # words = self.split_sentence_into_words(sentence)
+
+                    # # Increment the index to move to the next word
+                    # selected_word_index += 1
+
+                elif user_action == 'c' and pi_entry:
+                    pi_word = pi_entry['PI'][variation]
+                    custom_word = input(
+                        f"Enter a customized version for '{pi_word}': ").strip() or pi_word
+
+                    self.replace_word_in_all_sentences(
+                        sentences, selected_word, custom_word)
+                    Util.print_with_spacing(
+                        f"Word '{selected_word}' replaced with customized version '{custom_word}'")
+
+                    word_updated = True
+
+                    # # Update the current sentence with the latest changes
+                    # sentence = sentences[current_sentence_index]
+                    # words = self.split_sentence_into_words(sentence)
+
+                    # selected_word_index += 1  # Move to the next word
+
+                if word_updated:
                     # Update the current sentence with the latest changes
                     sentence = sentences[current_sentence_index]
                     words = self.split_sentence_into_words(sentence)
 
-                    # Move to the next word after replacement, ensuring we don't exceed the list length
+                    # Find the new position of the updated word or the next word
+                    if selected_word in words:
+                        selected_word_index = words.index(selected_word)
+                    else:
+                        selected_word_index = min(
+                            selected_word_index, len(words) - 1)
+
+                    output_text = self.rejoin_sentences(sentences)
+                    Util.save_temp_text(output_text, extension)
+
+                    # Increment the index to move to the next word
                     selected_word_index += 1
-                    if selected_word_index >= len(words):
-                        current_sentence_index += 1
-                        if current_sentence_index < len(sentences):
-                            sentence = sentences[current_sentence_index]
-                            words = self.split_sentence_into_words(sentence)
-                            selected_word_index = 0  # Start at the first word of the new sentence
 
                 # Next word action
                 elif user_action == 'n' or user_action == '':
+                    # Move to the next word or the first word of the next sentence
                     selected_word_index += 1
-                    # Move to the next sentence if end of current sentence is reached
                     if selected_word_index >= len(words):
-                        current_sentence_index += 1
-                        if current_sentence_index < len(sentences):
-                            sentence = sentences[current_sentence_index]
-                            words = self.split_sentence_into_words(sentence)
-                            selected_word_index = 0
+                        current_sentence_index = (
+                            current_sentence_index + 1) % len(sentences)
+                        sentence = sentences[current_sentence_index]
+                        words = self.split_sentence_into_words(sentence)
+                        selected_word_index = 0
 
                 # Previous word action
                 elif user_action == 'p':
+                    # Move to the previous word or the last word of the previous sentence
                     if selected_word_index > 0:
                         selected_word_index -= 1
                     else:
-                        # Move to the previous sentence
-                        if current_sentence_index > 0:
-                            current_sentence_index -= 1
-                            sentence = sentences[current_sentence_index]
-                            words = self.split_sentence_into_words(sentence)
-                            selected_word_index = len(words) - 1
+                        current_sentence_index = (
+                            current_sentence_index - 1 + len(sentences)) % len(sentences)
+                        sentence = sentences[current_sentence_index]
+                        words = self.split_sentence_into_words(sentence)
+                        selected_word_index = len(words) - 1
 
                 elif user_action == 'e':
                     self.pi_dictionary.edit_entry(selected_word.lower())
@@ -278,22 +311,6 @@ class Transcriber:
                     # selected_word_index = min(
                     #     selected_word_index, len(words) - 1)
 
-                elif user_action == 'c' and pi_entry:
-                    pi_word = pi_entry['PI'][variation]
-                    custom_word = input(
-                        f"Enter a customized version for '{pi_word}': ").strip() or pi_word
-
-                    self.replace_word_in_all_sentences(
-                        sentences, selected_word, custom_word)
-                    Util.print_with_spacing(
-                        f"Word '{selected_word}' replaced with customized version '{custom_word}'")
-
-                    # Update the current sentence with the latest changes
-                    sentence = sentences[current_sentence_index]
-                    words = self.split_sentence_into_words(sentence)
-
-                    selected_word_index += 1  # Move to the next word
-
                 # Skip to the next sentence
                 elif user_action == 's':
                     current_sentence_index += 1
@@ -304,15 +321,28 @@ class Transcriber:
 
                 # Quit action
                 elif user_action == 'q':
+                    save_confirmation = Util.input_with_spacing(
+                        "Do you want to save the changes? (y/n): ").strip().lower()
+                    if save_confirmation == 'y':
+                        output_text = self.rejoin_sentences(sentences)
+                        Util.save_output_text(output_text, extension)
+                        Util.print_with_spacing("Transcription saved.")
                     Util.print_with_spacing(
                         "Exiting interactive transcription.")
                     return
+
                 else:
                     Util.print_with_spacing(
-                        "Invalid input. Please choose 'a', 'n', '', 'p', 'c', 's', or 'q'.")
+                        "Invalid input. Please choose 'a', 'c', 'n', 'p', 's', 'q' or skip for (n)ext.")
+
+            # end while
+
+            sentences[current_sentence_index] = sentence
 
             # Update the sentence in the list after processing
             sentences[current_sentence_index] = sentence
+
+        # end while
 
     def split_into_sentences(self, text):
         """
@@ -332,9 +362,12 @@ class Transcriber:
 
         # Placeholder function for processing each sentence interactively
 
+    def rejoin_sentences(self, sentences):
+        return '\n\n'.join(sentences)
+
     def split_sentence_into_words(self, sentence):
         """
-        Splits a sentence into words.
+        Splits a sentence into words, accounting for words with combining diacritics.
 
         Args:
             sentence (str): The sentence to be split.
@@ -342,12 +375,12 @@ class Transcriber:
         Returns:
             List[str]: The list of words extracted from the sentence.
         """
-        # Include only words, excluding characters like colons
-        return re.findall(r'\b\w+\b', sentence)
+        # Correctly escape or position the hyphen in the character class
+        cleaned_sentence = re.sub(r'^[+#*\s-]+', '', sentence)
 
-        # Split based on spaces while keeping punctuation, but filter out non-word elements
-        # words_with_punctuation = re.findall(r'\w+|[^\w\s]+|\s+', sentence)
-        # return [word for word in words_with_punctuation if word.strip() and not word.isspace()]
+        # Split the sentence into words based on spaces and punctuation, preserving words with diacritics
+        words = re.findall(r'[\p{L}\p{M}]+', cleaned_sentence, re.UNICODE)
+        return words
 
     def highlight_selected_word(self, sentence, selected_word):
         """
