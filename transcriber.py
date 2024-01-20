@@ -194,6 +194,7 @@ class Transcriber:
         Returns:
             Tuple[List[str], int]: The updated list of sentences and the updated sentence index.
         """
+
         # Iterating through sentences
         while current_sentence_index < len(sentences):
             sentence = sentences[current_sentence_index]
@@ -214,18 +215,18 @@ class Transcriber:
                     print(f"{variation} word: {pi_entry['PI'][variation]}")
                 else:
                     Util.print_with_spacing("No PI entry found for this word.")
+                    print()
 
                 # User action input
                 user_action = Util.input_with_spacing(
-                    "Options: (a)ccept, (n)ext (or hit 'Enter'), (p)revious, (e)dit dictionary entry, (s)kip sentence, (q)uit: ").lower()
+                    "Options: (a)ccept, (n)ext (or hit 'Enter'), (p)revious, (e)dit dictionary entry, (c)ustomize word, (s)kip sentence, (q)uit: ").lower()
 
                 # Accept action: replace the word and move to the next
                 if user_action == 'a' and pi_entry:
                     pi_word = pi_entry['PI'][variation]
-                    for i in range(len(sentences)):  # type: ignore
-                        sentences[i] = self.replace_word_in_sentence(
-                            sentences[i], selected_word, pi_word)
-                    print(
+                    self.replace_word_in_all_sentences(
+                        sentences, selected_word, pi_word)
+                    Util.print_with_spacing(
                         f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
 
                     # Update the current sentence with the latest changes
@@ -277,6 +278,22 @@ class Transcriber:
                     # selected_word_index = min(
                     #     selected_word_index, len(words) - 1)
 
+                elif user_action == 'c' and pi_entry:
+                    pi_word = pi_entry['PI'][variation]
+                    custom_word = input(
+                        f"Enter a customized version for '{pi_word}': ").strip() or pi_word
+
+                    self.replace_word_in_all_sentences(
+                        sentences, selected_word, custom_word)
+                    Util.print_with_spacing(
+                        f"Word '{selected_word}' replaced with customized version '{custom_word}'")
+
+                    # Update the current sentence with the latest changes
+                    sentence = sentences[current_sentence_index]
+                    words = self.split_sentence_into_words(sentence)
+
+                    selected_word_index += 1  # Move to the next word
+
                 # Skip to the next sentence
                 elif user_action == 's':
                     current_sentence_index += 1
@@ -287,11 +304,12 @@ class Transcriber:
 
                 # Quit action
                 elif user_action == 'q':
-                    print("Exiting interactive transcription.")
+                    Util.print_with_spacing(
+                        "Exiting interactive transcription.")
                     return
                 else:
-                    print(
-                        "Invalid input. Please choose 'a', 'n', '', 'p', 's', or 'q'.")
+                    Util.print_with_spacing(
+                        "Invalid input. Please choose 'a', 'n', '', 'p', 'c', 's', or 'q'.")
 
             # Update the sentence in the list after processing
             sentences[current_sentence_index] = sentence
@@ -375,3 +393,19 @@ class Transcriber:
         # Use regular expression to replace only whole words, case-insensitively
         pattern = rf'\b{re.escape(word)}\b'
         return re.sub(pattern, replace, sentence, flags=re.IGNORECASE)
+
+    def replace_word_in_all_sentences(self, sentences, original_word, new_word):
+        """
+        Replaces all occurrences of a word in a list of sentences with a new word.
+
+        Args:
+            sentences (List[str]): The list of sentences to process.
+            original_word (str): The word to be replaced.
+            new_word (str): The word to replace with.
+
+        Returns:
+            None: The method modifies the sentences list in place.
+        """
+        for i in range(len(sentences)):  # type: ignore
+            sentences[i] = self.replace_word_in_sentence(
+                sentences[i], original_word, new_word)
