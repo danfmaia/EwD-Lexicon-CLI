@@ -2,73 +2,46 @@
 
 ## Overview
 
-The PI Text Processor is a versatile tool designed for transcribing Standard English texts into Phonetic English (PI) format, adhering to the PI Scaffold-Spelling (PISS) system. It consists of two main components: the Transcriber and the Dictionary Generator.
+The PI Text Processor is a comprehensive tool designed to convert standard English (SE) spelling into the Phonĕtic ‹I›nglish (PI) Scaffold-Spelling, a unique didactic spelling system. It supports different PISS variations and integrates a dictionary for efficient word lookups and replacements.
 
-## Components
+## Key Components
 
-1. **Transcriber (`transcriber.py`)**:
+- **Transcriber**: The core component that handles the interactive transcription of SE to PI. It supports 4 PISS variations (L1, L2, L3, and Full Mode).
+- **Dictionary**: A module managing the lookup and editing of PI dictionary entries.
+- **Corpora Manager**: Manages corpus files, generates and updates the PI dictionary.
 
-   - Handles the conversion of Standard English to various PISS variations (L1, L2, L3, Full Mode).
-   - Performs preliminary replacements and updates text based on selected PISS variation.
+## Features
 
-2. **Dictionary Generator (`dict_gen.py`)**:
-   - Generates and updates the PI dictionary using corpus files.
-   - Processes corpus rows into word entries, ensuring order and avoiding duplicates.
+- **Interactive Transcription**: Users can transcribe texts interactively, reviewing and accepting PI transcriptions for each word.
+- **Dictionary Editing**: Allows users to edit existing dictionary entries or add new entries to the PI dictionary.
+- **Corpora Handling**: Handles updates to the corpus files and ensures the PI dictionary reflects these updates.
 
-## Installation
+## Usage Instructions
 
-Clone the repository or download the source code:
+1. **Starting the Transcription**: Run the script with the `--interactive` flag to start the interactive transcription mode. You can choose the desired PI variation (L1, L2, L3, FM).
+2. **Interactive Mode Options**:
+   - `(a)ccept`: Accept the current PI transcription and replace the SE word in the text.
+   - `(n)ext`: Move to the next word in the text.
+   - `(p)revious`: Go back to the previous word.
+   - `(e)dit dictionary entry`: Edit the current word's dictionary entry.
+   - `(s)kip sentence`: Skip to the next sentence.
+   - `(q)uit`: Exit the interactive mode.
+3. **Dictionary Editing**: When selecting to edit a dictionary entry, the current entry is displayed, and you can input a new or modified entry.
+4. **Corpora Management**: The system automatically handles updates to corpus files and reflects these changes in the PI dictionary.
 
-```bash
-git clone https://github.com/your-repository/PI-Text-Processor.git
-cd PI-Text-Processor
+## File Structure
+
+- `main.py`: The main script to run the PI Text Processor.
+- `transcriber.py`: Contains the Transcriber class for handling the transcription process.
+- `dictionary.py`: Manages dictionary lookups and editing.
+- `corpora_manager.py`: Responsible for managing corpus files and updating the dictionary.
+
+## Running the Script
+
+To start the PI Text Processor, use the following command:
+
+```
+python main.py transcribe --interactive --file [input_file_path]
 ```
 
-## Usage
-
-### Transcription
-
-To transcribe text from Standard English to PI:
-
-```bash
-python main.py transcribe --file <input_file_path>
-```
-
-- `--file`: Path to the input text file for transcription.
-
-### Dictionary Update
-
-To update the PI dictionary from corpus files:
-
-```bash
-python main.py update-dict
-```
-
-## Interactive Workflow
-
-The tool prompts users for inputs and confirms actions at various stages:
-
-- Confirming preliminary replacements.
-- Selecting PISS variation.
-- Saving intermediate and final results.
-
-## Output
-
-- Outputs are saved in dynamically named files to prevent overwriting.
-- Intermediate results are stored temporarily for review.
-
-## Contributing
-
-Contributions to the PI Text Processor are welcome. Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Submit a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under [Your License Name].
-
-## Contact
-
-For questions or suggestions, please contact [Your Contact Information].
+Replace `[input_file_path]` with the path to your input text file.

@@ -38,9 +38,9 @@ The main motivation is incrementing PI's word collection, while also developing 
 
 1. User runs Script.
 
-1. Script processes the corpus rows contained on the 3 corpora files located in the “corpora” folder. The files are named “corpus_1000.txt”, “corpus_misc.txt” and “corpus_auto.txt”. The word entry follows the format explained in the “corpus_info.md” file.
+1. Script processes the corpus rows contained on the 3 corpora files located in the “corpora” folder. The files are named “corpus_1000.txt”, “corpus_misc.txt” and “corpus_new.txt”. The word entry follows the format explained in the “corpus_info.md” file.
 
-   3.1) Script process the files in the following order: “corpus_1000.txt” then “corpus_misc.txt” then “corpus_auto.txt”.
+   3.1) Script process the files in the following order: “corpus_1000.txt” then “corpus_misc.txt” then “corpus_new.txt”.
 
    3.2) Script converts each corpus row into word entries. Each word entry has a minimum of 1 value (the SE word) and a maximum of 5 values (the SE word and its respective L1, L2, L3 and full mode words).
 

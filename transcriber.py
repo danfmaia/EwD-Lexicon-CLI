@@ -1,14 +1,42 @@
 import re
-import sys
 
 from typing import List
 
-from dict.dictionary import Dictionary
+from dictionary import Dictionary
 from util import Util
 
 
 class Transcriber:
+    """
+    Handles the transcription of Standard English text to the PI format.
+
+    This class is responsible for processing text and converting it into the PI format based on specified transcription rules. It includes methods for handling word-level transcription, managing sentence structure, and applying specific transcription variations.
+
+    Attributes:
+        preliminary_replacements (dict): Predefined replacements for certain words.
+        pi_dictionary (Dictionary): An instance of the Dictionary class for accessing the PI dictionary.
+        current_sentence_index (int): Tracks the current sentence index during transcription.
+        selected_word_index (int): Tracks the current word index in a sentence during transcription.
+
+    Methods:
+        refresh_dictionary: Reloads the PI dictionary.
+        update_words_for_piss_variation: Applies specific PISS variation rules to the text.
+        transform_words_with_s_suffix: Handles words with 's' suffix based on PI rules.
+        perform_preliminary_replacements: Performs initial word replacements in the text.
+        transcribe: Transcribes the entire text to PI format.
+        process_sentence_interactively: Processes sentences interactively for manual transcription.
+        split_into_sentences: Splits text into sentences.
+        split_sentence_into_words: Splits a sentence into words.
+        highlight_selected_word: Highlights a word in a sentence for interactive processing.
+        replace_word_in_sentence: Replaces a word in a sentence with its PI transcription.
+    """
+
     def __init__(self):
+        """
+        Initializes the Transcriber class.
+
+        Sets up the preliminary replacements, loads the PI dictionary, and initializes sentence and word index tracking for transcription processes.
+        """
         # Mapping for preliminary replace operations
         self.preliminar_replacements = {
             'the': 'the̬',
@@ -23,15 +51,31 @@ class Transcriber:
             'from': 'fro̬m'
         }
 
-        self.pi_dictionary = Dictionary(self.preliminar_replacements)
+        self.refresh_dictionary()
 
         self.pi_entry = None
         self.current_sentence_index = 0
         self.selected_word_index = 0
 
+    def refresh_dictionary(self):
+        """
+        Reloads the PI dictionary.
+
+        This method is used to refresh the dictionary data in case of updates or changes in the dictionary file.
+        """
+        self.pi_dictionary = Dictionary(self.preliminar_replacements)
+
     def update_words_for_piss_variation(self, input_text, pi_dictionary, variation):
         """
-        Function to update words according to the chosen PISS variation
+        Applies PISS variation rules to the input text.
+
+        Args:
+            input_text (str): The text to be processed.
+            pi_dictionary (Dictionary): The PI dictionary instance.
+            variation (str): The specified PISS variation.
+
+        Returns:
+            str: The processed text with PISS variation applied.
         """
         # Build a dictionary for replacements
         replacement_dict = {word: pi_dictionary[word]["PI"].get(variation)
@@ -58,7 +102,15 @@ class Transcriber:
 
     def transform_words_with_s_suffix(self, input_text, pi_dictionary, variation):
         """
-        Function to handle words with 's' suffix
+        Transforms words with 's' suffix according to PI rules.
+
+        Args:
+            input_text (str): The text to be processed.
+            pi_dictionary (Dictionary): The PI dictionary instance.
+            variation (str): The specified PISS variation.
+
+        Returns:
+            str: The text with transformed 's' suffix words.
         """
         # Function to transform a word with 's' suffix
         def transform_word(word):
@@ -85,7 +137,13 @@ class Transcriber:
 
     def perform_preliminar_replacements(self, input_text):
         """
-        Function to perform preliminary text replacements
+        Performs initial replacements in the text based on predefined rules.
+
+        Args:
+            input_text (str): The text to be processed.
+
+        Returns:
+            str: The text after applying the preliminary replacements.
         """
         # Callback function for regex substitution
         def replacement_callback(match):
@@ -108,7 +166,14 @@ class Transcriber:
 
     def transcribe(self, input_text, variation='L1'):
         """
-        Transcribe the provided text to PI format according to the specified variation.
+        Transcribes the entire text to PI format.
+
+        Args:
+            input_text (str): The text to be transcribed.
+            variation (str): The specified PISS variation (default is 'L1').
+
+        Returns:
+            str: The transcribed text in PI format.
         """
         processed_text = self.perform_preliminar_replacements(input_text)
         processed_text = self.update_words_for_piss_variation(
@@ -118,6 +183,17 @@ class Transcriber:
         return processed_text
 
     def process_sentence_interactively(self, sentences, current_sentence_index, variation):
+        """
+        Processes sentences interactively for manual transcription.
+
+        Args:
+            sentences (List[str]): The list of sentences to be processed.
+            current_sentence_index (int): The index of the current sentence.
+            variation (str): The specified PISS variation.
+
+        Returns:
+            Tuple[List[str], int]: The updated list of sentences and the updated sentence index.
+        """
         # Iterating through sentences
         while current_sentence_index < len(sentences):
             sentence = sentences[current_sentence_index]
@@ -132,17 +208,16 @@ class Transcriber:
                 Util.print_with_spacing(display_sentence)
 
                 # Lookup in PI dictionary for the selected word
-                pi_entry = self.pi_dictionary.lookup_pi_entry(selected_word)
+                pi_entry = self.pi_dictionary.get_entry(selected_word.lower())
                 if pi_entry:
-                    Util.print_with_spacing(
-                        f"PI Entry: {pi_entry['whole']}\n{variation} word: {pi_entry['PI'][variation]}")
+                    Util.print_with_spacing(f"PI Entry: {pi_entry['whole']}")
+                    print(f"{variation} word: {pi_entry['PI'][variation]}")
                 else:
-                    print("No PI entry found for this word.")
+                    Util.print_with_spacing("No PI entry found for this word.")
 
                 # User action input
-                print()
-                user_action = input(
-                    "Options: (a)ccept, (n)ext (or hit 'Enter'), (p)revious, (s)kip sentence, (q)uit: ").lower()
+                user_action = Util.input_with_spacing(
+                    "Options: (a)ccept, (n)ext (or hit 'Enter'), (p)revious, (e)dit dictionary entry, (s)kip sentence, (q)uit: ").lower()
 
                 # Accept action: replace the word and move to the next
                 if user_action == 'a' and pi_entry:
@@ -165,6 +240,7 @@ class Transcriber:
                             sentence = sentences[current_sentence_index]
                             words = self.split_sentence_into_words(sentence)
                             selected_word_index = 0  # Start at the first word of the new sentence
+
                 # Next word action
                 elif user_action == 'n' or user_action == '':
                     selected_word_index += 1
@@ -175,6 +251,7 @@ class Transcriber:
                             sentence = sentences[current_sentence_index]
                             words = self.split_sentence_into_words(sentence)
                             selected_word_index = 0
+
                 # Previous word action
                 elif user_action == 'p':
                     if selected_word_index > 0:
@@ -186,6 +263,20 @@ class Transcriber:
                             sentence = sentences[current_sentence_index]
                             words = self.split_sentence_into_words(sentence)
                             selected_word_index = len(words) - 1
+
+                elif user_action == 'e':
+                    self.pi_dictionary.edit_entry(selected_word.lower())
+                    # The word index remains the same, so the user can review changes and decide the next action
+
+                    self.refresh_dictionary()
+
+                    # Refresh the current sentence and words list
+                    # sentence = sentences[current_sentence_index]
+                    # words = self.split_sentence_into_words(sentence)
+                    # # Adjust selected index if needed
+                    # selected_word_index = min(
+                    #     selected_word_index, len(words) - 1)
+
                 # Skip to the next sentence
                 elif user_action == 's':
                     current_sentence_index += 1
@@ -193,6 +284,7 @@ class Transcriber:
                         sentence = sentences[current_sentence_index]
                         words = self.split_sentence_into_words(sentence)
                         selected_word_index = 0
+
                 # Quit action
                 elif user_action == 'q':
                     print("Exiting interactive transcription.")
@@ -206,7 +298,13 @@ class Transcriber:
 
     def split_into_sentences(self, text):
         """
-        Function to split text into sentences
+        Splits text into sentences.
+
+        Args:
+            text (str): The text to be split.
+
+        Returns:
+            List[str]: The list of sentences extracted from the text.
         """
         # Simple sentence splitting based on punctuation
         # Consider using more sophisticated methods for complex texts
@@ -217,6 +315,15 @@ class Transcriber:
         # Placeholder function for processing each sentence interactively
 
     def split_sentence_into_words(self, sentence):
+        """
+        Splits a sentence into words.
+
+        Args:
+            sentence (str): The sentence to be split.
+
+        Returns:
+            List[str]: The list of words extracted from the sentence.
+        """
         # Include only words, excluding characters like colons
         return re.findall(r'\b\w+\b', sentence)
 
@@ -225,6 +332,16 @@ class Transcriber:
         # return [word for word in words_with_punctuation if word.strip() and not word.isspace()]
 
     def highlight_selected_word(self, sentence, selected_word):
+        """
+        Highlights a word in a sentence for interactive processing.
+
+        Args:
+            sentence (str): The sentence containing the word.
+            selected_word (str): The word to be highlighted.
+
+        Returns:
+            str: The sentence with the selected word highlighted.
+        """
         def replace(match):
             return f'>{match.group(0)}<'
 
@@ -234,6 +351,17 @@ class Transcriber:
         return highlighted_sentence
 
     def replace_word_in_sentence(self, sentence, word, replacement):
+        """
+        Replaces a word in a sentence with its PI transcription.
+
+        Args:
+            sentence (str): The sentence containing the word to be replaced.
+            word (str): The word to be replaced.
+            replacement (str): The PI transcription to replace the word.
+
+        Returns:
+            str: The sentence with the word replaced by its PI transcription.
+        """
         def replace(match):
             # Preserve case of the original word
             matched_word = match.group(0)

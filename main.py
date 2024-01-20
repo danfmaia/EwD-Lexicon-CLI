@@ -3,11 +3,16 @@ import os
 import sys
 
 from transcriber import Transcriber
-from dict.dict_gen import DictionaryGenerator
+from corpora_manager import CorporaManager
 from util import Util
 
 
 def main():
+    """
+    Main function to handle command-line arguments and execute the appropriate actions.
+
+    It sets up the argument parser for different commands like updating the dictionary and transcribing text. Based on the user's choice, it calls the respective functions to perform these actions.
+    """
     parser = argparse.ArgumentParser(
         description='PI Text Processor Command Line Tool')
     subparsers = parser.add_subparsers(dest='command')
@@ -45,7 +50,7 @@ def main():
 
 
 def update_dictionary():
-    DictionaryGenerator()
+    CorporaManager({}).generate_dictionary()
 
 
 def transcribe_text(args):
@@ -80,8 +85,7 @@ def interactive_transcription(args):
     # Read the input text
     input_text = read_input_file(args.file)
 
-    print()
-    user_response = input(
+    user_response = Util.input_with_spacing(
         "Do you want to update the dictionary before starting transcription? (y/n): ").lower()
     if user_response == 'y':
         update_dictionary()
@@ -127,13 +131,13 @@ def choose_piss_variation():
     piss_variations = ['L1', 'L2', 'L3', 'FM']
     Util.print_with_spacing("Please choose a PISS variation:")
     print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
-    print()
-    chosen_variation = input("Enter your choice (L1/L2/L3/FM): ").upper()
+    chosen_variation = Util.input_with_spacing(
+        "Enter your choice (L1/L2/L3/FM): ").upper()
     while chosen_variation not in piss_variations:
-        print()
-        print("Invalid choice. Please choose from L1, L2, L3, or FM.")
-        print()
-        chosen_variation = input("Enter your choice (L1/L2/L3/FM): ").upper()
+        Util.print_with_spacing(
+            "Invalid choice. Please choose from L1, L2, L3, or FM.")
+        chosen_variation = Util.input_with_spacing(
+            "Enter your choice (L1/L2/L3/FM): ").upper()
     return chosen_variation
 
 

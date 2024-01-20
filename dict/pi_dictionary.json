@@ -1,54 +1,4 @@
 {
-    "the": {
-        "whole": "the | th(e̬/ē) < * > **",
-        "PI": {
-            "L1": "th(e̬/ē)",
-            "L2": "th(e̬/ē)",
-            "L3": "the",
-            "FM": "th(e̬/ē)"
-        },
-        "Sf": null
-    },
-    "of": {
-        "whole": "of | {‹o̬v›, str: ‹ov›} < * > ** … [Sf1,2]{‹of›}",
-        "PI": {
-            "L1": "{‹o̬v›, str: ‹ov›}",
-            "L2": "{‹o̬v›, str: ‹ov›}",
-            "L3": "of",
-            "FM": "{‹o̬v›, str: ‹ov›}"
-        },
-        "Sf": "‹of›"
-    },
-    "to": {
-        "whole": "to | t(o̬/o̤) < * > **",
-        "PI": {
-            "L1": "t(o̬/o̤)",
-            "L2": "t(o̬/o̤)",
-            "L3": "to",
-            "FM": "t(o̬/o̤)"
-        },
-        "Sf": null
-    },
-    "and": {
-        "whole": "and | {and, un: a̬nd} < * > **",
-        "PI": {
-            "L1": "{and, un: a̬nd}",
-            "L2": "{and, un: a̬nd}",
-            "L3": "and",
-            "FM": "{and, un: a̬nd}"
-        },
-        "Sf": null
-    },
-    "a": {
-        "whole": "a | {a̬, str: ā} < * > **",
-        "PI": {
-            "L1": "{a̬, str: ā}",
-            "L2": "{a̬, str: ā}",
-            "L3": "a",
-            "FM": "{a̬, str: ā}"
-        },
-        "Sf": null
-    },
     "in": {
         "whole": "in |",
         "PI": {
@@ -79,16 +29,6 @@
         },
         "Sf": null
     },
-    "you": {
-        "whole": "you | yöu",
-        "PI": {
-            "L1": "yöu",
-            "L2": "yöu",
-            "L3": "yöu",
-            "FM": "yöu"
-        },
-        "Sf": null
-    },
     "that": {
         "whole": "that |",
         "PI": {
@@ -116,16 +56,6 @@
             "L2": "{w(â/aᪿ)s, un: wa̬s} >",
             "L3": "was",
             "FM": "{w(â/aᪿ)s, un: wa̬s} >"
-        },
-        "Sf": null
-    },
-    "for": {
-        "whole": "for | {fo͜r, str: fŏr} < * > **",
-        "PI": {
-            "L1": "{fo͜r, str: fŏr}",
-            "L2": "{fo͜r, str: fŏr}",
-            "L3": "for",
-            "FM": "{fo͜r, str: fŏr}"
         },
         "Sf": null
     },
@@ -236,26 +166,6 @@
             "L2": "hăve",
             "L3": "hăve",
             "FM": "hăve"
-        },
-        "Sf": null
-    },
-    "this": {
-        "whole": "this | thiṣ",
-        "PI": {
-            "L1": "thiṣ",
-            "L2": "thiṣ",
-            "L3": "thiṣ",
-            "FM": "thiṣ"
-        },
-        "Sf": null
-    },
-    "from": {
-        "whole": "from | {from, un: fro̬m} < {fr(ô/ŏ)m, un: fro̬m} > **",
-        "PI": {
-            "L1": "{from, un: fro̬m}",
-            "L2": "{fr(ô/ŏ)m, un: fro̬m}",
-            "L3": "from",
-            "FM": "{fr(ô/ŏ)m, un: fro̬m}"
         },
         "Sf": null
     },
@@ -466,16 +376,6 @@
             "L2": "sa̤id",
             "L3": "sa̤id",
             "FM": "sa̤id"
-        },
-        "Sf": null
-    },
-    "an": {
-        "whole": "an | {a̬n, str: ăn} < * > **",
-        "PI": {
-            "L1": "{a̬n, str: ăn}",
-            "L2": "{a̬n, str: ăn}",
-            "L3": "an",
-            "FM": "{a̬n, str: ăn}"
         },
         "Sf": null
     },
