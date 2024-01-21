@@ -2820,12 +2820,12 @@
         "Sf": null
     },
     "science": {
-        "whole": "science | scīˌence < scīe̬nce >",
+        "whole": "science | sciˌence < scie̬nce > ** ¦ scīe̬nce",
         "PI": {
-            "L1": "scīˌence",
-            "L2": "scīe̬nce >",
-            "L3": "scīˌence",
-            "FM": "scīe̬nce >"
+            "L1": "sciˌence",
+            "L2": "scie̬nce",
+            "L3": "science",
+            "FM": "scīe̬nce"
         },
         "Sf": null
     },

@@ -1,8 +1,9 @@
 import regex as re
+from common.messages import Messages
 from config import Config
 
 from dictionary import Dictionary
-from util import Util
+from common.util import Util
 
 
 class Transcriber:
@@ -19,7 +20,7 @@ class Transcriber:
 
     Methods:
         refresh_dictionary: Reloads the PI dictionary.
-        update_words_for_piss_variation: Applies specific PI variation rules to the text.
+        replace_words_for_pi_variation: Applies specific PI variation rules to the text.
         transform_words_with_s_suffix: Handles words with 's' suffix based on PI rules.
         perform_preliminary_replacements: Performs initial word replacements in the text.
         transcribe: Transcribes the entire text to PI format.
@@ -30,14 +31,21 @@ class Transcriber:
         replace_word_in_sentence: Replaces a word in a sentence with its PI transcription.
     """
 
-    def __init__(self, excluded_words):
+    def __init__(self, variation, perform_preliminary_replacements=False):
         """
         Initializes the Transcriber class.
 
         Sets up the preliminary replacements, loads the PI dictionary, and initializes sentence and word index tracking for transcription processes.
         """
-        self.performed_preliminar_replacements = False
-        self.dictionary = Dictionary(excluded_words)
+        self.variation = variation
+
+        self.performed_preliminar_replacements = perform_preliminary_replacements
+        self.dictionary: Dictionary
+        if (perform_preliminary_replacements):
+            self.dictionary = Dictionary(
+                Config.PRELIMINARY_REPLACEMENTS[variation])
+        else:
+            self.dictionary = Dictionary()
 
         self.pi_entry = None
         self.current_sentence_index = 0
@@ -50,12 +58,13 @@ class Transcriber:
         This method is used to refresh the dictionary data in case of updates or changes in the dictionary file.
         """
         if self.performed_preliminar_replacements:
-            self.dictionary = Dictionary(Config.PRELIMINARY_REPLACEMENTS)
+            self.dictionary = Dictionary(
+                Config.PRELIMINARY_REPLACEMENTS[self.variation])
         else:
             self.dictionary = Dictionary()
         Util.print_("Dictionary refreshed successfully.")
 
-    def update_words_for_pi_variation(self, input_text: str, pi_dictionary, variation: str):
+    def replace_words_for_pi_variation(self, input_text: str, pi_dictionary):
         """
         Applies PI variation rules to the input text.
 
@@ -69,9 +78,9 @@ class Transcriber:
         """
 
         # Build a dictionary for replacements
-        replacement_dict = {word: pi_dictionary[word]["PI"][variation]
+        replacement_dict = {word: pi_dictionary[word]["PI"][self.variation]
                             for word in pi_dictionary
-                            if pi_dictionary[word]["PI"][variation]}
+                            if pi_dictionary[word]["PI"][self.variation]}
 
         # Function to replace a single word
         def replace_word(word):
@@ -139,7 +148,8 @@ class Transcriber:
         # Callback function for regex substitution
         def replacement_callback(match):
             word = match.group(0)
-            replacement = Config.PRELIMINARY_REPLACEMENTS[word.lower()]
+            replacement = Config.PRELIMINARY_REPLACEMENTS[self.variation][word.lower(
+            )]
             # Preserve case of the original word
             if word.istitle():
                 return replacement.capitalize()
@@ -155,7 +165,7 @@ class Transcriber:
 
         return input_text
 
-    def transcribe(self, input_text, variation='L1'):
+    def transcribe(self, input_text):
         """
         Transcribes the entire text to PI format.
 
@@ -167,13 +177,13 @@ class Transcriber:
             str: The transcribed text in PI format.
         """
         pi_dictionary = self.dictionary.pi_dictionary
-        processed_text = self.update_words_for_pi_variation(
-            input_text, pi_dictionary, variation)
+        processed_text = self.replace_words_for_pi_variation(
+            input_text, pi_dictionary)
         processed_text = self.transform_words_with_s_suffix(
-            processed_text, pi_dictionary, variation)
+            processed_text, pi_dictionary, self.variation)
         return processed_text
 
-    def transcribe_interactively(self, sentences, variation, extension='.txt'):
+    def transcribe_interactively(self, sentences, extension='.txt'):
         """
         Processes sentences interactively for manual transcription.
 
@@ -184,7 +194,7 @@ class Transcriber:
         Returns:
             Tuple[List[str], int]: The updated list of sentences and the updated sentence index.
         """
-        # Initialize the current sentence index
+        variation = self.variation
         current_sentence_index = 0
 
         # Iterating through sentences
@@ -192,65 +202,106 @@ class Transcriber:
             sentence = sentences[current_sentence_index]
             words = self.split_sentence_into_words(sentence)
             selected_word_index = 0
+            enter_action = None
 
             # Iterating through words in the current sentence
             while selected_word_index < len(words):
                 selected_word = words[selected_word_index]  # type: ignore
+
+                # Display current sentence
                 display_sentence = self.highlight_selected_word(
                     sentence, selected_word)
                 Util.print_with_spacing(display_sentence)
 
-                # Lookup in PI dictionary for the selected word
-                pi_entry = self.dictionary.get_entry(selected_word.lower())
+                # from now on, the case doesn't matter
+                selected_word = selected_word.lower()
 
+                # Lookup in PI dictionary for the selected word
+                pi_entry = self.dictionary.get_entry(selected_word)
+
+                # Display word info
                 if pi_entry:
+                    pi_word = pi_entry['PI'][variation]
                     Util.print_with_spacing(f"PI Entry: {pi_entry['whole']}")
-                    if selected_word != pi_entry['PI'][variation]:
+                    Util.print_(
+                        f"{variation} word: {pi_word}")
+                    if selected_word != pi_word:
                         Util.print_with_spacing(
-                            f"    (A)ccept {variation} word {{ {pi_entry['PI'][variation]} }} ?")
+                            f"    (A)ccept {variation} word {{ {pi_word} }} ?")
                     else:
                         Util.print_with_spacing(
-                            f'This is already a default {variation} word.')
+                            f'    This is already a default {variation} word.')
                 else:
+                    print()
                     Util.print_with_spacing('No PI entry found for this word.')
                     Util.print_with_spacing(
-                        f"    Add dictionary (e)ntry for {{ {selected_word} }} ?")
-
-                # Dynamically set the dictionary action option based on whether the entry exists
-                dict_action = 'Add' if not pi_entry else 'Edit'
-                user_action = Util.input_with_spacing(
-                    f"Options: {'(A)ccept, ' if pi_entry else ''}{dict_action} dictionary (e)ntry, (C)ustomize, (N)ext, (P)revious, (S)kip sentence, (Q)uit: ").lower()
-
-                word_updated = False
+                        f"    (A)dd dictionary entry for {{ {selected_word} }} ?")
 
                 #
-                # User Actions
+                # Prompt for a user action
+                #
+
+                if not enter_action:
+                    enter_action = 'n'
+
+                # # Dynamically set the dictionary action option based on whether the entry exists
+                # dict_action = 'Add' if not pi_entry else 'Edit'
+                # user_action = Util.input_with_spacing(
+                #     f"Options: {'(A)ccept, ' if pi_entry else ''}{dict_action} dictionary (e)ntry, (C)ustomize, (N)ext, (P)revious, (S)kip sentence, (Q)uit: ").lower()
+
+                Util.print_with_spacing('Options:')
+                if pi_entry:
+                    Util.print_(f'    a  -  Accept {variation} word')
+                    Util.print_('    e  -  Edit dictionary entry')
+                else:
+                    print()
+                    Util.print_('    a  -  Add dictionary entry')
+                Util.print_('    c  -  Customize word')
+                Util.print_('    n  -  Next word')
+                Util.print_('    p  -  Previous word')
+                Util.print_('    ns  - Next Sentence')
+                Util.print_('    ps -  Previous Sentence')
+                Util.print_('    q  -  Quit')
+                user_action = Util.input_with_spacing(
+                    f'Choose: [{enter_action}] ').lower()
+                if user_action == '':
+                    user_action = enter_action
+                enter_action = user_action
+
+                # Flags used in user actions
+                word_updated = False
+                switch_to_next_word = False
+
+                #
+                # User actions
                 #
 
                 # Accept action: replace the word and move to the next
                 if user_action == 'a' and pi_entry:
                     pi_word = pi_entry['PI'][variation]
-                    self.replace_word_in_all_sentences(
-                        sentences, selected_word, pi_word)
-                    Util.print_with_spacing(
-                        f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
 
-                    word_updated = True
+                    if (selected_word != pi_word):
+                        self.replace_word_in_all_sentences(
+                            sentences, selected_word, pi_word)
+                        Util.print_with_spacing(
+                            f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
+                        word_updated = True
+                    else:
+                        Util.print_with_spacing(Messages.NO_CHANGES_MADE)
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
                     # words = self.split_sentence_into_words(sentence)
 
-                    # # Increment the index to move to the next word
-                    # selected_word_index += 1
+                    switch_to_next_word = True
 
-                elif user_action == 'c' and pi_entry:
+                elif user_action == 'c':
                     if (pi_entry):
                         pi_word = pi_entry['PI'][variation]
                     else:
                         pi_word = selected_word
 
-                    custom_word = Util.input_(
+                    custom_word = Util.input_with_spacing(
                         f"Enter a customized version for '{selected_word}': ").strip() or pi_word
 
                     if selected_word != custom_word:
@@ -260,42 +311,17 @@ class Transcriber:
                             f"Word '{selected_word}' replaced with customized version '{custom_word}'")
                         word_updated = True
                     else:
-                        Util.print_with_spacing("No changes made.")
+                        Util.print_with_spacing(Messages.NO_CHANGES_MADE)
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
                     # words = self.split_sentence_into_words(sentence)
 
-                    # selected_word_index += 1  # Move to the next word
-
-                if word_updated:
-                    # Update the current sentence with the latest changes
-                    sentence = sentences[current_sentence_index]
-                    words = self.split_sentence_into_words(sentence)
-
-                    # Find the new position of the updated word or the next word
-                    if selected_word in words:
-                        selected_word_index = words.index(selected_word)
-                    else:
-                        selected_word_index = min(
-                            selected_word_index, len(words) - 1)
-
-                    output_text = self.rejoin_sentences(sentences)
-                    Util.save_temp_text(output_text, extension)
-
-                    # Increment the index to move to the next word
-                    selected_word_index += 1
+                    switch_to_next_word = True
 
                 # Next word action
                 elif user_action == 'n' or user_action == '':
-                    # Move to the next word or the first word of the next sentence
-                    selected_word_index += 1
-                    if selected_word_index >= len(words):
-                        current_sentence_index = (
-                            current_sentence_index + 1) % len(sentences)
-                        sentence = sentences[current_sentence_index]
-                        words = self.split_sentence_into_words(sentence)
-                        selected_word_index = 0
+                    switch_to_next_word = True
 
                 # Previous word action
                 elif user_action == 'p':
@@ -309,17 +335,17 @@ class Transcriber:
                         words = self.split_sentence_into_words(sentence)
                         selected_word_index = len(words) - 1
 
-                elif user_action == 'e':
-                    word_updated = False
-                    if dict_action == 'add':
-                        word_updated = self.dictionary.add_entry(
-                            selected_word.lower())
-                    elif dict_action == 'edit':
-                        word_updated = self.dictionary.edit_entry(
-                            selected_word.lower())
-
+                # Add/Edit dictionary entry action
+                elif (user_action == 'a' and not pi_entry) or (user_action == 'e'):
+                    entry_updated = False
+                    if not pi_entry:
+                        entry_updated = self.dictionary.add_entry(
+                            selected_word)
+                    else:
+                        entry_updated = self.dictionary.edit_entry(
+                            selected_word)
                     # Refresh the dictionary after modification
-                    if word_updated:
+                    if entry_updated:
                         self.refresh_dictionary()
 
                     # The word index remains the same, so the user can review changes and decide the next action
@@ -331,9 +357,10 @@ class Transcriber:
                     # selected_word_index = min(
                     #     selected_word_index, len(words) - 1)
 
-                # Skip to the next sentence
-                elif user_action == 's':
-                    current_sentence_index += 1
+                # Select next/previous sentence action
+                elif user_action in ['ns', 'ps']:
+                    current_sentence_index = (
+                        current_sentence_index + (1 if user_action == 'ns' else -1)) % len(sentences)
                     if current_sentence_index < len(sentences):
                         sentence = sentences[current_sentence_index]
                         words = self.split_sentence_into_words(sentence)
@@ -355,9 +382,32 @@ class Transcriber:
                     Util.print_with_spacing(
                         "Invalid input. Please choose a valid option or skip for (n)ext.")
 
-            # end while
+                if word_updated:
+                    # Update the current sentence with the latest changes
+                    sentence = sentences[current_sentence_index]
+                    words = self.split_sentence_into_words(sentence)
 
-            sentences[current_sentence_index] = sentence
+                    # Find the new position of the updated word or the next word
+                    if selected_word in words:
+                        selected_word_index = words.index(selected_word)
+                    else:
+                        selected_word_index = min(
+                            selected_word_index, len(words) - 1)
+
+                    output_text = self.rejoin_sentences(sentences)
+                    Util.save_temp_text(output_text, extension)
+
+                if switch_to_next_word:
+                    # Move to the next word or the first word of the next sentence
+                    selected_word_index += 1
+                    if selected_word_index >= len(words):
+                        current_sentence_index = (
+                            current_sentence_index + 1) % len(sentences)
+                        sentence = sentences[current_sentence_index]
+                        words = self.split_sentence_into_words(sentence)
+                        selected_word_index = 0
+
+            # end while
 
             # Update the sentence in the list after processing
             sentences[current_sentence_index] = sentence

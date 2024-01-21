@@ -3,7 +3,7 @@ import json
 import pyperclip
 from config import Config
 from corpora_manager import CorporaManager
-from util import Util
+from common.util import Util
 
 
 class Dictionary:

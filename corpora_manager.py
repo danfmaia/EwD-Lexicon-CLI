@@ -15,7 +15,7 @@ import json
 import re
 
 from config import Config
-from util import Util
+from common.util import Util
 
 
 class CorporaManager:

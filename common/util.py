@@ -29,7 +29,7 @@ class Util:
         # Save intermediate result
         temp_filename = 'io/temp' + extension
         Util.save_to_file(temp_filename, temp_text)
-        Util.print_with_spacing(
+        Util.print_(
             f"Intermediate result saved to {temp_filename}")
 
     @staticmethod  # type: ignore

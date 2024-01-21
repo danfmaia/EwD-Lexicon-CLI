@@ -1,11 +1,10 @@
 import argparse
 import os
 import sys
-from config import Config
 
 from transcriber import Transcriber
 from corpora_manager import CorporaManager
-from util import Util
+from common.util import Util
 
 
 def main():
@@ -70,31 +69,53 @@ def transcribe_command(args):
     """
     Util.print_with_spacing("Welcome to the PI Transcriber Tool!")
     Util.print_(
-        "This tool assists in converting standard English texts to the PI Scaffold-Spelling (PISS) format.")
+        "This tool assists in converting standard English (SE) texts to the PI Scaffold-Spelling (PI) format.")
 
+    # Read input file
     input_file_path = args.file
     ext = os.path.splitext(input_file_path)[1]
     input_text = read_input_file(input_file_path)
 
+    # Update dictionary
     user_response = Util.input_with_spacing(
         "Update the dictionary before starting transcription? (y/n): [n] ").lower()
     if user_response == 'y':
         update_dictionary_command()
 
-    transcriber = Transcriber(Config.PRELIMINARY_REPLACEMENTS)
-
-    temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
-
+    # Prompt for & Choose PI variation
     chosen_variation = choose_pi_variation()
-    Util.print_(chosen_variation)
 
-    if (not args.interactive):
-        temp_text = transcriber.transcribe(temp_text, chosen_variation)
+    # Prompt for & Perform preliminary replacements
+    # & Initialize Transcriber
+    user_response = Util.input_with_spacing(
+        "Perform preliminary replacements? (y/n): [n] ").lower()
+    transcriber: Transcriber
+    temp_text = ''
+    if user_response == 'y':
+        transcriber = Transcriber(
+            chosen_variation, perform_preliminary_replacements=True)
+        temp_text = transcriber.perform_preliminar_replacements(input_text)
+        Util.print_with_spacing('Preliminary replacements performed.')
+        Util.save_temp_text(temp_text, ext)
+    else:
+        transcriber = Transcriber(chosen_variation)
+        temp_text = input_text
+
+    if not args.interactive:
+        # Transcribe whole text
+        temp_text = transcriber.transcribe(temp_text)
         Util.save_output_text(temp_text, ext)
     else:
+        # Prompt for & Transcribe whole text
+        user_response = Util.input_with_spacing(
+            "Do you want to transcribe the whole text before starting interactive transcription? (y/n): [n] ").lower()
+        if user_response == 'y':
+            temp_text = transcriber.transcribe(temp_text)
+            Util.save_temp_text(temp_text, ext)
+
+        # Initialize interactive transcription
         sentences = transcriber.split_into_sentences(temp_text)
-        transcriber.transcribe_interactively(
-            sentences, chosen_variation, ext)
+        transcriber.transcribe_interactively(sentences, ext)
 
 
 def read_input_file(file_path):
@@ -133,7 +154,7 @@ def exit_if_user_aborted(response):
         sys.exit()
 
 
-def perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
+def prompt_for_and_perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
     """
     Performs preliminary text replacements before transcription.
 
@@ -150,7 +171,7 @@ def perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
     """
 
     user_response = Util.input_with_spacing(
-        "Perform preliminary replacements? (y/n): ").lower()
+        "Perform preliminary replacements? (y/n): [n] ").lower()
 
     temp_text = ''
     if user_response == 'y':
@@ -159,7 +180,6 @@ def perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
         Util.save_temp_text(temp_text, ext)
     else:
         temp_text = input_text
-        Util.print_with_spacing('Preliminary replacements NOT performed.')
 
     return temp_text
 
@@ -173,18 +193,19 @@ def choose_pi_variation():
     Returns:
         str: The chosen PI variation.
     """
-    piss_variations = ['L1', 'L2', 'L3', 'FM']
+    pi_variations = ['L1', 'L2', 'L3', 'FM']
     Util.print_with_spacing("Please choose a PI variation:")
     Util.print_("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
     chosen_variation = Util.input_with_spacing(
         "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
     if chosen_variation == '':
         chosen_variation = 'L1'
-    while chosen_variation not in piss_variations:
+    while chosen_variation not in pi_variations:
         Util.print_with_spacing(
             "Invalid choice. Please choose from L1, L2, L3, or FM.")
         chosen_variation = Util.input_with_spacing(
             "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
+    Util.print_with_spacing(f"Variation {chosen_variation} selected.")
     return chosen_variation
 
 
