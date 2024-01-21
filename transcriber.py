@@ -131,8 +131,8 @@ class Transcriber:
             return word
 
         tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)
-        updated_tokens = [transform_word(
-            token) if token.strip() != '' else token for token in tokens]
+        updated_tokens = [
+            transform_word(token) if token.strip() != '' else token for token in tokens]
         return ''.join(updated_tokens)
 
     def perform_preliminar_replacements(self, input_text):
@@ -176,7 +176,8 @@ class Transcriber:
             str: The transcribed text in PI format.
         """
         pi_dictionary = self.dictionary.pi_dictionary
-        processed_text = self.update_words_for_pi_variation(input_text, pi_dictionary, variation)
+        processed_text = self.update_words_for_pi_variation(
+            input_text, pi_dictionary, variation)
         processed_text = self.transform_words_with_s_suffix(
             processed_text, pi_dictionary, variation)
         return processed_text
@@ -213,7 +214,8 @@ class Transcriber:
 
                 if pi_entry:
                     Util.print_with_spacing(f"PI Entry: {pi_entry['whole']}")
-                    print(f"{variation} word: {pi_entry['PI'][variation]}")
+                    Util.print_with_spacing(
+                        f"Accept {variation} word '{pi_entry['PI'][variation]}")
                 else:
                     Util.print_with_spacing("No PI entry found for this word.")
                     print()
@@ -221,9 +223,9 @@ class Transcriber:
                 # Dynamically set the dictionary action option based on whether the entry exists
                 dict_action = 'add' if not pi_entry else 'edit'
                 user_action = Util.input_with_spacing(
-                    f"Options: (a)ccept, (c)ustomize, (n)ext (or hit Enter), (p)revious, {dict_action} dictionary (e)ntry, next (s)entence, (q)uit: ").lower()
+                    f"Options: {'(a)ccept, ' if pi_entry else ''}{dict_action} dictionary (e)ntry, (c)ustomize, (n)ext, (p)revious, (s)kip sentence, (q)uit: ").lower()
 
-                entry_updated = False
+                word_updated = False
 
                 #
                 # User Actions
@@ -237,7 +239,7 @@ class Transcriber:
                     Util.print_with_spacing(
                         f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
 
-                    entry_updated = True
+                    word_updated = True
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
@@ -247,16 +249,20 @@ class Transcriber:
                     # selected_word_index += 1
 
                 elif user_action == 'c' and pi_entry:
-                    pi_word = pi_entry['PI'][variation]
+                    if (pi_entry):
+                        pi_word = pi_entry['PI'][variation]
+                    else:
+                        pi_word = selected_word
+
                     custom_word = input(
-                        f"Enter a customized version for '{pi_word}': ").strip() or pi_word
+                        f"Enter a customized version for '{selected_word}': ").strip() or pi_word
 
                     self.replace_word_in_all_sentences(
                         sentences, selected_word, custom_word)
                     Util.print_with_spacing(
                         f"Word '{selected_word}' replaced with customized version '{custom_word}'")
 
-                    entry_updated = True
+                    word_updated = True
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
@@ -264,7 +270,7 @@ class Transcriber:
 
                     # selected_word_index += 1  # Move to the next word
 
-                if entry_updated:
+                if word_updated:
                     # Update the current sentence with the latest changes
                     sentence = sentences[current_sentence_index]
                     words = self.split_sentence_into_words(sentence)
@@ -306,16 +312,16 @@ class Transcriber:
                         selected_word_index = len(words) - 1
 
                 elif user_action == 'e':
-                    entry_updated = False
+                    word_updated = False
                     if dict_action == 'add':
-                        entry_updated = self.dictionary.add_entry(
+                        word_updated = self.dictionary.add_entry(
                             selected_word.lower())
                     elif dict_action == 'edit':
-                        entry_updated = self.dictionary.edit_entry(
+                        word_updated = self.dictionary.edit_entry(
                             selected_word.lower())
 
                     # Refresh the dictionary after modification
-                    if entry_updated:
+                    if word_updated:
                         self.refresh_dictionary()
 
                     # The word index remains the same, so the user can review changes and decide the next action

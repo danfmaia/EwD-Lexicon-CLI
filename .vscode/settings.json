@@ -14,9 +14,9 @@
     "editor.formatOnSave": true,
     "editor.detectIndentation": false,
     "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.rulers": [99]
+    "editor.rulers": [80]
   },
-  "autopep8.args": ["--max-line-length=100", "--tab-size=2"],
+  "autopep8.args": ["--max-line-length=79"],
 
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.autoImportCompletions": true,

@@ -1,2 +1,2 @@
 [MESSAGES CONTROL]
-disable=broad-exception-caught,line-too-long
+disable=broad-exception-caught,line-too-long,bad-indentation

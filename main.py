@@ -176,7 +176,7 @@ def choose_pi_variation():
     print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
     chosen_variation = Util.input_with_spacing(
         "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
-    if (chosen_variation == ''):
+    if chosen_variation == '':
         chosen_variation = 'L1'
     while chosen_variation not in piss_variations:
         Util.print_with_spacing(
