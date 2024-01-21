@@ -4,14 +4,22 @@ import sys
 
 class Util:
     @staticmethod  # type: ignore
+    def print_(message):
+        print(f"  {message}")
+
+    @staticmethod  # type: ignore
     def print_with_spacing(message):
         print()
-        print(message)
+        Util.print_(message)
+
+    @staticmethod  # type: ignore
+    def input_(message):
+        return input(f"  {message}")
 
     @staticmethod  # type: ignore
     def input_with_spacing(message):
         print()
-        return input(message)
+        return Util.input_(message)
 
     @staticmethod  # type: ignore
     def save_temp_text(temp_text, extension):

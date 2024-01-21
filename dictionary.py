@@ -24,7 +24,7 @@ class Dictionary:
         update_entry: Updates a specific entry in the dictionary.
     """
 
-    def __init__(self, excluded_words):
+    def __init__(self, excluded_words=None):
         """
         Initializes the Dictionary class with specified exclusions.
 
@@ -36,7 +36,7 @@ class Dictionary:
         self.pi_dictionary = self.load_pi_dictionary(excluded_words)
         self.corpora_manager = CorporaManager(self.pi_dictionary)
 
-    def load_pi_dictionary(self, excluded_list):
+    def load_pi_dictionary(self, excluded_list=None):
         """
         Loads the PI dictionary from a file, applying exclusions.
 
@@ -83,8 +83,8 @@ class Dictionary:
         Util.print_with_spacing(f"Adding new dictionary entry for: {word}")
 
         # Prompt the user for the new entry details
-        print("Corpus row format: SE | PI L1 < PI L2 > PI L3 ¦ PI FM")
-        new_entry = input(f"New entry: {word} | ").strip()
+        Util.print_("Corpus row format: SE | PI L1 < PI L2 > PI L3 ¦ PI FM")
+        new_entry = Util.input_(f"New entry: {word} | ").strip()
         if new_entry == '':
             user_response = Util.input_with_spacing(
                 "Are you sure the new entry contains only the SE word? (y/n): [y] ")
@@ -97,7 +97,7 @@ class Dictionary:
         if new_entry and new_entry != '':
             self.corpora_manager.edit_corpus_row_and_update_dict(
                 new_entry, new=True)
-            print("Entry added successfully.")
+            Util.print_("Entry added successfully.")
             return True
         else:
             Util.print_with_spacing("No new entry added.")
@@ -115,9 +115,9 @@ class Dictionary:
         #     # Assuming the dictionary format is as follows: { 'word': { 'whole': '...', 'PI': {...}, ... } }
         #     self.pi_dictionary[word] = {
         #         'whole': full_entry, 'PI': self.extract_pi_variations(new_entry)}
-        #     print("New entry added successfully.")
+        #     Util.print_("New entry added successfully.")
         # else:
-        #     print("No new entry added.")
+        #     Util.print_("No new entry added.")
 
     def edit_entry(self, word):
         """
@@ -139,7 +139,7 @@ class Dictionary:
 
         # Display current entry
         current_corpus_row = pi_entry.get('whole', '')
-        print("Current:", current_corpus_row)
+        Util.print_(f"Current: {current_corpus_row}")
 
         # Copy the current entry to system clipboard
         # if not numpy.any(numpy.isnan(current_corpus_row.split('| ')[1])):
@@ -147,17 +147,17 @@ class Dictionary:
             pyperclip.copy(current_corpus_row.split('| ')[1])
 
         # Prompt for new entry, pre-filling with the current entry
-        new_entry = input(f"Editing: {word} | ")
+        new_entry = Util.input_(f"Editing: {word} | ")
         if new_entry == '':
             new_entry = current_corpus_row
         else:
             new_entry = f"{word} | {new_entry}"
-        print('new entry: ' + new_entry)
+        Util.print_('new entry: ' + new_entry)
 
         # Update the dictionary entry
         if new_entry and new_entry != current_corpus_row:
             self.corpora_manager.edit_corpus_row_and_update_dict(new_entry)
-            print("Entry updated successfully.")
+            Util.print_("Entry updated successfully.")
             return True
         else:
             Util.print_with_spacing("No changes made to the entry.")

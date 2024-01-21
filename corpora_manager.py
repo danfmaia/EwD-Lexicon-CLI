@@ -81,7 +81,7 @@ class CorporaManager:
             with open(file_path, 'r', encoding='utf-8') as file:
                 return file.readlines()
         except IOError as e:
-            print(f"Error reading file {file_path}: {e}")
+            Util.print_(f"Error reading file {file_path}: {e}")
             return []
 
     def extract_pi_parts(self, pi_string):

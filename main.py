@@ -1,6 +1,7 @@
 import argparse
 import os
 import sys
+from config import Config
 
 from transcriber import Transcriber
 from corpora_manager import CorporaManager
@@ -68,23 +69,24 @@ def transcribe_command(args):
         args (Namespace): Parsed command-line arguments containing options for transcription.
     """
     Util.print_with_spacing("Welcome to the PI Transcriber Tool!")
-    print("This tool assists in converting standard English texts to the PI Scaffold-Spelling (PISS) format.")
+    Util.print_(
+        "This tool assists in converting standard English texts to the PI Scaffold-Spelling (PISS) format.")
 
     input_file_path = args.file
     ext = os.path.splitext(input_file_path)[1]
     input_text = read_input_file(input_file_path)
 
-    transcriber = Transcriber()
-
     user_response = Util.input_with_spacing(
-        "Do you want to update the dictionary before starting transcription? (y/n): [n] ").lower()
+        "Update the dictionary before starting transcription? (y/n): [n] ").lower()
     if user_response == 'y':
         update_dictionary_command()
+
+    transcriber = Transcriber(Config.PRELIMINARY_REPLACEMENTS)
 
     temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
 
     chosen_variation = choose_pi_variation()
-    print(chosen_variation)
+    Util.print_(chosen_variation)
 
     if (not args.interactive):
         temp_text = transcriber.transcribe(temp_text, chosen_variation)
@@ -109,7 +111,7 @@ def read_input_file(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
             return file.read()
     except FileNotFoundError:
-        print(f"Error: Input file '{file_path}' not found.")
+        Util.print_(f"Error: Input file '{file_path}' not found.")
         sys.exit()
 
 
@@ -124,10 +126,10 @@ def exit_if_user_aborted(response):
         SystemExit: If the user has chosen to abort.
     """
     if response == 'q':
-        print("Operation aborted by the user.")
+        Util.print_("Operation aborted by the user.")
         sys.exit()
     elif response != 'y':
-        print("Operation not confirmed. Exiting.")
+        Util.print_("Operation not confirmed. Exiting.")
         sys.exit()
 
 
@@ -148,7 +150,7 @@ def perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
     """
 
     user_response = Util.input_with_spacing(
-        "Do you want to perform preliminary replacements? (y/n): ").lower()
+        "Perform preliminary replacements? (y/n): ").lower()
 
     temp_text = ''
     if user_response == 'y':
@@ -173,7 +175,7 @@ def choose_pi_variation():
     """
     piss_variations = ['L1', 'L2', 'L3', 'FM']
     Util.print_with_spacing("Please choose a PI variation:")
-    print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
+    Util.print_("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
     chosen_variation = Util.input_with_spacing(
         "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
     if chosen_variation == '':

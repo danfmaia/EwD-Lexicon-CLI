@@ -1,7 +1,7 @@
-### Body Size:
+### Bŏdy Size:
 
-- The̬ study ‹o̬v› geographical variation in biological traits across species has been a̬ fundamental aspect ‹o̬v› natural sciences since the̬ 19th century
+- The study of geographical varia̖tion in biological traits across species has been a fundamental aspect of natural sciences since the 19th century
 
-- Body size significantly influences various processes at individual, population, and species levels, shaping ecological dynamics, niche adaptation, and broader evolutionary trends -- fitness
+- Bŏdy size significantly influences vario͜uṣ processes at individual, population, and species levels, shaping ecological dynamics, niche adaptation, and broader evolutionary trends -- fitness
 
-- Organisms exhibit profound ecological and evolutionary shifts owing to̬ changes in body size, impacting their ecological roles, interaction dynamics, and even extinction probabilities
+- Organisms exhibit profound ecological and evolutionary shifts owing to changes in bŏdy size, impacting their ecological roles, interaction dynamics, and even extinction probabilities

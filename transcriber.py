@@ -1,4 +1,5 @@
 import regex as re
+from config import Config
 
 from dictionary import Dictionary
 from util import Util
@@ -29,27 +30,14 @@ class Transcriber:
         replace_word_in_sentence: Replaces a word in a sentence with its PI transcription.
     """
 
-    def __init__(self):
+    def __init__(self, excluded_words):
         """
         Initializes the Transcriber class.
 
         Sets up the preliminary replacements, loads the PI dictionary, and initializes sentence and word index tracking for transcription processes.
         """
-        # Mapping for preliminary replace operations
-        self.preliminar_replacements = {
-            'the': 'the̬',
-            'a': 'a̬',
-            'an': 'a̬n',
-            'of': '‹o̬v›',
-            'to': 'to̬',
-            'you': 'yöu',
-            'this': 'thiṣ',
-            'and': 'and',
-            'for': 'for',
-            'from': 'fro̬m'
-        }
-
-        self.dictionary = Dictionary(self.preliminar_replacements)
+        self.performed_preliminar_replacements = False
+        self.dictionary = Dictionary(excluded_words)
 
         self.pi_entry = None
         self.current_sentence_index = 0
@@ -61,8 +49,11 @@ class Transcriber:
 
         This method is used to refresh the dictionary data in case of updates or changes in the dictionary file.
         """
-        self.dictionary = Dictionary(self.preliminar_replacements)
-        print("Dictionary refreshed successfully.")
+        if self.performed_preliminar_replacements:
+            self.dictionary = Dictionary(Config.PRELIMINARY_REPLACEMENTS)
+        else:
+            self.dictionary = Dictionary()
+        Util.print_("Dictionary refreshed successfully.")
 
     def update_words_for_pi_variation(self, input_text: str, pi_dictionary, variation: str):
         """
@@ -148,7 +139,7 @@ class Transcriber:
         # Callback function for regex substitution
         def replacement_callback(match):
             word = match.group(0)
-            replacement = self.preliminar_replacements[word.lower()]
+            replacement = Config.PRELIMINARY_REPLACEMENTS[word.lower()]
             # Preserve case of the original word
             if word.istitle():
                 return replacement.capitalize()
@@ -158,7 +149,7 @@ class Transcriber:
                 return replacement
 
         # Perform replace operations
-        for word in self.preliminar_replacements:
+        for word in Config.PRELIMINARY_REPLACEMENTS:
             input_text = re.sub(r'\b{}\b'.format(
                 word), replacement_callback, input_text, flags=re.IGNORECASE)
 
@@ -214,16 +205,21 @@ class Transcriber:
 
                 if pi_entry:
                     Util.print_with_spacing(f"PI Entry: {pi_entry['whole']}")
-                    Util.print_with_spacing(
-                        f"Accept {variation} word '{pi_entry['PI'][variation]}")
+                    if selected_word != pi_entry['PI'][variation]:
+                        Util.print_with_spacing(
+                            f"    (A)ccept {variation} word {{ {pi_entry['PI'][variation]} }} ?")
+                    else:
+                        Util.print_with_spacing(
+                            f'This is already a default {variation} word.')
                 else:
-                    Util.print_with_spacing("No PI entry found for this word.")
-                    print()
+                    Util.print_with_spacing('No PI entry found for this word.')
+                    Util.print_with_spacing(
+                        f"    Add dictionary (e)ntry for {{ {selected_word} }} ?")
 
                 # Dynamically set the dictionary action option based on whether the entry exists
-                dict_action = 'add' if not pi_entry else 'edit'
+                dict_action = 'Add' if not pi_entry else 'Edit'
                 user_action = Util.input_with_spacing(
-                    f"Options: {'(a)ccept, ' if pi_entry else ''}{dict_action} dictionary (e)ntry, (c)ustomize, (n)ext, (p)revious, (s)kip sentence, (q)uit: ").lower()
+                    f"Options: {'(A)ccept, ' if pi_entry else ''}{dict_action} dictionary (e)ntry, (C)ustomize, (N)ext, (P)revious, (S)kip sentence, (Q)uit: ").lower()
 
                 word_updated = False
 
@@ -254,15 +250,17 @@ class Transcriber:
                     else:
                         pi_word = selected_word
 
-                    custom_word = input(
+                    custom_word = Util.input_(
                         f"Enter a customized version for '{selected_word}': ").strip() or pi_word
 
-                    self.replace_word_in_all_sentences(
-                        sentences, selected_word, custom_word)
-                    Util.print_with_spacing(
-                        f"Word '{selected_word}' replaced with customized version '{custom_word}'")
-
-                    word_updated = True
+                    if selected_word != custom_word:
+                        self.replace_word_in_all_sentences(
+                            sentences, selected_word, custom_word)
+                        Util.print_with_spacing(
+                            f"Word '{selected_word}' replaced with customized version '{custom_word}'")
+                        word_updated = True
+                    else:
+                        Util.print_with_spacing("No changes made.")
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
@@ -344,7 +342,7 @@ class Transcriber:
                 # Quit action
                 elif user_action == 'q':
                     save_confirmation = Util.input_with_spacing(
-                        "Do you want to save the changes? (y/n): ").strip().lower()
+                        "Save changes? (y/n): ").strip().lower()
                     if save_confirmation == 'y':
                         output_text = self.rejoin_sentences(sentences)
                         Util.save_output_text(output_text, extension)
@@ -461,6 +459,9 @@ class Transcriber:
         Returns:
             None: The method modifies the sentences list in place.
         """
+        if original_word == new_word:
+            return
+
         for i in range(len(sentences)):  # type: ignore
             sentences[i] = self.replace_word_in_sentence(
                 sentences[i], original_word, new_word)
