@@ -15,6 +15,7 @@ import json
 import re
 
 from config import Config
+from util import Util
 
 
 class CorporaManager:
@@ -43,8 +44,8 @@ class CorporaManager:
 
         self.dictionary_filepath = Config.DICTIONARY_FILEPATH
         self.corpus_folder = 'corpora'
-        self.corpus_files = ['corpus_1000.txt',
-                             'corpus_misc.txt', 'corpus_new.txt']
+        self.corpus_file_names = ['corpus_1000.txt',
+                                  'corpus_misc.txt', 'corpus_new.txt', 'corpus_edited.txt']
         self.pi_dictionary = current_dictionary
 
     def generate_dictionary(self):
@@ -56,7 +57,7 @@ class CorporaManager:
         Raises:
             IOError: If there's an error in reading the corpus files or saving the dictionary.
         """
-        for file_name in self.corpus_files:
+        for file_name in self.corpus_file_names:
             file_path = os.path.join(self.corpus_folder, file_name)
             rows = self.read_corpus_file(file_path)
             if rows:
@@ -197,11 +198,11 @@ class CorporaManager:
 
         return se_word, {"whole": whole_row, "PI": pi_entry, "Sf": sf}
 
-    def edit_corpus_row_and_update_dict(self, new_row):
+    def edit_corpus_row_and_update_dict(self, new_row, new=False):
         """
         Edits a specific corpus row and updates the PI dictionary accordingly.
 
-        This function locates the given SE word in the 'corpus_new.txt' file. If found, it updates the existing row; otherwise, it adds the new row. It then sorts the entries alphabetically and updates the PI dictionary with the new or modified entry.
+        This function locates the given SE word in the 'corpus_new.txt' or 'corpus_edited.txt' file. If found, it updates the existing row; otherwise, it adds the new row. It then sorts the entries alphabetically and updates the PI dictionary with the new or modified entry.
 
         Args:
             new_row (str): The new row to be added or updated in the corpus file.
@@ -209,11 +210,13 @@ class CorporaManager:
         Raises:
             IOError: If there's an error in reading from or writing to the corpus file.
         """
-        corpus_file = 'corpora/corpus_new.txt'
+        corpus_file_name = 'corpus_new.txt' if new else 'corpus_edited.txt'
+        corpus_filepath = os.path.join(self.corpus_folder, corpus_file_name)
+
         se_word, word_entry = self.process_corpus_row(new_row)
 
-        # Read existing entries from corpus_new.txt
-        with open(corpus_file, 'r') as file:
+        # Read existing entries from the respective corpus file
+        with open(corpus_filepath, 'r') as file:
             entries = file.readlines()
 
         # Check if the entry exists and update it
@@ -232,17 +235,58 @@ class CorporaManager:
         # Sort entries alphabetically
         sorted_entries = sorted(entries, key=lambda x: x.lower())
 
-        # Write updated entries back to corpus_new.txt
-        with open(corpus_file, 'w') as file:
+        # Write updated entries back to corpus_edited.txt
+        with open(corpus_filepath, 'w') as file:
             file.writelines(sorted_entries)
 
         # Update the specific word entry in the pi_dictionary
         self.pi_dictionary[se_word] = word_entry
 
+        Util.print_with_spacing(
+            f"{'Updated' if entry_found else 'Added'} corpus row in '{corpus_filepath}'")
+
         # Save the updated dictionary
         self.save_pi_dictionary()
 
-        print(f"{'Updated' if entry_found else 'Added'} corpus row in '{corpus_file}'")
+    def add_corpus_row_and_update_dict(self, new_row):
+        """
+        Adds a new corpus row and updates the PI dictionary accordingly.
+
+        This function checks if the given SE word already exists in the 'corpus_new.md' file.
+        If it exists, an error is raised. Otherwise, it adds the new row and updates the PI dictionary.
+
+        Args:
+            new_row (str): The new row to be added to the corpus file.
+
+        Raises:
+            IOError: If there's an error in reading from or writing to the corpus file.
+            ValueError: If an entry with the given SE word already exists in the corpus.
+        """
+        corpus_filename = os.path.join(self.corpus_folder, 'corpus_new.md')
+
+        se_word, word_entry = self.process_corpus_row(new_row)
+
+        # Check if the entry already exists in corpus_new.md
+        with open(corpus_filename, 'r') as file:
+            existing_entries = file.readlines()
+
+        for entry in existing_entries:
+            existing_se_word, _ = self.process_corpus_row(entry)
+            if existing_se_word == se_word:
+                raise ValueError(
+                    f"An entry for '{se_word}' already exists in the corpus.")
+
+        # Append the new entry to corpus_new.md
+        with open(corpus_filename, 'a') as file:
+            file.write(new_row.strip() + '\n')
+
+        # Update the specific word entry in the pi_dictionary
+        self.pi_dictionary[se_word] = word_entry
+
+        Util.print_with_spacing(f"Added new corpus row in '{corpus_filename}'")
+
+        # Save the updated dictionary
+        self.save_pi_dictionary()
 
     def save_pi_dictionary(self):
         """
@@ -257,6 +301,6 @@ class CorporaManager:
             with open(self.dictionary_filepath, 'w', encoding='utf-8') as json_file:
                 json.dump(self.pi_dictionary, json_file,
                           indent=4, ensure_ascii=False)
-            print(f"Dictionary updated successfully.")
         except IOError as e:
-            print(f"Error writing to file {self.dictionary_filepath}: {e}")
+            Util.print_with_spacing(
+                f"Error writing to file {self.dictionary_filepath}: {e}")

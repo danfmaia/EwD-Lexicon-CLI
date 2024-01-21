@@ -18,7 +18,7 @@ class Transcriber:
 
     Methods:
         refresh_dictionary: Reloads the PI dictionary.
-        update_words_for_piss_variation: Applies specific PISS variation rules to the text.
+        update_words_for_piss_variation: Applies specific PI variation rules to the text.
         transform_words_with_s_suffix: Handles words with 's' suffix based on PI rules.
         perform_preliminary_replacements: Performs initial word replacements in the text.
         transcribe: Transcribes the entire text to PI format.
@@ -49,7 +49,7 @@ class Transcriber:
             'from': 'fro̬m'
         }
 
-        self.refresh_dictionary()
+        self.pi_dictionary = Dictionary(self.preliminar_replacements)
 
         self.pi_entry = None
         self.current_sentence_index = 0
@@ -62,18 +62,19 @@ class Transcriber:
         This method is used to refresh the dictionary data in case of updates or changes in the dictionary file.
         """
         self.pi_dictionary = Dictionary(self.preliminar_replacements)
+        print("Dictionary refreshed successfully.")
 
     def update_words_for_piss_variation(self, input_text, pi_dictionary, variation):
         """
-        Applies PISS variation rules to the input text.
+        Applies PI variation rules to the input text.
 
         Args:
             input_text (str): The text to be processed.
             pi_dictionary (Dictionary): The PI dictionary instance.
-            variation (str): The specified PISS variation.
+            variation (str): The specified PI variation.
 
         Returns:
-            str: The processed text with PISS variation applied.
+            str: The processed text with PI variation applied.
         """
         # Build a dictionary for replacements
         replacement_dict = {word: pi_dictionary[word]["PI"].get(variation)
@@ -105,7 +106,7 @@ class Transcriber:
         Args:
             input_text (str): The text to be processed.
             pi_dictionary (Dictionary): The PI dictionary instance.
-            variation (str): The specified PISS variation.
+            variation (str): The specified PI variation.
 
         Returns:
             str: The text with transformed 's' suffix words.
@@ -168,7 +169,7 @@ class Transcriber:
 
         Args:
             input_text (str): The text to be transcribed.
-            variation (str): The specified PISS variation (default is 'L1').
+            variation (str): The specified PI variation (default is 'L1').
 
         Returns:
             str: The transcribed text in PI format.
@@ -186,7 +187,7 @@ class Transcriber:
 
         Args:
             sentences (List[str]): The list of sentences to be processed.
-            variation (str): The specified PISS variation.
+            variation (str): The specified PI variation.
 
         Returns:
             Tuple[List[str], int]: The updated list of sentences and the updated sentence index.
@@ -222,7 +223,7 @@ class Transcriber:
                 user_action = Util.input_with_spacing(
                     f"Options: (a)ccept, (c)ustomize, (n)ext (or hit Enter), (p)revious, {dict_action} dictionary (e)ntry, next (s)entence, (q)uit: ").lower()
 
-                word_updated = False
+                entry_updated = False
 
                 #
                 # User Actions
@@ -236,7 +237,7 @@ class Transcriber:
                     Util.print_with_spacing(
                         f"All occurrences of '{selected_word}' replaced with '{pi_word}'")
 
-                    word_updated = True
+                    entry_updated = True
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
@@ -255,7 +256,7 @@ class Transcriber:
                     Util.print_with_spacing(
                         f"Word '{selected_word}' replaced with customized version '{custom_word}'")
 
-                    word_updated = True
+                    entry_updated = True
 
                     # # Update the current sentence with the latest changes
                     # sentence = sentences[current_sentence_index]
@@ -263,7 +264,7 @@ class Transcriber:
 
                     # selected_word_index += 1  # Move to the next word
 
-                if word_updated:
+                if entry_updated:
                     # Update the current sentence with the latest changes
                     sentence = sentences[current_sentence_index]
                     words = self.split_sentence_into_words(sentence)
@@ -305,13 +306,17 @@ class Transcriber:
                         selected_word_index = len(words) - 1
 
                 elif user_action == 'e':
+                    entry_updated = False
                     if dict_action == 'add':
-                        pass
-                        # self.pi_dictionary.add_entry(selected_word.lower())
+                        entry_updated = self.pi_dictionary.add_entry(
+                            selected_word.lower())
                     elif dict_action == 'edit':
-                        self.pi_dictionary.edit_entry(selected_word.lower())
+                        entry_updated = self.pi_dictionary.edit_entry(
+                            selected_word.lower())
+
                     # Refresh the dictionary after modification
-                    self.refresh_dictionary()
+                    if entry_updated:
+                        self.refresh_dictionary()
 
                     # The word index remains the same, so the user can review changes and decide the next action
 

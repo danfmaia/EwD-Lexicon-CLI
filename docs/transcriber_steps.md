@@ -14,11 +14,11 @@ Certainly! Here's a high-level overview of how the PI Transcriber script works, 
 
 5. **Saving Intermediate Results**: After completing the preliminary replacements, the script saves this partially modified text to a temporary file. This step is crucial for keeping track of changes and ensuring data isn't lost.
 
-6. **Choosing a PISS Variation**: The script prompts the user to choose a specific PISS variation. PISS (Phonetic ‹I›nglish Spelling System) variations are different sets of rules for text transformation (like L1, L2, L3, and Full Mode).
+6. **Choosing a PI Variation**: The script prompts the user to choose a specific PI variation. PISS (Phonetic ‹I›nglish Spelling System) variations are different sets of rules for text transformation (like L1, L2, L3, and Full Mode).
 
-7. **Processing Text Based on PISS Variation**: Once the user selects a PISS variation, the script applies a more complex set of text transformations based on that variation. It modifies the words in the text according to the rules of the chosen variation.
+7. **Processing Text Based on PI Variation**: Once the user selects a PI variation, the script applies a more complex set of text transformations based on that variation. It modifies the words in the text according to the rules of the chosen variation.
 
-8. **Saving Updated Results to Temporary File**: The script updates the temporary file with the text transformed according to the chosen PISS variation.
+8. **Saving Updated Results to Temporary File**: The script updates the temporary file with the text transformed according to the chosen PI variation.
 
 9. **Final Confirmation for Saving Results**: The user is asked whether they want to save the final result of the text processing. This is an important step for user control over the output.
 

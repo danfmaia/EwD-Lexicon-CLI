@@ -1,4 +1,5 @@
 import json
+from xml.etree.ElementInclude import include
 
 import pyperclip
 from config import Config
@@ -34,6 +35,7 @@ class Dictionary:
         self.filepath = Config.DICTIONARY_FILEPATH
         self.excluded_words = excluded_words
         self.pi_dictionary = self.load_pi_dictionary(excluded_words)
+        self.corpora_manager = CorporaManager(self.pi_dictionary)
 
     def load_pi_dictionary(self, excluded_list):
         """
@@ -69,6 +71,55 @@ class Dictionary:
             return self.pi_dictionary[word]
         return None
 
+    def add_entry(self, word):
+        """
+        Adds a new entry to the dictionary for a given word.
+
+        Args:
+            word (str): The word for which the dictionary entry is to be added.
+
+        Returns:
+            word_updated (bool): Flag to indicate if the word was updated.
+        """
+        Util.print_with_spacing(f"Adding new dictionary entry for: {word}")
+
+        # Prompt the user for the new entry details
+        print("Corpus row format: SE | PI L1 < PI L2 > PI L3 ¦ PI FM")
+        new_entry = input(f"New entry: {word} | ").strip()
+        if new_entry == '':
+            user_response = Util.input_with_spacing(
+                "Are you sure the new entry contains only the SE word? (y/n): [y] ")
+            if user_response in ['y', '']:
+                new_entry = (f"{word} | ")
+        else:
+            new_entry = f"{word} | {new_entry}"
+
+        # Save the new dictionary entry
+        if new_entry and new_entry != '':
+            self.corpora_manager.edit_corpus_row_and_update_dict(
+                new_entry, new=True)
+            print("Entry added successfully.")
+            return True
+        else:
+            Util.print_with_spacing("No new entry added.")
+            return False
+
+        # # Check if the user provided input
+        # if new_entry:
+        #     full_entry = f"{word} | {new_entry}"
+        #     self.corpora_manager.edit_corpus_row_and_update_dict(full_entry)
+        #     # Append the new entry to 'corpus_new.md'
+        #     with open("corpus_new.md", "a") as corpus_file:
+        #         corpus_file.write(f"{full_entry}\n")
+
+        #     # Update the in-memory dictionary
+        #     # Assuming the dictionary format is as follows: { 'word': { 'whole': '...', 'PI': {...}, ... } }
+        #     self.pi_dictionary[word] = {
+        #         'whole': full_entry, 'PI': self.extract_pi_variations(new_entry)}
+        #     print("New entry added successfully.")
+        # else:
+        #     print("No new entry added.")
+
     def edit_entry(self, word):
         """
         Provides an interactive interface to edit the dictionary entry for a given word.
@@ -77,12 +128,15 @@ class Dictionary:
 
         Args:
             word (str): The word for which the dictionary entry is to be edited.
+
+        Returns:
+            word_updated (bool): Flag to indicate if the word was updated.
         """
         Util.print_with_spacing(f"Editing dictionary entry for: {word}")
         pi_entry = self.get_entry(word)
         if not pi_entry:
             Util.print_with_spacing("No dictionary entry found for this word.")
-            return
+            return False
 
         # Display current entry
         current_corpus_row = pi_entry.get('whole', '')
@@ -94,34 +148,18 @@ class Dictionary:
             pyperclip.copy(current_corpus_row.split('| ')[1])
 
         # Prompt for new entry, pre-filling with the current entry
-        new_entry = input(
-            f"Editing: {word} | ")
+        new_entry = input(f"Editing: {word} | ")
         if new_entry == '':
             new_entry = current_corpus_row
         else:
             new_entry = f"{word} | {new_entry}"
+        print('new entry: ' + new_entry)
 
         # Update the dictionary entry
         if new_entry and new_entry != current_corpus_row:
-            self.update_entry(word, new_entry)
-            Util.print_with_spacing("Entry updated successfully.")
+            self.corpora_manager.edit_corpus_row_and_update_dict(new_entry)
+            print("Entry updated successfully.")
+            return True
         else:
             Util.print_with_spacing("No changes made to the entry.")
-
-    def update_entry(self, word, new_entry):
-        """
-        Updates the dictionary entry for a specified word with a new entry.
-
-        Args:
-            word (str): The word for which the dictionary entry is to be updated.
-            new_entry (str): The new entry to replace the existing one in the dictionary.
-        """
-        # TODO: check if this is really unnecessary
-        # Update the dictionary entry
-        # self.dictionary[word]['whole'] = new_entry
-
-        # Update the corpus row and regenerate the dictionary
-        corpora_manager = CorporaManager(self.pi_dictionary)
-        corpora_manager.edit_corpus_row_and_update_dict(new_entry)
-
-        # You might need additional logic here based on your dictionary structure
+            return False

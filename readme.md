@@ -2,11 +2,11 @@
 
 ## Overview
 
-The PI Text Processor is a comprehensive tool designed to convert standard English (SE) spelling into the Phonĕtic ‹I›nglish (PI) Scaffold-Spelling, a unique didactic spelling system. It supports different PISS variations and integrates a dictionary for efficient word lookups and replacements.
+The PI Text Processor is a comprehensive tool designed to convert standard English (SE) spelling into the Phonĕtic ‹I›nglish (PI) Scaffold-Spelling, a unique didactic spelling system. It supports different PI variations and integrates a dictionary for efficient word lookups and replacements.
 
 ## Key Components
 
-- **Transcriber**: The core component that handles the interactive transcription of SE to PI. It supports 4 PISS variations (L1, L2, L3, and Full Mode).
+- **Transcriber**: The core component that handles the interactive transcription of SE to PI. It supports 4 PI variations (L1, L2, L3, and Full Mode).
 - **Dictionary**: A module managing the lookup and editing of PI dictionary entries.
 - **Corpora Manager**: Manages corpus files, generates and updates the PI dictionary.
 

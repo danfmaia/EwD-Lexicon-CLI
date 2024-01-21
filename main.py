@@ -1,6 +1,8 @@
 import argparse
 import os
 import sys
+from numpy import deprecate
+from typing_extensions import deprecated
 
 from transcriber import Transcriber
 from corpora_manager import CorporaManager
@@ -9,9 +11,11 @@ from util import Util
 
 def main():
     """
-    Main function to handle command-line arguments and execute the appropriate actions.
+    Entry point for the PI Text Processor Command Line Tool.
 
-    It sets up the argument parser for different commands like updating the dictionary and transcribing text. Based on the user's choice, it calls the respective functions to perform these actions.
+    Parses command-line arguments to execute dictionary updates or text transcription. Supports two main commands:
+    - 'update-dict': Update the PI dictionary from corpus files.
+    - 'transcribe': Transcribe text from Standard English to PI with various options.
     """
     parser = argparse.ArgumentParser(
         description='PI Text Processor Command Line Tool')
@@ -33,17 +37,14 @@ def main():
     transcribe_parser.add_argument(
         '--output', help='Output file path', type=str)
     transcribe_parser.add_argument(
-        '--variation', help='PISS variation to use (L1, L2, L3, Full Mode)', type=str, default='L1')
+        '--variation', help='PI variation to use (L1, L2, L3, Full Mode)', type=str, default='L1')
     transcribe_parser.add_argument(
         '--interactive', action='store_true', help='Enable interactive transcription mode')
 
     # Parsing the arguments and executing the corresponding function
     args = parser.parse_args()
     if args.command == 'transcribe':
-        if args.interactive:
-            transcribe_text_interactively(args)
-        else:
-            transcribe_text(args)
+        transcribe_text(args)
     elif args.command == 'update-dict':
         update_dictionary()
     else:
@@ -52,43 +53,50 @@ def main():
 
 def update_dictionary():
     """
-    Updates the PI dictionary using the CorporaManager.
-
-    This function generates the PI dictionary by processing corpus files. It is called when the 'update-dict' command is used.
+    Updates the PI dictionary using data from corpus files.
     """
     CorporaManager({}).generate_dictionary()
+    Util.print_with_spacing("Dictionary updated successfully.")
 
 
 def transcribe_text(args):
     """
-    Handles the transcription of text from Standard English to PI.
+    Handles transcription of text from Standard English to PI based on command-line arguments.
+
+    Supports text input from a file and various transcription options, including interactive mode.
+    Provides an initial welcome message and guides through the transcription process.
 
     Args:
-        args: Command-line arguments containing input file, output file, and PISS variation information.
+        args (Namespace): Parsed command-line arguments containing options for transcription.
     """
-    print("Welcome to the PI Transcriber Tool!")
+    Util.print_with_spacing("Welcome to the PI Transcriber Tool!")
     print("This tool assists in converting standard English texts to the PI Scaffold-Spelling (PISS) format.")
 
-    input_filename = args.file
-    extension = os.path.splitext(input_filename)[1]
-    input_text = read_input_file(input_filename)
-
-    user_response = input(
-        "Do you want to proceed with preliminary replacements? (y/n/q): ").lower()
-    exit_if_user_aborted(user_response)
+    input_file_path = args.file
+    ext = os.path.splitext(input_file_path)[1]
+    input_text = read_input_file(input_file_path)
 
     transcriber = Transcriber()
-    output_text = transcriber.perform_preliminar_replacements(input_text)
 
-    Util.save_temp_text(output_text, extension)
+    temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
 
-    chosen_variation = choose_piss_variation()
-    output_text = transcriber.transcribe(
-        output_text, chosen_variation)
+    user_response = Util.input_with_spacing(
+        "Do you want to update the dictionary before starting transcription? (y/n): [n] ").lower()
+    if user_response == 'y':
+        update_dictionary()
 
-    Util.save_output_text(output_text, extension)
+    chosen_variation = choose_pi_variation()
+
+    if (not args.interactive):
+        temp_text = transcriber.transcribe(temp_text, chosen_variation)
+        Util.save_output_text(temp_text, ext)
+    else:
+        sentences = transcriber.split_into_sentences(temp_text)
+        transcriber.transcribe_interactively(
+            sentences, chosen_variation, ext)
 
 
+@deprecate
 def transcribe_text_interactively(args):
     """
     Provides an interactive interface for transcription.
@@ -96,38 +104,39 @@ def transcribe_text_interactively(args):
     This function allows the user to transcribe text interactively, offering a more hands-on approach to text conversion.
 
     Args:
-        args: Command-line arguments containing input file and PISS variation information.
+        args: Command-line arguments containing input file and PI variation information.
     """
-    input_filename = args.file
-    extension = os.path.splitext(input_filename)[1]
-    input_text = read_input_file(args.file)
+    input_file_path = args.file
+    ext = os.path.splitext(input_file_path)[1]
+    input_text = read_input_file(input_file_path)
 
     user_response = Util.input_with_spacing(
-        "Do you want to update the dictionary before starting transcription? (y/n): [n]").lower()
+        "Do you want to update the dictionary before starting transcription? (y/n): [n] ").lower()
     if user_response == 'y':
         update_dictionary()
 
-    chosen_variation = choose_piss_variation()
+    chosen_variation = choose_pi_variation()
 
     transcriber = Transcriber()
 
-    # Split the text into sentences
-    sentences = transcriber.split_into_sentences(input_text)
+    temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
 
-    extension = os.path.splitext(input_filename)[1]
+    # Split the text into sentences
+    sentences = transcriber.split_into_sentences(temp_text)
+
     transcriber.transcribe_interactively(
-        sentences, chosen_variation, extension)
+        sentences, chosen_variation, ext)
 
 
 def read_input_file(file_path):
     """
-    Reads text from the specified input file.
+    Reads and returns text from a specified input file.
 
     Args:
-        file_path (str): The path to the file containing text to be transcribed.
+        file_path (str): Path to the input file.
 
     Returns:
-        str: The text read from the file.
+        str: Content of the input file.
     """
     try:
         with open(file_path, 'r') as file:
@@ -155,27 +164,59 @@ def exit_if_user_aborted(response):
         sys.exit()
 
 
-def choose_piss_variation():
+def perform_preliminary_replacements(transcriber: Transcriber, input_text: str, extension: str):
     """
-    Provides a user interface to choose the PISS variation for transcription.
+    Performs preliminary text replacements before transcription.
 
-    Prompts the user to select from available PISS variations (L1, L2, L3, Full Mode) and validates the input.
+    Asks the user if preliminary replacements are desired and applies them if confirmed. The modified text is
+    temporarily saved, and the user is informed about the performed replacements.
+
+    Args:
+        transcriber (Transcriber): Instance of the Transcriber class to perform replacements.
+        input_text (str): The initial text to process.
+        extension (str): File extension of the input file for temporary saving.
 
     Returns:
-        str: The chosen PISS variation.
+        str: Text after performing preliminary replacements.
+    """
+
+    user_response = Util.input_with_spacing(
+        "Do you want to perform preliminary replacements? (y/n): ").lower()
+    exit_if_user_aborted(user_response)
+
+    temp_text = ''
+    if user_response == 'y':
+        temp_text = transcriber.perform_preliminar_replacements(input_text)
+        Util.print_with_spacing('Preliminary replacements performed.')
+        Util.save_temp_text(temp_text, extension)
+    else:
+        temp_text = input_text
+        Util.print_with_spacing('Preliminary replacements NOT performed.')
+
+    return temp_text
+
+
+def choose_pi_variation():
+    """
+    Provides a user interface to choose the PI variation for transcription.
+
+    Prompts the user to select from available PI variations (L1, L2, L3, Full Mode) and validates the input.
+
+    Returns:
+        str: The chosen PI variation.
     """
     piss_variations = ['L1', 'L2', 'L3', 'FM']
-    Util.print_with_spacing("Please choose a PISS variation:")
+    Util.print_with_spacing("Please choose a PI variation:")
     print("L1 - Level 1, L2 - Level 2, L3 - Level 3, FM - Full Mode")
     chosen_variation = Util.input_with_spacing(
-        "Enter your choice (L1/L2/L3/FM): [default=L1]").upper()
+        "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
     if (chosen_variation == ''):
         chosen_variation = 'L1'
     while chosen_variation not in piss_variations:
         Util.print_with_spacing(
             "Invalid choice. Please choose from L1, L2, L3, or FM.")
         chosen_variation = Util.input_with_spacing(
-            "Enter your choice (L1/L2/L3/FM): [default=L1]").upper()
+            "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
     return chosen_variation
 
 
