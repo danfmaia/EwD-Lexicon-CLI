@@ -1,9 +1,9 @@
-from calendar import c
 import json
 
 import pyperclip
 from config import Config
 from corpora_manager import CorporaManager
+from util import Util
 
 
 class Dictionary:
@@ -78,22 +78,24 @@ class Dictionary:
         Args:
             word (str): The word for which the dictionary entry is to be edited.
         """
-        print(f"Editing dictionary entry for: {word}")
+        Util.print_with_spacing(f"Editing dictionary entry for: {word}")
         pi_entry = self.get_entry(word)
         if not pi_entry:
-            print("No dictionary entry found for this word.")
+            Util.print_with_spacing("No dictionary entry found for this word.")
             return
 
         # Display current entry
         current_corpus_row = pi_entry.get('whole', '')
-        print("Current entry:", current_corpus_row)
+        print("Current:", current_corpus_row)
 
         # Copy the current entry to system clipboard
-        pyperclip.copy(current_corpus_row.split('| ')[1])
+        # if not numpy.any(numpy.isnan(current_corpus_row.split('| ')[1])):
+        if len(current_corpus_row.split('| ')) > 1:
+            pyperclip.copy(current_corpus_row.split('| ')[1])
 
         # Prompt for new entry, pre-filling with the current entry
         new_entry = input(
-            f"Editing entry: {word} | ")
+            f"Editing: {word} | ")
         if new_entry == '':
             new_entry = current_corpus_row
         else:
@@ -102,9 +104,9 @@ class Dictionary:
         # Update the dictionary entry
         if new_entry and new_entry != current_corpus_row:
             self.update_entry(word, new_entry)
-            print("Entry updated successfully.")
+            Util.print_with_spacing("Entry updated successfully.")
         else:
-            print("No changes made to the entry.")
+            Util.print_with_spacing("No changes made to the entry.")
 
     def update_entry(self, word, new_entry):
         """

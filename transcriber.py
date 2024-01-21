@@ -209,6 +209,7 @@ class Transcriber:
 
                 # Lookup in PI dictionary for the selected word
                 pi_entry = self.pi_dictionary.get_entry(selected_word.lower())
+
                 if pi_entry:
                     Util.print_with_spacing(f"PI Entry: {pi_entry['whole']}")
                     print(f"{variation} word: {pi_entry['PI'][variation]}")
@@ -216,11 +217,16 @@ class Transcriber:
                     Util.print_with_spacing("No PI entry found for this word.")
                     print()
 
-                # User action input
+                # Dynamically set the dictionary action option based on whether the entry exists
+                dict_action = 'add' if not pi_entry else 'edit'
                 user_action = Util.input_with_spacing(
-                    "Options: (a)ccept, (c)ustomize, (n)ext (or hit Enter), (p)revious, edit dictionary (e)ntry, next (s)entence, (q)uit: ").lower()
+                    f"Options: (a)ccept, (c)ustomize, (n)ext (or hit Enter), (p)revious, {dict_action} dictionary (e)ntry, next (s)entence, (q)uit: ").lower()
 
                 word_updated = False
+
+                #
+                # User Actions
+                #
 
                 # Accept action: replace the word and move to the next
                 if user_action == 'a' and pi_entry:
@@ -299,10 +305,15 @@ class Transcriber:
                         selected_word_index = len(words) - 1
 
                 elif user_action == 'e':
-                    self.pi_dictionary.edit_entry(selected_word.lower())
-                    # The word index remains the same, so the user can review changes and decide the next action
-
+                    if dict_action == 'add':
+                        pass
+                        # self.pi_dictionary.add_entry(selected_word.lower())
+                    elif dict_action == 'edit':
+                        self.pi_dictionary.edit_entry(selected_word.lower())
+                    # Refresh the dictionary after modification
                     self.refresh_dictionary()
+
+                    # The word index remains the same, so the user can review changes and decide the next action
 
                     # Refresh the current sentence and words list
                     # sentence = sentences[current_sentence_index]
@@ -333,7 +344,7 @@ class Transcriber:
 
                 else:
                     Util.print_with_spacing(
-                        "Invalid input. Please choose 'a', 'c', 'n', 'p', 's', 'q' or skip for (n)ext.")
+                        "Invalid input. Please choose a valid option or skip for (n)ext.")
 
             # end while
 
