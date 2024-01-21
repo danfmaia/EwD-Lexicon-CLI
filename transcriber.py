@@ -49,7 +49,7 @@ class Transcriber:
             'from': 'fro̬m'
         }
 
-        self.pi_dictionary = Dictionary(self.preliminar_replacements)
+        self.dictionary = Dictionary(self.preliminar_replacements)
 
         self.pi_entry = None
         self.current_sentence_index = 0
@@ -61,10 +61,10 @@ class Transcriber:
 
         This method is used to refresh the dictionary data in case of updates or changes in the dictionary file.
         """
-        self.pi_dictionary = Dictionary(self.preliminar_replacements)
+        self.dictionary = Dictionary(self.preliminar_replacements)
         print("Dictionary refreshed successfully.")
 
-    def update_words_for_piss_variation(self, input_text, pi_dictionary, variation):
+    def update_words_for_pi_variation(self, input_text: str, pi_dictionary, variation: str):
         """
         Applies PI variation rules to the input text.
 
@@ -76,10 +76,11 @@ class Transcriber:
         Returns:
             str: The processed text with PI variation applied.
         """
+
         # Build a dictionary for replacements
-        replacement_dict = {word: pi_dictionary[word]["PI"].get(variation)
+        replacement_dict = {word: pi_dictionary[word]["PI"][variation]
                             for word in pi_dictionary
-                            if pi_dictionary[word]["PI"].get(variation)}
+                            if pi_dictionary[word]["PI"][variation]}
 
         # Function to replace a single word
         def replace_word(word):
@@ -157,7 +158,7 @@ class Transcriber:
                 return replacement
 
         # Perform replace operations
-        for word in self.preliminar_replacements.keys():
+        for word in self.preliminar_replacements:
             input_text = re.sub(r'\b{}\b'.format(
                 word), replacement_callback, input_text, flags=re.IGNORECASE)
 
@@ -174,11 +175,10 @@ class Transcriber:
         Returns:
             str: The transcribed text in PI format.
         """
-        processed_text = self.perform_preliminar_replacements(input_text)
-        processed_text = self.update_words_for_piss_variation(
-            processed_text, self.pi_dictionary, variation)
+        pi_dictionary = self.dictionary.pi_dictionary
+        processed_text = self.update_words_for_pi_variation(input_text, pi_dictionary, variation)
         processed_text = self.transform_words_with_s_suffix(
-            processed_text, self.pi_dictionary, variation)
+            processed_text, pi_dictionary, variation)
         return processed_text
 
     def transcribe_interactively(self, sentences, variation, extension='.txt'):
@@ -209,7 +209,7 @@ class Transcriber:
                 Util.print_with_spacing(display_sentence)
 
                 # Lookup in PI dictionary for the selected word
-                pi_entry = self.pi_dictionary.get_entry(selected_word.lower())
+                pi_entry = self.dictionary.get_entry(selected_word.lower())
 
                 if pi_entry:
                     Util.print_with_spacing(f"PI Entry: {pi_entry['whole']}")
@@ -308,10 +308,10 @@ class Transcriber:
                 elif user_action == 'e':
                     entry_updated = False
                     if dict_action == 'add':
-                        entry_updated = self.pi_dictionary.add_entry(
+                        entry_updated = self.dictionary.add_entry(
                             selected_word.lower())
                     elif dict_action == 'edit':
-                        entry_updated = self.pi_dictionary.edit_entry(
+                        entry_updated = self.dictionary.edit_entry(
                             selected_word.lower())
 
                     # Refresh the dictionary after modification

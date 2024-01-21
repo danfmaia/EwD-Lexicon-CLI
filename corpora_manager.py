@@ -216,7 +216,7 @@ class CorporaManager:
         se_word, word_entry = self.process_corpus_row(new_row)
 
         # Read existing entries from the respective corpus file
-        with open(corpus_filepath, 'r') as file:
+        with open(corpus_filepath, 'r', encoding='utf-8') as file:
             entries = file.readlines()
 
         # Check if the entry exists and update it
@@ -236,7 +236,7 @@ class CorporaManager:
         sorted_entries = sorted(entries, key=lambda x: x.lower())
 
         # Write updated entries back to corpus_edited.txt
-        with open(corpus_filepath, 'w') as file:
+        with open(corpus_filepath, 'w', encoding='utf-8') as file:
             file.writelines(sorted_entries)
 
         # Update the specific word entry in the pi_dictionary
@@ -267,7 +267,7 @@ class CorporaManager:
         se_word, word_entry = self.process_corpus_row(new_row)
 
         # Check if the entry already exists in corpus_new.md
-        with open(corpus_filename, 'r') as file:
+        with open(corpus_filename, 'r', encoding='utf-8') as file:
             existing_entries = file.readlines()
 
         for entry in existing_entries:
@@ -277,7 +277,7 @@ class CorporaManager:
                     f"An entry for '{se_word}' already exists in the corpus.")
 
         # Append the new entry to corpus_new.md
-        with open(corpus_filename, 'a') as file:
+        with open(corpus_filename, 'a', encoding='utf-8') as file:
             file.write(new_row.strip() + '\n')
 
         # Update the specific word entry in the pi_dictionary

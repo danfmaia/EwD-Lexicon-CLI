@@ -63,7 +63,7 @@ class Util:
             IOError: If there's an error in writing to the file.
         """
         try:
-            with open(file_path, 'w') as file:
+            with open(file_path, 'w', encoding="utf-8") as file:
                 file.write(text)
         except Exception as e:
             Util.print_with_spacing(

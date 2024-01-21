@@ -1,8 +1,6 @@
 import argparse
 import os
 import sys
-from numpy import deprecate
-from typing_extensions import deprecated
 
 from transcriber import Transcriber
 from corpora_manager import CorporaManager
@@ -11,22 +9,22 @@ from util import Util
 
 def main():
     """
-    Entry point for the PI Text Processor Command Line Tool.
+    Entry point for the PI Text Processor CLI.
 
     Parses command-line arguments to execute dictionary updates or text transcription. Supports two main commands:
     - 'update-dict': Update the PI dictionary from corpus files.
     - 'transcribe': Transcribe text from Standard English to PI with various options.
     """
     parser = argparse.ArgumentParser(
-        description='PI Text Processor Command Line Tool')
+        description='PI Text Processor CLI')
     # Setting up subparsers for different commands
     subparsers = parser.add_subparsers(dest='command')
 
-    # Subparser for dictionary update
-    update_dict_parser = subparsers.add_parser(
-        'update-dict', help='Update the PI dictionary from corpus files')
+    # Subparser for Update Dictionary command
+    # update_dict_parser = subparsers.add_parser(
+    #     'update-dict', help='Update the PI dictionary from corpus files')
 
-    # Subparser for transcription
+    # Subparser for the Transcribe command
     transcribe_parser = subparsers.add_parser(
         'transcribe', help='Transcribe text from Standard English to PI')
     # Adding arguments for the transcribe command
@@ -43,15 +41,15 @@ def main():
 
     # Parsing the arguments and executing the corresponding function
     args = parser.parse_args()
-    if args.command == 'transcribe':
-        transcribe_text(args)
-    elif args.command == 'update-dict':
-        update_dictionary()
+    if args.command == 'update-dict':
+        update_dictionary_command()
+    elif args.command == 'transcribe':
+        transcribe_command(args)
     else:
         parser.print_help()
 
 
-def update_dictionary():
+def update_dictionary_command():
     """
     Updates the PI dictionary using data from corpus files.
     """
@@ -59,7 +57,7 @@ def update_dictionary():
     Util.print_with_spacing("Dictionary updated successfully.")
 
 
-def transcribe_text(args):
+def transcribe_command(args):
     """
     Handles transcription of text from Standard English to PI based on command-line arguments.
 
@@ -78,14 +76,15 @@ def transcribe_text(args):
 
     transcriber = Transcriber()
 
-    temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
-
     user_response = Util.input_with_spacing(
         "Do you want to update the dictionary before starting transcription? (y/n): [n] ").lower()
     if user_response == 'y':
-        update_dictionary()
+        update_dictionary_command()
+
+    temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
 
     chosen_variation = choose_pi_variation()
+    print(chosen_variation)
 
     if (not args.interactive):
         temp_text = transcriber.transcribe(temp_text, chosen_variation)
@@ -94,38 +93,6 @@ def transcribe_text(args):
         sentences = transcriber.split_into_sentences(temp_text)
         transcriber.transcribe_interactively(
             sentences, chosen_variation, ext)
-
-
-@deprecate
-def transcribe_text_interactively(args):
-    """
-    Provides an interactive interface for transcription.
-
-    This function allows the user to transcribe text interactively, offering a more hands-on approach to text conversion.
-
-    Args:
-        args: Command-line arguments containing input file and PI variation information.
-    """
-    input_file_path = args.file
-    ext = os.path.splitext(input_file_path)[1]
-    input_text = read_input_file(input_file_path)
-
-    user_response = Util.input_with_spacing(
-        "Do you want to update the dictionary before starting transcription? (y/n): [n] ").lower()
-    if user_response == 'y':
-        update_dictionary()
-
-    chosen_variation = choose_pi_variation()
-
-    transcriber = Transcriber()
-
-    temp_text = perform_preliminary_replacements(transcriber, input_text, ext)
-
-    # Split the text into sentences
-    sentences = transcriber.split_into_sentences(temp_text)
-
-    transcriber.transcribe_interactively(
-        sentences, chosen_variation, ext)
 
 
 def read_input_file(file_path):
@@ -139,7 +106,7 @@ def read_input_file(file_path):
         str: Content of the input file.
     """
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding="utf-8") as file:
             return file.read()
     except FileNotFoundError:
         print(f"Error: Input file '{file_path}' not found.")
@@ -164,7 +131,7 @@ def exit_if_user_aborted(response):
         sys.exit()
 
 
-def perform_preliminary_replacements(transcriber: Transcriber, input_text: str, extension: str):
+def perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
     """
     Performs preliminary text replacements before transcription.
 
@@ -182,13 +149,12 @@ def perform_preliminary_replacements(transcriber: Transcriber, input_text: str, 
 
     user_response = Util.input_with_spacing(
         "Do you want to perform preliminary replacements? (y/n): ").lower()
-    exit_if_user_aborted(user_response)
 
     temp_text = ''
     if user_response == 'y':
         temp_text = transcriber.perform_preliminar_replacements(input_text)
         Util.print_with_spacing('Preliminary replacements performed.')
-        Util.save_temp_text(temp_text, extension)
+        Util.save_temp_text(temp_text, ext)
     else:
         temp_text = input_text
         Util.print_with_spacing('Preliminary replacements NOT performed.')

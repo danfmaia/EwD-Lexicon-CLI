@@ -1,5 +1,4 @@
 import json
-from xml.etree.ElementInclude import include
 
 import pyperclip
 from config import Config
@@ -47,7 +46,7 @@ class Dictionary:
         Returns:
             dict: The PI dictionary with exclusions applied.
         """
-        with open(self.filepath, 'r') as file:
+        with open(self.filepath, 'r', encoding='utf-8') as file:
             dictionary = json.load(file)
 
         if excluded_list:

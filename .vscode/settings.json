@@ -4,17 +4,21 @@
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
   "editor.letterSpacing": -0.35,
 
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.formatOnSave": true,
-    "editor.detectIndentation": false,
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
-
   "[plaintext]": {
     "editor.fontFamily": "'Noto Sans', 'Droid Sans Mono', 'monospace', monospace",
     "editor.letterSpacing": 0.1
   },
+
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.rulers": [99]
+  },
+  "autopep8.args": ["--max-line-length=100", "--tab-size=2"],
+
   "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.autoImportCompletions": true
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoFormatStrings": true
 }
