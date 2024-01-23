@@ -8,20 +8,21 @@ from common.util import Util
 
 class Dictionary:
     """
-    Manages the operations related to the PI dictionary.
+    Manages the PI dictionary, facilitating various operations such as loading, editing, and updating entries.
 
-    This class handles the loading, editing, and updating of the PI dictionary. It includes methods for retrieving and modifying dictionary entries, which is essential for maintaining the accuracy and relevance of the PI dictionary.
+    This class is responsible for handling the PI dictionary, including the loading of dictionary data from a file, and providing functionalities for adding or editing entries. It integrates with the CorporaManager to ensure consistency between the corpus and the dictionary. The class supports customizing the dictionary by excluding specific words and offers methods for interacting with dictionary entries.
 
     Attributes:
-        filepath (str): File path to the PI dictionary.
-        excluded_words (list): List of words to be excluded from the dictionary.
-        pi_dictionary (dict): The loaded PI dictionary with applied exclusions.
+        filepath (str): Path to the file containing the PI dictionary.
+        excluded_words (list): List of words to be excluded when loading the dictionary.
+        pi_dictionary (dict): The loaded PI dictionary, with exclusions applied if specified.
+        corpora_manager (CorporaManager): An instance of CorporaManager for managing corpus-related operations.
 
     Methods:
-        load_pi_dictionary: Loads the PI dictionary, excluding specified words.
+        load_pi_dictionary: Loads the PI dictionary from the file, applying any specified exclusions.
         get_entry: Retrieves a specific entry from the dictionary.
-        edit_entry: Provides an interface for editing a dictionary entry.
-        update_entry: Updates a specific entry in the dictionary.
+        add_entry: Adds a new entry to the dictionary.
+        edit_entry: Edits an existing entry in the dictionary.
     """
 
     def __init__(self, excluded_words=None):
@@ -38,13 +39,15 @@ class Dictionary:
 
     def load_pi_dictionary(self, excluded_list=None):
         """
-        Loads the PI dictionary from a file, applying exclusions.
+        Loads the PI dictionary from a file, optionally applying exclusions.
+
+        This method reads the PI dictionary from a JSON file and excludes any words specified in the 'excluded_list'. This functionality allows for the customization of the dictionary based on specific requirements or contexts.
 
         Args:
-            excluded_list (list): List of words to be excluded from the dictionary.
+            excluded_list (list, optional): A list of Standard English words to be excluded from the dictionary. Defaults to None.
 
         Returns:
-            dict: The PI dictionary with exclusions applied.
+            dict: The PI dictionary with specified exclusions applied, if any.
         """
         with open(self.filepath, 'r', encoding='utf-8') as file:
             dictionary = json.load(file)
@@ -74,11 +77,13 @@ class Dictionary:
         """
         Adds a new entry to the dictionary for a given word.
 
+        This method facilitates the addition of a new dictionary entry for a specified word. It prompts the user to input details for the new entry and updates the corpus and dictionary accordingly.
+
         Args:
             word (str): The word for which the dictionary entry is to be added.
 
         Returns:
-            word_updated (bool): Flag to indicate if the word was updated.
+            bool: True if the entry was successfully added, False otherwise.
         """
         Util.print_with_spacing(f"Adding new dictionary entry for: {word}")
 
@@ -89,7 +94,7 @@ class Dictionary:
             user_response = Util.input_with_spacing(
                 "Are you sure the new entry contains only the SE word? (y/n): [y] ")
             if user_response in ['y', '']:
-                new_entry = (f"{word} | ")
+                new_entry = f"{word} | "
         else:
             new_entry = f"{word} | {new_entry}"
 
@@ -123,13 +128,13 @@ class Dictionary:
         """
         Provides an interactive interface to edit the dictionary entry for a given word.
 
-        Allows the user to modify the dictionary entry of the specified word. If the word is not found in the dictionary, it informs the user.
+        This method allows the user to modify the dictionary entry of a specified word. It displays the current entry, if it exists, and allows the user to provide a new or modified entry. The changes are then reflected in the corpus and dictionary.
 
         Args:
             word (str): The word for which the dictionary entry is to be edited.
 
         Returns:
-            word_updated (bool): Flag to indicate if the word was updated.
+            bool: True if the entry was successfully updated, False otherwise.
         """
         Util.print_with_spacing(f"Editing dictionary entry for: {word}")
         pi_entry = self.get_entry(word)

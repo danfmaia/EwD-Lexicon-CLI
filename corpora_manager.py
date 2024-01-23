@@ -20,19 +20,22 @@ from common.util import Util
 
 class CorporaManager:
     """
-    Manages the operations related to the corpus files used in the PI Text Processor.
+    Manages operations related to the corpus files for the PI Text Processor.
 
-    This class is responsible for reading, processing, and writing corpus data. It generates and maintains the PI dictionary, ensuring it stays updated with the latest corpus changes. The class handles tasks such as adding or editing corpus rows, extracting PI transcriptions, and persisting the updated dictionary to a file.
+    This class is tasked with reading, processing, and updating corpus data to generate and maintain the PI dictionary. It includes functionalities for handling corpus rows, extracting PI transcriptions, and saving updates to the dictionary. The class ensures the PI dictionary reflects the latest corpus changes.
+
+    Attributes:
+        dictionary_filepath (str): Path to the file where the PI dictionary is stored.
+        corpus_folder (str): Name of the folder containing corpus files.
+        corpus_file_names (list): Names of the corpus files to be processed.
+        pi_dictionary (dict): The current PI dictionary, loaded and updated from corpus files.
 
     Methods:
-        generate_dictionary: Generates the PI dictionary from corpus files.
-        edit_corpus_row_and_update_dict: Edits or adds a new row to the corpus and updates the dictionary.
-        process_corpus_row: Processes individual rows of the corpus.
-        extract_pi_parts: Extracts different PI transcription levels from a corpus string.
-        save_pi_dictionary: Saves the current state of the PI dictionary to a file.
-
-    Usage:
-        The class should be instantiated and used by other components responsible for managing the PI Text Processor's corpus data.
+        generate_dictionary: Processes each corpus file to update the PI dictionary.
+        edit_corpus_row_and_update_dict: Edits or adds a corpus row and updates the dictionary accordingly.
+        process_corpus_row: Extracts details from a single corpus row.
+        extract_pi_parts: Separates PI transcriptions into different levels from a corpus row.
+        save_pi_dictionary: Saves the updated PI dictionary to a file.
     """
 
     def __init__(self, current_dictionary):
@@ -52,10 +55,10 @@ class CorporaManager:
         """
         Generates the PI dictionary by processing each corpus file.
 
-        Iterates over each corpus file, reads its content, processes the data to extract PI transcriptions, and updates the PI dictionary. Finally, saves the updated dictionary to a file.
+        Iterates over each specified corpus file in 'corpus_file_names', reads its content, and processes the data to extract PI transcriptions. This method updates the PI dictionary with new or modified entries from these files and then saves the updated dictionary to a file.
 
         Raises:
-            IOError: If there's an error in reading the corpus files or saving the dictionary.
+            IOError: If an error occurs during file reading or saving the dictionary.
         """
         for file_name in self.corpus_file_names:
             file_path = os.path.join(self.corpus_folder, file_name)
@@ -86,15 +89,15 @@ class CorporaManager:
 
     def extract_pi_parts(self, pi_string):
         """
-        Extracts PI transcription parts from the given PI string.
+        Extracts individual PI transcription parts from a given corpus row string.
 
-        Parses the PI string to separate it into different transcription levels (L1, L2, L3, and Full Mode). Handles special syntax used in the corpus for representing transcription variants.
+        Parses the corpus row string to separate it into different transcription levels (L1, L2, L3, and Full Mode). This method handles special syntax used in the corpus for representing transcription variants and returns a list of these parts.
 
         Args:
-            pi_string (str): The string containing PI transcriptions.
+            pi_string (str): The string containing PI transcriptions from a corpus row.
 
         Returns:
-            list: A list containing the extracted PI transcriptions for each level.
+            list: A list of extracted PI transcriptions for each level.
         """
         # Split the string and ensure all PI parts are present
         pi_parts = re.split(r' < | > | ¦ ', pi_string)
@@ -152,15 +155,15 @@ class CorporaManager:
 
     def process_corpus_row(self, row):
         """
-        Processes a single row of the corpus file.
+        Processes a single row from the corpus file.
 
-        Extracts the Standard English word, PI transcriptions, and special flags from a corpus row. Returns a list containing these elements.
+        This method extracts the Standard English word, PI transcriptions, and any special flags from a single row of the corpus. It returns a tuple containing the SE word and its corresponding dictionary entry, which includes PI transcriptions and special flags.
 
         Args:
             row (str): A single row from the corpus file.
 
         Returns:
-            list: A list containing the SE word, PI transcriptions, and special flags.
+            tuple: A tuple containing the SE word and its dictionary entry.
         """
         sf = None
         whole_row = row.strip()
@@ -185,6 +188,7 @@ class CorporaManager:
             # Default to SE word
             corpus_row_parts = [se_word, se_word, se_word, se_word, se_word]
 
+        # pylint: disable=invalid-name
         L1_word = self.handle_special_cases(
             corpus_row_parts[1], corpus_row_parts, se_word)  # type: ignore
         L2_word = self.handle_special_cases(
@@ -198,14 +202,15 @@ class CorporaManager:
 
         return se_word, {"whole": whole_row, "PI": pi_entry, "Sf": sf}
 
-    def edit_corpus_row_and_update_dict(self, new_row, new=False):
+    def edit_corpus_row_and_update_dict(self, row, new=False):
         """
-        Edits a specific corpus row and updates the PI dictionary accordingly.
+        Edits an existing corpus row or adds a new row to the corpus, and updates the PI dictionary accordingly.
 
-        This function locates the given SE word in the 'corpus_new.txt' or 'corpus_edited.txt' file. If found, it updates the existing row; otherwise, it adds the new row. It then sorts the entries alphabetically and updates the PI dictionary with the new or modified entry.
+        This method first determines if the specified row is new or requires editing in an existing corpus file (either 'corpus_new.txt' or 'corpus_edited.txt'). It then integrates the new or updated row into the corpus and updates the PI dictionary to reflect these changes.
 
         Args:
-            new_row (str): The new row to be added or updated in the corpus file.
+            row (str): The corpus row to be added or updated.
+            new (bool): Flag indicating whether the row is new. Defaults to False.
 
         Raises:
             IOError: If there's an error in reading from or writing to the corpus file.
@@ -213,7 +218,7 @@ class CorporaManager:
         corpus_file_name = 'corpus_new.txt' if new else 'corpus_edited.txt'
         corpus_filepath = os.path.join(self.corpus_folder, corpus_file_name)
 
-        se_word, word_entry = self.process_corpus_row(new_row)
+        se_word, word_entry = self.process_corpus_row(row)
 
         # Read existing entries from the respective corpus file
         with open(corpus_filepath, 'r', encoding='utf-8') as file:
@@ -221,16 +226,18 @@ class CorporaManager:
 
         # Check if the entry exists and update it
         entry_found = False
+        # for i, entry in enumerate(entries):
+        # pylint: disable=consider-using-enumerate
         for i in range(len(entries)):  # type: ignore
             existing_se_word, _ = self.process_corpus_row(entries[i])
             if existing_se_word == se_word:
-                entries[i] = new_row.strip() + '\n'
+                entries[i] = row.strip() + '\n'
                 entry_found = True
                 break
 
         # Add the new entry if it doesn't exist
         if not entry_found:
-            entries.append(new_row.strip() + '\n')
+            entries.append(row.strip() + '\n')
 
         # Sort entries alphabetically
         sorted_entries = sorted(entries, key=lambda x: x.lower())
@@ -248,51 +255,11 @@ class CorporaManager:
         # Save the updated dictionary
         self.save_pi_dictionary()
 
-    def add_corpus_row_and_update_dict(self, new_row):
-        """
-        Adds a new corpus row and updates the PI dictionary accordingly.
-
-        This function checks if the given SE word already exists in the 'corpus_new.md' file.
-        If it exists, an error is raised. Otherwise, it adds the new row and updates the PI dictionary.
-
-        Args:
-            new_row (str): The new row to be added to the corpus file.
-
-        Raises:
-            IOError: If there's an error in reading from or writing to the corpus file.
-            ValueError: If an entry with the given SE word already exists in the corpus.
-        """
-        corpus_filename = os.path.join(self.corpus_folder, 'corpus_new.md')
-
-        se_word, word_entry = self.process_corpus_row(new_row)
-
-        # Check if the entry already exists in corpus_new.md
-        with open(corpus_filename, 'r', encoding='utf-8') as file:
-            existing_entries = file.readlines()
-
-        for entry in existing_entries:
-            existing_se_word, _ = self.process_corpus_row(entry)
-            if existing_se_word == se_word:
-                raise ValueError(
-                    f"An entry for '{se_word}' already exists in the corpus.")
-
-        # Append the new entry to corpus_new.md
-        with open(corpus_filename, 'a', encoding='utf-8') as file:
-            file.write(new_row.strip() + '\n')
-
-        # Update the specific word entry in the pi_dictionary
-        self.pi_dictionary[se_word] = word_entry
-
-        Util.print_with_spacing(f"Added new corpus row in '{corpus_filename}'")
-
-        # Save the updated dictionary
-        self.save_pi_dictionary()
-
     def save_pi_dictionary(self):
         """
         Saves the current state of the PI dictionary to a file.
 
-        This method serializes the PI dictionary and saves it to a predefined file. It ensures data persistence for the PI dictionary across sessions.
+        Serializes and writes the updated PI dictionary to the specified file path. This ensures the persistence of the PI dictionary's current state for future use or reference.
 
         Raises:
             IOError: If there's an error in writing to the dictionary file.

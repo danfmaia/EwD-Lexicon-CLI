@@ -1,2 +1,5 @@
 [MESSAGES CONTROL]
-disable=broad-exception-caught,line-too-long,bad-indentation
+disable=
+    missing-module-docstring,
+    broad-exception-caught,
+    line-too-long

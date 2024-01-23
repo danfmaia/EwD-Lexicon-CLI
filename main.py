@@ -52,7 +52,11 @@ def main():
 def update_dictionary_command():
     """
     Updates the PI dictionary using data from corpus files.
+
+    Invokes the CorporaManager to process corpus files and generate an updated PI dictionary.
+    Triggered by the 'update-dict' command.
     """
+
     CorporaManager({}).generate_dictionary()
     Util.print_with_spacing("Dictionary updated successfully.")
 
@@ -94,7 +98,7 @@ def transcribe_command(args):
     if user_response == 'y':
         transcriber = Transcriber(
             chosen_variation, perform_preliminary_replacements=True)
-        temp_text = transcriber.perform_preliminar_replacements(input_text)
+        temp_text = transcriber.perform_preliminary_replacements(input_text)
         Util.print_with_spacing('Preliminary replacements performed.')
         Util.save_temp_text(temp_text, ext)
     else:
@@ -121,6 +125,9 @@ def transcribe_command(args):
 def read_input_file(file_path):
     """
     Reads and returns text from a specified input file.
+
+    Opens and reads the contents of the input file. If the file is not found, an error message is displayed, 
+    and the program exits.
 
     Args:
         file_path (str): Path to the input file.
@@ -175,7 +182,7 @@ def prompt_for_and_perform_preliminary_replacements(transcriber: Transcriber, in
 
     temp_text = ''
     if user_response == 'y':
-        temp_text = transcriber.perform_preliminar_replacements(input_text)
+        temp_text = transcriber.perform_preliminary_replacements(input_text)
         Util.print_with_spacing('Preliminary replacements performed.')
         Util.save_temp_text(temp_text, ext)
     else:
