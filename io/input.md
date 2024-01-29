@@ -1,4 +1,4 @@
-# Un꞉ve̖iling Be͡rgmann's Rule in E̖ctot̤he͡rms: Pattern and Prŏcesses asso̖cia̗ted with geogra̖phic gradient in bŏdy size in North Atla̖ntic Reef Fish
+# Unveiling Bergmann’s Rule in Ectotherms: Pattern and Processes associated with geographic gradient in body size in North Atlantic Reef Fish
 
 ## Topics
 

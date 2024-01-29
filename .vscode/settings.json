@@ -7,6 +7,12 @@
     "editor.letterSpacing": 0.1
   },
 
+  // extend plaintext settings to other files
+  "files.associations": {
+    "*.plaintext": "plaintext",
+    "**/src/common/preliminary_replacements.py": "plaintext"
+  },
+
   "[python]": {
     "editor.tabSize": 4,
     "editor.formatOnSave": true,

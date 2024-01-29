@@ -2,8 +2,8 @@ import regex as re
 
 from common.messages import Messages
 from common.util import Util
-from config import Config
 from dictionary import Dictionary
+from enum.pi_variation import Variation
 
 
 class Transcriber:
@@ -12,7 +12,7 @@ class Transcriber:
     conform to the PI Scaffold-Spelling rules, offering both automated and interactive transcription modes.
     """
 
-    def __init__(self, variation, perform_preliminary_replacements=False):
+    def __init__(self, variation: Variation, perform_preliminary_replacements=False):
         """
         Initializes the Transcriber instance with necessary settings for transcription.
 
@@ -26,7 +26,7 @@ class Transcriber:
         self.preliminary_replacements: dict[str, str] = {}
         self.dictionary: Dictionary
         if perform_preliminary_replacements:
-            self.preliminary_replacements = Config.PRELIMINARY_REPLACEMENTS[variation]
+            self.preliminary_replacements = variation
             self.dictionary = Dictionary(self.preliminary_replacements)
         else:
             self.dictionary = Dictionary()

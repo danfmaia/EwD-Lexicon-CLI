@@ -1,0 +1,10 @@
+{
+  "[python]": {
+    "editor.fontFamily": "'Noto Sans', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.rulers": [80]
+  }
+}

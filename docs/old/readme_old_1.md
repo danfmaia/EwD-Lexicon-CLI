@@ -34,7 +34,7 @@ The main motivation is incrementing PI's word collection, while also developing 
 
 1. User runs
 
-1. Before running the script, User puts the input text in the “io” folder, under the name “input.txt”.
+1. Before running the script, User puts the input text in the IO folder, under the name “input.txt”.
 
 1. User runs Script.
 

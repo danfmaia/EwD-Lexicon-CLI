@@ -3,6 +3,8 @@
 import os
 import sys
 
+from common.config import IO_PATH
+
 
 class Util:
     @staticmethod  # type: ignore
@@ -29,7 +31,7 @@ class Util:
         Save intermediate result.
         """
         # Save intermediate result
-        temp_filename = 'io/temp' + extension
+        temp_filename = f'{IO_PATH}/temp' + extension
         Util.save_to_file(temp_filename, temp_text)
         Util.print_(
             f"Intermediate result saved to {temp_filename}")
@@ -48,16 +50,16 @@ class Util:
         """
         Generates a unique filename for saving the output.
 
-        Creates a filename based on a sequential number to avoid overwriting existing files. The filename is generated in the 'io' directory with a '.md' extension.
+        Creates a filename based on a sequential number to avoid overwriting existing files. The filename is generated in the IO directory with a '.md' extension.
 
         Returns:
             str: The generated unique output filename.
         """
         n = 1
-        output_filename = f'io/output_{n}{extension}'
+        output_filename = f'{IO_PATH}/output_{n}{extension}'
         while os.path.exists(output_filename):
             n += 1
-            output_filename = f'io/output_{n}{extension}'
+            output_filename = f'{IO_PATH}/output_{n}{extension}'
         return output_filename
 
     @staticmethod  # type: ignore

@@ -1,7 +1,7 @@
 import json
 
 import pyperclip
-from config import Config
+from common.config import DICTIONARY_PATH
 from corpora_manager import CorporaManager
 from common.util import Util
 
@@ -32,7 +32,7 @@ class Dictionary:
         Args:
             excluded_words (list): A list of words to exclude from the dictionary.
         """
-        self.filepath = Config.DICTIONARY_FILEPATH
+        self.filepath = DICTIONARY_PATH
         self.excluded_words = excluded_words
         self.pi_dictionary = self.load_pi_dictionary(excluded_words)
         self.corpora_manager = CorporaManager(self.pi_dictionary)

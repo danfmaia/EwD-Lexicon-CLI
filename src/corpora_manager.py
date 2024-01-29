@@ -14,8 +14,8 @@ import os
 import json
 import re
 
-from config import Config
 from common.util import Util
+from common.config import DICTIONARY_PATH
 
 
 class CorporaManager:
@@ -45,7 +45,7 @@ class CorporaManager:
         - Initializes an empty dictionary to store the PI dictionary data.
         """
 
-        self.dictionary_filepath = Config.DICTIONARY_FILEPATH
+        self.dictionary_file_path = DICTIONARY_PATH
         self.corpus_folder = 'corpora'
         self.corpus_file_names = ['corpus_1000.txt',
                                   'corpus_misc.txt', 'corpus_new.txt', 'corpus_edited.txt']
@@ -265,9 +265,9 @@ class CorporaManager:
             IOError: If there's an error in writing to the dictionary file.
         """
         try:
-            with open(self.dictionary_filepath, 'w', encoding='utf-8') as json_file:
+            with open(self.dictionary_file_path, 'w', encoding='utf-8') as json_file:
                 json.dump(self.pi_dictionary, json_file,
                           indent=4, ensure_ascii=False)
         except IOError as e:
             Util.print_with_spacing(
-                f"Error writing to file {self.dictionary_filepath}: {e}")
+                f"Error writing to file {self.dictionary_file_path}: {e}")

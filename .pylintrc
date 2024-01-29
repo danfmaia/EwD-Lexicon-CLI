@@ -1,5 +1,5 @@
 [MESSAGES CONTROL]
 disable=
-    missing-module-docstring,
+    ; missing-module-docstring,
     broad-exception-caught,
     line-too-long

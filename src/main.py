@@ -1,6 +1,7 @@
 import argparse
 import os
 import sys
+from common.config import IO_PATH
 
 from transcriber import Transcriber
 from corpora_manager import CorporaManager
@@ -31,7 +32,7 @@ def main():
     transcribe_parser.add_argument(
         '--text', help='Text to transcribe', type=str)
     transcribe_parser.add_argument(
-        '--file', help='File path for text to transcribe', type=str, default='io/input.md')
+        '--file', help='File path for text to transcribe', type=str, default=f'{IO_PATH}/input.md')
     transcribe_parser.add_argument(
         '--output', help='Output file path', type=str)
     transcribe_parser.add_argument(
