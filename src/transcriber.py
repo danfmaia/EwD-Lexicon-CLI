@@ -20,13 +20,13 @@ class Transcriber:
             variation (str): Specifies the PI variation to be used for transcription.
             perform_preliminary_replacements (bool): Indicates whether to apply preliminary word replacements.
         """
-        self.variation = variation
+        self.variation = variation.name
 
         self.performed_preliminar_replacements = perform_preliminary_replacements
         self.preliminary_replacements: dict[str, str] = {}
         self.dictionary: Dictionary
         if perform_preliminary_replacements:
-            self.preliminary_replacements = variation
+            self.preliminary_replacements = variation.get_dict()
             self.dictionary = Dictionary(self.preliminary_replacements)
         else:
             self.dictionary = Dictionary()
@@ -74,7 +74,7 @@ class Transcriber:
                 return replacement
             return word
 
-        tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)
+        tokens = re.findall(r'\w+|[^\w\s]+|\s+', input_text)  # type: ignore
         updated_tokens = [replace_word(
             token) if token.strip() != '' else token for token in tokens]
         return ''.join(updated_tokens)

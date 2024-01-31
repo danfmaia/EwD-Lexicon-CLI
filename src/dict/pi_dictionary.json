@@ -8130,12 +8130,12 @@
         "Sf": null
     },
     "process": {
-        "whole": "process | (proce̗ss/prŏcess) < (proce̗ss/prŏc(e̗/e̬)ss) > … (GB/GA)",
+        "whole": "process | (prŏcess/proce̗ss) < (prŏc(e̗/e̬)ss/proce̗ss) > … (GA/GB)",
         "PI": {
-            "L1": "(proce̗ss/prŏcess)",
-            "L2": "(proce̗ss/prŏc(e̗/e̬)ss)",
-            "L3": "… (GB/GA)",
-            "FM": "(proce̗ss/prŏc(e̗/e̬)ss)"
+            "L1": "(prŏcess/proce̗ss)",
+            "L2": "(prŏc(e̗/e̬)ss/proce̗ss)",
+            "L3": "… (GA/GB)",
+            "FM": "(prŏc(e̗/e̬)ss/proce̗ss)"
         },
         "Sf": null
     },

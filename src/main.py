@@ -2,6 +2,7 @@ import argparse
 import os
 import sys
 from common.config import IO_PATH
+from enums.variation import Variation
 
 from transcriber import Transcriber
 from corpora_manager import CorporaManager
@@ -192,7 +193,7 @@ def prompt_for_and_perform_preliminary_replacements(transcriber: Transcriber, in
     return temp_text
 
 
-def choose_pi_variation():
+def choose_pi_variation() -> Variation:
     """
     Provides a user interface to choose the PI variation for transcription.
 
@@ -214,7 +215,7 @@ def choose_pi_variation():
         chosen_variation = Util.input_with_spacing(
             "Enter your choice (L1/L2/L3/FM): [default=L1] ").upper()
     Util.print_with_spacing(f"Variation {chosen_variation} selected.")
-    return chosen_variation
+    return Variation.from_string(chosen_variation)
 
 
 if __name__ == "__main__":

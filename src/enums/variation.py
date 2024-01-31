@@ -9,6 +9,19 @@ class Variation(Enum):
     L3 = 2
     FM = 3
 
+    @classmethod
+    def from_string(cls, string: str):
+        if string == 'L1':
+            return cls.L1
+        if string == 'L2':
+            return cls.L2
+        if string == 'L3':
+            return cls.L3
+        if string == 'FM':
+            return cls.FM
+        else:
+            return cls.L1
+
     def get_dict(self) -> dict[str, str]:
         """
         Get a PI Variation dictionary based on the PI Variation enum
