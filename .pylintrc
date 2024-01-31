@@ -1,5 +1,6 @@
 [MESSAGES CONTROL]
 disable=
+    import-error,
     ; missing-module-docstring,
     broad-exception-caught,
     line-too-long

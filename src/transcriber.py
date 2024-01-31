@@ -3,7 +3,7 @@ import regex as re
 from common.messages import Messages
 from common.util import Util
 from dictionary import Dictionary
-from enum.pi_variation import Variation
+from enums.variation import Variation
 
 
 class Transcriber:

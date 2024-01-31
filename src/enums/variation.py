@@ -1,5 +1,4 @@
 from enum import Enum
-from typing import Dict
 
 from dict.preliminary_replacements import PRELIMINARY_REPLACEMENTS
 
@@ -10,13 +9,13 @@ class Variation(Enum):
     L3 = 2
     FM = 3
 
-    def get_dict(self) -> Dict[str, str]:
+    def get_dict(self) -> dict[str, str]:
         """
         Get a PI Variation dictionary based on the PI Variation enum
         """
         try:
             variation_index = self.value
-            variation_dict: Dict[str, str] = {}
+            variation_dict: dict[str, str] = {}
             for se_word, values in PRELIMINARY_REPLACEMENTS.items():
                 variation_dict[se_word] = values[variation_index]
             return variation_dict
