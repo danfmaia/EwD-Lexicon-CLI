@@ -71,8 +71,8 @@ deity | d(ē/‹ay›)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA) … [Sf½]{d‹ei�
 desert_1 | dĕsert < dĕse͜rt >
 desert_2&3 | dese̖rt < dėse͡rt >
 dessert | des͝se͡rt < dės͝se̖rt > des͝se̖rt ¦ dės͝se͡rt
-detail | det(a̖/a̗)il < (dėta̖il/deta̗il) >
-detailed | det(a̖/a̗)ile̊d < (dėta̖ile̊d/dēta̗ile̊d) > det(a̖/a̗)iled
+detail | det(a̖i/a̗i)l < (dėta̖il/deta̗il) >
+detailed | det(a̖i/a̗i)le̊d < (dėta̖ile̊d/dēta̗ile̊d) > det(a̖i/a̗i)led
 diacritic | di̱acrĭtic < dia̬crĭtic > diacrĭtic ¦ di̱a̬crĭtic
 diaeresis | di̱(‹a̖›/‹e̖›)reṣiṣ < di(‹a̖›/‹e̖›)rė̬ṣiṣ > di(‹a̖›/‹e̖›)reṣiṣ ¦ di̱(‹a̖›/‹e̖›)rė̬ṣiṣ
 direct | dire̖ct ¦ d(ī/i/i̬)re̖ct
@@ -114,7 +114,7 @@ honor | h̊ŏnor < h̊ŏno͜r >
 hierarch | hīera̗rc̣h < hī(e̬/e̊)ra̗rc̣h >
 hierarchical | hīera̖rc̣hical < hī(e̬/e̊)ra̖rc̣hica̬l
 hierarchy | hīera̗rc̣hy < hī(e̬/e̊)ra̗rc̣hy > * ¦ hī(e̬/e̊)ra̗rc̣hy
-hygiene | (hygi͟ene/hȳgı̖͞ene) < (hygi͟ene/hygı͞ene) > (hygi͟ene/hygı͞ene) ¦ (hygi͟ene/hȳgı̖͞ene)
+hygiene | (hygi͟ene/hȳgiene) < (hygi͟ene/hygı͞ene) > (hygi͟ene/hygı͞ene) ¦ (hygi͟ene/hȳgiene)
 identify | ide̖ntifȳ < (ī/i)de̖nti̬fȳ >
 imam | imäm
 infinity | infĭnity
@@ -170,10 +170,10 @@ progress_n | (progre̗ss/prŏgress) < (progre̗ss/prŏgr(e̗/e̬)ss) > … (GB
 project | prŏject < prŏj(e̗/ė)ct >
 promise | prŏmiṣe
 protein | prot(ein/ei̗n) < prot(e̱in/e̱i̗n) >
-pronounce | prono̖unce < pro̬no̖unce >
+pronounce | ** < pro̬nounce >
 pronunciation | pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n >
 purpose | pu͡rpo̬ṣe < purpo̬ṣe > purpo̬ṣe
-pursuit | pursu̖i̊t < pu͜rsu̖i̊t >
+pursuit | pursui̊t < pu͜rsui̊t >
 ragged | raggėd
 real | (reˌal/r‹eel›) < (reˌa̬l/r‹eel›) > … Sf½{r‹eal›}
 realism | reˌali̗s͜m < reˌa̬li̗s͜m > reˌalis͜m
@@ -210,7 +210,7 @@ thorough | t̤hôr(ōugh/o͜ugh)
 though | thōugh
 thyme | (th̊/th)yme … (CP/SP)
 through | t̤hröugh
-today | to̬da̖y
+today | to̬day
 tomb | tömb̊ < * > tömb
 tourism | töuris͜m ¦ töuri̗s͜m
 true | true̊ < ** > **
@@ -232,7 +232,7 @@ volley | ** < volle̱y >
 volleyball | ** < volle̱y·baᷱll >
 were | we͡re
 whilst | whīlst
-without | witho̖ut
+without | 
 woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
 women | w‹ĭmin› < wȯmėn > ** … [Sf1]{w‹omen›}
 won | wôn

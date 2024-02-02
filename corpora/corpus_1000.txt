@@ -55,7 +55,7 @@ time |
 if | 
 will | 
 w | 
-about | abo̖ut < a̬bo̖ut >
+about | ** < a̬bout >
 many | ma̤ny
 then | 
 them | 
@@ -190,7 +190,7 @@ house | houṣe
 picture | ** < pictu̱re >
 try | 
 us | uṣ
-again | aġ(a̤in/a̖in) < a̬ġ(a̤in/a̖in) >
+again | aġ(a̤in/ain) < a̬ġ(a̤in/ain) >
 animal | ănimal < ăni̬ma̬l >
 point | point
 mother | môther < môthe͜r >
@@ -218,7 +218,7 @@ cover | côver < côve͜r >
 food | fo͞od
 sun | 
 four | f(ŏur/ōur) < fōur > fōur ¦ f(ŏur/ōur)
-between | betwe̖en < bė̬twe̖en >
+between | ** < bė̬tween >
 state | 
 keep | 
 eye | ëye̊ < * > ëye
@@ -383,7 +383,7 @@ vowel | ** < vowe̬l >
 toward | towa̖rd < t(o̬/o̊)waᷱrd >
 war | ** < waᷱr >
 lay | 
-against | aġ(a̤in/a̖in)st < a̬ġ(a̤in/a̖in)st >
+against | aġ(a̤in/ain)st < a̬ġ(a̤in/ain)st >
 pattern | ** < patte͜rn >
 slow | slōw
 cen(tre/ter) | ** < cen(t͜re/te͜r) > … (BS/AS)
@@ -391,7 +391,7 @@ love | lôve
 person | pe͡rson < perso̬n > ** ¦ pe͡rso̬n
 money | môney < mône̱y >
 serve | se͡rve < ** > ** ¦ se͡rve
-appear | appe̖ar < a̬ppe̖ar >
+appear | appear < a̬ppear >
 road | 
 map | 
 rain | 
@@ -801,7 +801,7 @@ bone | bōne
 rail | 
 imagine | imăgi̯ne
 provide | provi̖de < pro̬vi̖de >
-agree | agre̖e < a̬gre̖e >
+agree | ** < a̬gree >
 thus | thuṣ
 capital | căpital < căpita̬l >
 won't | w(ō/ô)n't
@@ -853,7 +853,7 @@ search | se͡arch
 send | 
 yellow | 
 gun | 
-allow | allo̖w < a̬llo̖w >
+allow | ** < a̬llow >
 print | 
 dead | dĕad
 spot | 
@@ -905,7 +905,7 @@ molecule | mŏlecu̗le < mŏle̬cule > mŏlecule ¦ mŏle̬cu̗le
 select | sele̖ct < sėle̖ct >
 wrong | wrong < ẘr(oᷱn͠g/on͠g) > … (GA/GB)
 gray | 
-repeat | repe̖at < rėpe̖at >
+repeat | ** < rėpeat >
 require | requi̖re < rėqui̖re >
 broad | br‹aw›d … [Sf]{br‹oa›d}
 prepare | prepa̖re < prė̬pa̖re >
@@ -932,7 +932,7 @@ suffix_n |
 suffix_vb | (suffix/suffi̖x) < (suffix/su̬ffi̖x) >
 especially | espĕcially < (ė̬/e̗)spĕcia̬lly >
 fig | 
-afraid | afra̖id < a̬fra̖id >
+afraid | ** < a̬fraid >
 huge | 
 sister | ** < siste͜r >
 steel | 
@@ -995,7 +995,7 @@ slave |
 duck | 
 instant | ** < insta̬nt >
 market | ** < markė̬t >
-degree | degre̖e < dėgre̖e >
+degree | ** < dėgree >
 populate | pŏpulate < pŏpu̱late > * ¦ pŏpu̱la̗te
 chick | 
 dear | dear
