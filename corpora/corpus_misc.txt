@@ -15,13 +15,13 @@ across | acro̖ss < a̬cro̖ss >
 ache | āc̣he
 adhere | a̗dhe̖re
 alarm | ala̖rm < a̬la̖rm >
-almond | (äl̊/ăl)mond < (äl̊/ăl)mo̬nd >  … (CP/SP)
+almond | (aͪl̊/ăl)mond < (aͪl̊/ăl)mo̬nd >  … (CP/SP)
 amateur | ăma(te͜ur/te͡ur/‹chər›/‹chuər›) < ăma(te͜ur/te͡r/‹chə͜r›/‹chuə͜r›) > … [Sf½]{ama‹teur›}
-amoeba | amo̊ēba < a̬mo̊ēba̬ > a̬mo̊e̖ba̬
+amoeba | amo̊ēba < a̬mo̊ēba̬ > amo̊e̖ba
 another | anôther < a̬nôthe͜r >
 Antarctica | Ant꞉ar(c/c̊)tica < Ant꞉ar(c/c̊)tica̬
 anywhere | ‹ĕny›·whĕre … [Sf]{‹any›where}
-apostrophe | apo̖strophē < a̬po̖stro̬phē >
+apostrophe | apo̖strophe̱ < a̬po̖stro̬phe̱ >
 applicable | appl(i/ĭ)able < (applica̬b͜le/a̬pplĭca̬b͜le) >
 Arab | Ara̬b
 Arabian | Ara̖bian < A̬rabia̬n > ** ¦ A̬ra̖bia̬n
@@ -93,13 +93,13 @@ everybody | ĕve̊ry·b(ŏ/ô)dy
 everyday | ĕve̊ry·day
 everyone | ĕve̊ry·‹wun› … [S½]{every‹one›}
 everything | ĕve̊ry·t̤hing < ĕve̊ry·t̤hin͠g >
-exaggerate | exa̖g͝gerate < ėxa̖g͝ge̬rate > ** ¦ ėxa̖g͝ge̬ra̗te
+exaggerate | exa̖ggerate < ėxa̖gge̬rate > ** ¦ ėxa̖g͝ge̬ra̗te
 flood | flo͡od
 focus | focuṣ < focu̬ṣ >
 foe | foe̊ < ** > **
 formidable | (formĭdable/formidable) < (fo̬rmĭda̬b͜le/formida̬b͜le) > … (GB/GA)
 friend | fri̊end
-fiend | fı͞end < * > **
+fiend | fiend < * > **
 fundamental | fundame̖ntal < funda̬me̖nta̬l > * ¦ fu̗nda̬me̖nta̬l
 Ganesha | Ganësha < Ga̬nësha̬ >
 gasoline | găṣol(ï/ï̖)ne < găṣo̬l(ï/ï̖)ne > … (GA/GB)
@@ -114,9 +114,9 @@ honor | h̊ŏnor < h̊ŏno͜r >
 hierarch | hīera̗rc̣h < hī(e̬/e̊)ra̗rc̣h >
 hierarchical | hīera̖rc̣hical < hī(e̬/e̊)ra̖rc̣hica̬l
 hierarchy | hīera̗rc̣hy < hī(e̬/e̊)ra̗rc̣hy > * ¦ hī(e̬/e̊)ra̗rc̣hy
-hygiene | (hygi͟ene/hȳgiene) < (hygi͟ene/hygı͞ene) > (hygi͟ene/hygı͞ene) ¦ (hygi͟ene/hȳgiene)
-identify | ide̖ntifȳ < (ī/i)de̖nti̬fȳ >
-imam | imäm
+hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene
+identify | ide̖ntify̱ < (ī/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
+imam | imaͪm
 infinity | infĭnity
 infinite | infini̯te < infi̬ni̯te >
 iron | ‹īə͜rn› … [Sf]{‹iron›}
@@ -145,8 +145,8 @@ Messiah | Messīah < Mėssīa̬h >
 Michael | Mīc̣ha͜el < * > Mīc̣hael
 muscle | musc̊le < musc̊͜le >
 muscular | muscular < muscu̱la͜r > **
-Mycenae | Myce̖nåē < * > * ¦ Mȳce̖nåē
-Mycenaean | Mycenåēa̬n < Mycėnåēa̬n > Mycenåēa̬n ¦ Mȳcėnåē̖a̬n
+Mycenae | My̱ce̖nåe̱ < * > Myce̖nåe̱
+Mycenaean | My̱cenåēa̬n < Mycėnåēa̬n > Mycenåēan ¦ My̱cėnåēa̬n
 naive | na̬ïve
 naked | nakėd
 nature | ** < natu̱re >
@@ -154,7 +154,7 @@ nineteenth | nine̥teenth < * > ** ¦ nine·teenth·
 none | nône
 nonetheless | nône·the̬꞉less
 nourish | no͡urish
-nuance | n(ū/ü)¹(ä/ä̖)²nce … ¹(GB/GA) ²(CP/LCP)
+nuance | n(ū/ü)¹(aͪ/a̖ͪ)²nce … ¹(GB/GA) ²(CP/LCP)
 oven | ôven < ôve̬n >
 over | ** < ove͜r >
 peninsula | peni̖nsula < pe̬ni̖ns(u̱/u̬)la̬ > … (GB/GA)
@@ -185,9 +185,9 @@ rendezvous | ‹r_en_d(e̬/ë)voo› … [Sf]{‹rendezvous›}
 research | r(ė/ē)ṣe͡arch < * > … (GB/GA)
 rigor | rĭgor < rĭgo͜r >
 routine | röutï̖ne
-saga | säga < säga̬ >
-said | sa̤id
-says | sa̤ys
+saga | saͪga < saͪga̬ >
+said | säid
+says | säys
 scarce | sc‹air›rce < scārce > scārce … [Sf1]{sc‹ar›ce}
 scarcity | sc‹air›city < scārcity > scārcity … [Sf1]{sc‹ar›city}
 scarcity | scārcity < 
@@ -196,7 +196,7 @@ scissors | scis͝sors < scis͝so͜rs > … [FE]
 scone | sc(ōne/ŏne)
 Shiah | Shïah < Shïa̬h >
 shoe | shöe̊ < shöe > shöe
-simplify | si̖mplifȳ < si̖mpl(i/i̬)fȳ >
+simplify | simplify̱ < simpl(i/i̬)fy̱ > **
 smooth | smo͞oṭh
 Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > … (CP/LCP) … [Sf½]{South‹›ampton}
 species_sing | (specie̱s/speci͟es/speciėṣ) < * > ** (CP/LCP/AP)

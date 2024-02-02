@@ -3,7 +3,7 @@
   "editor.letterSpacing": -0.35,
 
   "[plaintext]": {
-    "editor.fontFamily": "'Noto Sans', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Noto Sans PI', 'Droid Sans Mono', 'monospace', monospace",
     "editor.letterSpacing": 0.1
   },
 

@@ -12,7 +12,7 @@ he |
 was | ** < {w(â/aᪿ)s, un: wa̬s} >
 for | {fo͜r, str: fŏr} < * > **
 on | 
-are | äre
+are | aͪre
 with | 
 as | 
 I | 
@@ -44,7 +44,7 @@ up |
 use | u(s/ṣ)e
 your | {y(öur/ŏur/ōur), un: yo͜ur} < {y(öur/ōur), un: yo͜ur} > ** ¦ {y(öur/ŏur/ōur), un: yo͜ur}
 how | how
-said | sa̤id
+said | säid
 an | {a̬n, str: ăn} < * > **
 each | each
 she | 
@@ -56,7 +56,7 @@ if |
 will | 
 w | 
 about | ** < a̬bout >
-many | ma̤ny
+many | mäny
 then | 
 them | 
 write | 
@@ -98,7 +98,7 @@ side |
 been | b(e͝en/‹en›) … [Sf½]{b‹een›}
 now | 
 find | fīnd
-any | a̤ny
+any | äny
 new | 
 work | wo͡rk
 part | 
@@ -190,7 +190,7 @@ house | houṣe
 picture | ** < pictu̱re >
 try | 
 us | uṣ
-again | aġ(a̤in/ain) < a̬ġ(a̤in/ain) >
+again | aġ(äin/ain) < a̬ġ(äin/ain) >
 animal | ănimal < ăni̬ma̬l >
 point | point
 mother | môther < môthe͜r >
@@ -199,7 +199,7 @@ near | near
 build | bůild
 self | 
 earth | e͡arth
-father | fäther < fäthe͜r >
+father | faͪther < faͪthe͜r >
 head | hĕad
 stand | 
 own | ōwn
@@ -285,7 +285,7 @@ eat | eat
 room | r(o͞o/o͝o)m
 friend | fri̊end
 began | bega̖n < bėga̖n >
-idea | idēa̬
+idea | idēa̬ < * > idēa
 fish | 
 mountain | mounta͜in
 stop | 
@@ -342,7 +342,7 @@ order | ** < orde͜r >
 fire | 
 south | 
 problem | prŏblem < prŏble̬m >
-piece | pı͞ece < * > **
+piece | 
 told | ** ¦ tōld
 knew | 
 pass | 
@@ -383,7 +383,7 @@ vowel | ** < vowe̬l >
 toward | towa̖rd < t(o̬/o̊)waᷱrd >
 war | ** < waᷱr >
 lay | 
-against | aġ(a̤in/ain)st < a̬ġ(a̤in/ain)st >
+against | aġ(äin/ain)st < a̬ġ(äin/ain)st >
 pattern | ** < patte͜rn >
 slow | slōw
 cen(tre/ter) | ** < cen(t͜re/te͜r) > … (BS/AS)
@@ -421,7 +421,7 @@ figure | fĭgure < fĭgu̱re >
 star | 
 box | 
 noun | 
-field | fı͞eld < * > **
+field | 
 rest | 
 correct | corre̖ct < co̬rre̖ct >
 able | ** < ab͜le >
@@ -456,7 +456,7 @@ produce_n | pr(ŏ/o)duce
 fact | 
 street | 
 inch | 
-multiply | mu̖ltiplȳ
+multiply | multiply̱
 nothing | nôt̤hing < nôt̤hin͠g >
 course | c(ŏur/ōur)se < cōurse > cōurse ¦ c(ŏur/ōur)se
 stay | 
@@ -520,7 +520,7 @@ present_2_n | prĕsent < prĕse̬nt >
 heavy | hĕavy
 dance | 
 engine | eng(i̯/i̬)ne
-position | posi̖tion < po̬sitio̬n > ** ¦ po̬si̖tio̬n
+position | posĭtion < po̬sitio̬n > ** ¦ po̬sĭtio̬n
 arm | 
 wide | 
 sail | 
@@ -559,7 +559,7 @@ brother | brôther < brôthe͜r >
 egg | 
 ride | 
 cell | 
-believe | belı͞eve < bė̬lı͞eve > **
+believe | ** < bė̬lieve >
 fraction | ** < fractio̬n >
 forest | fŏrest < fŏrėst >
 sit | 
@@ -728,7 +728,7 @@ wrote |
 seed | 
 tone | tōne
 join | 
-suggest | sug͝ge̖st < su̬g͝ge̖st >
+suggest | sugge̖st < su̬gge̖st > * ¦ su̬g͝ge̖st
 clean | clean
 break | brëak
 lady | 
@@ -841,7 +841,7 @@ thin | t̤hin
 triangle | trīa̗ngle < tria̗ng͜le > ** ¦ trīa̗ng͜le
 planet | plănet < plănė̬t >
 hurry | 
-chief | chı͞ef < * > **
+chief | 
 colony | cŏlony < cŏlo̬ny >
 clock | 
 mine | 
@@ -888,7 +888,7 @@ cotton | ** < cotto̬n >
 born | 
 determine | dete͡rmi̯ne < dėte̖rmi̯ne > dete̖rmi̯ne ¦ dėte͡rmi̯ne
 quart_1 | q(u/ů)art < q(u/ů)aᷱrt >
-quart_2 | qůärt
+quart_2 | qůaͪrt
 nine | 
 truck | 
 noise | 
@@ -955,7 +955,7 @@ slip |
 win | 
 dream | dream
 evening | eve̊ning < eve̊nin͠g >
-condition | condi̖tion < co̬nditio̬n > ** ¦ co̬ndi̖tio̬n
+condition | condĭtion < co̬nditio̬n > ** ¦ co̬ndĭtio̬n
 feed | 
 tool | to͞ol
 total | ** < tota̬l >
