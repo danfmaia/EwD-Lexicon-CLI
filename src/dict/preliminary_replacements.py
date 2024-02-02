@@ -7,7 +7,7 @@ PRELIMINARY_REPLACEMENTS: Dict[str, List[str]] = {
     'the': ['the̬', 'the̬', 'the̬', 'the̬'],
     'a': ['a̬', 'a̬', 'a̬', 'a̬'],
     'an': ['a̬n', 'a̬n', 'a̬n', 'a̬n'],
-    'of': ['‹o̬v›', '‹o̬v›', '‹o̬v›', '‹o̬v›'],
+    'of': ['o̬f', 'o̬f', 'of', 'o̬‹v›'],  # OK
     'to': ['to̬', 'to̬', 'to̬', 'to̬'],
     'you': ['yöu', 'yöu', 'yöu', 'yöu'],
     'your': ['yöur', 'yöur', 'yöur', 'yöur'],

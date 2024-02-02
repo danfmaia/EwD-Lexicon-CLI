@@ -94,10 +94,10 @@ def transcribe_command(args):
     # Prompt for & Perform preliminary replacements
     # & Initialize Transcriber
     user_response = Util.input_with_spacing(
-        "Perform preliminary replacements? (y/n): [n] ").lower()
+        "Perform preliminary replacements? (y/n): [y] ").lower()
     transcriber: Transcriber
     temp_text = ''
-    if user_response == 'y':
+    if user_response != 'n':
         transcriber = Transcriber(
             chosen_variation, perform_preliminary_replacements=True)
         temp_text = transcriber.perform_preliminary_replacements(input_text)
@@ -114,8 +114,8 @@ def transcribe_command(args):
     else:
         # Prompt for & Transcribe whole text
         user_response = Util.input_with_spacing(
-            "Do you want to transcribe the whole text before starting interactive transcription? (y/n): [n] ").lower()
-        if user_response == 'y':
+            "Do you want to transcribe the whole text before starting interactive transcription? (y/n): [y] ").lower()
+        if user_response != 'n':
             temp_text = transcriber.transcribe(temp_text)
             Util.save_temp_text(temp_text, ext)
 
@@ -163,34 +163,34 @@ def exit_if_user_aborted(response):
         sys.exit()
 
 
-def prompt_for_and_perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
-    """
-    Performs preliminary text replacements before transcription.
+# def prompt_for_and_perform_preliminary_replacements(transcriber: Transcriber, input_text, ext):
+#     """
+#     Performs preliminary text replacements before transcription.
 
-    Asks the user if preliminary replacements are desired and applies them if confirmed. The modified text is
-    temporarily saved, and the user is informed about the performed replacements.
+#     Asks the user if preliminary replacements are desired and applies them if confirmed. The modified text is
+#     temporarily saved, and the user is informed about the performed replacements.
 
-    Args:
-        transcriber (Transcriber): Instance of the Transcriber class to perform replacements.
-        input_text (str): The initial text to process.
-        extension (str): File extension of the input file for temporary saving.
+#     Args:
+#         transcriber (Transcriber): Instance of the Transcriber class to perform replacements.
+#         input_text (str): The initial text to process.
+#         extension (str): File extension of the input file for temporary saving.
 
-    Returns:
-        str: Text after performing preliminary replacements.
-    """
+#     Returns:
+#         str: Text after performing preliminary replacements.
+#     """
 
-    user_response = Util.input_with_spacing(
-        "Perform preliminary replacements? (y/n): [n] ").lower()
+#     user_response = Util.input_with_spacing(
+#         "Perform preliminary replacements? (y/n): [y] ").lower()
 
-    temp_text = ''
-    if user_response == 'y':
-        temp_text = transcriber.perform_preliminary_replacements(input_text)
-        Util.print_with_spacing('Preliminary replacements performed.')
-        Util.save_temp_text(temp_text, ext)
-    else:
-        temp_text = input_text
+#     temp_text = ''
+#     if user_response != 'n':
+#         temp_text = transcriber.perform_preliminary_replacements(input_text)
+#         Util.print_with_spacing('Preliminary replacements performed.')
+#         Util.save_temp_text(temp_text, ext)
+#     else:
+#         temp_text = input_text
 
-    return temp_text
+#     return temp_text
 
 
 def choose_pi_variation() -> Variation:

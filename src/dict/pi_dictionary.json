@@ -10,14 +10,14 @@
         "Sf": null
     },
     "of": {
-        "whole": "of | {‹o̬v›, str: ‹ov›} < * > ** … [Sf1,2]{‹of›}",
+        "whole": "of | o̬‹v›, str: o‹v›} < * > ** … [Sf1,2]{o‹f›}",
         "PI": {
-            "L1": "{‹o̬v›, str: ‹ov›}",
-            "L2": "{‹o̬v›, str: ‹ov›}",
+            "L1": "o̬‹v›, str: o‹v›}",
+            "L2": "o̬‹v›, str: o‹v›}",
             "L3": "of",
-            "FM": "{‹o̬v›, str: ‹ov›}"
+            "FM": "o̬‹v›, str: o‹v›}"
         },
-        "Sf": "‹of›"
+        "Sf": "o‹f›"
     },
     "to": {
         "whole": "to | t(o̬/o̤) < * > **",
