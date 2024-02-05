@@ -12,7 +12,7 @@ he |
 was | ** < {w(â/aᪿ)s, un: wa̬s} >
 for | {fo͜r, str: fŏr} < * > **
 on | 
-are | aͪre
+are | a̍re
 with | 
 as | 
 I | 
@@ -22,7 +22,7 @@ be |
 at | 
 one | ‹wun› … [Sf]{‹one›}
 have | hăve
-this | thiṣ
+this | this̩
 from | {from, un: fro̬m} < {fr(ô/ŏ)m, un: fro̬m} > **
 or | ** < {**, un: o͜r} >
 had | 
@@ -41,7 +41,7 @@ all | ** < aᷱll >
 there | thĕre
 when | 
 up | 
-use | u(s/ṣ)e
+use | u(s/s̩)e
 your | {y(öur/ŏur/ōur), un: yo͜ur} < {y(öur/ōur), un: yo͜ur} > ** ¦ {y(öur/ŏur/ōur), un: yo͜ur}
 how | how
 said | säid
@@ -103,7 +103,7 @@ new |
 work | wo͡rk
 part | 
 take | 
-get | ġet
+get | g̍et
 place | 
 made | 
 live_1 | lĭve
@@ -121,7 +121,7 @@ show | shōw
 every | ĕve̊ry
 good | go͝od
 me | 
-give | ġĭve
+give | g̍ĭve
 our | {**, un: ‹ar›} … [Sf½]{‹our›}
 under | ** < unde͜r >
 name | 
@@ -141,11 +141,11 @@ turn | tu͡rn < ** > ** ¦ tu͡rn
 cause | 
 much | 
 mean | mean
-before | befo̖re < bė̬fo̖re >
+before | befo̖re < b(ẹ/e̬)fo̖re >
 move | möve
 right | 
 boy | 
-old | ** ¦ ōld
+old | ōld < ** > ** ¦ ōld
 too | 
 same | 
 tell | 
@@ -186,11 +186,11 @@ light |
 kind | kīnd
 off | 
 need | 
-house | houṣe
+house | hous̩e
 picture | ** < pictu̱re >
 try | 
-us | uṣ
-again | aġ(äin/ain) < a̬ġ(äin/ain) >
+us | us̩
+again | ag̍(äin/ain) < a̬g̍(äin/ain) >
 animal | ănimal < ăni̬ma̬l >
 point | point
 mother | môther < môthe͜r >
@@ -199,7 +199,7 @@ near | near
 build | bůild
 self | 
 earth | e͡arth
-father | faͪther < faͪthe͜r >
+father | fa̍ther < fa̍the͜r >
 head | hĕad
 stand | 
 own | ōwn
@@ -208,7 +208,7 @@ should | sh‹o͝o›d < ** > ** … [Sf1]{sh‹oul›d}
 country | co͡untry
 found | 
 answer | ansẘer < ansẘe͜r >
-school | sc̣ho͞ol
+school | sc̩ho͞ol
 grow | grōw
 study | stŭdy
 still | 
@@ -218,7 +218,7 @@ cover | côver < côve͜r >
 food | fo͞od
 sun | 
 four | f(ŏur/ōur) < fōur > fōur ¦ f(ŏur/ōur)
-between | ** < bė̬tween >
+between | ** < b(ẹ/e̬)tween >
 state | 
 keep | 
 eye | ëye̊ < * > ëye
@@ -244,7 +244,7 @@ run |
 don't | dōn't
 while | 
 press | 
-close | clo(s/ṣ)e
+close | clo(s/s̩)e
 night | 
 real | (reˌal/r‹eel›) < (reˌa̬l/r‹eel›) > … Sf½{r‹eal›}
 life | 
@@ -252,14 +252,14 @@ few |
 north | 
 open | ** < ope̬n >
 seem | 
-together | toġe̖ther < to̬ġe̖the͜r >
+together | tog̍e̖ther < t(o̤/o̬)g̍e̖the͜r >
 next | 
 white | 
 children | ** < childre̬n >
-begin | beġi̖n < bė̬ġi̖n >
+begin | beg̍i̖n < b(ẹ/e̬)g̍i̖n >
 got | 
 walk | wal̊k < waᷱl̊k > **
-example | exa̖mple < ė̬xa̖mp͜le >
+example | exa̖mple < (ẹ/e̬)xa̖mp͜le >
 easy | easy
 paper | ** < pape͜r >
 group | gröup
@@ -284,13 +284,13 @@ science | sciˌence < scie̬nce > ** ¦ scīe̬nce
 eat | eat
 room | r(o͞o/o͝o)m
 friend | fri̊end
-began | bega̖n < bėga̖n >
-idea | idēa̬ < * > idēa
+began | bega̖n < bẹga̖n >
+idea | i̱dēa̬ < * > idēa
 fish | 
 mountain | mounta͜in
 stop | 
 once | ‹wun›ce … [Sf]{‹on›ce}
-base | baṣe
+base | bas̩e
 hear | hear
 horse | 
 cut | 
@@ -301,9 +301,9 @@ color | cŏlor < cŏlo͜r > *
 face | 
 wood | wo͝od
 main | 
-enough | en‹u̖ff› < ė̬n‹u̖ff› > … [Sf]{en‹ough›}
+enough | en‹u̖ff› < (ẹ/e̬)n‹u̖ff› > … [Sf]{en‹ough›}
 plain | 
-girl | ġı͡rl < ġirl > ġirl ¦ ġı͡rl
+girl | g̍ı͡rl < g̍irl > g̍irl ¦ g̍ı͡rl
 usual | ** < usua̬l > ** ¦ us̩ua̬l
 young | yo͡ung < yo͡un͠g >
 ready | rĕady
@@ -343,7 +343,7 @@ fire |
 south | 
 problem | prŏblem < prŏble̬m >
 piece | 
-told | ** ¦ tōld
+told | tōld < ** > ** ¦ tōld
 knew | 
 pass | 
 since | 
@@ -357,15 +357,15 @@ hour | h̊our < h̊ou͜r >
 better | ** < bette͜r >
 true | true̊ < ** > **
 during | ** < durin͠g >
-hundred | ** < hundrė̬d >
+hundred | ** < hundr(ẹ/e̬)d >
 five | 
-remember | reme̖mber < rėme̖mbe͜r >
+remember | reme̖mber < rẹme̖mbe͜r >
 step | 
 early | e͡arly
-hold | ** ¦ hōld
+hold | hōld < ** > ** ¦ hōld
 west | 
 ground | 
-interest | ** < int(e̬/e̊)r(ė̬/e̗)st >
+interest | ** < int(e̬/e̊)r(ẹ/e̬/e̗)st >
 reach | reach
 fast | 
 verb | ve͡rb < ** > ** ¦ ve͡rb
@@ -383,7 +383,7 @@ vowel | ** < vowe̬l >
 toward | towa̖rd < t(o̬/o̊)waᷱrd >
 war | ** < waᷱr >
 lay | 
-against | aġ(äin/ain)st < a̬ġ(äin/ain)st >
+against | ag̍(äin/ain)st < a̬g̍(äin/ain)st >
 pattern | ** < patte͜rn >
 slow | slōw
 cen(tre/ter) | ** < cen(t͜re/te͜r) > … (BS/AS)
@@ -398,7 +398,7 @@ rain |
 rule | 
 govern | gôvern < gôve͜rn >
 pull | püll
-cold | ** ¦ cōld
+cold | cōld < ** > ** ¦ cōld
 notice | 
 voice | 
 unit | 
@@ -412,7 +412,7 @@ lead_1 | lead
 lead_2 | lĕad
 cry | 
 dark | 
-technology | tec̣hnŏlogy < tec̣hnŏlo̬gy >
+technology | tec̩hnŏlogy < tec̩hnŏlo̬gy >
 machine | mac̤hïne < ma̬c̤hïne >
 note | 
 wait | 
@@ -439,16 +439,16 @@ gave |
 green | 
 oh | ōh
 quick | 
-develop | devĕlo̬p < dėvĕlo̬p > devĕlop
+develop | devĕlo̬p < dẹvĕlo̬p > devĕlop
 ocean | ‹ōshən› … [Sf]{‹ocean›}
 warm | ** < waᷱrm >
 free | 
-minute_1 | mĭnu̇te
+minute_1 | mĭnụte
 minute_2 | minu̖te
 strong | ** < str(oᷱn͠g/on͠g) > … (GA/GB)
 special | spĕcial < spĕcia̬l >
 mind | mīnd
-behind | behīnd < bė̬hīnd >
+behind | behīnd < b(ẹ/e̬)hīnd >
 clear | clear
 tail | 
 produce_vb | produ̖ce < pro̬du̖ce >
@@ -464,22 +464,22 @@ wheel |
 full | füll
 force | 
 blue | blue̊ < ** > **
-object_etc | ** < obj(ė/e̗)ct >
+object_etc | ** < obj(ẹ/e̗)ct >
 object_vb | obje̖ct < o̬bje̖ct >
-decide | deci̖de < dėci̖de >
-surface | su͡rface < surf(ȧ/a̬)ce > ** ¦ su͡rf(ȧ/a̬)ce … (GB/GA)
+decide | deci̖de < dẹci̖de >
+surface | su͡rface < surf(ạ/a̬)ce > ** ¦ su͡rf(ạ/a̬)ce … (GB/GA)
 deep | 
 moon | mo͞on
 island | īs̊land < īs̊la̬nd > … [FE]
 foot | fo͝ot
 system | ** < syste̬m >
-busy | b‹izzy› < bu̇sy > bu̇sy … [Sf1]{b‹usy›}
+busy | bu̇sy
 test | 
 record_etc | rĕc(or/o̗r)d < rĕc(o͜r/o̗r)d >
-record_vb | reco̖rd < rėco̖rd >
+record_vb | reco̖rd < rẹco̖rd >
 boat | 
 common | cŏmmon < cŏmmo̬n >
-gold | ** ¦ gōld
+gold | gōld < ** > ** ¦ gōld
 possible | ** < possi̬b͜le >
 plane | 
 stead | stĕad
@@ -492,7 +492,7 @@ ran |
 check | 
 game | 
 shape | 
-equate | equa̖te < ėqua̖te >
+equate | equa̖te < ẹqua̖te >
 hot | 
 miss | 
 brought | br‹aw›t … [Sf]{br‹ough›t}
@@ -500,12 +500,12 @@ heat | heat
 snow | snōw
 tire | 
 bring | ** < brin͠g >
-yes | yeṣ
+yes | yes̩
 distant | ** < dista̬nt >
 fill | 
 east | east
 paint | 
-language | languȧge < * > **
+language | languạge < * > **
 among | amông < a̬môn͠g >
 grand | 
 ball | ** < baᷱll >
@@ -515,7 +515,7 @@ drop |
 heart | he̊art
 am | 
 present_1 | prĕsent < prĕse̬nt >
-present_2_vb | prese̖nt < prėse̖nt >
+present_2_vb | prese̖nt < prẹse̖nt >
 present_2_n | prĕsent < prĕse̬nt >
 heavy | hĕavy
 dance | 
@@ -546,9 +546,9 @@ count |
 square | 
 reason | reason < reaso̬n >
 length | ** < len͠g(k)th >
-represent | rĕprese̖nt < rĕprėse̖nt >
+represent | rĕprese̖nt < rĕprẹse̖nt >
 art | 
-subject_etc | ** < subj(ė/e̗)ct >
+subject_etc | ** < subj(ẹ/e̗)ct >
 subject_vb | subje̖ct < su̬bje̖ct >
 region | ** < regio̬n >
 energy | ĕnergy < ĕne͜rgy >
@@ -559,9 +559,9 @@ brother | brôther < brôthe͜r >
 egg | 
 ride | 
 cell | 
-believe | ** < bė̬lieve >
+believe | ** < b(ẹ/e̬)lieve >
 fraction | ** < fractio̬n >
-forest | fŏrest < fŏrėst >
+forest | fŏrest < fŏrẹst >
 sit | 
 race | 
 window | 
@@ -597,7 +597,7 @@ past |
 soft | 
 fun | 
 bright | 
-gas | gaṣ
+gas | gas̩
 weather | wĕather < wĕathe͜r >
 month | mônth
 million | ** < millio̬n >
@@ -612,7 +612,7 @@ gone | gŏne
 jump | 
 baby | 
 eight | 
-village | villȧge
+village | villạge
 meet | 
 root | r(o͞o/o͝o)t
 buy | b‹ī› < ** > ** ¦ b‹ī› … [Sf1]{b‹uy›}
@@ -627,11 +627,11 @@ third | t̤hı͡rd < t̤hird > t̤hird ¦ t̤hı͡rd
 shall | {shăll, un: sha̬ll}
 held | 
 hair | 
-describe | descri̖be < dė̬scri̖be >
+describe | descri̖be < d(ẹ/e̬)scri̖be >
 cook | co͝ok
 floor | fl‹ōr› … [Sf]{fl‹oor›}
 either | (ēi/ëi)ther < (ēi/ëi)the͜r >
-result | resu̖lt < rėsu̖lt > *
+result | resu̖lt < rẹsu̖lt > *
 burn | bu͡rn < ** > ** ¦ bu͡rn
 hill | 
 safe | 
@@ -648,15 +648,15 @@ silent | ** < sile̬nt >
 tall | ** < taᷱll >
 sand | 
 soil | 
-roll | ** ¦ rōll
+roll | rōld < ** > ** ¦ rōll
 temperature | temp(er/e̊r)(å/a)ture < temp(e͜r/e̊r)(å/a̬)tu̱re > **
-finger | finġer < finġe͜r >
+finger | fing̍er < fing̍e͜r >
 industry | ** < indu̬stry >
 value | vălue̊ < vălue > vălue
 fight | 
 lie | 
 beat | beat
-excite | exci̖te < ėxci̖te >
+excite | exci̖te < ẹxci̖te >
 natural | nătural < nătu̱ra̬l >
 view | v‹ū› < ** > ** ¦ v‹ū› … [Sf1]{v‹iew›}
 sense | 
@@ -664,7 +664,7 @@ ear | ear
 else | 
 quite | 
 broke | 
-case | caṣe
+case | cas̩e
 middle | ** < midd͜le >
 kill | 
 son | sôn
@@ -689,15 +689,15 @@ section | ** < sectio̬n >
 dress | 
 cloud | 
 surprise | surpri̖se < su͜rpri̖se >
-quiet | quīˌet < quīė̬t >
+quiet | quīˌet < quī(ẹ/e̬)t >
 stone | stōne
 tiny | 
 climb | clīmb̊ < * > clīmb
 cool | co͞ol
-design | desīg̊n < dėsīgn > desīgn
+design | desīg̊n < dẹsīgn > desīgn
 poor | 
 lot | 
-experiment_n | expĕrime̬nt < ėxpĕri̬me̬nt >
+experiment_n | expĕrime̬nt < ẹxpĕri̬me̬nt >
 experiment_vb | e̗xpĕrime̗nt < e̗xpĕri̬me̗nt >
 bottom | ** < botto̬m >
 key | kēy
@@ -708,22 +708,22 @@ flat |
 twenty | tw(e/ê)n(t/t̊)y
 skin | 
 smile | 
-crease | creaṣe
+crease | creas̩e
 hole | 
 trade | 
 melody | mĕlo̬dy
 trip | 
 office | 
-receive | recēive < rėcēive >
+receive | recēive < rẹcēive >
 row | rōw
 mouth | 
-exact | exa̖ct < ėxa̖ct >
+exact | exa̖ct < ẹxa̖ct >
 symbol | ** < symbo̬l >
 die | 
 least | least
 trouble | tro͡uble < tro͡ub͜le >
 shout | 
-except | exce̖pt < (ė/e̗)xce̖pt >
+except | exce̖pt < (ẹ/e̗)xce̖pt >
 wrote | 
 seed | 
 tone | tōne
@@ -766,7 +766,7 @@ gentle | ** < gent͜le >
 woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
 captain | capta͜in
 practice | 
-separate_etc | sĕparȧte < sĕp(a̬/å)rȧte > sĕparate
+separate_etc | sĕparạte < sĕp(a̬/å)rạte > sĕparate
 separate_vb | sĕparate < sĕpa̬ra̗te> sĕparate 
 difficult | ** < diffic(u̗/u̬)lt >
 doctor | ** < docto͜r >
@@ -776,7 +776,7 @@ noon | no͞on
 whose | whöse
 locate | loc(a̖/a̗)te
 ring | ** < rin͠g
-character | c̣hăracter < c̣hăra̬cte͜r >
+character | c̩hăracter < c̩hăra̬cte͜r >
 insect | inse̗ct < * > **
 caught | 
 period | perio̬d < * > **
@@ -786,9 +786,9 @@ spoke |
 atom | ătom < ăto̬m >
 human | ** < huma̬n >
 history | ** < histo̬ry >
-effect | effe̖ct < ė̬ffe̖ct >
-electric | ele̖ctric < ė̬le̖ctric >
-expect | expe̖ct < (ė/e̗)xpe̖ct >
+effect | effe̖ct < (ẹ/e̬)ffe̖ct >
+electric | ele̖ctric < (ẹ/e̬)le̖ctric >
+expect | expe̖ct < (ẹ/e̗)xpe̖ct >
 crop | 
 modern | mŏdern < mŏde͜rn >
 element | ĕlement < ĕle̬me̬nt >
@@ -802,7 +802,7 @@ rail |
 imagine | imăgi̯ne
 provide | provi̖de < pro̬vi̖de >
 agree | ** < a̬gree >
-thus | thuṣ
+thus | thus̩
 capital | căpital < căpita̬l >
 won't | w(ō/ô)n't
 chair | 
@@ -810,7 +810,7 @@ danger | dānger < dānge͜r > **
 fruit | frui̊t
 rich | 
 thick | t̤hick
-soldier | ** < soldie͜r > ** ¦ sōldie͜r
+soldier | sōldier < soldie͜r > ** ¦ sōldie͜r
 process | (prŏcess/proce̗ss) < (prŏc(e̗/e̬)ss/proce̗ss) > … (GA/GB)
 operate | ŏperate < ŏpe̬rate > * ¦ ŏpe̬ra̗te
 guess | gůess
@@ -825,21 +825,21 @@ rather | ** < rathe͜r >
 crowd | 
 corn | 
 compare | compa̖re < co̬mpa̖re >
-poem | poem < po(ė/e̬)m > … (GB/GA)
+poem | poem < po(ẹ/e̬)m > … (GB/GA)
 string | ** < strin͠g >
 bell | 
-depend | depe̖nd < dė̬pe̖nd >
+depend | depe̖nd < d(ẹ/e̬)pe̖nd >
 meat | meat
 rub | 
 tube | 
-famous | famo͜uṣ < * > famouṣ
-dollar | dollar < dolla͜r >
+famous | famo͜us̩ < * > famous̩
+dollar | dŏllar < dŏlla͜r > *
 stream | stream
 fear | fear
 sight | 
 thin | t̤hin
 triangle | trīa̗ngle < tria̗ng͜le > ** ¦ trīa̗ng͜le
-planet | plănet < plănė̬t >
+planet | plănet < plăn(ẹ/e̬)t >
 hurry | 
 chief | 
 colony | cŏlony < cŏlo̬ny >
@@ -858,7 +858,7 @@ print |
 dead | dĕad
 spot | 
 desert_1 | dĕsert < dĕse͜rt >
-desert_2&3 | dese͡rt < dėse̖rt > dese̖rt ¦ dėse̖rt
+desert_2&3 | dese͡rt < dẹse̖rt > dese̖rt ¦ dẹse̖rt
 suit | sui̊t
 current | ** < curre̬nt >
 lift | 
@@ -871,12 +871,12 @@ sell |
 success | succe̖ss < su̬cce̖ss >
 company | cômpany < cômpa̬ny >
 subtract | subtra̖ct < su̬btra̖ct >
-event | eve̖nt < ė̬ve̖nt >
+event | eve̖nt < (ẹ/e̬)ve̖nt >
 particular | partĭcular < pa͜rtĭcu̱la͜r >
 deal | deal
 swim | 
 term | te͡rm < ** > **
-opposite | oppo(ṣ/s)i̯te < oppo̬(ṣ/s)i̯te > oppo(ṣ/s)i̯te … (GA/GB)
+opposite | oppo(s̩/s)i̯te < oppo̬(s̩/s)i̯te > oppo(s̩/s)i̯te … (GA/GB)
 wife | 
 shoe | shöe̊ < shöe > shöe
 shoulder | shōulder < shōulde͜r >
@@ -886,9 +886,9 @@ camp |
 invent | inve̖nt
 cotton | ** < cotto̬n >
 born | 
-determine | dete͡rmi̯ne < dėte̖rmi̯ne > dete̖rmi̯ne ¦ dėte͡rmi̯ne
+determine | dete͡rmi̯ne < dẹte̖rmi̯ne > dete̖rmi̯ne ¦ dẹte͡rmi̯ne
 quart_1 | q(u/ů)art < q(u/ů)aᷱrt >
-quart_2 | qůaͪrt
+quart_2 | qůa̍rt
 nine | 
 truck | 
 noise | 
@@ -902,17 +902,17 @@ shine |
 property | prŏperty < prŏpe͜rty >
 column | cŏlumn̊ < cŏlu̬mn̊ > cŏlumn
 molecule | mŏlecu̗le < mŏle̬cule > mŏlecule ¦ mŏle̬cu̗le
-select | sele̖ct < sėle̖ct >
+select | sele̖ct < sẹle̖ct >
 wrong | wrong < ẘr(oᷱn͠g/on͠g) > … (GA/GB)
 gray | 
-repeat | ** < rėpeat >
-require | requi̖re < rėqui̖re >
+repeat | ** < rẹpeat >
+require | requi̖re < rẹqui̖re >
 broad | br‹aw›d … [Sf]{br‹oa›d}
-prepare | prepa̖re < prė̬pa̖re >
+prepare | prepa̖re < pr(ẹ/e̬)pa̖re >
 salt | ** < saᷱlt >
 nose | 
 plural | ** < plura̬l >
-anger | anġer < anġe͜r >
+anger | ang̍er < ang̍e͜r >
 claim | 
 continent | cŏntinent < cŏnt(i/i̬)ne̬nt >
 oxygen | ** < oxyge̬n >
@@ -920,17 +920,17 @@ sugar | s̩ügar < s̩üga͜r >
 death | dĕath
 pretty | prėtty
 skill | 
-women | w‹ĭmin› < wȯmėn > wȯmėn … [Sf]{w‹omen›}
+women | wȯmẹn
 season | season < seaso̬n >
 solution | solu̖tion < so̬lutio̬n > ** ¦ so̬lu̖tio̬n
-magnet | ** < magnė̬t >
+magnet | ** < magn(ẹ/e̬)t >
 silver | ** < silve͜r >
 thank | t̤hank
 branch | 
 match | 
 suffix_n | 
 suffix_vb | (suffix/suffi̖x) < (suffix/su̬ffi̖x) >
-especially | espĕcially < (ė̬/e̗)spĕcia̬lly >
+especially | espĕcially < (ẹ/e̬/e̗)spĕcia̬lly >
 fig | 
 afraid | ** < a̬fraid >
 huge | 
@@ -940,7 +940,7 @@ discuss | discu̖ss
 forward | ** < forwa͜rd >
 similar | sĭmilar < sĭmi̬la͜r >
 guide | gůide
-experience | expe̖rience < ėxpe̖rie̬nce >
+experience | expe̖rience < ẹxpe̖rie̬nce >
 score | 
 apple | ** < app͜le >
 bought | b‹aw›t … [Sf]{b‹ough›t}
@@ -959,7 +959,7 @@ condition | condĭtion < co̬nditio̬n > ** ¦ co̬ndĭtio̬n
 feed | 
 tool | to͞ol
 total | ** < tota̬l >
-basic | baṣic
+basic | bas̩ic
 smell | 
 valley | vălley < vălle̱y >
 nor | 
@@ -977,7 +977,7 @@ fav(our/or) | fav(o͜ur/or) < fav(o͜ur/o͜r) > ** … (BS/AS)
 connect | conne̖ct < co̬nne̖ct >
 post | pōst
 spend | 
-chord | c̣hord
+chord | c̩hord
 fat | 
 glad | 
 original | orĭginal < o̬rĭgi̬na̬l >
@@ -994,13 +994,13 @@ segment_vb | (segme̗nt/se̗gme̖nt)
 slave | 
 duck | 
 instant | ** < insta̬nt >
-market | ** < markė̬t >
-degree | ** < dėgree >
+market | ** < mark(ẹ/e̬)t >
+degree | ** < dẹgree >
 populate | pŏpulate < pŏpu̱late > * ¦ pŏpu̱la̗te
 chick | 
 dear | dear
 enemy | ĕnemy < ĕne̬my >
-reply | replȳ < rėplȳ >
+reply | replȳ < rẹplȳ >
 drink | 
 occur | occu͡r < o̬ccu̖r > occu̖r ¦ o̬ccu͡r
 support | suppōrt < su̬ppōrt >

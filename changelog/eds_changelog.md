@@ -1,12 +1,18 @@
 ## English Diacritical System (EDS) Changelog
 
+v2.5:
+
+- Polígrafos vocálicos agora são naturalmente tônicos. Sendo assim, não demandam mais acento tônico quando ocorrem em sílaba tônica que não a primeira.
+
+- `ä` substituído por `aͪ` e `a̤` substituído por `ä`
+
+- [TODO: add outras mudanças]
+
 v2.4:
 
 - Alterações de nomenclatura no Projeto PI. Para detalhes, vide arquivo "Nomenclature Changes.md".
 
 - Inversão de ordem SE/PI em palavras com grafias de contingência.
-
-- Polígrafos vocálicos agora são naturalmente tônicos. Sendo assim, não demandam mais acento tônico quando ocorrem em sílaba tônica que não a primeira.
 
 - Recuperado o Macron Abaixo no `y` (`y̱`).
 
@@ -15,8 +21,6 @@ v2.4:
 - Derrubado o Breve Duplo em `gg` (`g͝g`) com som [soft "g"], exceto na variante Full Mode.
 
 - `-i̖tion` vira `-ĭtion` no nível L1.
-
-- `ä` substituído por `aͪ` e `a̤` substituído por `ä`
 
 v2.3:
 
