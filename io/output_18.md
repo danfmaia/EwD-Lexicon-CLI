@@ -6,7 +6,7 @@
 
 - The̬ stŭdy ‹o̬v› ge̱ogra̖phical varia̖tion in bi̱olŏgical traits acro̖ss species has b(e͝en/‹en›) a̬ fundame̖ntal aspe̗ct ‹o̬v› nătural sciˌences since the̬ 19th century
 
-- Bŏdy size significantly influences vario͜uṣ processes at indivĭdual, population, and species lĕvels, shaping ecological dynamics, niche adaptation, and broader evolutionary trends -- fitness
+- Bŏdy size significantly influences vario͜uṣ processes at individual, population, and species lĕvels, shaping ecological dynamics, niche adaptation, and broader evolutionary trends -- fitness
 
 - Organisms exhibit profound ecological and evolutionary shifts owing to̬ chānges in bŏdy size, impacting their ecological roles, interaction dynamics, and even extinction probabilities
 
@@ -20,7 +20,7 @@
 
 - Thiṣ hypothesis predicts a̬ relationship betwe̖en bŏdy size and climate: larger sizes in colder regions, which aligns with the̬ macroecological concept known as Bergmann's rule (Pincheira‐Donoso, 2010; Watt et al.
 
-  2010).
+2010).
 
 - Bergmann's rule has vario͜uṣ definitions, of(t̊/t)en involving local latitude and/or temp(er/e̊r)(å/a)ture factors (Vinarski, 2014).
 
