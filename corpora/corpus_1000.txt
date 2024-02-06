@@ -1,6 +1,6 @@
 the | th(e̬/ē) < * > **
-of | o̬‹v›, str: o‹v›} < * > ** … [Sf1,2]{o‹f›}
-to | t(o̬/o̤) < * > **
+of | {o̬‹v›, str: ŏ‹v›} < * > ** … [Sf1,2]{o‹f›}
+to | {t(o̬/o̤), str: tö} < * > **
 and | {and, un: a̬nd} < * > **
 a | {a̬, str: ā} < * > **
 in | 
@@ -54,7 +54,7 @@ their |
 time | 
 if | 
 will | 
-w | 
+way | 
 about | ** < a̬bout >
 many | mäny
 then | 
@@ -70,7 +70,7 @@ make |
 thing | t̤hing < t̤hin͠g >
 see | 
 him | 
-two | tẘö
+two | tẘö < twö > twö ¦ tẘö
 has | 
 look | lo͝ok
 more | 
@@ -149,7 +149,7 @@ old | ōld < ** > ** ¦ ōld
 too | 
 same | 
 tell | 
-does | do͡es
+does | do᷍es
 set | 
 three | t̤hree
 want | ** < w(aᪿ/aᷱ)nt >
@@ -205,10 +205,10 @@ stand |
 own | ōwn
 page | 
 should | sh‹o͝o›d < ** > ** … [Sf1]{sh‹oul›d}
-country | co͡untry
+country | co᷍untry
 found | 
 answer | ansẘer < ansẘe͜r >
-school | sc̩ho͞ol
+school | sc̤ho͞ol
 grow | grōw
 study | stŭdy
 still | 
@@ -305,7 +305,7 @@ enough | en‹u̖ff› < (ẹ/e̬)n‹u̖ff› > … [Sf]{en‹ough›}
 plain | 
 girl | g̍ı͡rl < g̍irl > g̍irl ¦ g̍ı͡rl
 usual | ** < usua̬l > ** ¦ us̩ua̬l
-young | yo͡ung < yo͡un͠g >
+young | yo᷍ung < yo᷍un͠g >
 ready | rĕady
 above | abôve < a̬bôve >
 ever | ĕver < ĕve͜r >
@@ -412,8 +412,8 @@ lead_1 | lead
 lead_2 | lĕad
 cry | 
 dark | 
-technology | tec̩hnŏlogy < tec̩hnŏlo̬gy >
-machine | mac̤hïne < ma̬c̤hïne >
+technology | tec̤hnŏlogy < tec̤hnŏlo̬gy >
+machine | mac̩hïne < ma̬c̩hïne >
 note | 
 wait | 
 plan | 
@@ -437,10 +437,10 @@ week |
 final | ** < fina̬l >
 gave | 
 green | 
-oh | ōh
+oh | ** ¦ ōh
 quick | 
 develop | devĕlo̬p < dẹvĕlo̬p > devĕlop
-ocean | ‹ōshən› … [Sf]{‹ocean›}
+ocean | ocean{ō‹sh›an} < ocea̬n{ō‹sh›a̬n} > ** … [Sf12]
 warm | ** < waᷱrm >
 free | 
 minute_1 | mĭnụte
@@ -615,7 +615,7 @@ eight |
 village | villạge
 meet | 
 root | r(o͞o/o͝o)t
-buy | b‹ī› < ** > ** ¦ b‹ī› … [Sf1]{b‹uy›}
+buy | ** ¦ b‹ī› … [SfFM]{b‹uy›}
 raise | 
 solve | sŏlve
 metal | mĕtal < mĕta̬l >
@@ -648,7 +648,7 @@ silent | ** < sile̬nt >
 tall | ** < taᷱll >
 sand | 
 soil | 
-roll | rōld < ** > ** ¦ rōll
+roll | rōll < ** > ** ¦ rōll
 temperature | temp(er/e̊r)(å/a)ture < temp(e͜r/e̊r)(å/a̬)tu̱re > **
 finger | fing̍er < fing̍e͜r >
 industry | ** < indu̬stry >
@@ -701,7 +701,7 @@ experiment_n | expĕrime̬nt < ẹxpĕri̬me̬nt >
 experiment_vb | e̗xpĕrime̗nt < e̗xpĕri̬me̗nt >
 bottom | ** < botto̬m >
 key | kēy
-iron | ‹īərn› < ‹īə͜rn› > … [Sf]{‹iron›}
+iron | iro̊n
 single | ** < sing͜le >
 stick | 
 flat | 
@@ -721,7 +721,7 @@ exact | exa̖ct < ẹxa̖ct >
 symbol | ** < symbo̬l >
 die | 
 least | least
-trouble | tro͡uble < tro͡ub͜le >
+trouble | tro᷍uble < tro᷍ub͜le >
 shout | 
 except | exce̖pt < (ẹ/e̗)xce̖pt >
 wrote | 
@@ -737,8 +737,8 @@ rise |
 bad | 
 blow | blōw
 oil | 
-blood | blo͡od
-touch | to͡uch
+blood | blo᷍od
+touch | to᷍uch
 grew | 
 cent | 
 mix | 
@@ -776,7 +776,7 @@ noon | no͞on
 whose | whöse
 locate | loc(a̖/a̗)te
 ring | ** < rin͠g
-character | c̩hăracter < c̩hăra̬cte͜r >
+character | c̤hăracter < c̤hăra̬cte͜r >
 insect | inse̗ct < * > **
 caught | 
 period | perio̬d < * > **
@@ -963,7 +963,7 @@ basic | bas̩ic
 smell | 
 valley | vălley < vălle̱y >
 nor | 
-double | do͡ub͜le
+double | do᷍ub͜le
 seat | seat
 arrive | arri̖ve < a̬rri̖ve
 master | ** < maste͜r
@@ -977,7 +977,7 @@ fav(our/or) | fav(o͜ur/or) < fav(o͜ur/o͜r) > ** … (BS/AS)
 connect | conne̖ct < co̬nne̖ct >
 post | pōst
 spend | 
-chord | c̩hord
+chord | c̤hord
 fat | 
 glad | 
 original | orĭginal < o̬rĭgi̬na̬l >
@@ -1010,6 +1010,7 @@ range | rānge < * > **
 steam | steam
 motion | ** < motio̬n >
 path | 
+paths | ** < pa(th/t᷼h)s >
 liquid | lĭquid
 log | 
 meant | mĕant

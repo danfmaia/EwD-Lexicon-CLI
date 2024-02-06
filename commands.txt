@@ -2,7 +2,7 @@
 ::  PI Text Transcriber
 ::
 
-> py main.py transcribe --file io/input_short.md --interactive
+> python src/main.py transcribe --file io/input.txt
 
 ::
 :: pandoc
