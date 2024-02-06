@@ -12,7 +12,7 @@ accent_vb | (acce̗nt/a̗cce̖nt)
 accompany | accômpany < a̬ccômpa̬ny >
 accurate | accurạte < accu̱rạte > **
 across | acro̖ss < a̬cro̖ss >
-ache | āc̩he
+ache | āc̤he
 adhere | a̗dhe̖re
 alarm | ala̖rm < a̬la̖rm >
 almond | (a̍l̊/ăl)mond < (a̍l̊/ăl)mo̬nd >  … (CP/SP)
@@ -26,7 +26,7 @@ applicable | appl(i/ĭ)able < (applica̬b͜le/a̬pplĭca̬b͜le) >
 Arab | Ara̬b
 Arabian | Ara̖bian < A̬rabia̬n > ** ¦ A̬ra̖bia̬n
 Arabic | Arabic < Ara̬bic >
-archipelago | arc̩hipĕlago < arc̩hipĕla̬go >
+archipelago | arc̤hipĕlago < arc̤hipĕla̬go >
 aspect | aspe̗ct ¦ a̖spe̗ct
 asthma | as(t̊h̊/th)ma < as(t̊h̊/th)ma̬ >
 baroque | (bărŏ̖que/ba̬ro̖que) < (bărŏ̖que/ba̬ro̖que) > (bărŏ̖que/ba̬ro̖que) ¦ (bărŏ̖qůe̊/ba̬ro̖qůe̊) … (GB/GA)
@@ -39,6 +39,7 @@ bough | b‹ow› … [Sf]{b‹ough›}
 breath | brĕath
 breathe | breathe
 bull | büll
+bustle | bust̊le < bust̊͜le >
 busy | bu̇sy
 business | bu̇si̊ness < bu̇si̊nẹss >
 Caesar | Cåesar < Cåesa͜r >
@@ -48,6 +49,7 @@ carnival | ** < carni̬val >
 castle | cast̊le < cast̊͜le >
 category | cătegory < căt(ẹ/e̬)g(o̬/o̗)ry > … (GB/GA)
 cater | ** < cate͜r >
+chorus | c̤horus̩ < c̤horu̬s̩ >
 chough | ch‹uff› … [Sf]{ch‹ough›}
 cliché | clïché
 climb | clīmb̊ < * > clīmb
@@ -61,7 +63,7 @@ content_1 | cŏnte̗nt
 content_2 | conte̖nt < co̬nte̖nt >
 corpus | corpus̩ < corpu̬s̩ >
 corpora | corpora < corpo̬ra̬ >
-country | co͡untry
+country | co᷍untry
 cough | c(‹aw›/o)ff … (GA/GB) … [Sf]{c‹ough›}
 cover | côver < côve͜r >
 create | crea̖te < crea̖te > crea̖te ¦ crea̖te
@@ -85,7 +87,7 @@ echo | ec̣ho
 educate | ĕducate ¦ ĕduca̗te
 education | ĕduca̖tion < ĕducatio̬n > ĕducation ¦ ĕduca̖tio̬n
 efficacy | ** < effica̬cy >
-echo | ec̩ho
+echo | ec̤ho
 efficacious | e̗ffica̖cio͜us̩ < e̗ffica̖cio͜us̩ > e̗ffica̖cious̩
 endeavour | endĕavo͜ur < ẹndĕavo͜ur > endĕavour
 England | Ėngland < Ėngla̬nd >
@@ -96,7 +98,7 @@ everyday | ĕve̊ry·day
 everyone | ĕve̊ry·‹wun› … [S½]{every‹one›}
 everything | ĕve̊ry·t̤hing < ĕve̊ry·t̤hin͠g >
 exaggerate | exa̖ggerate < ẹxa̖gge̬rate > ** ¦ ẹxa̖g͝ge̬ra̗te
-flood | flo͡od
+flood | flo᷍od
 focus | focus̩ < focu̬s̩ >
 foe | foe̊ < ** > **
 formidable | (formĭdable/formidable) < (fo̬rmĭda̬b͜le/formida̬b͜le) > … (GB/GA)
@@ -111,17 +113,18 @@ geographic | ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
 geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
 ginger | ** < ginge͜r >
 gone | gŏne
+guy | ** ¦ g̍‹ī› … [SfFM]{g‹uy›}
 honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
-hierarch | hīera̗rc̩h < hī(e̬/e̊)ra̗rc̩h >
-hierarchical | hīera̖rc̩hical < hī(e̬/e̊)ra̖rc̩hica̬l
-hierarchy | hīera̗rc̩hy < hī(e̬/e̊)ra̗rc̩hy > * ¦ hī(e̬/e̊)ra̗rc̩hy
+hierarch | hīera̗rc̤h < hī(e̬/e̊)ra̗rc̤h >
+hierarchical | hīera̖rc̤hical < hī(e̬/e̊)ra̖rc̤hica̬l
+hierarchy | hīera̗rc̤hy < hī(e̬/e̊)ra̗rc̤hy > * ¦ hī(e̬/e̊)ra̗rc̤hy
 hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene
 identify | ide̖ntify̱ < (ī/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
 imam | ima̍m
 infinity | infĭnity
 infinite | infini̯te < infi̬ni̯te >
-iron | ‹īə͜rn› … [Sf]{‹iron›}
+iron | iro̊n
 isn't | is͜n't < * > **
 itself | it꞉self
 journal | jo͡urnal < jo͡urna̬l >
@@ -144,7 +147,7 @@ meadow | mĕadow
 medicine | mĕdici̯ne < mĕdi̬ci̯ne >
 mentor | ** < ment(o̗/o̬)r > ment(o̗/o̬)r
 Messiah | Messīah < Mẹssīa̬h >
-Michael | Mīc̩ha͜el < * > Mīc̩hael
+Michael | Mīc̤ha͜el < * > Mīc̤hael
 muscle | musc̊le < musc̊͜le >
 muscular | muscular < muscu̱la͜r > **
 Mycenae | My̱ce̖nåe̱ < * > Myce̖nåe̱
@@ -194,13 +197,14 @@ says | säys
 scarce | sc‹air›rce < scārce > scārce … [Sf1]{sc‹ar›ce}
 scarcity | sc‹air›city < scārcity > scārcity … [Sf1]{sc‹ar›city}
 scarcity | scārcity < 
-schedule | (sch/sc̩h)ĕdule … (GB/GA)
+schedule | (sch/sc̤h)ĕdule … (GB/GA)
 scissors | scis͝sors < scis͝so͜rs > … [FE]
 scone | sc(ōne/ŏne)
 Shiah | Shïah < Shïa̬h >
 shoe | shöe̊ < shöe > shöe
 simplify | simplify̱ < simpl(i/i̬)fy̱ > **
 smooth | smo͞ot̩h
+soul | sōul
 Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > … (CP/LCP) … [Sf½]{South‹›ampton}
 species_sing | (specie̱s/species/speciẹs̩) < * > ** (CP/LCP/AP)
 species_pl | (specie̱s/species/specie̱s) < * > ** (CP/LCP/AP)
