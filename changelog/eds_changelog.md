@@ -1,12 +1,16 @@
 ## English Diacritical System (EDS) Changelog
 
+v2.6:
+
+[TODO: add mudanças]
+
 v2.5:
 
 - Polígrafos vocálicos agora são naturalmente tônicos. Sendo assim, não demandam mais acento tônico quando ocorrem em sílaba tônica que não a primeira.
 
-- `ä` substituído por `aͪ` e `a̤` substituído por `ä`
+- `ä` substituído por `a̍` e `a̤` substituído por `ä`
 
-- [TODO: add outras mudanças]
+[TODO: add outras mudanças]
 
 v2.4:
 
