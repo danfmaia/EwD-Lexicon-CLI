@@ -66,8 +66,8 @@ corpora | corpora < corpo̬ra̬ >
 country | co᷍untry
 cough | c(‹aw›/o)ff … (GA/GB) … [Sf]{c‹ough›}
 cover | côver < côve͜r >
-create | crea̖te < crea̖te > crea̖te ¦ crea̖te
-creation | crea̖tion < crea̖tio̬n > crea̖tion ¦ crea̖tio̬n
+create | cre̱a̖te < crea̖te > crea̖te
+creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
 Danish | Dānish
 deity | d(ē/‹ay›)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA) … [Sf½]{d‹ei›ty}
 desert_1 | dĕsert < dĕse͜rt >
@@ -114,7 +114,8 @@ geographic | ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
 geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
 ginger | ** < ginge͜r >
 gone | gŏne
-guy | ** ¦ g̍‹ī› … [SfFM]{g‹uy›}
+guitar | gůita̖r < * > guita̖r
+guy | 
 honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
 hierarch | hīera̗rc̤h < hī(e̬/e̊)ra̗rc̤h >
