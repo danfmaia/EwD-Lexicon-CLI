@@ -89,7 +89,8 @@ education | ĕduca̖tion < ĕducatio̬n > ĕducation ¦ ĕduca̖tio̬n
 efficacy | ** < effica̬cy >
 echo | ec̤ho
 efficacious | effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
-endeavour | endĕavo͜ur < ẹndĕavo͜ur > endĕavour
+endeavor | endĕavor < ẹndĕavor > ... (AS)
+endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... (BS)
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
@@ -228,7 +229,7 @@ understand | under꞉stand < unde͜r꞉stand >
 understood | under꞉sto͝od < unde͜r꞉sto͝od >
 unique | u̱nïque < * > unïque ¦ u̱nïqůe̊
 upend | up꞉end
-upon | u̬pŏn
+upon | upŏn < u̬pŏn >
 vague | vagůe̊ < ** > ** ¦ vagůe̊
 vaguely | vagůe̊ly
 variant | ** < varia̬nt >

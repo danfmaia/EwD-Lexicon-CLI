@@ -296,8 +296,8 @@ horse |
 cut | 
 sure | ** ¦ s̩ure
 watch | ** < waᪿtch >
-colour | cŏlo͜ur < * > cŏlour
-color | cŏlor < cŏlo͜r > *
+color | cŏlor < cŏlo͜r > … (AS)
+colour | cŏlo͜ur … (BS)
 face | 
 wood | wo͝od
 main | 
@@ -818,7 +818,8 @@ necessary | nĕce̬ssary < nĕce̬ss(a/å)ry > nĕcessary ¦ nĕce̬ss(a̗/
 sharp | 
 wing | ** < win͠g >
 create | crea̖te
-neighb(our/or) | neighb(o͜ur/or) < neighb(o͜ur/o͜r) > neighb(o͜ur/or) … (BS/AS)
+neighbor | ** < neighbo͜r > … (AS)
+neighbour | neighbo͜ur … (BS)
 wash | ** < w(aᪿ/aᷱ)sh >
 bat | 
 rather | ** < rathe͜r >
@@ -973,7 +974,8 @@ shore |
 division | divi̖sion < divisio̬n > ** ¦ divi̖sio̬n
 sheet | 
 substance | substance < substa̬nce >
-fav(our/or) | fav(o͜ur/or) < fav(o͜ur/o͜r) > ** … (BS/AS)
+favor | ** < favo͜r > … (AS)
+favour | favo͜ur … (BS)
 connect | conne̖ct < co̬nne̖ct >
 post | pōst
 spend | 
