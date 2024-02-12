@@ -2,7 +2,13 @@
 
 v2.6:
 
-[TODO: add mudanças]
+- Concebida a variante L0 como experiência.
+
+- [Inclusão na nomenclatura]  Grafemas IsD tratados com _grafemas de contingência_ agora são chamados de _exceptions_, tanto em português quanto em inglês.
+
+- A variante L3 agora não revela a pronúncia das _exceptions_ ao longo do texto. 
+
+- Derrubado o acento do _hard “g”_ na variante L3 (`g̍` > `g`).
 
 v2.5:
 
