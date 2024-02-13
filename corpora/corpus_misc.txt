@@ -20,7 +20,7 @@ amateur | ăma(te͜ur/te͡ur/‹chər›/‹chuər›) < ăma(te͜ur/te͡r/‹
 amoeba | amo̊ēba < a̬mo̊ēba̬ > amo̊e̖ba
 another | anôther < a̬nôthe͜r >
 Antarctica | Ant꞉ar(c/c̊)tica < Ant꞉ar(c/c̊)tica̬
-anywhere | änywhĕre < äny·whĕre >
+anywhere | äny·whĕre
 apostrophe | apo̖strophe̱ < a̬po̖stro̬phe̱ >
 applicable | appl(i/ĭ)able < (applica̬b͢le/a̬pplĭca̬b͢le) >
 Arab | Ara̬b
@@ -158,7 +158,7 @@ naive | na̬ïve
 naked | nakẹd
 nature | ** < natu̱re >
 Nazi | N(a̍/ă)z̤i
-nineteenth | nine̥teenth < nine·teenth· > ** ¦ nine·teenth·
+nineteenth | nine·teenth· < * > **
 none | nône
 nonetheless | nône·the̬꞉less < * > nône·the꞉less
 nourish | no͡urish
@@ -166,7 +166,7 @@ nuance | n(ū/ü)¹(a̍/a̖̍)²nce … ¹(GB/GA) ²(CP/LCP)
 oven | ôven < ôve̬n >
 over | ** < ove͜r >
 peninsula | peni̖nsula < pe̬ni̖ns(u̱/u̬)la̬ > … (GB/GA)
-pineapple | pine̥apple < pine·app͢le > **
+pineapple | pine·apple < pine·app͢le > **
 pizza | pïz̤za < pïz̤za̬ >
 plugin | plug·in < * > **
 possess | pos᷼se̖ss < po̬s᷼se̖ss >
@@ -214,7 +214,7 @@ Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > … (CP/LC
 species_sing | (specie̱s/species/speciẹs̩) < * > ** (CP/LCP/AP)
 species_pl | (specie̱s/species/specie̱s) < * > ** (CP/LCP/AP)
 subtle | sub̊tle < sub̊t͢le >
-subtlety | sub̊tle̥ty < sub̊t͢le̥ty > sub̊tlety
+subtlety | sub̊tle·ty < sub̊t͢le·ty >
 sugar | s̩ügar < s̩üga͜r >
 Sunni | Sünni
 surface | su͡rface < surf(ạ/a̬)ce > ** ¦ su͡rf(ạ/a̬)ce … (GB/GA)

@@ -1,14 +1,20 @@
 ## English Diacritical System (EDS) Changelog
 
+v2.7:
+
+- Removido o acento Anel Abaixo. Recuperado o Ponto Médio para indicar a separação morfêmicas das palavras nas quais tal acento vinha sendo usado. Ex.:
+
+  v2.6 | v2.7
+
 v2.6:
 
-- Concebida a variante L0 como experiência.
+- Concebido nível L0 como experiência.
 
-- [Inclusão na nomenclatura]  Grafemas IsD tratados com _grafemas de contingência_ agora são chamados de _exceptions_, tanto em português quanto em inglês.
+- [Inclusão na nomenclatura] Grafemas IsD tratados com _grafemas de contingência_ (_fallback graphemes_) agora são chamados de _exceptions_, tanto em português quanto em inglês.
 
-- A variante L3 agora não revela a pronúncia das _exceptions_ ao longo do texto. 
+- O nível L3 agora não revela a pronúncia das _exceptions_ ao longo do texto.
 
-- Derrubado o acento do _hard “g”_ na variante L3 (`g̍` > `g`).
+- Derrubado o acento do _hard “g”_ no nível L3 (`g̍` > `g`).
 
 v2.5:
 
