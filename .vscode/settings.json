@@ -3,15 +3,19 @@
   "editor.letterSpacing": -0.35,
 
   "[plaintext]": {
-    "editor.fontFamily": "'Noto Sans PI', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.letterSpacing": 0.1
+    "editor.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 18,
+    "editor.letterSpacing": 0.2
   },
 
   // extend plaintext settings to other files
   "files.associations": {
     "*.plaintext": "plaintext",
+    // "*.md": "plaintext",
     "**/src/common/preliminary_replacements.py": "plaintext"
   },
+  "markdown.preview.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
+  "markdown.preview.fontSize": 22,
 
   "[python]": {
     "editor.tabSize": 4,

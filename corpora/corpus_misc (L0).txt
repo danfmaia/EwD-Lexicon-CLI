@@ -1,6 +1,6 @@
 ::::::::::
 Row Format:
-RE | L1 < L2 > L3 ¦ FM
+RE | L0 ⦚ L1 < L2 > L3 ¦ FM
 
 For more information, read the corpus_info.md file.
 ::::::::::
@@ -10,7 +10,7 @@ academic | a̯cadĕmic < a̯ca̬dĕmic >
 accent_n | acce̗nt
 accent_vb | (acce̗nt/a̗cce̖nt)
 accompany | accômpany < a̬ccômpa̬ny >
-accurate | accurạte < accu̱rạte > **
+accurate | accurạte < accū͜rạte > **
 across | acro̖ss < a̬cro̖ss >
 ache | āc‍̤he
 adhere | a̗dhe̖re
@@ -46,10 +46,10 @@ business | bu̇si̊ness < bu̇si̊nẹss >
 Caesar | Cåesar < Cåesa͜r >
 canine | cani̱ne
 cannabis | cannabis̩ < canna̬bis̩ >
-carnival | ** < carni̬val >
+carnival | ‍< carni̬val >
 castle | cast̊le < cast̊͢le >
 category | cătegory < căt(ẹ/e̬)g(o̬/o̗)ry > … (GB/GA)
-cater | ** < cate͜r >
+cater | ‍< cate͜r >
 chorus | c‍̤horus̩ < c‍̤horu̬s̩ >
 chough | ch‹uff› … [Sf]{ch‹ough›}
 cliché | clïché
@@ -87,7 +87,7 @@ easy | easy
 echo | ec̣ho
 educate | ĕducate ¦ ĕduca̗te
 education | ĕduca̖tion < ĕducatio̬n > ĕducation ¦ ĕduca̖tio̬n
-efficacy | ** < effica̬cy >
+efficacy | ‍< effica̬cy >
 echo | ec‍̤ho
 efficacious | effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
 endeavor | endĕavor < ẹndĕavor > ... (AS)
@@ -113,7 +113,7 @@ ghost | ghōst … [FE]
 geographical | ge̱ogra̖phical < geo̬gra̖phica̬l > geogra̖phical ¦ ge̱o̬gra̖phica̬l
 geographic | ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
 geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
-ginger | ** < ginge͜r >
+ginger | ‍< ginge͜r >
 gone | gŏne
 guitar | gůita̖r < * > guita̖r
 guy | 
@@ -145,20 +145,20 @@ loose | lo͞os̩e
 lose | löse
 machine | mac‍̤hïne < ma̬c‍̤hïne >
 many | m‹ĕny› … [Sf]{m‹any›}
-martyr | ** < marty͜r >
+martyr | ‍< marty͜r >
 mature | matu̖re < ma̬tu̖re >
 meadow | mĕadow
 medicine | mĕdici̯ne < mĕdi̬ci̯ne >
-mentor | ** < ment(o̗/o̬)r > ment(o̗/o̬)r
+mentor | ‍< ment(o̗/o̬)r > ment(o̗/o̬)r
 Messiah | Messīah < Mẹssīa̬h >
 Michael | Mīc‍̤ha͢el
 muscle | musc̊le < musc̊͢le >
-muscular | muscular < muscu̱la͜r > **
+muscular | muscular < muscū̬la͜r > **
 Mycenae | My̱ce̖nåe̱ < * > Myce̖nåe̱
 Mycenaean | My̱cenåēa̬n < Mycẹnåēa̬n > Mycenåēan ¦ My̱cẹnåēa̬n
 naive | na̬ïve
 naked | nakẹd
-nature | ** < natu̱re >
+nature | ‍< natū͜re >
 Nazi | N(a̍/ă)z̤i
 nineteenth | nine·teenth· < * > **
 none | nône
@@ -166,30 +166,30 @@ nonetheless | nône·the̬꞉less < * > nône·the꞉less
 nourish | no͡urish
 nuance | n(ū/ü)¹(a̍/a̖̍)²nce … ¹(GB/GA) ²(CP/LCP)
 oven | ôven < ôve̬n >
-over | ** < ove͜r >
-peninsula | peni̖nsula < pe̬ni̖ns(u̱/u̬)la̬ > … (GB/GA)
+over | ‍< ove͜r >
+peninsula | peni̖nsula < pe̬ni̖ns(ū̬/u̬)la̬ > … (GB/GA)
 pineapple | pine·apple < pine·app͢le > **
 pizza | pïz‍̤za < pïz‍̤za̬ >
 plugin | plug·in < * > **
 possess | pos᷼se̖ss < po̬s᷼se̖ss >
 possession | pos᷼se̖ssion < po̬s᷼se̖ssio̬n >
 prayer_1 | pr‹air› … [Sf]{pr‹ayer›}
-prayer_2 | ** < praye͜r >
+prayer_2 | ‍< praye͜r >
 primary | primary < prim(a̬/a̗)ry > … (GB/GA)
 primarily | prim(a̖/a)rily < (prima̖ri̬ly/prima̗ri̬ly/prima̬ri̬ly) >
 progress_n | (progre̗ss/prŏgress) < (progre̗ss/prŏgr(e̗/e̬)ss) > … (GB/GA)
 project | prŏject < prŏj(e̗/ẹ)ct >
 promise | prŏmis̩e
 protein | prot(ein/ei̗n) < prot(e̱in/e̱i̗n) >
-pronounce | ** < pro̬nounce >
+pronounce | ‍< pro̬nounce >
 pronunciation | pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n >
 purpose | pu͡rpo̬s̩e < purpo̬s̩e > purpo̬s̩e
 pursuit | pursui̊t < pu͜rsui̊t >
 ragged | raggẹd
-real | (reˌal/r‹eel›) < (reˌa̬l/r‹eel›) > … Sf½{r‹eal›}
-realism | reˌali̗s͢m < rea̬li̗s͢m > realism
-realistic | reˌali̖stic
-reality | reˌălity
+real | ** : (rea̬l/r‹eel›) < * > … Sf½123{r‹eal›}
+realism | ** : rea̬lis͢m < rea̬li̗s͢m > **
+realistic | realĭstic : rea̬li̖stic
+reality | reălity
 receipt | recēip̊t < rẹcēip̊t >
 recipe | rĕcipe̱ < rĕc(i/i̬)pe̱ > rĕcipe̱
 release | releas̩e < r(ẹ/e̬)leas̩e >
@@ -218,7 +218,7 @@ species_sing | (specie̱s/species/speciẹs̩) < * > ** (CP/LCP/AP)
 species_pl | (specie̱s/species/specie̱s) < * > ** (CP/LCP/AP)
 subtle | sub̊tle < sub̊t͢le >
 subtlety | sub̊tle·ty < sub̊t͢le·ty >
-sugar | s̩ügar < s̩üga͜r >
+sugar | sͪügar < sͪüga͜r > sügar
 Sunni | Sünni
 surface | su͡rface < surf(ạ/a̬)ce > ** ¦ su͡rf(ạ/a̬)ce … (GB/GA)
 thorough | t‍̤hôr(o̱ugh/o͢ugh)
@@ -239,11 +239,11 @@ upend | up꞉end
 upon | upŏn < u̬pŏn >
 vague | vagůe̊ < ** > ** ¦ vagůe̊
 vaguely | vagůe̊ly
-variant | ** < varia̬nt >
+variant | ‍< varia̬nt >
 variation | varia̖tion < varia̖tio̬n >
 variety | varīˌety < va̬rī(ẹ/e̬)ty >
 various | vario͢us̩ < * > various̩
-vernacular | vernăcular < ve͜rnăcu̱la͜r >
+vernacular | vernăcular < ve͜rnăcū̬la͜r >
 volley | vŏlley < vŏlle̱y >
 volleyball | vŏlleyball < vŏlle̱ybaᷱll >
 were | we͡re
@@ -257,14 +257,14 @@ Monday | Mônday < Mônd(ay/åy) >
 Tuesday | Tue̊sday < Tuesd(ay/åy) > **
 Wednesday | Wed̊ne̊sd(ay/åy) < Wed̊ne̊sd(ay/åy) > Wed̊ne̊sday
 Thirsday | Thı͡rsday < Thirsd(ay/åy) > ** ¦ Thı͡rsd(ay/åy)
-Friday | ** < Frid(ay/åy)
+Friday | ‍< Frid(ay/åy)
 Saturday | Săturday < Sătu͜rd(ay/åy) >
-Sunday | ** < Sund(ay/åy) >
+Sunday | ‍< Sund(ay/åy) >
 
 January | Jănuary ¦ Jănua̗ry
 February | Fĕb(r/r̊)uary ¦ Fĕb(r/r̊)ua̗ry
 March | 
-April | ** < Apri̬l >
+April | ‍< Apri̬l >
 May | 
 June | 
 July | Julȳ < Ju̬lȳ >
