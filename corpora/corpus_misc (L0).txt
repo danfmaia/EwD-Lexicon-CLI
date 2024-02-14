@@ -119,9 +119,9 @@ guitar | gůita̖r < * > guita̖r
 guy | 
 honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
-hierarch | hīera̗rc‍̤h < hī(e̬/e̊)ra̗rc‍̤h >
-hierarchical | hīera̖rc‍̤hical < hī(e̬/e̊)ra̖rc‍̤hica̬l
-hierarchy | hīera̗rc‍̤hy < hī(e̬/e̊)ra̗rc‍̤hy > * ¦ hī(e̬/e̊)ra̗rc‍̤hy
+hierarch | hīera̗rc‍̤h < hī(e̬/e̥)ra̗rc‍̤h >
+hierarchical | hīera̖rc‍̤hical < hī(e̬/e̥)ra̖rc‍̤hica̬l
+hierarchy | hīera̗rc‍̤hy < hī(e̬/e̥)ra̗rc‍̤hy > * ¦ hī(e̬/e̥)ra̗rc‍̤hy
 hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene
 identify | ide̖ntify̱ < (ī/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
 imam | ima̍m
@@ -253,13 +253,13 @@ woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
 women | w‹ĭmin› < wȯmẹn > ** … [Sf1]{w‹omen›}
 won | wôn
 
-Monday | Mônday < Mônd(ay/åy) >
-Tuesday | Tue̊sday < Tuesd(ay/åy) > **
-Wednesday | Wed̊ne̊sd(ay/åy) < Wed̊ne̊sd(ay/åy) > Wed̊ne̊sday
-Thirsday | Thı͡rsday < Thirsd(ay/åy) > ** ¦ Thı͡rsd(ay/åy)
-Friday | ‍< Frid(ay/åy)
-Saturday | Săturday < Sătu͜rd(ay/åy) >
-Sunday | ‍< Sund(ay/åy) >
+Monday | Mônday < Mônd(ay/ḁy) >
+Tuesday | Tue̊sday < Tuesd(ay/ḁy) > **
+Wednesday | Wed̊ne̊sday < Wed̊ne̊sd(ay/ḁy) > Wed̊ne̊sday
+Thirsday | Thı͡rsday < Thirsd(ay/ḁy) > ** ¦ Thı͡rsd(ay/ḁy)
+Friday | ‍< Frid(ay/ḁy) >
+Saturday | Săturday < Sătu͜rd(ay/ḁy) >
+Sunday | ‍< Sund(ay/ḁy) >
 
 January | Jănuary ¦ Jănua̗ry
 February | Fĕb(r/r̊)uary ¦ Fĕb(r/r̊)ua̗ry

@@ -1,6 +1,8 @@
 {
-  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-  "editor.letterSpacing": -0.35,
+  // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  // "editor.letterSpacing": -0.35,
+  "editor.fontFamily": "'Noto Sans PI', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.letterSpacing": 0.5,
 
   "[plaintext]": {
     "editor.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
@@ -15,7 +17,7 @@
     "**/src/common/preliminary_replacements.py": "plaintext"
   },
   "markdown.preview.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
-  "markdown.preview.fontSize": 22,
+  "markdown.preview.fontSize": 24,
 
   "[python]": {
     "editor.tabSize": 4,

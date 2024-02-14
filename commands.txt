@@ -10,11 +10,18 @@
 
 Current commands:
 
-    > pandoc "Ranking de Prioridade com Compatibilidade.md" -o "Ranking de Prioridade com Compatibilidade.pdf" \
+    > pandoc "changelog/ewd_changelog.md" -o "changelog/Changelog do IcD.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
-    -V mainfont="Linux Libertine" \
-    -V sansfont="DejaVu Sans" \
-    -V monofont="Linux Libertine Mono O" \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
+
+    > pandoc "input.md" -o "ouput.pdf" \
+    --pdf-engine=xelatex --template=eisvogel --listings \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
 
     > pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf" \

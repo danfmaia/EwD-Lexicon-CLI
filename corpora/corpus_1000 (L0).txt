@@ -365,7 +365,7 @@ early | e͡arly
 hold | hōld < ** > ** ¦ hōld
 west | 
 ground | 
-interest | ‍< int(e̬/e̊)r(ẹ/e̬/e̗)st >
+interest | ‍< int(e̬/e̥)r(ẹ/e̬/e̗)st >
 reach | reach
 fast | 
 verb | ve͡rb < ** > ** ¦ ve͡rb
@@ -380,7 +380,7 @@ ten |
 simple | ‍< simp͢le >
 several | sĕveral < sĕve̬ra̬l >
 vowel | ‍< vowe̬l >
-toward | towa̖rd < t(o̬/o̊)waᷱrd >
+toward | towa̖rd < t(o̬/o̥)waᷱrd >
 war | ‍< waᷱr >
 lay | 
 against | ag(äin/ain)st < a̬g(äin/ain)st > ag(äin/ain)st
@@ -650,7 +650,7 @@ tall | ‍< taᷱll >
 sand | 
 soil | 
 roll | rōll < ** > ** ¦ rōll
-temperature | temp(er/e̊r)(å/a)ture < temp(e͜r/e̊r)(å/a̬)tū͜re > **
+temperature | temp(er/e̥r)(ḁ/a)ture < temp(e͜r/e̥r)(ḁ/a̬)tū͜re > **
 finger | fing̍er < fing̍e͜r > **
 industry | ‍< indu̬stry >
 value | vălue̊ < vălue > vălue
@@ -767,7 +767,7 @@ gentle | ‍< gent͢le >
 woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
 captain | capta͢in
 practice | 
-separate_etc | sĕparạte < sĕp(a̬/å)rạte > sĕparate
+separate_etc | sĕparạte < sĕp(a̬/ḁ)rạte > sĕparate
 separate_vb | sĕparate < sĕpa̬ra̗te> sĕparate 
 difficult | ‍< diffic(u̗/u̬)lt >
 doctor | ‍< docto͜r >
@@ -815,7 +815,7 @@ soldier | sōldier < soldie͜r > ** ¦ sōldie͜r
 process | (prŏcess/proce̗ss) < (prŏc(e̗/e̬)ss/proce̗ss) > … (GA/GB)
 operate | ŏperate < ŏpe̬rate > * ¦ ŏpe̬ra̗te
 guess | gůess
-necessary | nĕce̬ssary < nĕce̬ss(a/å)ry > nĕcessary ¦ nĕce̬ss(a̗/å)ry
+necessary | nĕce̬ssary < nĕce̬ss(a̗/ḁ)ry > nĕcessary ¦ nĕce̬ss(a̗/ḁ)ry
 sharp | 
 wing | ‍< win͠g >
 create | cre̱a̖te < crea̖te > crea̖te
@@ -889,7 +889,7 @@ invent | inve̖nt
 cotton | ‍< cotto̬n >
 born | 
 determine | dete͡rmi̯ne < dẹte̖rmi̯ne > dete̖rmi̯ne ¦ dẹte͡rmi̯ne
-quart_1 | q(u/ů)art < q(u/ů)aᷱrt >
+quart_1 | q(u/u̥)art < q(u/u̥)aᷱrt >
 quart_2 | qůa̍rt
 nine | 
 truck | 
