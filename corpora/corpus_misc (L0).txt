@@ -74,8 +74,8 @@ deity | d(ē/‹ay›)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA) … [Sf½]{d‹ei�
 desert_1 | dĕsert < dĕse͜rt >
 desert_2&3 | dese̖rt < dẹse͡rt >
 dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt
-detail | det(a̖i/a̗i)l < (dẹta̖il/deta̗il) >
-detailed | det(a̖i/a̗i)le̊d < (dẹta̖ile̊d/dēta̗ile̊d) > det(a̖i/a̗i)led
+detail | d(e/ē)tail ⦚ d(e/e̖)tail < d(ẹ/e̖)tail >
+detailed | d(e/ē)taile̊d ⦚ d(e/e̖)taile̊d < (d(ẹ/e̖)taile̊d) > d(e/e̖)tailed
 diacritic | di̱acrĭtic < dia̬crĭtic > diacrĭtic ¦ di̱a̬crĭtic
 diaeresis | di̱(‹a̖›/‹e̖›)res̩is̩ < di(‹a̖›/‹e̖›)r(ẹ/e̬)s̩is̩ > di(‹a̖›/‹e̖›)res̩is̩ ¦ di̱(‹a̖›/‹e̖›)r(ẹ/e̬)s̩is̩
 direct | dire̖ct ¦ d(ī/i/i̬)re̖ct
@@ -210,7 +210,7 @@ scone | sc(ōne/ŏne)
 Shiah | Shïah < Shïa̬h >
 shoe | shöe̊ < shöe > shöe
 simplify | simplify̱ < simpl(i/i̬)fy̱ > **
-smooth | smo͞ot̩h
+smooth | smo͞ot᷼h
 something | sôme·t‍̤hing < * > sômet‍̤hing
 soul | sōul
 Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > … (CP/LCP) … [Sf½]{South‹›ampton}
