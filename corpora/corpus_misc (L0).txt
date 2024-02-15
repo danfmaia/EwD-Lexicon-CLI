@@ -30,7 +30,7 @@ Arabic | A̖rabic < A̖ra̬bic >
 archipelago | arc‍̤hipĕlago < arc‍̤hipĕla̬go >
 aspect | aspe̯ct ⦚ aspe̗ct < > ** ¦ a̖spe̗ct
 asthma | as(t‍̥h/th)ma < as(t‍̥h/th)ma̬ >
-baroque | (ba̯rŏque/ba̬rōque) ⦚ (ba̯rŏqůe̊/baro̖qůe̊) < (ba̯rŏque/ba̬ro̖que) > bar(ŏ/o̖)que ¦ (ba̯rŏqůe̊/ba̬ro̖qůe̊) … (GB/GA)
+baroque | (barōque/ba̯rŏque) ⦚ (baro̖que/ba̯rŏque) < (ba̬ro̖que/ba̯rŏque) > bar(o̖/ŏ)que ¦ (ba̬ro̖qůe̊/ba̯rŏqůe̊) … (GA/GB)
 beloved_1 | belôvẹd < bẹlôvẹd >
 beloved_2 | belôve̊d < bẹlôve̊d > belôved
 biological | bi̱olŏgical < bio̬lŏgica̬l > biolŏgical ¦ bi̱o̬lŏgica̬l
@@ -69,7 +69,7 @@ cover | côver < côve͜r >
 create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te … [D]
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
 Danish | 
-deity | d(ē/ë)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA)
+deity | d(ē/ë)¹ity < d(ē/ë)¹(i̬/i)²ty > … ¹(CP/LCP) ²(GA/GB)
 desert_1 | dĕsert < dĕse͜rt >
 desert_2&3 | dese͡rt < dẹse̖rt > dese̖rt
 dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt
@@ -167,9 +167,10 @@ nourish | no᷍urish
 nuance | nū(a̍/a̖̍)nce … (CP/LCP)
 oven | ôven < ôve̬n >
 over | ‍< ove͜r >
-peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(ū̬/u̬)la̬ > … (GB/GA)
+peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(u̬/ū̬)la̬ > … (GA/GB)
 pineapple | pine·apple < pine·app͢le > ** … [D]
 pizza | pïz‍̤za < pïz‍̤za̬ > … [D]
+plaque | pl(ă/a̍)que ¦ pl(ă/a̍)qůe̊ ... (GA/GB)
 plugin | plug·in < > **
 possess | pos᷼sĕss ⦚ pos᷼se̖ss < po̬s᷼se̖ss > … [DC]
 possession | pos᷼sĕssion ⦚ pos᷼se̖ssion < po̬s᷼sessio̬n > pos᷼session … [DC]
@@ -202,7 +203,7 @@ said | säid
 says | säys
 scarce | sc‹air›ce < scārce > scārce … [Sf01]{sc‹ar›ce}
 scarcity | sc‹air›city < scārcity > scārcity … [Sf01]{sc‹ar›city}
-schedule | (sch/sc‍̤h)ĕdule … (GB/GA)
+schedule | (sc‍̤h/sch)ĕdule … (GA/GB)
 schizophrenic | sc‍̤hĭz̤ophrĕ̖nic < sc‍̤hĭz̤o̬phrĕ̖nic >
 scissors | scis᷼sors < scis᷼so͜rs > … [FE]
 scone | sc(one/ŏne)
@@ -232,10 +233,10 @@ undergo | undergō ⦚ undergo̖ < unde͜rgo̖ >
 underwent | underwĕnt ⦚ underwe̖nt < unde͜rwe̖nt >
 understand | understănd ⦚ understa̖nd < unde͜rsta̖nd >
 understood | understo͝od < unde͜rsto͝od >
-unique | u̱nïque ⦚ u̱nïqůe̊ < unïque > unïque ¦ u̱nïqůe̊
+unique | u̱nïque < unïque > unïque ¦ u̱nïqůe̊
 upend | up꞉end
 upon | upŏn ⦚ upo̖n < u̬po̖n >
-vague | ** ⦚ vagůe̊ < > ** ¦ vagůe̊
+vague | ** ¦ vagůe̊
 vaguely | vagůe̊ly
 variant | ‍< varia̬nt >
 variation | variātion ⦚ varia̖tion < varia̖tio̬n >

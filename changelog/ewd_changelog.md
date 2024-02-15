@@ -18,26 +18,37 @@
    > - pine̥apple > pine·apple
    > - sub̊tle̥ty > sub̊tle·ty
 
-3. [Alteração de nomenclatura] O termo "Elisão" agora se refere apenas aos casos de Silenciamento Vocálico Átono, em que o silenciamento da vogal depende do sotaque. O termo alternativo para "Elisão" será "Silenciamento Vocálico Átono". Para se referir a ambos os tipos de silenciamento (Sistemático ou Átono), usar-se-á o termo "Vogais Silenciosas". Todo Silenciamento Consonantal será considerado do tipo Sistemático. O termo "Letras Silenciosas" englobará "Vogais Silenciosas" e "Consoantes Silenciosas". Confira abaixo o resumo da nova nomenclatura em tópicos:
+3. [Alteração de nomenclatura] O termo "Elisão" agora refere-se apenas aos casos de Silenciamento Átono, em que o silenciamento depende do sotaque. O termo alternativo para "Elisão" será "Silenciamento Átono". O outro tipo de Silenciamento, além do Átono, é o "Sistemático". Os termos "Silenciamento" e "Letras Silenciosas" referir-se-ão tanto a vogais quanto a consoantes silenciosas. Confira abaixo o resumo da nova nomenclatura em tópicos:
 
    > Silenciamento:
    >
-   > - Silenciamento Vocálico:
-   >
-   >   ◦ Sistemático
-   >
-   >   ◦ Átono (também chamado de "Elisão")
-   >
-   > - Silenciamento Consonantal:
-   >
-   >   ◦ Sistemático
+   > - Sistemático
+   > - Átono (também chamado de "Elisão")
    >
    > Letras Silenciosas:
    >
    > - Vogais Silenciosas
    > - Consoantes Silenciosas
 
-4. O Anel Acima foi substituído pelo Anel Abaixo em casos de Elisão (Silenciamento Vocálico Átono). Exemplos:
+4. [Alteração de nomenclatura] O termo "Elisão" continuará sendo usado para referir-se tanto ao silenciamento vocálico quanto ao consonantal. Agora, além da já existente distinção quanto ao tipo de letra, haverá também a distinção quanto ao processo: Elisão Estabelecida ou Elisão de Sotaque. Para a Elisão Estabelecida, usar-se-á o acento Anel Acima; e para a Elisão de Sotaque, usar-se-á o Anel Abaixo. O termo alternativo/explicativo para qualquer tipo de elisão será "Silenciamento". O termo "Letras Silenciosas" referir-se-á tanto a vogais quanto a consoantes que sofreram elisão. Confira abaixo o resumo da nova nomenclatura em tópicos:
+
+   > Elisão:
+   >
+   > - Distinção quanto ao tipo de letra:
+   >
+   >   - Elisão Vocálica
+   >   - Elisão Consonantal
+   >
+   > - Distinção quanto ao processo:
+   >   - Elisão Estabelecida -> Anel Acima ‹  ̊ ›
+   >   - Elisão de Sotaque -> Anel Abaixo ‹  ̥ ›
+   >
+   > Letras Silenciosas:
+   >
+   > - Vogais Silenciosas
+   > - Consoantes Silenciosas
+
+5. Como consequência do item anterior, o Anel Acima foi substituído pelo Anel Abaixo em casos de Elisão de Sotaque. Exemplos:
 
    > v2.6 L2 > v2.7 L2
    >
@@ -45,14 +56,14 @@
    > - temp(e͜r/e̊r)(å/a̬)tū͜re > temp(e͜r/e̥r)(ḁ/a̬)tū͜re
    > - Wed̊ne̊sd(ay/åy) > Wed̊ne̊sd(ay/ḁy)
 
-5. Grafia “u̱” com som ⟨u-longo átono⟩ alterada de volta para “ū̬”. Exemplos:
+6. Grafia “u̱” com som ⟨u-longo átono⟩ alterada de volta para “ū̬”. Exemplos:
 
    > v2.6 L2 > v2.7 L2
    >
    > - pa͜rtĭcu̱la͜r > pa͜rtĭcū̬la͜r
    > - pŏpu̱late > pŏpū̬late
 
-6. Grafia “u̱r” com som ⟨u-rótico átono⟩ alterada para “ū͜r”. Exemplos:
+7. Grafia “u̱r” com som ⟨u-rótico átono⟩ alterada para “ū͜r”. Exemplos:
 
    > v2.6 L2 > v2.7 L2
    >
