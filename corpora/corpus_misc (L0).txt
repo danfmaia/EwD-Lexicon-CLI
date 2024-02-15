@@ -7,36 +7,36 @@ For more information, read corpus_info.md.
 
 academia | a̯cad(ē/ĕ)mia < a̯ca̬d(ē/ĕ)mia̬ >  … (CP/LCP)
 academic | a̯cadĕmic < a̯ca̬dĕmic >
-accent_n | accĕnt ⦚ acce̗nt < * > **
-accent_vb | (acce̯nt/a̯ccĕnt) ⦚ (acce̗nt/a̗cce̖nt) < * > acc(e/e̖)nt
+accent_n | accĕnt ⦚ acce̗nt < > **
+accent_vb | (acce̯nt/a̯ccĕnt) ⦚ (acce̗nt/a̗cce̖nt) < > acc(e/e̖)nt
 accompany | accômpany < a̬ccômpa̬ny >
 accurate | accurạte < accū͜rạte > **
 across | acro̖ss < a̬cr(oᷱ/ŏ)ss > … (GA/GB)
 ache | āc‍̤he
-adhere | a̯dhēre ⦚ a̗dhe̖re < * > adhe̖re
+adhere | a̯dhēre ⦚ a̗dhe̖re < > adhe̖re
 alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm >
-albeit | al꞉be·it < aᷱl꞉be·it > **
+albeit | al꞉be·it < aᷱl꞉be·it >
 almond | (a̍l̊/ăl)mond < (a̍l̊/ăl)mo̬nd >  … (CP/SP)
-amateur | ăma(te͜ur/te͡ur/‹chər›/‹chuər›) < ăma(te͜ur/te͡r/‹chə͜r›/‹chuə͜r›) > … [Sf½]{ama‹teur›}
-amoeba | amo̊ēba < a̬mo̊ēba̬ > amo̊e̖ba
-another | anôther < a̬nôthe͜r >
-Antarctica | Ant꞉ar(c/c̊)tica < Ant꞉ar(c/c̊)tica̬
-anywhere | äny·whĕre
-apostrophe | apo̖strophe̱ < a̬po̖stro̬phe̱ >
-applicable | appl(i/ĭ)able < (applica̬b͢le/a̬pplĭca̬b͢le) >
+amateur | ăma(te͜ur/te͡ur/‹chə͜r›/‹chuə͜r›) … [Sf½]{ama‹teur›}
+amoeba | amo̊ēba ⦚ amo̊e̖ba < a̬mo̊e̖ba̬ >
+another | anôther < a̬nôthe͜r > … [D]
+Antarctica | Ant꞉ar(c/c̥)tica < Ant꞉ar(c/c̥)tica̬ >
+anywhere | äny·whĕre < > änywhĕre
+apostrophe | apŏstrophe̱ ⦚ apo̖strophe̱ < a̬po̖stro̬phe̱ >
+applicable | appl(i/ĭ)cable < (applica̬b͢le/a̬pplĭca̬b͢le) >
 Arab | Ara̬b
-Arabian | Ara̖bian < A̬rabia̬n > ** ¦ A̬ra̖bia̬n
-Arabic | Arabic < Ara̬bic >
+Arabian | Arābian ⦚ Ara̖bian < A̬rabia̬n > ** ¦ A̬ra̖bia̬n
+Arabic | A̖rabic < A̖ra̬bic >
 archipelago | arc‍̤hipĕlago < arc‍̤hipĕla̬go >
-aspect | aspe̗ct ¦ a̖spe̗ct
-asthma | as(t̊h̊/th)ma < as(t̊h̊/th)ma̬ >
-baroque | (bărŏ̖que/ba̬ro̖que) < (bărŏ̖que/ba̬ro̖que) > (bărŏ̖que/ba̬ro̖que) ¦ (bărŏ̖qůe̊/ba̬ro̖qůe̊) … (GB/GA)
-beloved_1 | belôvẹd< bẹlôvẹd >
+aspect | aspe̯ct ⦚ aspe̗ct < > ** ¦ a̖spe̗ct
+asthma | as(t‍̥h/th)ma < as(t‍̥h/th)ma̬ >
+baroque | (ba̯rŏque/ba̬rōque) ⦚ (ba̯rŏqůe̊/baro̖qůe̊) < (ba̯rŏque/ba̬ro̖que) > bar(ŏ/o̖)que ¦ (ba̯rŏqůe̊/ba̬ro̖qůe̊) … (GB/GA)
+beloved_1 | belôvẹd < bẹlôvẹd >
 beloved_2 | belôve̊d < bẹlôve̊d > belôved
 biological | bi̱olŏgical < bio̬lŏgica̬l > biolŏgical ¦ bi̱o̬lŏgica̬l
 biological | bi̱olŏgic < bio̬lŏgic > biolŏgic ¦ bi̱o̬lŏgic
 biology | bi̱ŏlogy < bi̱ŏlo̬gy > biŏlogy ¦ bi̱ŏlo̬gy
-bough | b‹ow› … [Sf]{b‹ough›}
+bough | b‹o̍w› … [Sf]{b‹ough›}
 breath | brĕath
 breathe | breathe
 bull | büll
@@ -48,200 +48,198 @@ canine | cani̱ne
 cannabis | cannabis̩ < canna̬bis̩ >
 carnival | ‍< carni̬val >
 castle | cast̊le < cast̊͢le >
-category | cătegory < căt(ẹ/e̬)g(o̬/o̗)ry > … (GB/GA)
+category | cătegory < căt(e̬/ẹ)g(o̗/(o̬/o̥))ry > … (GA/GB)
 cater | ‍< cate͜r >
 chorus | c‍̤horus̩ < c‍̤horu̬s̩ >
 chough | ch‹uff› … [Sf]{ch‹ough›}
-cliché | clïché
-climb | clīmb̊ < * > clīmb
+cliché | clïché … [D]
+climb | clīmb̊ < > clīmb
 compass | cômpa̬ss
-complex | cŏmpl(e̗/e̖)x < (cŏmple̗x/co̬mple̖x) > … (GB/GA)
+complex | compl(ĕ/e̯)x ⦚ compl(e̖/e̗)x < (co̬mple̖x/comple̗x) > … (GA/GB)
 composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > comp(ŏ/o)site … (GA/GB)
 company | cômpany < cômpa̬ny >
-component | compo̖nent < c(o̬/o̗)mpo̖ne̬nt > *
-content_1 | conte̗nt
-content_2 | conte̖nt < co̬nte̖nt >
+component | compōnent ⦚ compo̖nent < c(o̬/o̗)mpo̖ne̬nt > *
+content_1 | conte̯nt ⦚ conte̗nt < > **
+content_2 | contĕnt ⦚ conte̖nt < co̬nte̖nt >
 corpus | corpus̩ < corpu̬s̩ >
 corpora | corpora < corpo̬ra̬ >
 country | co᷍untry
 cough | c(‹aw›/o)ff … (GA/GB) … [Sf]{c‹ough›}
 cover | côver < côve͜r >
-create | cre̱a̖te < crea̖te > crea̖te
+create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te … [D]
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
 Danish | 
-deity | d(ē/‹ay›)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA) … [Sf½]{d‹ei›ty}
+deity | d(ē/ë)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA)
 desert_1 | dĕsert < dĕse͜rt >
-desert_2&3 | dese̖rt < dẹse͡rt >
+desert_2&3 | dese͡rt < dẹse̖rt > dese̖rt
 dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt
 detail | d(e/ē)tail ⦚ d(e/e̖)tail < d(ẹ/e̖)tail >
 detailed | d(e/ē)taile̊d ⦚ d(e/e̖)taile̊d < (d(ẹ/e̖)taile̊d) > d(e/e̖)tailed
 diacritic | di̱acrĭtic < dia̬crĭtic > diacrĭtic ¦ di̱a̬crĭtic
-diaeresis | di̱(‹a̖›/‹e̖›)res̩is̩ < di(‹a̖›/‹e̖›)r(ẹ/e̬)s̩is̩ > di(‹a̖›/‹e̖›)res̩is̩ ¦ di̱(‹a̖›/‹e̖›)r(ẹ/e̬)s̩is̩
-direct | dire̖ct ¦ d(ī/i/i̬)re̖ct
+diaeresis | di̱å(ĕ/ē)res̩is̩ ⦚ di̱å(ĕ/e̖)res̩is̩ < diå(ĕ/e̖)r(ẹ/e̬)s̩is̩ > diå(ĕ/e̖)res̩is̩ ¦ di̱å(ĕ/e̖)r(ẹ/e̬)s̩is̩
+direct | dirĕct ⦚ dire̖ct ¦ d(ī/i/i̬)re̖ct
 done | dône
 don't | dōn't
 dull | dŭll
 ease | ease
 easy | easy
-echo | ec̣ho
-educate | ĕducate ¦ ĕduca̗te
-education | ĕduca̖tion < ĕducatio̬n > ĕducation ¦ ĕduca̖tio̬n
+echo | ec‍̤ho
+educate | ĕducate < ĕducate > ¦ ĕduca̗te
+education | e̯ducātion ⦚ e̯duca̖tion < e̯ducatio̬n > e̯ducation ¦ e̯duca̖tio̬n
 efficacy | ‍< effica̬cy >
 echo | ec‍̤ho
-efficacious | effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
+efficacious | efficācio͢us̩ ⦚ effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
 endeavor | endĕavor < ẹndĕavor > ... (AS)
 endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... (BS)
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
-everybody | ĕve̊ry·b(ŏ/ô)dy < ĕve̊ry·b(ŏ/ô)dy >
-everyday | ĕve̊ry·day < ĕve̊ry·day >
-everyone | ĕve̊ry·‹wun›  < ĕve̊ry·‹wun› > … [S½]{ĕve̊ry‹one›}
-everything | ĕve̊ry·t‍̤hing < ĕve̊ry·t‍̤hin͠g >
-exaggerate | exa̖ggerate < ẹxa̖gge̬rate > ** ¦ ẹxa̖g͝ge̬ra̗te
-flood | flo᷍od
+everybody | ĕve̊ry·b(ŏ/ô)dy < > ĕve̊ryb(ŏ/ô)dy
+everyday | ĕve̊ry·day < > ĕve̊ryday
+everyone | ĕve̊ry·‹wun› < > ĕve̊ry‹wun› … [S½]{ĕve̊ry‹one›}
+everything | ĕve̊ry·t‍̤hing < ĕve̊ry·t‍̤hin͠g > ĕve̊ryt‍̤hing
+exaggerate | exăggerate ⦚ exa̖ggerate < ẹxa̖gge̬rate > ¦ ẹxa̖g͝ge̬ra̗te
+flood | flo᷍od … [D]
 focus | focus̩ < focu̬s̩ >
 foe | foe̊ < ** > **
-formidable | (formĭdable/formidable) < (fo̬rmĭda̬b͢le/formida̬b͢le) > … (GB/GA)
+formidable | form(i/ĭ)dable < (formida̬b͢le/fo̬rmĭda̬b͢le) > … (GA/GB)
 friend | fri̊end
-fiend | fiend < * > **
-fundamental | fundame̖ntal < funda̬me̖nta̬l > ¦ fu̗nda̬me̖nta̬l
+fiend | 
+fundamental | fundamĕntal ⦚ fundame̖ntal < funda̬me̖nta̬l > ¦ fu̗nda̬me̖nta̬l
 Ganesha | Ganësha < Ga̬nësha̬ >
-gasoline | (găs̩olïne/ga̯s̩olïne) < (găs̩o̬lïne/ga̯s̩o̬lïne) > … (GA/GB)
+gasoline | g(ă/a̯)s̩olïne < g(ă/a̯)s̩o̬lïne > … (GA/GB)
 ghost | ghōst … [FE]
-geographical | ge̱ogra̖phical < geo̬gra̖phica̬l > geogra̖phical ¦ ge̱o̬gra̖phica̬l
-geographic | ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
+geographical | ge̱ogrăphical ⦚ ge̱ogra̖phical < geo̬gra̖phica̬l > geogra̖phical ¦ ge̱o̬gra̖phica̬l
+geographic | ge̱ogrăphic ⦚ ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
 geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
 ginger | ‍< ginge͜r >
 gone | gŏne
-guitar | gůita̖r < * > guita̖r
+guitar | guita̍r ⦚ guita̖r ¦ gůita̖r
 guy | 
 honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
-hierarch | hīera̗rc‍̤h < hī(e̬/e̥)ra̗rc‍̤h >
-hierarchical | hīera̖rc‍̤hical < hī(e̬/e̥)ra̖rc‍̤hica̬l
-hierarchy | hīera̗rc‍̤hy < hī(e̬/e̥)ra̗rc‍̤hy > ¦ hī(e̬/e̥)ra̗rc‍̤hy
-hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene
-identify | ide̖ntify̱ < (ī/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
+hierarch | hīera̍rc‍̤h ⦚ hīera̗rc‍̤h < hī(e̬/e̥)ra̗rc‍̤h >
+hierarchical | hi̱era̍rc‍̤hical ⦚ hi̱era̖rc‍̤hical < hi̱(e̬/e̥)ra̖rc‍̤hica̬l >
+hierarchy | hīera̍rc‍̤hy ⦚ hīera̗rc‍̤hy < hī(e̬/e̥)ra̗rc‍̤hy > ¦ hī(e̬/e̥)ra̗rc‍̤hy
+hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene ¦ h(ȳ/y̱)giene … [D]
+identify | idĕntify̱ ⦚ ide̖ntify̱ < (i̱/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
 imam | ima̍m
-infinity | infĭnity
-infinite | infini̯te < infi̬ni̯te > **
-iron | iro̊n
-isn't | is͢n't < * > **
-itself | it꞉self
+infinity | infĭnity … [DC]{infinity, infinite, finite}
+infinite | infini̯te < infi̬ni̯te > ** … [DC]{infinity, infinite, finite}
+iron | iro̊n … [D]
+isn't | is͢n't < > **
+itself | it꞉self < > **
 journal | jo͡urnal < jo͡urna̬l >
 journey | jo͡urney < jo͡urne̱y >
-finite | ** ¦ fini̗te
+finite | fini̱te ⦚ fini̗te < > ** … [DC]{infinity, infinite, finite}
 language | language < languạge >
 laugh | l‹aff› … [Sf]{l‹augh›}
-laugh | l‹af›ter … [Sf]{l‹augh›}
+laughter | l‹af›ter < l‹af›te͜r > … [Sf]{l‹augh›}
 leopard | lĕo̊pard < lĕo̊pa͜rd >
-Lesotho | Les̩ö̖th̊ö < L(ẹ/e̬)s̩ö̖th̊ö >
+Lesotho | Les̩öth̊ö < L(ẹ/e̬)s̩öth̊ö >
 lettuce | lettụce
-loan | loan
-lone | 
-loose | lo͞os̩e
-lose | löse
+loan | loan … [DC]
+lone | … [DC]
+loose | lo͞os̩e … [DC]
+lose | löse … [DC]
 machine | mac‍̩hïne < ma̬c‍̩hïne >
-many | m‹ĕny› … [Sf]{m‹any›}
+many | mäny
 martyr | ‍< marty͜r >
-mature | matu̖re < ma̬tu̖re >
+mature | matūre ⦚ matu̖re < ma̬tu̖re >
 meadow | mĕadow
 medicine | mĕdici̯ne < mĕdi̬ci̯ne > mĕdicine
-mentor | ‍< ment(o̗/o̬)r > ment(o̗/o̬)r
+mentor | ‍ment(o̗r/or) < ment(o̗r/o͜r) >
 Messiah | Messīah < Mẹssīa̬h >
 Michael | Mīc‍̤ha͢el
 muscle | musc̊le < musc̊͢le >
-muscular | muscular < muscū̬la͜r > **
-Mycenae | My̱ce̖nåe̱ < * > Myce̖nåe̱
+muscular | < muscū̬la͜r >
+Mycenae | My̱cēnåe̱ ⦚ My̱ce̖nåe̱ < > Myce̖nåe̱
 Mycenaean | My̱cenåēa̬n < Mycẹnåēa̬n > Mycenåēan ¦ My̱cẹnåēa̬n
-naive | na̬ïve
+naive | naïve < na̬ïve > … [DC]
+naïve | < na̬ïve > … [DC]
 naked | nakẹd
 nature | ‍< natū͜re >
 Nazi | N(a̍/ă)z̤i
-nineteenth | nine·teenth· < * > **
+nineteenth | nine·teenth· < > **
 none | nône
-nonetheless | nône·the̬꞉less < * > nône·the꞉less
-nourish | no͡urish
-nuance | n(ū/ü)¹(a̍/a̖̍)²nce … ¹(GB/GA) ²(CP/LCP)
+nonetheless | nône·the̬꞉less < > nône·the꞉less
+nourish | no᷍urish
+nuance | nū(a̍/a̖̍)nce … (CP/LCP)
 oven | ôven < ôve̬n >
 over | ‍< ove͜r >
-peninsula | peni̖nsula < pe̬ni̖ns(ū̬/u̬)la̬ > … (GB/GA)
-pineapple | pine·apple < pine·app͢le > **
-pizza | pïz‍̤za < pïz‍̤za̬ >
-plugin | plug·in < * > **
-possess | pos᷼se̖ss < po̬s᷼se̖ss >
-possession | pos᷼se̖ssion < po̬s᷼se̖ssio̬n >
-prayer_1 | pr‹air› … [Sf]{pr‹ayer›}
-prayer_2 | ‍< praye͜r >
-primary | primary < prim(a̬/a̗)ry > … (GB/GA)
+peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(ū̬/u̬)la̬ > … (GB/GA)
+pineapple | pine·apple < pine·app͢le > ** … [D]
+pizza | pïz‍̤za < pïz‍̤za̬ > … [D]
+plugin | plug·in < > **
+possess | pos᷼sĕss ⦚ pos᷼se̖ss < po̬s᷼se̖ss > … [DC]
+possession | pos᷼sĕssion ⦚ pos᷼se̖ssion < po̬s᷼sessio̬n > pos᷼session … [DC]
+prayer_1 | praye̊r … [DC]
+prayer_2 | ‍< praye͜r > … [DC]
+primary | < prim(a̗/a̬)ry > … (GA/GB)
 primarily | prim(a̖/a)rily < (prima̖ri̬ly/prima̗ri̬ly/prima̬ri̬ly) >
-progress_n | (progre̗ss/prŏgress) < (progre̗ss/prŏgr(e̗/e̬)ss) > … (GB/GA)
+progress_n | (prŏgress/progre̯ss) ⦚ (prŏgress/progre̗ss) < (prŏgr(e̗/e̬)ss/progre̗ss) > pr(ŏ/o)gress … (GA/GB) … [D]
 project | prŏject < prŏj(e̗/ẹ)ct >
-promise | prŏmis̩e
-protein | prot(ein/ei̗n) < prot(e̱in/e̱i̗n) >
-pronounce | ‍< pro̬nounce >
-pronunciation | pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n >
-purpose | pu͡rpo̬s̩e < purpo̬s̩e > purpo̬s̩e
+promise | prŏmi̯s̩e < > prŏmis̩e
+protein | prote̱(i̥/i̯)n ⦚ prote̱(i̥/i̗)n < > **
+pronounce | ‍< pro̬nounce > … [DC]
+pronunciation | pronu̯nciātion ⦚ pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n > … [DC]
+purpose | pu͡rpos̩e ⦚ pu͡rpo̬s̩e < purpo̬s̩e > purpos̩e
 pursuit | pursui̊t < pu͜rsui̊t >
 ragged | raggẹd
-real | ** : (rea̬l/r‹eel›) < * > … Sf½123{r‹eal›}
-realism | ** : rea̬lis͢m < rea̬li̗s͢m > **
-realistic | realĭstic : rea̬li̖stic
-reality | reălity
+real | ** ⦚ (rea̬l/reḁl) < > **
+realism | ** ⦚ rea̬lis͢m < rea̬li̗s͢m > **
+realistic | realĭstic ⦚ rea̬li̖stic
+reality | re̱ălity < reălity >
 receipt | recēip̊t < rẹcēip̊t >
 recipe | rĕcipe̱ < rĕc(i/i̬)pe̱ > rĕcipe̱
 release | releas̩e < r(ẹ/e̬)leas̩e >
-rendezvous | ‹r_en_d(e̬/ë)voo› … [Sf]{‹rendezvous›}
-research | r(ẹ/ē)s̩e͡arch < * > … (GB/GA)
+rendezvous | (r‹ŏn›d(e̬/ë)z̊vöus̊/r‹ŏn›d(ẹ/ë)z̊vöus̊) … (GA/GB) … [Sf]{r‹en›dezvous} [D]
+research | r(ē/e)s̩e͡arch ⦚ r(e̖/e)s̩e͡arch < r(e̖/ẹ)s̩e͡arch > … (GA/GB)
 rigor | rĭgor < rĭgo͜r >
 routine | röutï̖ne
 saga | sa̍ga < sa̍ga̬ >
 said | säid
 says | säys
-scarce | sc‹air›rce < scārce > scārce … [Sf1]{sc‹ar›ce}
-scarcity | sc‹air›city < scārcity > scārcity … [Sf1]{sc‹ar›city}
-scarcity | scārcity < 
+scarce | sc‹air›ce < scārce > scārce … [Sf01]{sc‹ar›ce}
+scarcity | sc‹air›city < scārcity > scārcity … [Sf01]{sc‹ar›city}
 schedule | (sch/sc‍̤h)ĕdule … (GB/GA)
 schizophrenic | sc‍̤hĭz̤ophrĕ̖nic < sc‍̤hĭz̤o̬phrĕ̖nic >
 scissors | scis᷼sors < scis᷼so͜rs > … [FE]
-scone | sc(ōne/ŏne)
+scone | sc(one/ŏne)
 Shiah | Shïah < Shïa̬h >
 shoe | shöe̊ < shöe > shöe
 simplify | simplify̱ < simpl(i/i̬)fy̱ > **
 smooth | smo͞ot᷼h
-something | sôme·t‍̤hing < * > sômet‍̤hing
+something | sôme·t‍̤hing < > sômet‍̤hing
 soul | sōul
 Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > … (CP/LCP) … [Sf½]{South‹›ampton}
-species_sing | (specie̱s/species/speciẹs̩) < * > ** (CP/LCP/AP)
-species_pl | (specie̱s/species/specie̱s) < * > ** (CP/LCP/AP)
+species_sing | (specie̱s/species/speciẹs̩) … (CP/LCP/AP)
+species_pl | (specie̱s/species/specie̱s) … (CP/LCP/AP)
 subtle | sub̊tle < sub̊t͢le >
 subtlety | sub̊tle·ty < sub̊t͢le·ty >
 sugar | sͪügar < sͪüga͜r > sügar
 Sunni | Sünni
-surface | su͡rface < surf(ạ/a̬)ce > ** ¦ su͡rf(ạ/a̬)ce … (GB/GA)
-thorough | t‍̤hôr(o̱ugh/o͢ugh)
+thorough | t‍̤hôr(o̱u/o͢u)gh
 though | thōugh
 thyme | (th̊/th)yme … (CP/SP)
 through | t‍̤hröugh
-today | * < t(o̤/o̬)day >
-tomb | tömb̊ < * > tömb
-tourism | töuris͢m < * > töurism ¦ töuri̗s͢m
-true | true̊ < ** > **
-truth | trūth
-undergo | under꞉go < unde͜r꞉go >
-underwent | under꞉went < unde͜r꞉went >
-understand | under꞉stand < unde͜r꞉stand >
-understood | under꞉sto͝od < unde͜r꞉sto͝od >
-unique | u̱nïque < * > unïque ¦ u̱nïqůe̊
+today | < t(o̤/o̬)day >
+tomb | tömb̊ < > tömb
+tourism | töuris͢m < > töurism ¦ töuri̗s͢m
+truth | trūth … [DC]{true, truth}
+undergo | undergō ⦚ undergo̖ < unde͜rgo̖ >
+underwent | underwĕnt ⦚ underwe̖nt < unde͜rwe̖nt >
+understand | understănd ⦚ understa̖nd < unde͜rsta̖nd >
+understood | understo͝od < unde͜rsto͝od >
+unique | u̱nïque ⦚ u̱nïqůe̊ < unïque > unïque ¦ u̱nïqůe̊
 upend | up꞉end
-upon | upo̖n < u̬po̖n >
-vague | vagůe̊ < ** > ** ¦ vagůe̊
+upon | upŏn ⦚ upo̖n < u̬po̖n >
+vague | ** ⦚ vagůe̊ < > ** ¦ vagůe̊
 vaguely | vagůe̊ly
 variant | ‍< varia̬nt >
 variation | varia̖tion < varia̖tio̬n >
 variety | varīety < va̬rī(ẹ/e̬)ty >
-various | vario͢us̩ < * > various̩
+various | vario͢us̩ < > various̩
 vernacular | vernăcular < ve͜rnăcū̬la͜r >
 volley | vŏlley < vŏlle̱y >
 volleyball | vŏlleyball < vŏlle̱ybaᷱll >
@@ -252,8 +250,24 @@ woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
 women | w‹ĭmin› < wȯmẹn > ** … [Sf1]{w‹omen›}
 won | wôn
 
+:::::
+::::: Didactic Combos
+:::::
+
+tough | t‹uf›
+though | thōugh
+thought | t‍̤h‹aw›t
+through | t‍̤hröugh
+thorough | t‍̤hôr(o̱u/o͢u)gh … (GA/GB)
+chough | ch‹uf›
+cough | c(‹aw›/‹o›)ff … (GA/GB)
+bough | b‹o̍w›
+
+laughter | l‹af›ter
+caught | caught
+
 Monday | Mônday < Mônd(ay/ḁy) >
-Tuesday | Tue̊sday < Tuesd(ay/ḁy) > **
+Tuesday | ** ⦚ Tue̊sday < Tuesd(ay/ḁy) > **
 Wednesday | Wed̊ne̊sday < Wed̊ne̊sd(ay/ḁy) > Wed̊ne̊sday
 Thirsday | Thı͡rsday < Thirsd(ay/ḁy) > ** ¦ Thı͡rsd(ay/ḁy)
 Friday | ‍< Frid(ay/ḁy) >
@@ -261,7 +275,7 @@ Saturday | Săturday < Sătu͜rd(ay/ḁy) >
 Sunday | ‍< Sund(ay/ḁy) >
 
 January | Jănuary ¦ Jănua̗ry
-February | Fĕb(r/r̊)uary ¦ Fĕb(r/r̊)ua̗ry
+February | Fĕb(r/r̥)uary ¦ Fĕb(r/r̥)ua̗ry
 March | 
 April | ‍< Apri̬l >
 May | 

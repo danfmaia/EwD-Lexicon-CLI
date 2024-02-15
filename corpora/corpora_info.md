@@ -9,12 +9,12 @@
   > 1.2. Explaining the Columns
 2. The Preserve-or-Simplify Strategy (PSS) & EwD Sides
   > 2.1. EwD Sides
-3. Row Tags
+3. Legend & Row Tags
   > 3.1. Pronunciation Variants
   >
   > 3.2. Word Groups
   >
-  > 3.3. RE Spelling Variants
+  > 3.3. RE Spelling
 4. Appendix
 
 ## Pre-Reading Note
@@ -69,43 +69,47 @@ Thĕre·fore, these äre the̬ tẘö PI sides:
 
 - Si̖mplifȳ-side — The̬ colle̖ctiv' ‹o̬v› words that under꞉go letter altera̖tion or remöval. Ōnly a small portion ‹o̬v› the̬ wo͡rds (abo̖ut 3%) äre on thiṣ side.
 
-## 3. Row Tags
+## 3. Legend & Row Tags
 
 ### 3.1. Pronunciation Variants
 
 - str: stresse̊d
 
-- un: unstre̖sse̊d
+- un: un꞉stresse̊d
 
 - GA: Gĕneral Amĕrican acce̗nt
 
-- GB: Gĕneral Brĭtish acce̗nt (_aka_ Recēive̊d Pronu̗ncia̖tion — RP)
+- GB: Gĕneral Brĭtish acce̗nt (_aka_ Recēive̊d Pronu̗ncia̖tion – RP)
 
-- CP: common pronu̗ncia̖tion
+- CP: Common Pronu̗ncia̖tion
 
-- LCP: less common pronu̗ncia̖tion
+- LCP: Less Common Pronu̗ncia̖tion
 
-- SP: spelling pronu̗ncia̖tion
+- SP: Spelling Pronu̗ncia̖tion
+
+- AP: Academic Pronunciation
 
 ### 3.2. Word Groups
 
-- [D]: Didactic words
+- [D]: Didactic — Highly didactic single words.
 
-- [P]: Wo͡rds on the̬ **Prese̖rve-side** — the̬ colle̖ctiv' ‹o̬v› wo͡rds fro̬m [Pu], [Pm] and [Pd] gröups.
+- [DC]: Didactic Combo — Highly didactic word combos.
 
-  - [Pu]: Wo͡rds on the̬ Prese̖rve-side that _dōn’t_ recēive mark in ‹ĕny› lĕvel — the̬ so-call'd **un꞉to͡uch't wo͡rds**.
+- [P]: Preserve — Wo͡rds on the̬ **Prese̖rve-side**; the̬ colle̖ctiv' ‹o̬v› wo͡rds fro̬m [Pu], [Pm] and [Pd] gröups.
 
-  - [Pd]: Wo͡rds on the̬ Prese̖rve-side that recēive **mark(s) in at lēast ‹wun› lĕvel**².
+  - [Pu]: Preserve, untouched — Wo͡rds on the̬ Prese̖rve-side that _dōn’t_ recēive mark in ‹ĕny› lĕvel; the̬ so-call'd **un꞉to͡uch't wo͡rds**.
 
-  - [Pdn]: [Pd] wo͡rds that recēive diacritic(s) in the̬ lĕvel Ln (L1, L2 or L3). A̬ single wo͡rd can belo̖ng to̬ more than ‹wun› [Pdn] gröup.
+  - [Pd]: Preserve, diacritics — Wo͡rds on the̬ Prese̖rve-side that recēive **diacritic(s) in at lēast ‹wun› lĕvel**².
 
-- [S]: Wo͡rds on the̬ **Si̖mplifȳ-side** — the̬ colle̖ctiv' ‹o̬v› wo͡rds fro̬m [Sf] and [Sf½] gröups.
+  - [Pdⁿ]: Preserve, diacritics, n — [Pd] wo͡rds that recēive diacritic(s) in the̬ lĕvel Ln (L0, L1, L2 or L3). A̬ single wo͡rd can belo̖ng to̬ more than ‹wun› [Pdⁿ] gröup.
 
-  - [Sf]: Wo͡rds on the̬ Si̖mplifȳ-side that use «wun»{one} or more **fallback spellings** — the̬ so-call'd “fallback wo͡rds”. In the̬ corpora these wo͡rds äre always tagg'd with [Sf].
+- [S]: Simplify — Wo͡rds on the̬ **Si̖mplifȳ-side**; the̬ colle̖ctiv' ‹o̬v› wo͡rds fro̬m [Sf] and [Sf½] gröups.
 
-  - [Sf½]: The̬ gröup for ĕve̊ry wo͡rd ẘhöse at lēast **‹wun› ‹o̬v› its pronu̗ncia̖tions belo̖ngs to̬ the̬ [Sf] gröup**. In the̬ corpora these wo͡rds äre always tagg'd with [Sf½].
+  - [Sf]: Simplify, fallback — Wo͡rds on the̬ Si̖mplifȳ-side that use «wun»{one} or more **fallback spellings**; the̬ so-calle̊d “fallback wo͡rds”. In the̬ corpora these wo͡rds äre always tagge̊d with [Sf].
 
-### 3.3. RE Spelling Variants
+  - [Sf½]: Simplify, fallback, ½ — The̬ gröup for ĕve̊ry wo͡rd ẘhöse at lēast **‹wun› ‹o̬v› its pronu̗ncia̖tions belo̖ngs to̬ the̬ [Sf] gröup**. In the̬ corpora these wo͡rds äre always tagg'd with [Sf½].
+
+### 3.3. RE Spelling
 
 - AS: Amĕrican spelling
 
