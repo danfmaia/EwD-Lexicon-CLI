@@ -2,20 +2,20 @@
 Row Format:
 RE | L0 ⦚ L1 < L2 > L3 ¦ FM
 
-For more information, read the corpus_info.md file.
+For more information, read corpus_info.md.
 ::::::::::
 
-academia | a̯cad(e̖/ĕ)mia < a̯ca̬d(e̖/ĕ)mia̬ >  … (CP/LCP)
+academia | a̯cad(ē/ĕ)mia < a̯ca̬d(ē/ĕ)mia̬ >  … (CP/LCP)
 academic | a̯cadĕmic < a̯ca̬dĕmic >
-accent_n | acce̗nt
-accent_vb | (acce̗nt/a̗cce̖nt)
+accent_n | accĕnt ⦚ acce̗nt < * > **
+accent_vb | (acce̯nt/a̯ccĕnt) ⦚ (acce̗nt/a̗cce̖nt) < * > acc(e/e̖)nt
 accompany | accômpany < a̬ccômpa̬ny >
 accurate | accurạte < accū͜rạte > **
-across | acro̖ss < a̬cro̖ss >
+across | acro̖ss < a̬cr(oᷱ/ŏ)ss > … (GA/GB)
 ache | āc‍̤he
-adhere | a̗dhe̖re
-alarm | ala̖rm < a̬la̖rm >
-albeit | al꞉be·it < aᷱl꞉be·it >
+adhere | a̯dhēre ⦚ a̗dhe̖re < * > adhe̖re
+alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm >
+albeit | al꞉be·it < aᷱl꞉be·it > **
 almond | (a̍l̊/ăl)mond < (a̍l̊/ăl)mo̬nd >  … (CP/SP)
 amateur | ăma(te͜ur/te͡ur/‹chər›/‹chuər›) < ăma(te͜ur/te͡r/‹chə͜r›/‹chuə͜r›) > … [Sf½]{ama‹teur›}
 amoeba | amo̊ēba < a̬mo̊ēba̬ > amo̊e̖ba
@@ -55,12 +55,11 @@ chough | ch‹uff› … [Sf]{ch‹ough›}
 cliché | clïché
 climb | clīmb̊ < * > clīmb
 compass | cômpa̬ss
-complex | cŏmpl(e̗/e̖)x
- < (cŏmple̗x/co̬mple̖x) > … (GB/GA)
-composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > … (GA/GB)
+complex | cŏmpl(e̗/e̖)x < (cŏmple̗x/co̬mple̖x) > … (GB/GA)
+composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > comp(ŏ/o)site … (GA/GB)
 company | cômpany < cômpa̬ny >
 component | compo̖nent < c(o̬/o̗)mpo̖ne̬nt > *
-content_1 | cŏnte̗nt
+content_1 | conte̗nt
 content_2 | conte̖nt < co̬nte̖nt >
 corpus | corpus̩ < corpu̬s̩ >
 corpora | corpora < corpo̬ra̬ >
@@ -69,7 +68,7 @@ cough | c(‹aw›/o)ff … (GA/GB) … [Sf]{c‹ough›}
 cover | côver < côve͜r >
 create | cre̱a̖te < crea̖te > crea̖te
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
-Danish | Dānish
+Danish | 
 deity | d(ē/‹ay›)¹(i/i̬)²ty … ¹(CP/LCP) ²(GB/GA) … [Sf½]{d‹ei›ty}
 desert_1 | dĕsert < dĕse͜rt >
 desert_2&3 | dese̖rt < dẹse͡rt >
@@ -106,7 +105,7 @@ foe | foe̊ < ** > **
 formidable | (formĭdable/formidable) < (fo̬rmĭda̬b͢le/formida̬b͢le) > … (GB/GA)
 friend | fri̊end
 fiend | fiend < * > **
-fundamental | fundame̖ntal < funda̬me̖nta̬l > * ¦ fu̗nda̬me̖nta̬l
+fundamental | fundame̖ntal < funda̬me̖nta̬l > ¦ fu̗nda̬me̖nta̬l
 Ganesha | Ganësha < Ga̬nësha̬ >
 gasoline | (găs̩olïne/ga̯s̩olïne) < (găs̩o̬lïne/ga̯s̩o̬lïne) > … (GA/GB)
 ghost | ghōst … [FE]
@@ -121,18 +120,18 @@ honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
 hierarch | hīera̗rc‍̤h < hī(e̬/e̥)ra̗rc‍̤h >
 hierarchical | hīera̖rc‍̤hical < hī(e̬/e̥)ra̖rc‍̤hica̬l
-hierarchy | hīera̗rc‍̤hy < hī(e̬/e̥)ra̗rc‍̤hy > * ¦ hī(e̬/e̥)ra̗rc‍̤hy
+hierarchy | hīera̗rc‍̤hy < hī(e̬/e̥)ra̗rc‍̤hy > ¦ hī(e̬/e̥)ra̗rc‍̤hy
 hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene
 identify | ide̖ntify̱ < (ī/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
 imam | ima̍m
 infinity | infĭnity
-infinite | infini̯te < infi̬ni̯te >
+infinite | infini̯te < infi̬ni̯te > **
 iron | iro̊n
 isn't | is͢n't < * > **
 itself | it꞉self
 journal | jo͡urnal < jo͡urna̬l >
 journey | jo͡urney < jo͡urne̱y >
-finite | finite < * > * ¦ fini̗te
+finite | ** ¦ fini̗te
 language | language < languạge >
 laugh | l‹aff› … [Sf]{l‹augh›}
 laugh | l‹af›ter … [Sf]{l‹augh›}
@@ -143,12 +142,12 @@ loan | loan
 lone | 
 loose | lo͞os̩e
 lose | löse
-machine | mac‍̤hïne < ma̬c‍̤hïne >
+machine | mac‍̩hïne < ma̬c‍̩hïne >
 many | m‹ĕny› … [Sf]{m‹any›}
 martyr | ‍< marty͜r >
 mature | matu̖re < ma̬tu̖re >
 meadow | mĕadow
-medicine | mĕdici̯ne < mĕdi̬ci̯ne >
+medicine | mĕdici̯ne < mĕdi̬ci̯ne > mĕdicine
 mentor | ‍< ment(o̗/o̬)r > ment(o̗/o̬)r
 Messiah | Messīah < Mẹssīa̬h >
 Michael | Mīc‍̤ha͢el
@@ -236,12 +235,12 @@ understand | under꞉stand < unde͜r꞉stand >
 understood | under꞉sto͝od < unde͜r꞉sto͝od >
 unique | u̱nïque < * > unïque ¦ u̱nïqůe̊
 upend | up꞉end
-upon | upŏn < u̬pŏn >
+upon | upo̖n < u̬po̖n >
 vague | vagůe̊ < ** > ** ¦ vagůe̊
 vaguely | vagůe̊ly
 variant | ‍< varia̬nt >
 variation | varia̖tion < varia̖tio̬n >
-variety | varīˌety < va̬rī(ẹ/e̬)ty >
+variety | varīety < va̬rī(ẹ/e̬)ty >
 various | vario͢us̩ < * > various̩
 vernacular | vernăcular < ve͜rnăcū̬la͜r >
 volley | vŏlley < vŏlle̱y >

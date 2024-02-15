@@ -1,10 +1,27 @@
-# Corpuṣ Informa̖tion
+# EwD Corpora Information
 
-**Pre-Rĕading Note:**
+## Summary
 
-> For the̬ sake ‹o̬v›{of} dĕmonstra̖tion, thiṣ file is written in PI v2 (Lĕvel 1).
+> Pre-Reading Note
+1. The Corpus Row
+  > 1.1. Row Format
+  >
+  > 1.2. Explaining the Columns
+2. The Preserve-or-Simplify Strategy (PSS) & EwD Sides
+  > 2.1. EwD Sides
+3. Row Tags
+  > 3.1. Pronunciation Variants
+  >
+  > 3.2. Word Groups
+  >
+  > 3.3. RE Spelling Variants
+4. Appendix
 
-> List ‹o̬v› simplifie̊d wo͡rds ([S]-gröup wo͡rds) use̊d in thiṣ article:
+## Pre-Reading Note
+
+For the̬ sake ‹o̬v›{of} dĕmonstra̖tion, thiṣ file is written in PI v2 (Lĕvel 1).
+
+List of exceptions occurred in this article:
 >
 > - **PI L1 ⬅️ SE**
 >
@@ -14,13 +31,13 @@
 > - ‹I›nglish ⬅️ ‹E›nglish
 > - ‹wun› ⬅️ ‹one›
 
-## The̬ Corpuṣ Rōw
+## 1. The̬ Corpuṣ Rōw
 
-### Rōw Forma̗t
+### 1.1. Rōw Forma̗t
 
 SE | PI L1 < PI L2 > PI L3 ¦ PI füll mode
 
-### Expla̖ining the̬ Cŏlumn̊s
+### 1.2. Expla̖ining the̬ Cŏlumn̊s
 
 **SE** stands for Standard ‹I›nglish{‹E›nglish}.
 
@@ -38,13 +55,13 @@ SE | PI L1 < PI L2 > PI L3 ¦ PI füll mode
 
 [Ġetting back to̬ PI L1…]
 
-## The̬ Prese̖rve-or-Si̖mplifȳ Strătegy & PI Sides
+## 2. The̬ Prese̖rve-or-Si̖mplifȳ Strătegy & PI Sides
 
 The̬ Prese̖rve-or-Si̖mplify Strătegy in PI is a̬ kēy meċhani̗s͜m that bălances thē intĕgrity ‹o̬v› Standard ‹I›nglish (SE) spelling with the̬ need for phonĕtic clarity. Thiṣ strătegy prim‹ă/a›rily focuṣes on *reta̖ining SE spellings*², and on applȳing _diacrĭtical marks_ ōnly when nĕcessary to̤ assi̖st in pronu̗ncia̖tion — thiṣ is the̬ **Prese̖rve-side**. Conve̖rse.ly, when SE spellings obscu̖re the̬ corre̖ct pronu̗ncia̖tion, PI shifts to̬ the̬ **Si̖mplifȳ-side**, ado̖pting alter'd spellings that more accurȧte.ly refle̖ct spoken ‹I›nglish.
 
 Thiṣ appro̖ach ēases the̬ le͡arning pr‹o/ŏ›cess..[GB/GA] and facĭlitates the̬ transi̖tion fro̬m PI-assi̖sted rēading to̤ i̗ndepe̖ndent rēading. By prese̖rving SE spellings, PI helps le͡arners rĕcognize and under꞉stand the̬ rĕgular patterns in ‹I›nglish, thĕre꞉by grădually bůilding their confidence and prof‌ĭciency in prono̖uncing ‹I›nglish wo͡rds witho̖ut PI assi̖stance.
 
-### PI Sides
+### 2.1. PI Sides
 
 Thĕre·fore, these äre the̬ tẘö PI sides:
 
@@ -52,17 +69,17 @@ Thĕre·fore, these äre the̬ tẘö PI sides:
 
 - Si̖mplifȳ-side — The̬ colle̖ctiv' ‹o̬v› words that under꞉go letter altera̖tion or remöval. Ōnly a small portion ‹o̬v› the̬ wo͡rds (abo̖ut 3%) äre on thiṣ side.
 
-## Lĕgend
+## 3. Row Tags
 
-Pronu̗ncia̖tion variants:
+### 3.1. Pronunciation Variants
 
-- str: stress't
+- str: stresse̊d
 
-- un: un꞉stress't
-
-- GB: Gĕneral Brĭtish acce̗nt (_aka_ Recēive'd Pronu̗ncia̖tion — RP)
+- un: unstre̖sse̊d
 
 - GA: Gĕneral Amĕrican acce̗nt
+
+- GB: Gĕneral Brĭtish acce̗nt (_aka_ Recēive̊d Pronu̗ncia̖tion — RP)
 
 - CP: common pronu̗ncia̖tion
 
@@ -70,7 +87,9 @@ Pronu̗ncia̖tion variants:
 
 - SP: spelling pronu̗ncia̖tion
 
-Wo͡rd gröups:
+### 3.2. Word Groups
+
+- [D]: Didactic words
 
 - [P]: Wo͡rds on the̬ **Prese̖rve-side** — the̬ colle̖ctiv' ‹o̬v› wo͡rds fro̬m [Pu], [Pm] and [Pd] gröups.
 
@@ -86,11 +105,11 @@ Wo͡rd gröups:
 
   - [Sf½]: The̬ gröup for ĕve̊ry wo͡rd ẘhöse at lēast **‹wun› ‹o̬v› its pronu̗ncia̖tions belo̖ngs to̬ the̬ [Sf] gröup**. In the̬ corpora these wo͡rds äre always tagg'd with [Sf½].
 
-Standard ‹I›nglish spelling variants:
-
-- BS: Brĭtish spelling
+### 3.3. RE Spelling Variants
 
 - AS: Amĕrican spelling
+
+- BS: Brĭtish spelling
 
 - FE: Wo͡rd with false ĕtymŏ̖logy
 
