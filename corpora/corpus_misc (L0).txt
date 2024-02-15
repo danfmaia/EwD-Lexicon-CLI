@@ -11,7 +11,7 @@ accent_n | accĕnt ⦚ acce̗nt < > **
 accent_vb | (acce̯nt/a̯ccĕnt) ⦚ (acce̗nt/a̗cce̖nt) < > acc(e/e̖)nt
 accompany | accômpany < a̬ccômpa̬ny >
 accurate | accurạte < accū͜rạte > **
-across | acro̖ss < a̬cr(oᷱ/ŏ)ss > … (GA/GB)
+across | acrŏss ⦚ acro̖ss < a̬cro̖ss >
 ache | āc‍̤he
 adhere | a̯dhēre ⦚ a̗dhe̖re < > adhe̖re
 alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm >
@@ -206,6 +206,7 @@ schedule | (sch/sc‍̤h)ĕdule … (GB/GA)
 schizophrenic | sc‍̤hĭz̤ophrĕ̖nic < sc‍̤hĭz̤o̬phrĕ̖nic >
 scissors | scis᷼sors < scis᷼so͜rs > … [FE]
 scone | sc(one/ŏne)
+seismic | se̍ismic
 Shiah | Shïah < Shïa̬h >
 shoe | shöe̊ < shöe > shöe
 simplify | simplify̱ < simpl(i/i̬)fy̱ > **
@@ -237,17 +238,15 @@ upon | upŏn ⦚ upo̖n < u̬po̖n >
 vague | ** ⦚ vagůe̊ < > ** ¦ vagůe̊
 vaguely | vagůe̊ly
 variant | ‍< varia̬nt >
-variation | varia̖tion < varia̖tio̬n >
+variation | variātion ⦚ varia̖tion < varia̖tio̬n >
 variety | varīety < va̬rī(ẹ/e̬)ty >
 various | vario͢us̩ < > various̩
 vernacular | vernăcular < ve͜rnăcū̬la͜r >
-volley | vŏlley < vŏlle̱y >
-volleyball | vŏlleyball < vŏlle̱ybaᷱll >
+volley | < vŏlle̱y >
+volleyball | < vŏlle̱ybaᷱll >
 were | we͡re
 whilst | whīlst
-without | 
-woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
-women | w‹ĭmin› < wȯmẹn > ** … [Sf1]{w‹omen›}
+without | witho̖ut
 won | wôn
 
 :::::
@@ -267,8 +266,8 @@ laughter | l‹af›ter
 caught | caught
 
 Monday | Mônday < Mônd(ay/ḁy) >
-Tuesday | ** ⦚ Tue̊sday < Tuesd(ay/ḁy) > **
-Wednesday | Wed̊ne̊sday < Wed̊ne̊sd(ay/ḁy) > Wed̊ne̊sday
+Tuesday | ** ⦚ Tue̊sday < Tuesd(ay/ḁy) >
+Wednesday | Wed̊ne̊sday < Wed̊ne̊sd(ay/ḁy) >
 Thirsday | Thı͡rsday < Thirsd(ay/ḁy) > ** ¦ Thı͡rsd(ay/ḁy)
 Friday | ‍< Frid(ay/ḁy) >
 Saturday | Săturday < Sătu͜rd(ay/ḁy) >

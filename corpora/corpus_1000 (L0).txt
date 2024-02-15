@@ -764,7 +764,7 @@ save |
 control | contrōl < co̬ntrōl >
 decimal | dĕcima̬l < dĕci̬ma̬l >
 gentle | ‍< gent͢le >
-woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man}
+woman | w‹o͝o›man < w‹o͝o›ma̬n > … [Sf]{w‹o›man} [DC]{woman, women}
 captain | capta͢in
 practice | practi̯ce < > **
 separate_etc | sĕparạte < sĕp(a̬/ḁ)rạte > sĕparate
@@ -923,7 +923,7 @@ sugar | sͪügar < sͪüga͜r > sügar … [D]
 death | dĕath
 pretty | prėtty
 skill | 
-women | wȯmẹn … [D]
+women | wȯmẹn … [DC]{woman, women}
 season | < seaso̬n >
 solution | solūtion ⦚ solu̖tion < so̬lutio̬n > ** ¦ so̬lu̖tio̬n
 magnet | ‍< magn(ẹ/e̬)t >
