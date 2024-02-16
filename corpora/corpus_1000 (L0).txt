@@ -1021,11 +1021,11 @@ meant | mĕant
 quotient | ‍< quotie̬nt >
 teeth | 
 shell | 
-neck | 
+neck |  
 
 ::::::::::
 Row Format:
-EwoD | L0 ⦚ L1 < L2 > L3 ¦ Full
+SE | L0 ⦚ L1 < L2 > L3 ¦ Full
 
 For more information, read corpus_info.md.
 ::::::::::
