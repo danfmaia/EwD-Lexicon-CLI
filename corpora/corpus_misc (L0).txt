@@ -55,6 +55,7 @@ chorus | c‍̤horus̩ < c‍̤horu̬s̩ >
 chough | ch‹uff› ... [Eap]{ch‹ough›}
 cliché | clïché ... [DS]
 climb | clīmb̊ < > clīmb
+closure | ** ¦ clos̩ure
 compass | cômpa̬ss
 complex | compl(ĕ/e̯)x ⦚ compl(e̖/e̗)x < (co̬mple̖x/comple̗x) > ... (GA/GB)
 composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > comp(ŏ/o)site ... (GA/GB)
@@ -64,6 +65,7 @@ content_1 | conte̯nt ⦚ conte̗nt < > **
 content_2 | contĕnt ⦚ conte̖nt < co̬nte̖nt >
 corpus | corpus̩ < corpu̬s̩ >
 corpora | corpora < corpo̬ra̬ >
+correspond | correspŏnd ⦚ correspo̖nd < corre̬spo̖nd > 
 country | co᷍untry
 cough | c(‹aw›/o)ff ... (GA/GB) ... [Eap]{c‹ough›}
 cover | côver < côve͜r >
@@ -90,6 +92,7 @@ education | e̯ducātion ⦚ e̯duca̖tion < e̯ducatio̬n > e̯ducation ¦ e̯
 efficacy | ‍< effica̬cy >
 echo | ec‍̤ho
 efficacious | efficācio͢us̩ ⦚ effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
+eloquent | ĕloquent < ĕlo̬que̬nt >
 endeavor | endĕavor < ẹndĕavor > ... [AS]
 endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... [BS]
 England | Ėngland < Ėngla̬nd >
@@ -187,6 +190,7 @@ pronounce | ‍< pro̬nounce > ... [DC]
 pronunciation | pronu̯nciātion ⦚ pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n > ... [DC]
 purpose | pu͡rpos̩e ⦚ pu͡rpo̬s̩e < purpo̬s̩e > purpos̩e
 pursuit | pursui̊t < pu͜rsui̊t >
+query | qu{(ē/ĕ)/ē}ry ... {GA/GB}
 ragged | raggẹd ... [DC]{beloved, naked, ragged}
 real | ** ⦚ (rea̬l/reḁl) < > **
 realism | ** ⦚ rea̬lis͢m < rea̬li̗s͢m > **
@@ -195,9 +199,11 @@ reality | re̱ălity < reălity >
 receipt | recēip̊t < rẹcēip̊t >
 recipe | rĕcipe̱ < rĕc(i/i̬)pe̱ > rĕcipe̱
 release | releas̩e < r(ẹ/e̬)leas̩e >
-rendezvous | (r‹ŏn›d(e̬/ë)z̊vöus̊/r‹ŏn›d(ẹ/ë)z̊vöus̊) ... (GA/GB) ... [Eap]{r‹en›dezvous} [DS]
-research | r(ē/e)s̩e͡arch ⦚ r(e̖/e)s̩e͡arch < r(e̖/ẹ)s̩e͡arch > ... (GA/GB)
+rendezvous | {r‹ŏn›d(e̬/ë)z̊vöus̊/r‹ŏn›d(ẹ/ë)z̊vöus̊} ... {GA/GB} ... [Eap]{r‹en›dezvous} [DS]
+research | r(ē/ẹ)s̩e͡arch < r(ē/e)s̩e͡arch > ... (GA/GB)
+resource | r{ē/e}(s̩/s)(ŏur/ōur)ce < r{ē/ẹ}(s̩/s)(ŏur/ōur)ce > ... {GA/GB}
 rigor | rĭgor < rĭgo͜r >
+route | r{(öu/ou)/öu}te ... {GA/GB}
 routine | röutï̖ne
 saga | sa̍ga < sa̍ga̬ >
 said | säid
@@ -205,6 +211,7 @@ says | säys
 scarce | sc‹air›ce < scārce > scārce ... [Eap01]{sc‹ar›ce}
 scarcity | sc‹air›city < scārcity > scārcity ... [Eap01]{sc‹ar›city}
 schedule | (sc‍̤h/sch)ĕdule ... (GA/GB)
+schema | sc‍̤hema
 schizophrenic | sc‍̤hĭz̤ophrĕ̖nic < sc‍̤hĭz̤o̬phrĕ̖nic >
 scissors | scis᷼sors < scis᷼so͜rs > ... [FE]
 scone | sc(one/ŏne)
@@ -275,18 +282,18 @@ Friday | ‍< Frid(ay/ḁy) >
 Saturday | Săturday < Sătu͜rd(ay/ḁy) >
 Sunday | ‍< Sund(ay/ḁy) >
 
-January | Jănuary ¦ Jănua̗ry
+January | Jănuary < Jănu(a̗/a̬)ry > ... (GA/GB)
 February | Fĕb(r/r̥)¹uary < Fĕb(r/r̥)¹u(a̗/a̬)²ry > ¦ Fĕb(r/r̥)¹ua̗ry ... ¹(CP/LCP) ²(GA/GB)
 March | 
 April | ‍< Apri̬l >
 May | 
 June | 
 July | Julȳ < Ju̬lȳ >
-August | Augu̗st
-September | Se̗pte̖mber < Se̗pte̖mbe͜r >
-October | O̗cto̖ber < O̗cto̖be͜r >
-November | Nove̖mber < N(o/o̬)ve̖mbe͜r >
-December | Dece̖mber < Dẹce̖mbe͜r >
+August | Augu̯st ⦚ Augu̗st
+September | Se̯ptĕmber ⦚ Se̗pte̖mber < Se̗pte̖mbe͜r >
+October | O̯ctōber ⦚ O̗cto̖ber < O̗cto̖be͜r >
+November | Novĕmber < N(o/o̬)ve̖mbe͜r >
+December | Decĕmber < Dẹce̖mbe͜r >
 
 :::::
 ::::: Didactic singles
