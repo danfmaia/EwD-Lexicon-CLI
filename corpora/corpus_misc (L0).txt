@@ -1,6 +1,6 @@
 ::::::::::
 Row Format:
-RE | L0 ⦚ L1 < L2 > L3 ¦ FM
+EwoD | L0 ⦚ L1 < L2 > L3 ¦ Full
 
 For more information, read corpus_info.md.
 ::::::::::
@@ -31,8 +31,9 @@ archipelago | arc‍̤hipĕlago < arc‍̤hipĕla̬go >
 aspect | aspe̯ct ⦚ aspe̗ct < > ** ¦ a̖spe̗ct
 asthma | as(t‍̥h/th)ma < as(t‍̥h/th)ma̬ >
 baroque | (barōque/ba̯rŏque) ⦚ (baro̖que/ba̯rŏque) < (ba̬ro̖que/ba̯rŏque) > bar(o̖/ŏ)que ¦ (ba̬ro̖qůe̊/ba̯rŏqůe̊) … (GA/GB)
-beloved_1 | belôvẹd < bẹlôvẹd >
-beloved_2 | belôve̊d < bẹlôve̊d > belôved
+basement | bas̩e̊ment < > basement … [DC]{base, basement}
+beloved_1 | belôvẹd < bẹlôvẹd > ... [DC]
+beloved_2 | belôve̊d < bẹlôve̊d > belôved ... [DC]
 biological | bi̱olŏgical < bio̬lŏgica̬l > biolŏgical ¦ bi̱o̬lŏgica̬l
 biological | bi̱olŏgic < bio̬lŏgic > biolŏgic ¦ bi̱o̬lŏgic
 biology | bi̱ŏlogy < bi̱ŏlo̬gy > biŏlogy ¦ bi̱ŏlo̬gy
@@ -89,8 +90,8 @@ education | e̯ducātion ⦚ e̯duca̖tion < e̯ducatio̬n > e̯ducation ¦ e̯
 efficacy | ‍< effica̬cy >
 echo | ec‍̤ho
 efficacious | efficācio͢us̩ ⦚ effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
-endeavor | endĕavor < ẹndĕavor > ... (AS)
-endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... (BS)
+endeavor | endĕavor < ẹndĕavor > ... [AS]
+endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... [BS]
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
@@ -157,8 +158,8 @@ Mycenae | My̱cēnåe̱ ⦚ My̱ce̖nåe̱ < > Myce̖nåe̱
 Mycenaean | My̱cenåēa̬n < Mycẹnåēa̬n > Mycenåēan ¦ My̱cẹnåēa̬n
 naive | naïve < na̬ïve > … [DC]
 naïve | < na̬ïve > … [DC]
-naked | nakẹd
-nature | ‍< natū͜re >
+naked | nakẹd ... [D]
+natural | nătural < năt(ū̬/u̥)ra̬l > ... [DC]{nature, natural}
 Nazi | N(a̍/ă)z̤i
 nineteenth | nine·teenth· < > **
 none | nône
@@ -186,7 +187,7 @@ pronounce | ‍< pro̬nounce > … [DC]
 pronunciation | pronu̯nciātion ⦚ pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n > … [DC]
 purpose | pu͡rpos̩e ⦚ pu͡rpo̬s̩e < purpo̬s̩e > purpos̩e
 pursuit | pursui̊t < pu͜rsui̊t >
-ragged | raggẹd
+ragged | raggẹd ... [D]
 real | ** ⦚ (rea̬l/reḁl) < > **
 realism | ** ⦚ rea̬lis͢m < rea̬li̗s͢m > **
 realistic | realĭstic ⦚ rea̬li̖stic
@@ -275,7 +276,7 @@ Saturday | Săturday < Sătu͜rd(ay/ḁy) >
 Sunday | ‍< Sund(ay/ḁy) >
 
 January | Jănuary ¦ Jănua̗ry
-February | Fĕb(r/r̥)uary ¦ Fĕb(r/r̥)ua̗ry
+February | Fĕb(r/r̥)¹uary < Fĕb(r/r̥)¹u(a̗/a̬)²ry > ¦ Fĕb(r/r̥)¹ua̗ry ... ¹(CP/LCP) ²(GA/GB)
 March | 
 April | ‍< Apri̬l >
 May | 

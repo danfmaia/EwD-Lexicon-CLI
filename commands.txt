@@ -10,6 +10,13 @@
 
 Current commands:
 
+    > pandoc "corpora/corpora_info.md" -o "corpora/corpora_info.pdf" \
+    --pdf-engine=xelatex --template=eisvogel --listings \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
+
     > pandoc "changelog/ewd_changelog.md" -o "changelog/Changelog do IcD.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \

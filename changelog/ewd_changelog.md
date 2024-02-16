@@ -2,73 +2,87 @@
 
 ## v2.7:
 
-1. Em dígrafos, o acento Trema Abaixo foi deslocado para a divisa das letras. Exemplos:
+1.  Em dígrafos, o acento Trema Abaixo foi deslocado para a divisa das letras. Exemplos:
 
-   > v2.6 L1 > v2.7 L1
-   >
-   > - t̤hing > t‍̤hing
-   > - sc̤ho͞ol > sc‍̤ho͞ol
-   > - pïz̤za > pïz‍̤za
+    > [Formato: v2.6 L1 > v2.7 L1]
+    >
+    > - t̤hing > t‍̤hing
+    > - sc̤ho͞ol > sc‍̤ho͞ol
+    > - pïz̤za > pïz‍̤za
 
-2. Removido o acento Anel Abaixo em casos nos quais ele vinha sendo usado para indicar separação morfêmica; fenômeno este que agora é novamente sinalizado por meio do Ponto Médio (como vinha sendo feito até a v2.4). Exemplos:
+2.  **[Alteração Importante]** O termo "Elisão" continuará sendo usado para referir-se tanto ao silenciamento vocálico quanto ao consonantal. A mudança é que agora haverá também a distinção quanto ao estágio do processo. Nos casos onde a elisão foi universalmente estabelecida — independentemente do sotaque — usar-se-á o termo "Elisão Estabelecida"; e nos casos onde a elisão depende do sotaque, adotar-se-á o termo "Elisão de Sotaque". Para a Elisão Estabelecida, aplicar-se-á o acento Anel Acima; e para a Elisão de Sotaque, o Anel Abaixo. O termo alternativo/explicativo para qualquer tipo de elisão será "Silenciamento". O termo "Letras Silenciosas" será usado para referir-se indistintamente a vogais e consoantes que sofreram elisão. Confira abaixo o resumo da nova nomenclatura em tópicos:
 
-   > v2.6 L1 > v2.7 L1
-   >
-   > - sôme̥t̤hing > sôme·t‍̤hing
-   > - pine̥apple > pine·apple
-   > - sub̊tle̥ty > sub̊tle·ty
+    > Elisão:
+    >
+    > - Distinção quanto ao tipo de fonema:
+    >
+    >   - Elisão Vocálica
+    >   - Elisão Consonantal
+    >
+    > - Distinção quanto ao estágio do processo:
+    >
+    >   - Elisão Estabelecida -> Anel Acima ‹  ̊ ›
+    >
+    >     > Ex.ˢ (nível L1): "ĕve̊ry" e "ansẘer"
+    >
+    >   - Elisão de Sotaque -> Anel Abaixo ‹  ̥ ›
+    >
+    >     > Ex.ˢ (nível L1): "temp(er/e̥r)(ḁ/a)ture" e "Fĕb(r/r̥)uary"
+    >
+    > Letras Silenciosas:
+    >
+    > - Vogais Silenciosas
+    > - Consoantes Silenciosas
 
-3. [Alteração de nomenclatura] O termo "Elisão" agora refere-se apenas aos casos de Silenciamento Átono, em que o silenciamento depende do sotaque. O termo alternativo para "Elisão" será "Silenciamento Átono". O outro tipo de Silenciamento, além do Átono, é o "Sistemático". Os termos "Silenciamento" e "Letras Silenciosas" referir-se-ão tanto a vogais quanto a consoantes silenciosas. Confira abaixo o resumo da nova nomenclatura em tópicos:
+3.  Como consequência da alteração do item anterior, o acento Anel Abaixo foi removido nos casos em que ele vinha sendo usado para sinalizar fronteira morfêmica. Esse fenômeno agora é novamente sinalizado por meio ou do Ponto Médio em _palavras multirradical_, ou do Anel Acima em _palavras radical+afixo_ (como era feito antigamente). Exemplos:
 
-   > Silenciamento:
-   >
-   > - Sistemático
-   > - Átono (também chamado de "Elisão")
-   >
-   > Letras Silenciosas:
-   >
-   > - Vogais Silenciosas
-   > - Consoantes Silenciosas
+    > [Formato: v2.6 L1 > v2.7 L1]
+    >
+    > Palavras multirradical:
+    >
+    > - sôme̥t̤hing > sôme·t‍̤hing
+    > - pine̥apple > pine·apple
+    >
+    > Palavras radical+afixo:
+    >
+    > - bas̩e̥ment > bas̩e̊ment
+    > - sub̊tle̥ty > sub̊tle̊ty
 
-4. [Alteração de nomenclatura] O termo "Elisão" continuará sendo usado para referir-se tanto ao silenciamento vocálico quanto ao consonantal. Agora, além da já existente distinção quanto ao tipo de letra, haverá também a distinção quanto ao processo: Elisão Estabelecida ou Elisão de Sotaque. Para a Elisão Estabelecida, usar-se-á o acento Anel Acima; e para a Elisão de Sotaque, usar-se-á o Anel Abaixo. O termo alternativo/explicativo para qualquer tipo de elisão será "Silenciamento". O termo "Letras Silenciosas" referir-se-á tanto a vogais quanto a consoantes que sofreram elisão. Confira abaixo o resumo da nova nomenclatura em tópicos:
+4.  Fronteiras morfêmicas (tanto em palavras multirradical quanto em palavras radical+afixo) agora _geralmente_ não são mais indicadas no nível L3. Para exemplificar usaremos as mesmas palavras do item anterior:
 
-   > Elisão:
-   >
-   > - Distinção quanto ao tipo de letra:
-   >
-   >   - Elisão Vocálica
-   >   - Elisão Consonantal
-   >
-   > - Distinção quanto ao processo:
-   >   - Elisão Estabelecida -> Anel Acima ‹  ̊ ›
-   >   - Elisão de Sotaque -> Anel Abaixo ‹  ̥ ›
-   >
-   > Letras Silenciosas:
-   >
-   > - Vogais Silenciosas
-   > - Consoantes Silenciosas
+    > [Formato: v2.7 L1 | v2.7 L3]
+    >
+    > Palavras multirradical:
+    >
+    > - sôme·t‍̤hing | sômet‍̤hing
+    > - pine·apple | pineapple
+    >
+    > Palavras radical+afixo:
+    >
+    > - bas̩e̊ment | bas̩ement
+    > - sub̊tle̊ty | sub̊tlety
 
-5. Como consequência do item anterior, o Anel Acima foi substituído pelo Anel Abaixo em casos de Elisão de Sotaque. Exemplos:
+5.  Também como consequência da alteração do item 2, o Anel Acima foi substituído pelo Anel Abaixo para casos de Elisão de Sotaque. Exemplos:
 
-   > v2.6 L2 > v2.7 L2
-   >
-   > - t(o̬/o̊)waᷱrd > t(o̬/o̥)waᷱrd
-   > - temp(e͜r/e̊r)(å/a̬)tū͜re > temp(e͜r/e̥r)(ḁ/a̬)tū͜re
-   > - Wed̊ne̊sd(ay/åy) > Wed̊ne̊sd(ay/ḁy)
+    > [Formato: v2.6 L2 > v2.7 L2]
+    >
+    > - t(o̬/o̊)waᷱrd > t(o̬/o̥)waᷱrd
+    > - temp(e͜r/e̊r)(å/a̬)tū͜re > temp(e͜r/e̥r)(ḁ/a̬)tū͜re
+    > - Wed̊ne̊sd(ay/åy) > Wed̊ne̊sd(ay/ḁy)
 
-6. Grafia “u̱” com som ⟨u-longo átono⟩ alterada de volta para “ū̬”. Exemplos:
+6.  A grafia “u̱” com som ⟨u-longo átono⟩ foi alterada de volta para “ū̬”. Exemplos:
 
-   > v2.6 L2 > v2.7 L2
-   >
-   > - pa͜rtĭcu̱la͜r > pa͜rtĭcū̬la͜r
-   > - pŏpu̱late > pŏpū̬late
+    > [Formato: v2.6 L2 > v2.7 L2]
+    >
+    > - pa͜rtĭcu̱la͜r > pa͜rtĭcū̬la͜r
+    > - pŏpu̱late > pŏpū̬late
 
-7. Grafia “u̱r” com som ⟨u-rótico átono⟩ alterada para “ū͜r”. Exemplos:
+7.  E a grafia “u̱r” com som ⟨u-rótico átono⟩ foi alterada para “ū͜r”. Exemplos:
 
-   > v2.6 L2 > v2.7 L2
-   >
-   > - mĕasu̱re > mĕasū͜re
-   > - centu̱ry > centū͜ry
+    > [Formato: v2.6 L2 > v2.7 L2]
+    >
+    > - mĕasu̱re > mĕasū͜re
+    > - natu̱re > natū͜re
 
 ## v2.6:
 

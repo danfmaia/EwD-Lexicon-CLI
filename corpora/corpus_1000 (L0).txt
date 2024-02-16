@@ -65,7 +65,7 @@ like |
 so | 
 these | 
 her | he͡r < ** > ** ¦ he͡r
-long | ‍< l(oᷱn͠g/on͠g) > … (GA/GB)
+long | ‍< lon͠g > ¦ l(oᷱn͠g/on͠g) … (GA/GB)
 make | 
 thing | t‍̤hing < t‍̤hin͠g >
 see | 
@@ -290,14 +290,14 @@ fish |
 mountain | mounta͢in
 stop | 
 once | ‹wun›ce … [Sf]{‹on›ce}
-base | bas̩e
+base | bas̩e … [DC]{base, basement}
 hear | hear
 horse | 
 cut | 
 sure | ** ¦ sͪure
 watch | ‍< waᪿtch >
-color | cŏlor < cŏlo͜r > … (AS)
-colour | cŏlo͜ur … (BS)
+color | cŏlor < cŏlo͜r > … [AS]
+colour | cŏlo͜ur … [BS]
 face | 
 wood | wo͝od
 main | 
@@ -322,7 +322,7 @@ family | fămily < fămi̬ly >
 direct | dirĕct ⦚ dire̖ct
 pose | 
 leave | leave
-song | ‍< s(oᷱn͠g/on͠g) > … (GA/GB)
+song | ‍< son͠g > ¦ s(oᷱn͠g/on͠g) … (GA/GB)
 measure | mĕasure < mĕasū͜re > ¦ mĕasͪū͜re
 door | d‹(or/ōr)› … [Sf]{d‹oor›}
 product | prŏduct < prŏd(u̬/u̗)ct >
@@ -386,8 +386,8 @@ lay |
 against | ag(äin/ain)st < a̬g(äin/ain)st > ag(äin/ain)st
 pattern | ‍< patte͜rn >
 slow | slōw
-center | ‍< cente͜r > … (AS)
-centre | ‍< cent͜re > … (BS)
+center | ‍< cente͜r > … [AS]
+centre | ‍< cent͜re > … [BS]
 love | lôve
 person | pe͡rson < perso̬n > ** ¦ pe͡rso̬n
 money | môney < mône̱y >
@@ -446,7 +446,7 @@ warm | ‍< waᷱrm >
 free | 
 minute_1 | mĭnụte
 minute_2 | minūte ⦚ minu̖te
-strong | ‍< str(oᷱn͠g/on͠g) > … (GA/GB)
+strong | ‍< stron͠g > ¦ str(oᷱn͠g/on͠g) … (GA/GB)
 special | spĕcial < spĕcia̬l >
 mind | mīnd
 behind | behīnd < b(ẹ/e̬)hīnd >
@@ -819,8 +819,8 @@ necessary | nĕcessary < nĕce̬ss(a̗/(a̬/ḁ))ry > … (GA/GB)
 sharp | 
 wing | ‍< win͠g >
 create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te … [D]
-neighbor | ‍< neighbo͜r > … (AS)
-neighbour | neighbo͜ur … (BS)
+neighbor | ‍< neighbo͜r > … [AS]
+neighbour | neighbo͜ur … [BS]
 wash | ‍< w(aᷱ/aᪿ)sh > … (GA/GB)
 bat | 
 rather | ‍< rathe͜r >
@@ -906,8 +906,8 @@ column | cŏlumn̊ < cŏlu̬mn̊ > cŏlumn
 molecule | mŏlecule < mŏle̬cule > ¦ mŏle̬cu̗le
 select | selĕct ⦚ sele̖ct < sẹle̖ct >
 wrong | < ẘr(oᷱn͠g/on͠g) > … (GA/GB)
-gray | … (AS)
-grey | … (BS)
+gray | … [AS]
+grey | … [BS]
 repeat | ‍< rẹpeat >
 require | requīre ⦚ requi̖re < rẹqui̖re >
 broad | br‹aw›d … [Sf]{br‹oa›d}
@@ -976,8 +976,8 @@ shore |
 division | divĭsion ⦚ divi̖sion < divisio̬n > ** ¦ divi̖sio̬n
 sheet | 
 substance | substance < substa̬nce >
-favor | ‍< favo͜r > … (AS)
-favour | favo͜ur … (BS)
+favor | ‍< favo͜r > … [AS]
+favour | favo͜ur … [BS]
 connect | connĕct ⦚ conne̖ct < co̬nne̖ct >
 post | pōst
 spend | 
@@ -1009,7 +1009,7 @@ drink |
 occur | occu͡r < o̬ccu̖r > occu̖r ¦ o̬ccu͡r
 support | supp(o̖r/ōr)t < su̬pp(or/ōr)t >
 speech | 
-nature | ‍< natū͜re >
+nature | ‍< natū͜re > ... [DC]{nature, natural}
 range | rānge < > **
 steam | steam
 motion | ‍< motio̬n >
@@ -1025,7 +1025,7 @@ neck |
 
 ::::::::::
 Row Format:
-RE | L0 ⦚ L1 < L2 > L3 ¦ FM
+EwoD | L0 ⦚ L1 < L2 > L3 ¦ Full
 
 For more information, read corpus_info.md.
 ::::::::::
