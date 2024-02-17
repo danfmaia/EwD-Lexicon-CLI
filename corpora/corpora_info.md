@@ -20,7 +20,7 @@
 
 ## Pre-Reading Note
 
-Access corpora_info_in_ewd.md to read this article in EwD L0.
+Access “EwD Corpora Info (in EwD v2.8 (L1).pdf” to read this document in EwD.
 
 ## 1. The Corpus Row
 
@@ -30,7 +30,7 @@ Access corpora_info_in_ewd.md to read this article in EwD L0.
 
 ### 1.2. Explaining the Columns: SE and the EwD Variants
 
-**SE** stands for _Standard English_. This is our term for words or texts written in the regular English spelling, without diacritics or any other sort of pronunciation guidance. This article is written in SE.
+**SE** stands for _standard English_. This is our term for words or texts written in the regular English spelling, without diacritics or any other sort of pronunciation guidance. This article is written in SE.
 
 **L0**, **L1**, **L2**, **L3** and **Full** are the five main _variants_ of **English with Diacritics (EwD)**, the four "L"s also meaning the didactic levels. Below is the explanation for each of them:
 
@@ -42,7 +42,7 @@ Access corpora_info_in_ewd.md to read this article in EwD L0.
 
 - Level 3 (L3) — EwD's **advanced** level. It is also referred to as the _Minimal_ variant. After exposure to extensive indications of the previous level, this level retains only the most essential ones. Thus, learners will understand which of EwD's indications are actually unnecessary (or not very necessary) as they gradually grasp the patterns of spoken English. _When omitted on a corpus row, the L3 word is equal to the L1 word._
 
-- Full variant — The **most phonetic** presentation of EwD. It is not a level, but a variant meant to be used on _dictionary entries_ or the like. As such, it goes very specific and ships all applicable marks, with the exception of a few beginner level (L0 or L1) ones, as well as some marks deemed very unnecessary in any EwD variant. _When omitted on a corpus row, the Full variant word is equal to the **L2** word._
+- Full variant — The **most transparent** presentation of EwD. It is not a level, but a variant meant to be used on _dictionary entries_ or the like. As such, it goes very specific and ships all applicable marks, with the exception of a few beginner level (L0 or L1) ones, as well as some marks deemed very unnecessary in any EwD variant. _When omitted on a corpus row, the Full variant word is equal to the **L2** word._
 
 It's important to mention that learners are _not_ meant to move from variant L3 to Full. On the contrary, the next step after L3 is the transition to reading SE texts without phonetic assistance, that is, gradually exiting EwD.
 
@@ -51,7 +51,7 @@ It's important to mention that learners are _not_ meant to move from variant L3 
 The Accept-or-Except Strategy (AES) in EwD is a key mechanism that balances the integrity of SE spelling with the need for phonetic clarity. This strategy primarily focuses on _retaining standard spellings_, and on applying _diacritical marks_ only when necessary to assist in pronunciation — this is the **Accept side**¹.
 
 [TODO: increment this paragraph, briefly explain the word distinction method used]
-Conversely, when standard spellings obscure the correct pronunciation, and diacritics would complicate them more than clarify, EwD shifts to the **Except side**, adopting so-called _fallback graphemes_ that more accurately reflect spoken English.
+Conversely, when standard spellings obscure the correct pronunciation, and diacritics would complicate more than clarify, EwD shifts to the **Except side**, adopting so-called _fallback graphemes_ that more accurately reflect spoken English.
 
 [TODO: improve or change this paragraph]
 This approach eases the learning process and facilitates the transition from reading with diacritical assistance to reading independently. By preserving standard spellings as much as possible, EwD helps learners recognize and understand the spelling-to-speech patterns of English, thereby gradually building their confidence and proficiency in pronouncing English words without phonetic assistance.
@@ -60,7 +60,7 @@ This approach eases the learning process and facilitates the transition from rea
 
 Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 
-- **Accept side** — The collective of words left intact (without diacritic) and words that are treated only with diacritic(s). The words from this side are referred to as _accepted words_. About **97%** of the 1000 most frequent English words are on this side. We may also call this the "A" side.
+- **Accept side** — The collective of words left intact (without diacritics) AND words fully compatible with EwD's diacritical system*. The words from this side are referred to as _accepted words_. About **97%** of the 1000 most frequent English words are on this side. We may also call this the "A" side.
 
 - **Except side** — The collective of words for which diacritics are deemed not enough or not suitable to indicate pronunciation. The words from this side are referred to as _exceptions_. About **3%** of the 1000 most frequent English words are on this side. We may also call this the "E" side.
 
@@ -139,6 +139,8 @@ Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 Notes:
 
 1. EwD strives to keep as many words as possible on the Accept side, with about 97% of the 1000 (one thousand) most frequent English words falling under this side (up to EwD v2.7).
+
+* The diacritical system behind EwD is named English Diacritical System (EDS). We don't use this name routinely because it's a more systems-related stuff.
 
 Abbreviations:
 

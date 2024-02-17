@@ -1,8 +1,28 @@
 # Changelog do Inglês com Diacríticos (IcD)
 
+## v2.8:
+
+1. Acento “h” Acima no “s” e no “z” (‹sͪ›, ‹zͪ›) foi substituído pelo Ponto Abaixo (‹ṣ›, ‹ẓ›)*. Exemplos:
+
+    > [Formato: v2.7 > v2.8]
+    >
+    > - sͪügar > ṣügar [L1]
+    > - sͪure > ṣure [F]
+    > - uṣua̬l > uṣua̬l [F]
+    > 
+    > Até agora não há casos registrados do emprego deste tipo de acentuação p/ o “z”, mas essa é uma possibilidade em aberto.
+    
+\* Há 3 (três) motivos para essa alteração:
+
+  1. Remoção de um diacrítico. Não haverá mais funções p/ o “h” Acima (‹  ͪ›). É sempre bom remover diacríticos, pois o IcD já emprega um número elevado destes.
+
+  2. Harmonizar com o já usado Ponto Abaixo no dígrafo “ch” com som de “sh”. Ex.: “mac‍̣hïne”.
+
+  3. O Ponto Abaixo já remete à letra “i” no IcD, e no inglês o “s” com som de “sh” é causado por palatalização, fenômeno provocado pelo som [j] geralmente advindo das letras “i” ou “u”.
+
 ## v2.7:
 
-1.  Em dígrafos, o acento Trema Abaixo foi deslocado para a divisa das letras. Exemplos:
+1. Em dígrafos, o acento Trema Abaixo foi deslocado para a divisa das letras. Exemplos:
 
     > [Formato: v2.6 L1 > v2.7 L1]
     >
