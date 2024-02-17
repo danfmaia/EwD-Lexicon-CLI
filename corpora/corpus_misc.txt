@@ -34,9 +34,9 @@ baroque | (barōque/ba̯rŏque) ⦚ (baro̖que/ba̯rŏque) < (ba̬ro̖que/ba�
 basement | bas̩e̊ment < * > basement ... [DC]{base, basement}
 beloved_1 | belôvẹd < bẹlôvẹd > ... [DC]{beloved_1, beloved_2} [DC]{beloved, naked, ragged}
 beloved_2 | belôve̊d < bẹlôve̊d > belôved ... [DC]{beloved_1, beloved_2}
-biological | bi̱olŏgical < bio̬lŏgica̬l > biolŏgical ¦ bi̱o̬lŏgica̬l
-biological | bi̱olŏgic < bio̬lŏgic > biolŏgic ¦ bi̱o̬lŏgic
-biology | bi̱ŏlogy < bi̱ŏlo̬gy > biŏlogy ¦ bi̱ŏlo̬gy
+biological | bi̱olŏgical ⦚ biolŏgical < bio̬lŏgica̬l > * ¦ bi̱o̬lŏgica̬l
+biological | bi̱olŏgic ⦚ biolŏgic < bio̬lŏgic > * ¦ bi̱o̬lŏgic
+biology | bi̱ŏlogy ⦚ biŏlogy < bi̱ŏlo̬gy > * ¦ bi̱ŏlo̬gy
 bough | b‹o̍w› ... [Eap]{b‹ough›}
 breath | brĕath
 breathe | breathe
@@ -72,14 +72,17 @@ cover | côver < côve͜r >
 create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te ... [DS]
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
 Danish | 
+default_n | d(e/ē)fault < d(ẹ/ē)fault >
+default_vb | ** < dẹfault >
 deity | d(ē/ë)¹ity < d(ē/ë)¹(i̬/i)²ty > ... ¹(CP/LCP) ²(GA/GB)
 desert_1 | dĕsert < dĕse͜rt >
 desert_2&3 | dese͡rt < dẹse̖rt > dese̖rt
 dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt
 detail | d(e/ē)tail < d(ẹ/ē)tail >
 detailed | d(e/ē)taile̊d < d(ẹ/ē)taile̊d > d(e/ē)tailed
-diacritic | di̱acrĭtic < dia̬crĭtic > diacrĭtic ¦ di̱a̬crĭtic
-diaeresis | di̱å(ĕ/ē)res̩is̩ ⦚ di̱å(ĕ/e̖)res̩is̩ < diå(ĕ/e̖)r(ẹ/e̬)s̩is̩ > diå(ĕ/e̖)res̩is̩ ¦ di̱å(ĕ/e̖)r(ẹ/e̬)s̩is̩
+diacritic | di̱acrĭtic ⦚ diacrĭtic < dia̬crĭtic > * ¦ di̱a̬crĭtic
+diaeresis | di̱å(ĕ/ē)res̩is̩ ⦚ diå(ĕ/ē)res̩is̩ < diå(ĕ/ē)r(ẹ/e̬)s̩is̩ > * ¦ di̱å(ĕ/ē)r(ẹ/e̬)s̩is̩
+didactic | didăctic ⦚ dida̖ctic < d(i̱/i)da̖ctic > 
 direct | dirĕct ⦚ dire̖ct ¦ d(ī/i/i̬)re̖ct
 done | dône
 don't | dōn't
@@ -131,11 +134,12 @@ identify | idĕntify̱ ⦚ ide̖ntify̱ < (i̱/i)de̖nti̬fy̱ > ide̖ntify ¦ 
 imam | ima̍m
 infinity | infĭnity ... [DC]{infinity, infinite, finite}
 infinite | infini̯te < infi̬ni̯te > ** ... [DC]{infinity, infinite, finite}
+intact | intăct ⦚ inta̖ct
 isn't | is͢n't < * > **
 itself | it꞉self < * > **
 journal | jo͡urnal < jo͡urna̬l >
 journey | jo͡urney < jo͡urne̱y >
-finite | fini̱te ⦚ fini̗te < * > ** ... [DC]{infinity, infinite, finite}
+finite | fini̱te < * > ** ... [DC]{infinity, infinite, finite}
 language | language < languạge >
 laugh | l‹aff› ... [Eap]{l‹augh›}
 laughter | l‹af›ter < l‹af›te͜r > ... [Eap]{l‹augh›} [DC]
