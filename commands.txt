@@ -8,7 +8,14 @@
 :: pandoc
 ::
 
-Current commands:
+Export documents:
+
+    > pandoc "corpora/corpora_info_in_ewd.md" -o "corpora/EwD Corpora & General Info (in EwD v2.8 L1).pdf" \
+    --pdf-engine=xelatex --template=eisvogel --listings \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
 
     > pandoc "corpora/corpora_info.md" -o "corpora/corpora_info.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
@@ -17,7 +24,7 @@ Current commands:
     -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
 
-    > pandoc "changelog/ewd_changelog.md" -o "changelog/Changelog do IcD.pdf" \
+    > pandoc "ewd_changelog.md" -o "Changelog do IcD.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \

@@ -45,12 +45,13 @@ bustle | bust̊le < bust̊͢le >
 busy | bu̇sy
 business | bu̇si̊ness < bu̇si̊nẹss >
 Caesar | Cåesar < Cåesa͜r >
+cache | cac‍̩he
 canine | cani̱ne
 cannabis | cannabis̩ < canna̬bis̩ >
-carnival | ‍** < carni̬val >
+carnival | ** < carni̬val >
 castle | cast̊le < cast̊͢le >
 category | cătegory < căt(e̬/ẹ)g(o̗/(o̬/o̥))ry > ... (GA/GB)
-cater | ‍** < cate͜r >
+cater | ** < cate͜r >
 chorus | c‍̤horus̩ < c‍̤horu̬s̩ >
 chough | ch‹uff› ... [Eap]{ch‹ough›}
 cliché | clïché ... [DS]
@@ -92,7 +93,7 @@ easy | easy
 echo | ec‍̤ho
 educate | ĕducate < ĕducate > * ¦ ĕduca̗te
 education | e̯ducātion ⦚ e̯duca̖tion < e̯ducatio̬n > e̯ducation ¦ e̯duca̖tio̬n
-efficacy | ‍** < effica̬cy >
+efficacy | ** < effica̬cy >
 echo | ec‍̤ho
 efficacious | efficācio͢us̩ ⦚ effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
 eloquent | ĕloquent < ĕlo̬que̬nt >
@@ -120,7 +121,7 @@ ghost | ghōst ... [FE]
 geographical | ge̱ogrăphical ⦚ ge̱ogra̖phical < geo̬gra̖phica̬l > geogra̖phical ¦ ge̱o̬gra̖phica̬l
 geographic | ge̱ogrăphic ⦚ ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
 geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
-ginger | ‍** < ginge͜r >
+ginger | ** < ginge͜r >
 gone | gŏne
 guitar | guita̍r ⦚ guita̖r ¦ gůita̖r
 guy | 
@@ -150,13 +151,12 @@ loan | loan ... [DC]
 lone | ... [DC]
 loose | lo͞os̩e ... [DC]
 lose | löse ... [DC]
-machine | mac‍̩hïne < ma̬c‍̩hïne >
 many | mäny
-martyr | ‍** < marty͜r >
+martyr | ** < marty͜r >
 mature | matūre ⦚ matu̖re < ma̬tu̖re >
 meadow | mĕadow
 medicine | mĕdici̯ne < mĕdi̬ci̯ne > mĕdicine
-mentor | ‍ment(o̗r/or) < ment(o̗r/o͜r) >
+mentor | ment(o̗r/or) < ment(o̗r/o͜r) >
 Messiah | Messīah < Mẹssīa̬h >
 Michael | Mīc‍̤ha͢el
 muscle | musc̊le < musc̊͢le >
@@ -174,7 +174,7 @@ nonetheless | nône·the̬꞉less < * > nône·the꞉less
 nourish | no᷍urish
 nuance | nū(a̍/a̖̍)nce ... (CP/LCP)
 oven | ôven < ôve̬n >
-over | ‍** < ove͜r >
+over | ** < ove͜r >
 peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(u̬/ū̬)la̬ > ... (GA/GB)
 pineapple | pine·apple < pine·app͢le > ** ... [DS]
 pizza | pïz‍̤za < pïz‍̤za̬ > ... [DS]
@@ -183,7 +183,7 @@ plugin | plug·in < * > **
 possess | pos᷼sĕss ⦚ pos᷼se̖ss < po̬s᷼se̖ss > ... [DC]
 possession | pos᷼sĕssion ⦚ pos᷼se̖ssion < po̬s᷼sessio̬n > pos᷼session ... [DC]
 prayer_1 | praye̊r ... [DC]
-prayer_2 | ‍** < praye͜r > ... [DC]
+prayer_2 | ** < praye͜r > ... [DC]
 primary | < prim(a̗/a̬)ry > ... (GA/GB)
 primarily | prim(a̖/a)rily < (prima̖ri̬ly/prima̗ri̬ly/prima̬ri̬ly) >
 progress_n | (prŏgress/progre̯ss) ⦚ (prŏgress/progre̗ss) < (prŏgr(e̗/e̬)ss/progre̗ss) > pr(ŏ/o)gress ... (GA/GB) ... [DC]
@@ -191,7 +191,7 @@ progress_v | progrĕss ⦚ progre̖ss < pro̬gre̖ss >  ... [DC]
 project | prŏject < prŏj(e̗/ẹ)ct >
 promise | prŏmi̯s̩e < * > prŏmis̩e
 protein | prote̱(i̥/i̯)n ⦚ prote̱(i̥/i̗)n < * > **
-pronounce | ‍** < pro̬nounce > ... [DC]
+pronounce | ** < pro̬nounce > ... [DC]
 pronunciation | pronu̯nciātion ⦚ pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n > ... [DC]
 purpose | pu͡rpos̩e ⦚ pu͡rpo̬s̩e < purpo̬s̩e > purpos̩e
 pursuit | pursui̊t < pu͜rsui̊t >
@@ -250,7 +250,7 @@ upend | up꞉end
 upon | upŏn ⦚ upo̖n < u̬po̖n >
 vague | ** ¦ vagůe̊
 vaguely | vagůe̊ly
-variant | ‍** < varia̬nt >
+variant | ** < varia̬nt >
 variation | variātion ⦚ varia̖tion < varia̖tio̬n >
 variety | varīety < va̬rī(ẹ/e̬)ty >
 various | vario͢us̩ < * > various̩
@@ -282,14 +282,14 @@ Monday | Mônday < Mônd(ay/ḁy) >
 Tuesday | ** ⦚ Tue̊sday < Tuesd(ay/ḁy) >
 Wednesday | Wed̊ne̊sday < Wed̊ne̊sd(ay/ḁy) >
 Thirsday | Thı͡rsday < Thirsd(ay/ḁy) > ** ¦ Thı͡rsd(ay/ḁy)
-Friday | ‍** < Frid(ay/ḁy) >
+Friday | ** < Frid(ay/ḁy) >
 Saturday | Săturday < Sătu͜rd(ay/ḁy) >
-Sunday | ‍** < Sund(ay/ḁy) >
+Sunday | ** < Sund(ay/ḁy) >
 
 January | Jănuary < Jănu(a̗/a̬)ry > ... (GA/GB)
 February | Fĕb(r/r̥)¹uary < Fĕb(r/r̥)¹u(a̗/a̬)²ry > * ¦ Fĕb(r/r̥)¹ua̗ry ... ¹(CP/LCP) ²(GA/GB)
 March | 
-April | ‍** < Apri̬l >
+April | ** < Apri̬l >
 May | 
 June | 
 July | Julȳ < Ju̬lȳ >
