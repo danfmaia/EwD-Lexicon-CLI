@@ -22,6 +22,7 @@ Legend:
 	codes:
 		" // ": stressed/unstressed separation
 		" = ": the grapheme must be treated exactly like the other specified grapheme
+		"L0 ⦚ L1 < L2 > L3": EwD grapheme level variants. Non-indicated variants are equal to L1 variant. If only one variant is show, then it’s L1’s.
 		_: at end
 		_X: before any letter (not at end)
 		_CV: before consonant and vowel
@@ -42,9 +43,9 @@ NR_VGP_G2:
 		"s-a":
 			_CV: ă- // a̯-
 			_CC: a-
+			_: ă. // a̯.
 			w_: wă // wa̯
 			_l: ăl // a̯l
-			_: ă. // a̯.
 	e:
 		"L-e":
 			_CV: e-
