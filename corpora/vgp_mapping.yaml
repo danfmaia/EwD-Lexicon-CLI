@@ -1,0 +1,159 @@
+Legend:
+	vowel_phonemes:
+		"L-a": ⟨long-a⟩
+		"s-a": ⟨short-a⟩
+		"L-e": ⟨long-e⟩
+		"s-e": ⟨short-e⟩
+		"L-i": ⟨long-i⟩
+		"s-i": ⟨short-i⟩
+		"L-o": ⟨long-o⟩
+		"s-o": ⟨short-o⟩
+		"L-oo": ⟨long-oo⟩
+		"s-oo": ⟨short-oo⟩
+		"L-u": ⟨long-u⟩
+		"s-u": ⟨short-u⟩ aka ⟨stressed neutral⟩
+		"ah": ⟨“ah”⟩
+		"oy": ⟨“oy”⟩
+		"aw": ⟨“aw”⟩
+		"ow": ⟨“ow”⟩
+		"schwa": ⟨schwa⟩ aka ⟨unstressed neutral⟩
+	acronyms:
+		VGP: vowel grapho-phoneme group
+	codes:
+		" // ": stressed/unstressed separation
+		" = ": the grapheme must be treated exactly like the other specified grapheme
+		_: at end
+		_X: before any letter (not at end)
+		_CV: before consonant and vowel
+		_CC: before 2 consonants OR before consonant at end
+		_Ce: before consonant and “e” at end
+		_x: before x, where x is any specific letter or polygraph
+		x_: after x, where x is any specific letter or polygraph
+
+---
+
+VGP2:
+	a:
+		"L-a":
+			_CV: a-
+			_CC: ā- // a̱-
+			_: ā. // a̱.
+		"s-a":
+			_CV: ă- // a̯-
+			_CC: a-
+			w_: wă // wa̯
+			_l: ăl // a̯l
+			_: ă. // a̯.
+	e:
+		"L-e":
+			_CV: e-
+			_CC: ē- // e̱-
+			_: ē. // e̱.
+		"s-e":
+			_CV: ĕ- // e̯-
+			_CC: e-
+			_: ĕ. // e̯.
+	i:
+		"L-i":
+			_CV: i-
+			_CC: ī- // i̱-
+			_gh: igh
+			_g: īg̊ < īg > īg
+			_: ī. // i̱.
+		"s-i":
+			_Ce: ĭ- // i̯- < > i-
+			_CV: ĭ- // i̯-
+			_CC: i-
+			_: ĭ. // i̯.
+	y: = i
+	o:
+		"L-o":
+			_CV: o-
+			_CC: ō- // o̱-
+			_: o.
+		"s-o":
+			_CV: ŏ- // o̯-
+			_CC: o-
+			_: ŏ. // o̯.
+	oo:
+		"L-oo":
+			_X: o͞o
+			_: oo.
+		"s-oo": o͝o
+	
+	
+VGP3:
+	a:
+		"s-e": ä
+		"ah": a̍
+		"aw":
+			_l: al < aᷱl >
+	ai:
+		"L-a": ai
+		"s-e": äi
+		"L-i": a̍i
+	ay: = ai
+	au:
+		"aw": au
+		"ow": a̍u
+	aw:
+		"aw": aw
+		"ow": a̍w
+	al:
+		"aw":
+			_k: al̊k < aᷱl̊k > alk
+	e:
+		"L-a": ë
+	é:
+		"L-a": é
+	ea:
+		"L-a": ëa
+		"L-e": ea
+		"s-e": ĕa
+	ei:
+		"L-a": ei
+		"L-e": ēi // ei < e̱i >
+		"L-i": e̍i
+	ey: = ei
+	eu:
+		"L-u": eu
+	ew: = eu
+	i:
+		"L-e":
+			_X: ï
+			_: ï // i
+	igh:
+		"L-i": igh
+	ig:
+		"L-i": īg̊ < īg > īg // i̱g̊ < i̱g > i̱g
+	ie:
+	 	"L-e": ie
+	 	"L-i":
+			_: īe // i̱e
+	        _s: ies
+			_d: i̱e̊d < > ied
+			_X: i̱e̊X
+	ye: = ie
+	o:
+		"L-oo": ö	
+	ou:
+		"L-oo": öu
+	oa:
+		"L-o": oa
+	oe:
+		"L-o": oe̊ < oe > oe
+		"L-oo": öe̊ < öe > öe
+
+VGP5:
+	a:
+		"schwa":
+			_: a
+			_Ce: a̬
+			_CV: a
+			_CC: a̬
+
+VGP6:
+	a:
+		"s-i": ȧ // ạ < > a
+	e:
+		"s-i": ė // e < ẹ >	
