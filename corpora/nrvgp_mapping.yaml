@@ -1,29 +1,29 @@
 Legend:
 	vowel_phonemes:
 		"L-a": ⟨long-a⟩
-		"s-a": ⟨short-a⟩
+		"S-a": ⟨short-a⟩
 		"L-e": ⟨long-e⟩
-		"s-e": ⟨short-e⟩
+		"S-e": ⟨short-e⟩
 		"L-i": ⟨long-i⟩
-		"s-i": ⟨short-i⟩
+		"S-i": ⟨short-i⟩
 		"L-o": ⟨long-o⟩
-		"s-o": ⟨short-o⟩
+		"S-o": ⟨short-o⟩
 		"L-oo": ⟨long-oo⟩
-		"s-oo": ⟨short-oo⟩
+		"S-oo": ⟨short-oo⟩
 		"L-u": ⟨long-u⟩
-		"s-u": ⟨short-u⟩ aka ⟨stressed neutral⟩
+		"S-u": ⟨short-u⟩ aka ⟨stressed neutral⟩
 		"ah": ⟨“ah”⟩
 		"oy": ⟨“oy”⟩
 		"aw": ⟨“aw”⟩
 		"ow": ⟨“ow”⟩
 		"schwa": ⟨schwa⟩ aka ⟨unstressed neutral⟩
 	acronyms:
-		NR_VGP_G: non-rhotic vowel grapho-phoneme group
+		NRVGP_G: non-rhotic vowel grapho-phoneme group
 	codes:
 		" // ": stressed/unstressed separation
-		" = ": the grapheme must be treated exactly like the other specified grapheme
-		"L0 ⦚ L1 < L2 > L3": EwD grapheme level variants. Non-indicated variants are equal to L1 variant. If only one variant is show, then it’s L1’s.
-		_: at end
+		"L0 ⦚ L1 < L2 > L3": EwD grapheme level variants. Non-indicated variants are equal to L1 variant. If only one variant is shown, then it is from L1.
+		" = ": the grapheme must be treated exactly like the other specified grapheme	
+		_E: at end
 		_X: before any letter (not at end)
 		_CV: before consonant and vowel
 		_CC: before 2 consonants OR before consonant at end
@@ -34,74 +34,82 @@ Legend:
 
 ---
 
-NR_VGP_G2:
+NRVGP_G2:
 	a:
 		"L-a":
 			_CV: a-
 			_CC: ā- // a̱-
-			_: ā. // a̱.
-		"s-a":
+			_E: ā. // a̱.
+		"S-a":
 			_CV: ă- // a̯-
 			_CC: a-
-			_: ă. // a̯.
+			_E: ă. // a̯.
 			w_: wă // wa̯
 			_l: ăl // a̯l
 	e:
 		"L-e":
 			_CV: e-
 			_CC: ē- // e̱-
-			_: ē. // e̱.
-		"s-e":
+			_E: ē. // e̱.
+		"S-e":
 			_CV: ĕ- // e̯-
 			_CC: e-
-			_: ĕ. // e̯.
+			_E: ĕ. // e̯.
 	i:
 		"L-i":
 			_CV: i-
 			_CC: ī- // i̱-
-			_: ī. // i̱.
+			_E: ī. // i̱.
 			_gh: igh
 			_g: īg̊ < īg > īg
-		"s-i":
+		"S-i":
 			_Ce: ĭ- // i̯- < > i-
 			_CV: ĭ- // i̯-
 			_CC: i-
-			_: ĭ. // i̯.
-	y: = i
+			_E: ĭ. // i̯.
+	y:
+		"L-i":
+			_CV: y-
+			_CC: ȳ- // y̱-
+			_E: ȳ. // y̱.
+		"S-i":
+			_CV: y̆- // y̯-
+			_CC: y-
+			_E: y̆. // y̯.
 	o:
 		"L-o":
 			_CV: o-
 			_CC: ō- // o̱-
-			_: o.
-		"s-o":
+			_E: o.
+		"S-o":
 			_CV: ŏ- // o̯-
 			_CC: o-
-			_: ŏ. // o̯.
+			_E: ŏ. // o̯.
 	oo:
 		"L-oo":
 			_X: o͞o
-			_: oo.
-		"s-oo": u͝u
+			_E: oo.
+		"S-oo": o͝o
 	u:
 		"L-u":
 			_CV: u-
 			_CC: ū- // u̱-
-			_: u.
-		"s-u":
+			_E: u.
+		"S-u":
 			_CV: ŭ- // u̯-
 			_CC: u-
-			_: ŭ. // u̯.
+			_E: ŭ. // u̯.
 	
-NR_VGP_G3:
+NRVGP_G3:
 	# a
 	a:
-		"s-e": ä
+		"S-e": ä
 		"ah": a̍
 		"aw":
 			_l: al < aᷱl >
 	ai:
 		"L-a": ai
-		"s-e": äi
+		"S-e": äi
 		"L-i": a̍i
 	ay: = ai
 	au:
@@ -109,20 +117,15 @@ NR_VGP_G3:
 		"ow": a̍u
 	aw:
 		"aw": aw
-		"ow": a̍w
 	al:
 		"aw":
 			_k: al̊k < aᷱl̊k > alk
 			
 	# e
-	e:
-		"L-a": ë
-	é:
-		"L-a": é
 	ea:
 		"L-a": ëa
 		"L-e": ea
-		"s-e": ĕa
+		"S-e": ĕa
 	ei:
 		"L-a": ei
 		"L-e": ēi // ei < e̱i >
@@ -131,12 +134,16 @@ NR_VGP_G3:
 	eu:
 		"L-u": eu
 	ew: = eu
+	e:
+		"L-a": ë
+	é:
+		"L-a": é
 	
 	# i
 	i:
 		"L-e":
 			_X: ï
-			_: ï // i
+			_E: ï // i
 	igh:
 		"L-i": igh
 	ig:
@@ -144,7 +151,7 @@ NR_VGP_G3:
 	ie:
 	 	"L-e": ie
 	 	"L-i":
-			_: īe // i̱e
+			_E: īe // i̱e
 	        _s: ies
 			_d: i̱e̊d < > ied
 			_X: i̱e̊X
@@ -159,16 +166,16 @@ NR_VGP_G3:
 		"L-o": oa
 	oh:
 		"L-o": oh
-		"s-o": ŏh
+		"S-o": ŏh
 	ou:
-		"s-o": ōu // o̱u
+		"S-o": ōu // o̱u
 		"L-oo": öu
 		"ow": ou	
 	oe:
 		"L-o": oe̊ < oe > oe
 		"L-oo": öe̊ < öe > öe
 	oul:
-		"s-oo":
+		"S-oo":
 			_d: ‹o͝o›d < ould > ould
 	ow:
 		"ow": ōw // ow
@@ -178,12 +185,12 @@ NR_VGP_G3:
 	
 	# u
 	u:
-		"s-oo": ü
+		"S-oo": ü
 	ue:
 		"L-u": ue̊  < ue > ue
 
-NR_VGP_G4:
-	# The Flat Circumflex Above always indicates "s-u".
+NRVGP_G4:
+	# The Flat Circumflex Above always indicates "S-u".
 	a: â
 	e: ê
 	i: î
@@ -191,20 +198,20 @@ NR_VGP_G4:
 	u:
 		_CV: û
 		_CC: u
-		_: û
+		_E: û
 	# “xx” is any vowel digraph.
 	xx: x᷍x
 	
-NR_VGP_G5:
+NRVGP_G5:
 	# The Flat Circumflex Below always indicates "schwa".
 	a:
 		_Ce: a̬
 		_C: a < a̬ >
-		_: a
+		_E: a
 	e:
 		_Ce: e̬
 		_C: e < e̬ >
-		_: e̬
+		_E: e̬
 	i: = e
 	y: = e
 	o: = e
@@ -213,8 +220,8 @@ NR_VGP_G5:
 	# “xx” is any vowel digraph except “ou”.
 	xx: x͢x	
 
-NR_VGP_G6:
-	# The Dot (Above or Below) always indicates "s-i".
+NRVGP_G6:
+	# The Dot (Above or Below) always indicates "S-i".
 	a: ȧ // ạ < > a
 	e: ė // e < ẹ >
 	o: ȯ
