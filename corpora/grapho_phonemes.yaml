@@ -1,0 +1,167 @@
+# Non-Rhotic Vowel Grapho-Phoneme (NRVGP) groups
+
+- prefix: NRVGP_G2__
+  grapho_phonemes: a⟨L-a⟩_CV
+    a⟨L-a⟩_CC
+    a⟨L-a⟩_E
+    a⟨S-a⟩_CV
+    a⟨S-a⟩_CC
+    a⟨L-a⟩_E
+    a⟨L-a⟩w_
+    a⟨L-a⟩_l
+
+    e⟨L-e⟩_CV
+    e⟨L-e⟩_CC
+    e⟨L-e⟩_E
+    e⟨S-e⟩_CV
+    e⟨S-e⟩_CC
+    e⟨S-e⟩_E
+
+    i⟨L-i⟩_CV
+    i⟨L-i⟩_CC
+    i⟨L-i⟩_E
+    i⟨L-i⟩_gh
+    i⟨L-i⟩_g
+    i⟨S-i⟩_Ce
+    i⟨S-i⟩_CV
+    i⟨S-i⟩_CC
+    i⟨S-i⟩_E
+
+    y⟨L-i⟩_CV
+    y⟨L-i⟩_CC
+    y⟨L-i⟩_E
+    y⟨S-i⟩_CV
+    y⟨S-i⟩_CC
+    y⟨S-i⟩_E
+
+    o⟨L-o⟩_CV
+    o⟨L-o⟩_CC
+    o⟨L-o⟩_E
+    o⟨S-o⟩_CV
+    o⟨S-o⟩_CC
+    o⟨S-o⟩_E
+
+    oo⟨L-oo⟩_X
+    oo⟨L-oo⟩_E
+    oo⟨S-oo⟩
+
+    u⟨L-u⟩_CV
+    u⟨L-u⟩_CC
+    u⟨L-u⟩_E
+    u⟨S-u⟩_CV
+    u⟨S-u⟩_CC
+    u⟨S-u⟩_E
+
+- prefix: NRVGP_G3__
+  grapho_phonemes:
+    # a
+
+    a⟨S-e⟩
+    a⟨ah⟩
+    a⟨aw⟩_l
+
+    ai⟨L-a⟩
+    ai⟨S-e⟩
+    ai⟨L-i⟩
+
+    ay⟨L-a⟩
+    ay⟨S-e⟩
+    ay⟨L-i⟩
+
+    au⟨aw⟩
+    au⟨ow⟩
+
+    aw
+
+    al⟨aw⟩_k
+
+    # e
+
+    ea⟨L-a⟩
+    ea⟨L-e⟩
+    ea⟨S-e⟩
+
+    ei⟨L-a⟩
+    ei⟨L-e⟩
+    ei⟨L-i⟩
+
+    ey⟨L-a⟩
+    ey⟨L-e⟩
+    ey⟨L-i⟩
+
+    eu⟨L-u⟩
+
+    ew⟨L-u⟩
+
+    e⟨L-a⟩
+
+    é⟨L-a⟩
+
+    i⟨L-e⟩_X
+    i⟨L-e⟩_E
+
+    igh⟨L-i⟩
+
+    ig⟨L-i⟩
+
+    ie⟨L-e⟩
+    ie⟨L-i⟩_s
+    ie⟨L-i⟩_d
+    ie⟨L-i⟩_X
+    ie⟨L-i⟩_E
+
+    ye⟨L-i⟩
+
+    # o
+
+    o⟨L-oo⟩
+
+    oa⟨L-o⟩
+    oa⟨aw⟩[Eap]
+
+    oh⟨L-o⟩
+    oh⟨S-o⟩
+
+    ou⟨L-o⟩
+    ou⟨L-oo⟩
+    ou⟨ow⟩
+
+    ough⟨L-o⟩
+    ough⟨L-oo⟩
+    ough⟨aw⟩_t[Eap01]
+    ough⟨ow⟩
+    ough⟨S-a+f⟩[Eap]
+    ough⟨S-u+f⟩[Eap]
+    ough⟨aw+f⟩[Eap]
+
+    oe⟨L-o⟩
+    oe⟨L-oo⟩
+
+    oul⟨S-oo⟩_d[Eap01]
+
+    ow⟨ow⟩
+
+    oi⟨oy⟩
+
+    oy⟨oy⟩
+
+    u⟨S-oo⟩
+
+    ue⟨L-u⟩_CV[R]
+    ue⟨L-u⟩_CC
+    ue⟨L-u⟩_E[R]
+
+- prefix: NRVGP_G4__
+  grapho_phonemes:
+    a⟨S-u⟩
+    e⟨S-u⟩[R]
+    i⟨S-u⟩[R]
+    o⟨S-u⟩
+    u⟨S-u⟩
+    ou⟨S-u⟩
+    oe⟨S-u⟩
+    oo⟨S-u⟩
+
+- prefix: NRVGP_G4__
+  grapho_phonemes:
+    TODO
