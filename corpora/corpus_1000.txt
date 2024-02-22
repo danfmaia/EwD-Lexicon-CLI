@@ -187,7 +187,7 @@ kind | kīnd
 off | 
 need | 
 house | hous̩e
-picture | ** < picture >
+picture | ** < pictū͜re >
 try | 
 us | us̩
 again | ag(äin/ain) < a̬g(äin/ain) > ag(äin/ain)
@@ -413,7 +413,7 @@ lead_1 | lead
 lead_2 | lĕad
 cry | 
 dark | 
-technology | tec‍̤hnŏlogy < tec‍̤hnŏlo̬gy >
+technology | tec‍̤hnŏlogy < te̗c‍̤hnŏlo̬gy >
 machine | mac‍̩hïne < ma̬c‍̩hïne > ... [DS]
 note | 
 wait | 
@@ -889,7 +889,7 @@ invent | invĕnt ⦚ inve̖nt
 cotton | ** < cotto̬n >
 born | 
 determine | dete͡rmi̯ne < dẹte̖rmi̯ne > dete̖rmine ¦ dẹte͡rmi̯ne
-quart_1 | (quart/qu̥aᷱrt) < (quaᷱrt/qu̥aᷱrt) > ** ... [DC]
+quart_1 | q(u/u̥)aᷱrt < * > ** ... [DC]
 quart_2 | qůa̍rt ... [DC]
 nine | 
 truck | 
