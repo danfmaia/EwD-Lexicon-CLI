@@ -1,4 +1,4 @@
-# EwD Corpora Information
+# EwD Corpora & General Info
 
 ## Summary
 
@@ -20,7 +20,7 @@
 
 ## Pre-Reading Note
 
-Access “EwD Corpora Info (in EwD v2.8 (L1).pdf” to read this document in EwD.
+Access “EwD Corpora & General Info (in EwD v2.8 L1).pdf” to read this document in EwD.
 
 ## 1. The Corpus Row
 
@@ -60,7 +60,7 @@ This approach eases the learning process and facilitates the transition from rea
 
 Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 
-- **Accept side** — The collective of words left intact (without diacritics) AND words fully compatible with EwD's diacritical system*. The words from this side are referred to as _accepted words_. About **98%** of the 1000 most frequent English words are on this side. We may also call this the "A" side.
+- **Accept side** — The collective of words left intact (without diacritics) AND words fully compatible with EwD's diacritical system\*. The words from this side are referred to as _accepted words_. About **98%** of the 1000 most frequent English words are on this side. We may also call this the "A" side.
 
 - **Except side** — The collective of words for which diacritics are deemed not enough or not suitable to indicate pronunciation. The words from this side are referred to as _exceptions_. Only about **2%** of the 1000 most frequent English words are on this side. We may also call this the "E" side.
 
@@ -100,7 +100,7 @@ Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 
 [TODO: add explanation and examples]
 
-- [A]: Accepted — The group comprising words on the **Accept side**¹. It is made up of subgroups [Au] and [Awd]. The words on this group are referred to as _accepted words_.
+- [A]: Accepted — The group comprising words on the **Accept side**¹. It is made up of subgroups [Ain] and [Awd]. The words on this group are referred to as _accepted words_.
 
   - [Ain]: Accepted, intact — [A] words that _don't_ receive diacritics in any level.
 
@@ -112,7 +112,7 @@ Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 
   - [Eap]: Exception, all pronunciations — [E] words whose _all_ used pronunciations require fallback graphemes to be clarified. In the corpora these words are always tagged accordingly.
 
-    - [Eapⁿ]: Exception, all pronunciations, n — [Eap] that are treated with fallback graphemes only at given levels. The "n" corresponds to the level number(s). In the corpora these words are always tagged accordingly.
+    - [Eapⁿ]: Exception, all pronunciations, n — [Eap] words that are treated with fallback graphemes only at given levels. The "n" corresponds to the level number(s). In the corpora these words are always tagged accordingly.
 
   - [Esp]: Exception, some pronunciations — [E] words whose _some_ of its used pronunciations (but not all of them) require fallback graphemes to be clarified. In the corpora these words are always tagged accordingly.
 
@@ -120,9 +120,9 @@ Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 
 [TODO: add explanation and, maybe, examples]
 
-- [DS]: Didactic Single — A group comprising highly didactic single words. In the corpora these words are always tagged accordingly.
+- \[DS]: Didactic Single — A group comprising highly didactic single words. In the corpora these words are always tagged accordingly.
 
-- [DC]: Didactic Combo — A group comprising highly didactic word combos. In the corpora these words are always tagged accordingly.
+- \[DC]: Didactic Combo — A group comprising highly didactic word combos. In the corpora these words are always tagged accordingly.
 
 ### 3.2.3. SE Spelling Tags
 
@@ -138,9 +138,9 @@ Below is a brief explanation for the two sides of the Accept-or-Except Strategy:
 
 Notes:
 
-1. EwD strives to keep as many words as possible on the Accept side, with only 2,05% of the 1000 most frequent English words falling under this side (in EwD v2.7).
+1. EwD strives to keep as many words as possible on the Accept side, with 97,9% of the 1000 most frequent English words falling under this side (in EwD v2.7).
 
-* The diacritical system behind EwD is named English Diacritical System (EDS). We don't refer to it routinely because it's a more technical stuff.
+- The diacritical system behind EwD is named English Diacritical System (EDS). We don't refer to it routinely because it's a more technical stuff.
 
 Abbreviations:
 
