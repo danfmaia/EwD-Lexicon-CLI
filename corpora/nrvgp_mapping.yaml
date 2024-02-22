@@ -151,26 +151,38 @@ NRVGP_G3:
 	ie:
 	 	"L-e": ie
 	 	"L-i":
-			_E: īe // i̱e
 	        _s: ies
-			_d: i̱e̊d < > ied
-			_X: i̱e̊X
+			_d: ie̊d // i̱e̊d < > ied
+			_X: ie̊X // i̱e̊X
+			_E: ie // i̱e
 			
 	# y
-	ye: = ie
+	ye:
+		"L-i": ye
 	
 	# o
 	o:
 		"L-oo": ö
 	oa:
 		"L-o": oa
+		"aw": ‹aw›
 	oh:
 		"L-o": oh
 		"S-o": ŏh
 	ou:
-		"S-o": ōu // o̱u
+		"L-o": ōu // o̱u
 		"L-oo": öu
-		"ow": ou	
+		"ow": ou
+	ough:
+		"L-o": ōugh // o̱ugh
+		"L-oo": öugh
+		"aw":
+			_t: ‹aw›t < ought > ought
+		"ow": o̍ugh
+		"S-a+f": ‹af› or ‹aff›
+		"S-u+f": ‹uf› or ‹uff›
+		"aw+f":
+			_E: {‹awf›/‹off›} … {GA/GB}
 	oe:
 		"L-o": oe̊ < oe > oe
 		"L-oo": öe̊ < öe > öe
@@ -187,23 +199,28 @@ NRVGP_G3:
 	u:
 		"S-oo": ü
 	ue:
-		"L-u": ue̊  < ue > ue
+		"L-u": ue̊ < ue > ue
 
 NRVGP_G4:
 	# The Flat Circumflex Above always indicates "S-u".
+	
+	# monographs
 	a: â
-	e: ê
-	i: î
+	e: ê … [R]
+	i: î … [R]
 	o: ô
 	u:
-		_CV: û
+		_CV: û … [R]
 		_CC: u
-		_E: û
-	# “xx” is any vowel digraph.
-	xx: x᷍x
+		_E: û … [R]
+
+	# digraphs
+	xx: x᷍x  # “xx” is any vowel digraph.
 	
 NRVGP_G5:
 	# The Flat Circumflex Below always indicates "schwa".
+	
+	# monographs
 	a:
 		_Ce: a̬
 		_C: a < a̬ >
@@ -216,9 +233,10 @@ NRVGP_G5:
 	y: = e
 	o: = e
 	u: = e
+	
+	# digraphs
 	ou: o͢u < > ou
-	# “xx” is any vowel digraph except “ou”.
-	xx: x͢x	
+	xx: x͢x  # “xx” is any vowel digraph except “ou”.
 
 NRVGP_G6:
 	# The Dot (Above or Below) always indicates "S-i".
