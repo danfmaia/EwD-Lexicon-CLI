@@ -1,0 +1,7 @@
+    "hiring" AND ("python" OR "flutter" OR ".net") AND "LATAM" AND "Mid"
+
+   "hiring" AND "python" AND "LATAM" AND "Mid"
+   
+   "hiring" AND "full-stack" AND "LATAM" AND NOT ("Junior", "Senior")
+
+   "oportunidade" AND "full-stack" AND "pleno"

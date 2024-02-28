@@ -76,6 +76,8 @@ Danish |
 default_n | d(e/ē)fault < d(ẹ/ē)fault >
 default_vb | ** < dẹfault >
 deity | d(ē/ë)¹ity < d(ē/ë)¹(i̬/i)²ty > ... ¹(CP/LCP) ²(GA/GB)
+demeanor | ** < dẹmeano͜r >
+demeanour | demeano͜ur < dẹmeano͜ur >
 desert_1 | dĕsert < dĕse͜rt >
 desert_2&3 | dese͡rt < dẹse̖rt > dese̖rt
 dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt
@@ -232,7 +234,7 @@ Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > ... (CP/LC
 species_sing | (specie̱s/species/speciẹs̩) ... (CP/LCP/AP)
 species_pl | (specie̱s/species/specie̱s) ... (CP/LCP/AP)
 subtle | sub̊tle < sub̊t͢le >
-subtlety | sub̊tle·ty < sub̊t͢le·ty >
+subtlety | sub̊tle̊ty < sub̊t͢le̊ty > sub̊tlety
 Sunni | Sünni
 thorough | t‍̤hôr(o̱u/o͢u)gh
 though | thōugh
