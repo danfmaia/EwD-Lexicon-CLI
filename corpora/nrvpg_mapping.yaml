@@ -1,3 +1,5 @@
+# EwD Non-Rhotic Vowel Phonographeme
+
 Legend:
     vowel_phonemes:
         ⟨L-a⟩: ⟨long-a⟩
@@ -18,7 +20,7 @@ Legend:
         ⟨ow⟩: ⟨“ow”⟩
         ⟨schwa⟩: ⟨schwa⟩ aka ⟨unstressed neutral⟩
     acronyms:
-        "NRVGP_G": non-rhotic vowel grapho-phoneme group
+        "NRVGP_G": non-rhotic vowel phonographeme group
     codes:
         " // ": stressed/unstressed divider
         "L0 ⦚ L1 < L2 > L3": EwD grapheme level variants. Non-indicated variants are equal to L1 variant. If only one variant is shown, then it is from L1.
