@@ -2,7 +2,7 @@
 ::  PI Text Transcriber
 ::
 
-> python src/main.py transcribe --file io/input.txt
+    python src/main.py transcribe --file io/input.txt
 
 ::
 :: pandoc
@@ -10,61 +10,89 @@
 
 Export documents:
 
-    > pandoc "corpora/corpora_info_in_ewd.md" -o "corpora/EwD Corpora & General Info (in EwD v2.8 L1).pdf" \
+    pandoc "new_app/phonographemes/Phonographemes.md" -o "new_app/export/Phonographemes.pdf" \
+    --pdf-engine=xelatex --template=eisvogel \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
+
+    pandoc "new_app/phonographemes/pg_keys.md" -o "new_app/export/PG Keys.pdf" \
+    --pdf-engine=xelatex --template=eisvogel \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
+
+    pandoc "new_app/phonographemes/nrvpg_values.md" -o "new_app/export/NRVPG Values.pdf" \
+    --pdf-engine=xelatex --template=eisvogel \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
+
+    pandoc "new_app/phonographemes/nrvpg_values_new.md" -o "new_app/export/NRVPG Values.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \
     -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
 
-    > pandoc "corpora/corpora_info.md" -o "corpora/corpora_info.pdf" \
+    pandoc "corpora/corpora_info_in_ewd.md" -o "corpora/EwD Corpora & General Info (in EwD v2.8 L1).pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \
     -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
 
-    > pandoc "ewd_changelog.md" -o "Changelog do IcD.pdf" \
+    pandoc "corpora/corpora_info.md" -o "corpora/corpora_info.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \
     -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
 
-    > pandoc "input.md" -o "ouput.pdf" \
+    pandoc "ewd_changelog.md" -o "Changelog do IcD.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \
     -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
 
-    > pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf" \
+    pandoc "input.md" -o "ouput.pdf" \
+    --pdf-engine=xelatex --template=eisvogel --listings \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
+
+    pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine" \
     -V sansfont="DejaVu Sans" \
     -V monofont="Linux Libertine Mono O" \
     -V disable-header-and-footers
 
-    > pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf" \
+    pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V monofont="Linux Libertine Mono O" \
     -V disable-header-and-footers
 
-    > pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf"
+    pandoc "readme.md" -o "docs/PI Text Processor Manual.pdf"
 
 General:
 
-    > pandoc input.md -o output.odt
+    pandoc input.md -o output.odt
 
-    > pandoc path_to_file.md -s -o path_to_file.pdf --variable geometry:margin=2cm -V mainfont="Linux Libertine"
+    pandoc path_to_file.md -s -o path_to_file.pdf --variable geometry:margin=2cm -V mainfont="Linux Libertine"
 
 :::::::::::::
 
 Eisvogel template:
 
-    > pandoc input.md -o output.pdf --pdf-engine=xelatex --template=eisvogel --listings
+    pandoc input.md -o output.pdf --pdf-engine=xelatex --template=eisvogel --listings
 
-    > pandoc input.md -o output.pdf --pdf-engine=xelatex --template=eisvogel --variable mainfont="Linux Libertine" --variable sansfont="Noto Sans" --variable monofont="Linux Libertine Mono O" --listings
+    pandoc input.md -o output.pdf --pdf-engine=xelatex --template=eisvogel --variable mainfont="Linux Libertine" --variable sansfont="Noto Sans" --variable monofont="Linux Libertine Mono O" --listings
 
  
 

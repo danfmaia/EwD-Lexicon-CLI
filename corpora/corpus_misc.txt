@@ -6,7 +6,12 @@ For more information, read corpus_info.md.
 ::::::::::
 
 academia | a̯cad(ē/ĕ)mia < a̯ca̬d(ē/ĕ)mia̬ >  ... (CP/LCP)
-academic | a̯cadĕmic < a̯ca̬dĕmic >
+academic
+
+isso:               a̯cadĕmic
+virou isso:     ăcadĕ̖mic
+
+< a̯ca̬dĕmic >
 accent_n | accĕnt ⦚ acce̗nt < * > **
 accent_vb | (acce̯nt/a̯ccĕnt) ⦚ (acce̗nt/a̗cce̖nt) < * > acc(e/e̖)nt
 accompany | accômpany < a̬ccômpa̬ny >
@@ -138,6 +143,7 @@ identify | idĕntify̱ ⦚ ide̖ntify̱ < (i̱/i)de̖nti̬fy̱ > ide̖ntify ¦ 
 imam | ima̍m
 infinity | infĭnity ... [DC]{infinity, infinite, finite}
 infinite | infini̯te < infi̬ni̯te > ** ... [DC]{infinity, infinite, finite}
+inquiry | inqu{ī/i}ry ⦚ inqu{i̖/i}ry ... {(GA1&GB)/GA2}
 intact | intăct ⦚ inta̖ct
 isn't | is͢n't < * > **
 itself | it꞉self < * > **

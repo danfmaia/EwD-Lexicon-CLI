@@ -30,5 +30,12 @@
 
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.autoImportCompletions": true,
-  "python.analysis.autoFormatStrings": true
+  "python.analysis.autoFormatStrings": true,
+
+  "[yaml]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.rulers": [80]
+  }
 }
