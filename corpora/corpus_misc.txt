@@ -6,20 +6,15 @@ For more information, read corpus_info.md.
 ::::::::::
 
 academia | a̯cad(ē/ĕ)mia < a̯ca̬d(ē/ĕ)mia̬ >  ... (CP/LCP)
-academic
-
-isso:               a̯cadĕmic
-virou isso:     ăcadĕ̖mic
-
-< a̯ca̬dĕmic >
+academic | a̯cadĕmic < a̯ca̬dĕmic >
 accent_n | accĕnt ⦚ acce̗nt < * > **
 accent_vb | (acce̯nt/a̯ccĕnt) ⦚ (acce̗nt/a̗cce̖nt) < * > acc(e/e̖)nt
 accompany | accômpany < a̬ccômpa̬ny >
 accurate | accurạte < accū͜rạte > **
 across | acrŏss ⦚ acro̖ss < a̬cro̖ss >
 ache | āc‍̤he
-adhere | a̯dhēre ⦚ a̗dhe̖re < * > adhe̖re
-alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm >
+adhere | a̯dhēre ⦚ a̗dhe̖re < * > {vb: **}
+alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm > {n: *, vb: **}
 albeit | al꞉be·it < aᷱl꞉be·it >
 almond | (a̍l̊/ăl)mond < (a̍l̊/ăl)mo̬nd >  ... (CP/SP)
 amateur | ăma(te͜ur/te͡ur/‹chə͜r›/‹chuə͜r›) ... [Esp]{ama‹teur›}
@@ -63,19 +58,18 @@ cliché | clïché ... [DS]
 climb | clīmb̊ < * > clīmb
 closure | ** ¦ cloṣure
 compass | cômpa̬ss
-complex | compl(ĕ/e̯)x ⦚ compl(e̖/e̗)x < (co̬mple̖x/comple̗x) > ... (GA/GB)
+complex | compl(ĕ/e̯)x ⦚ compl(e̖/e̗)x < (co̬mple̖x/comple̗x) > {etc: *, vb: **} ... (GA/GB)
 composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > comp(ŏ/o)site ... (GA/GB)
 company | cômpany < cômpa̬ny >
 component | compōnent ⦚ compo̖nent < c(o̬/o̗)mpo̖ne̬nt > *
 content_1 | conte̯nt ⦚ conte̗nt < * > **
-content_2 | contĕnt ⦚ conte̖nt < co̬nte̖nt >
+content_2 | contĕnt ⦚ conte̖nt < co̬nte̖nt > {etc: *, vb: **}
 corpus | corpus̩ < corpu̬s̩ >
 corpora | corpora < corpo̬ra̬ >
-correspond | correspŏnd ⦚ correspo̖nd < corre̬spo̖nd > 
+correspond | correspŏnd ⦚ correspo̖nd < corre̬spo̖nd > {vb: **}
 country | co᷍untry
 cough | c(‹aw›/o)ff ... (GA/GB) ... [Eap]{c‹ough›}
 cover | côver < côve͜r >
-create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te ... [DS]
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
 Danish | 
 debt | deb̊t ... [FE]
@@ -84,15 +78,12 @@ default_vb | ** < dẹfault >
 deity | d(ē/ë)¹ity < d(ē/ë)¹(i̬/i)²ty > ... ¹(CP/LCP) ²(GA/GB)
 demeanor | ** < dẹmeano͜r >
 demeanour | demeano͜ur < dẹmeano͜ur >
-desert_1 | dĕsert < dĕse͜rt >
-desert_2&3 | dese͡rt < dẹse̖rt > dese̖rt
-dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt
+dessert | des᷼se͡rt < dẹs᷼se̖rt > des᷼se̖rt ¦ dẹs᷼se͡rt ... [DCtba]{desert, dessert}
 detail | d(e/ē)tail < d(ẹ/ē)tail >
 detailed | d(e/ē)taile̊d < d(ẹ/ē)taile̊d > d(e/ē)tailed
 diacritic | diacrĭtic < dia̬crĭtic > * ¦ dia̬crĭtic
 diaeresis | diå(ĕ/ē)res̩is̩ < diå(ĕ/ē)r(ẹ/e̬)s̩is̩ > * ¦ diå(ĕ/ē)r(ẹ/e̬)s̩is̩
 didactic | didăctic ⦚ dida̖ctic < d(i̱/i)da̖ctic > 
-direct | dirĕct ⦚ dire̖ct ¦ d(ī/i/i̬)re̖ct
 done | dône
 don't | dōn't
 dull | dŭll
@@ -131,7 +122,7 @@ geographic | ge̱ogrăphic ⦚ ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic �
 geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
 ginger | ** < ginge͜r >
 gone | gŏne
-guitar | guita̍r ⦚ guita̖r ¦ gůita̖r
+guitar | guita̍r ⦚ guita̖r < * > {n: *, vb: **} ¦ gůita̖r
 guy | 
 honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
@@ -162,7 +153,7 @@ loose | lo͞os̩e ... [DC]
 lose | löse ... [DC]
 many | mäny
 martyr | ** < marty͜r >
-mature | matūre ⦚ matu̖re < ma̬tu̖re >
+mature | matūre ⦚ matu̖re < ma̬tu̖re > {adj: *, vb: **}
 meadow | mĕadow
 medicine | mĕdici̯ne < mĕdi̬ci̯ne > mĕdicine
 mentor | ment(o̗r/or) < ment(o̗r/o͜r) >
@@ -181,7 +172,7 @@ nineteenth | nine·teenth· < * > **
 none | nône
 nonetheless | nône·the̬꞉less < * > nône·the꞉less
 nourish | no᷍urish
-nuance | nū(a̍/a̖̍)nce ... (CP/LCP)
+nuance | nū(a̍/a̖̍)nce < * > {n: *, vb: nūa̍nce} ... (CP/LCP)
 oven | ôven < ôve̬n >
 over | ** < ove͜r >
 paradigm | paradi̱g̊m < para̬di̱gm > paradi̱gm
@@ -190,14 +181,14 @@ pineapple | pine·apple < pine·app͢le > ** ... [DS]
 pizza | pïz‍̤za < pïz‍̤za̬ > ... [DS]
 plaque | pl(ă/a̍)que ¦ pl(ă/a̍)qůe̊ ... (GA/GB)
 plugin | plug·in < * > **
-possess | pos᷼sĕss ⦚ pos᷼se̖ss < po̬s᷼se̖ss > ... [DC]
+possess | pos᷼sĕss ⦚ pos᷼se̖ss < po̬s᷼se̖ss > {vb: pos᷼sess} ... [DC]
 possession | pos᷼sĕssion ⦚ pos᷼se̖ssion < po̬s᷼sessio̬n > pos᷼session ... [DC]
 prayer_1 | praye̊r ... [DC]
 prayer_2 | ** < praye͜r > ... [DC]
 primary | < prim(a̗/a̬)ry > ... (GA/GB)
 primarily | prim(a̖/a)rily < (prima̖ri̬ly/prima̗ri̬ly/prima̬ri̬ly) >
 progress_n | (prŏgress/progre̯ss) ⦚ (prŏgress/progre̗ss) < (prŏgr(e̗/e̬)ss/progre̗ss) > pr(ŏ/o)gress ... (GA/GB) ... [DC]
-progress_v | progrĕss ⦚ progre̖ss < pro̬gre̖ss >  ... [DC]
+progress_vb | progrĕss ⦚ progre̖ss < pro̬gre̖ss > ** ... [DC]
 project | prŏject < prŏj(e̗/ẹ)ct >
 promise | prŏmi̯s̩e < * > prŏmis̩e
 protein | prote̱(i̥/i̯)n ⦚ prote̱(i̥/i̗)n < * > **
@@ -252,9 +243,9 @@ today | < t(o̤/o̬)day >
 tomb | tömb̊ < * > tömb
 tourism | töuris͢m < * > töurism ¦ töuri̗s͢m
 truth | trūth ... [DC]{true, truth}
-undergo | undergō ⦚ undergo̖ < unde͜rgo̖ >
-underwent | underwĕnt ⦚ underwe̖nt < unde͜rwe̖nt >
-understand | understănd ⦚ understa̖nd < unde͜rsta̖nd >
+undergo | undergō ⦚ undergo̖ < unde͜rgo̖ > {vb: **}
+underwent | underwĕnt ⦚ underwe̖nt < unde͜rwe̖nt > {vb: **}
+understand | understănd ⦚ understa̖nd < unde͜rsta̖nd > {vb: **}
 understood | understo͝od < unde͜rsto͝od >
 unique | u̱nïque < unïque > unïque ¦ u̱nïqůe̊
 upend | up꞉end
@@ -318,19 +309,18 @@ December | Decĕmber < Dẹce̖mbe͜r >
 :: On corpus_1000.txt ::
 
 surface | su͡rface < surf(a̬/ạ)ce > ** ¦ su͡rf(a̬/ạ)ce ... (GA/GB)
-observe | obse͡rve ⦚ ob᷼se͡rve < o̬b᷼se̖rve > obse̖rve ¦ o̬b᷼se͡rve
+observe | obse͡rve ⦚ ob᷼se͡rve < o̬b᷼se̖rve > {vb: **, etc: obse̖rve} ¦ o̬b᷼se͡rve
 iron | iro̊n
-locate | loc(ā/a̱)te ⦚ loc(a̖/a̗)te
+locate | loc(ā/a̱)te ⦚ loc(a̖/a̗)te < * > **
 process | (prŏcess/proce̯ss) ⦚ (prŏcess/proce̗ss) < (prŏc(e̗/e̬)ss/proce̗ss) > pr(ŏ/o)cess ... (GA/GB)
-create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te
-event | evĕnt ⦚ eve̖nt < (ẹ/e̬)ve̖nt >
+create | cre̱āte ⦚ cre̱a̖te < crea̖te > {vb: **}
+event | evĕnt ⦚ eve̖nt < (ẹ/e̬)ve̖nt > {n: *, etc: **}
 sugar | ṣügar < ṣüga͜r > sügar
 
 :: On corpus_misc.txt ::
 
 another | anôther < a̬nôthe͜r >
 cliché | clïché
-create | cre̱āte ⦚ cre̱a̖te < crea̖te > crea̖te
 flood | flo᷍od
 hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene ¦ h(ȳ/y̱)giene
 pineapple | pine·apple < pine·app͢le > **
