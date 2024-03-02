@@ -1,5 +1,16 @@
 # Changelog do Inglês com Diacríticos (IcD)
 
+## v2.8:
+
+1. O nível L3 não mais acentua verbos oxítonas. Exemplos:
+
+   > [Formato: v2.7 L3 > v2.8 L3]
+   >
+   > - begi̖n > begin
+   > - dire̖ct (vb.) > direct (vb.)
+   > - comple̖te (vb.) > complete (vb.)
+   > - re̯prese̖nt > re̯present
+
 ## v2.7:
 
 1. Os acentos de dígrafos consonantais foram deslocados para a divisa das letras. Exemplos:

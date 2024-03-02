@@ -10,34 +10,6 @@
 
 Export documents:
 
-    pandoc "new_app/phonographemes/Phonographemes.md" -o "new_app/export/Phonographemes.pdf" \
-    --pdf-engine=xelatex --template=eisvogel \
-    -V mainfont="Linux Libertine PI" \
-    -V sansfont="Linux Libertine PI" \
-    -V monofont="Linux Libertine PI" \
-    -V disable-header-and-footers
-
-    pandoc "new_app/phonographemes/pg_keys.md" -o "new_app/export/PG Keys.pdf" \
-    --pdf-engine=xelatex --template=eisvogel \
-    -V mainfont="Linux Libertine PI" \
-    -V sansfont="Linux Libertine PI" \
-    -V monofont="Linux Libertine PI" \
-    -V disable-header-and-footers
-
-    pandoc "new_app/phonographemes/nrvpg_values.md" -o "new_app/export/NRVPG Values.pdf" \
-    --pdf-engine=xelatex --template=eisvogel \
-    -V mainfont="Linux Libertine PI" \
-    -V sansfont="Linux Libertine PI" \
-    -V monofont="Linux Libertine PI" \
-    -V disable-header-and-footers
-
-    pandoc "new_app/phonographemes/nrvpg_values_new.md" -o "new_app/export/NRVPG Values.pdf" \
-    --pdf-engine=xelatex --template=eisvogel --listings \
-    -V mainfont="Linux Libertine PI" \
-    -V sansfont="Linux Libertine PI" \
-    -V monofont="Linux Libertine PI" \
-    -V disable-header-and-footers
-
     pandoc "corpora/corpora_info_in_ewd.md" -o "corpora/EwD Corpora & General Info (in EwD v2.8 L1).pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
