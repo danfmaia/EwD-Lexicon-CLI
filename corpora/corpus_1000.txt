@@ -91,7 +91,7 @@ water | w(aᷱ/aᪿ)ter < w(aᷱ/aᪿ)te͜r >
 than | 
 call | ** < caᷱll >
 first | fı͡rst < ** > ** ¦ fı͡rst
-who | ẘhö < * > whö
+who | ẘhö
 may | 
 down | 
 side | 
@@ -189,7 +189,7 @@ need |
 house | hous̩e
 picture | ** < pictū͜re >
 try | 
-us | us̩
+us | {str: [us̩/(us̩/us)], un: (us̩/us)} ... [GA/GB]
 again | ag(äin/ain) < a̬g(äin/ain) > ag(äin/ain)
 animal | ănimal < ăni̬ma̬l >
 point | point
@@ -268,7 +268,7 @@ music |
 those | 
 both | bōth
 mark | 
-often | of(t̊/t)en < of(t̊/t)e̬n >
+often | of(t̥/t)en < of(t̥/t)e̬n > **
 letter | ** < lette͜r >
 until | untĭl ⦚ unti̖l
 mile | 
@@ -370,7 +370,7 @@ reach | reach
 fast | 
 verb | ve͡rb < ** > ** ¦ ve͡rb
 sing | ** < sin͠g >
-listen | list̊en < list̊e̬n >
+listen | list̊en < list̊e̬n > **
 six | 
 table | ** < tab͢le >
 travel | trăvel < trăve̬l >
@@ -773,7 +773,7 @@ doctor | ** < docto͜r >
 please | please
 protect | protĕct ⦚ prote̖ct < pro̬te̖ct > {vb: **}
 noon | no͞on
-whose | whöse
+whose | ẘhöse
 locate | loc(ā/a̱)te ⦚ loc(a̖/a̗)te < * > ** ... [DS]
 ring | ** < rin͠g >
 character | c‍̤hăracter < c‍̤hăra̬cte͜r >

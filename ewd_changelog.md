@@ -2,7 +2,7 @@
 
 ## v2.8:
 
-1. O nível L3 não mais acentua verbos oxítonas. Exemplos:
+1. O nível L3 não mais aplica acento Agudo na última sílaba de verbos oxítonas. Exemplos:
 
    > [Formato: v2.7 L3 > v2.8 L3]
    >
@@ -10,6 +10,14 @@
    > - dire̖ct (vb.) > direct (vb.)
    > - comple̖te (vb.) > complete (vb.)
    > - re̯prese̖nt > re̯present
+
+2. O nível L3 em geral não mais indica elisão do "t" em encontros consontantais. Exemplos:
+
+   > [Formato: v2.7 L3 > v2.8 L3]
+   >
+   > - of(t̥/t)en > often
+   > - list̊en > listen
+   > - cast̊le > castle
 
 ## v2.7:
 

@@ -41,7 +41,7 @@ bough | b‹o̍w› ... [Eap]{b‹ough›}
 breath | brĕath
 breathe | breathe
 bull | büll
-bustle | bust̊le < bust̊͢le >
+bustle | bust̊le < bust̊͢le > **
 busy | bu̇sy
 business | bu̇si̊ness < bu̇si̊nẹss >
 Caesar | Cåesar < Cåesa͜r >
@@ -49,7 +49,7 @@ cache | cac‍̩he
 canine | cani̱ne
 cannabis | cannabis̩ < canna̬bis̩ >
 carnival | ** < carni̬val >
-castle | cast̊le < cast̊͢le >
+castle | cast̊le < cast̊͢le > **
 category | cătegory < căt(e̬/ẹ)g(o̗/(o̬/o̥))ry > ... (GA/GB)
 cater | ** < cate͜r >
 chorus | c‍̤horus̩ < c‍̤horu̬s̩ >
@@ -135,6 +135,7 @@ imam | ima̍m
 infinity | infĭnity ... [DC]{infinity, infinite, finite}
 infinite | infini̯te < infi̬ni̯te > ** ... [DC]{infinity, infinite, finite}
 inquiry | inqu{ī/i}ry ⦚ inqu{i̖/i}ry ... {(GA1&GB)/GA2}
+inside | 
 intact | intăct ⦚ inta̖ct
 isn't | is͢n't < * > **
 itself | it꞉self < * > **
@@ -168,6 +169,7 @@ naïve | < na̬ïve > ... [DC]
 naked | nakẹd ... [DC]{beloved, naked, ragged}
 natural | nătural < năt(ū̬/u̥)ra̬l > ... [DC]{nature, natural}
 Nazi | N(a̍/ă)z̤i
+nestle | nest̊le < nest̊͢le > **
 nineteenth | nine·teenth· < * > **
 none | nône
 nonetheless | nône·the̬꞉less < * > nône·the꞉less
