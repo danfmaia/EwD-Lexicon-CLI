@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#  Changelog do IcD.pdf" \
+    pandoc "ewd_changelog.md" -o "_knowledge/Changelog do IcD.pdf" \
+    --pdf-engine=xelatex --template=eisvogel --listings \
+    -V mainfont="Linux Libertine PI" \
+    -V sansfont="Linux Libertine PI" \
+    -V monofont="Linux Libertine PI" \
+    -V disable-header-and-footers
 
 # corpus_1000.txt
 cp "corpora/corpus_1000.txt"  "_knowledge/"
@@ -17,14 +24,6 @@ pandoc "corpora/corpora_info_in_ewd.md" -o "_knowledge/EwD Corpora & General Inf
 
 # EwD Corpora & General Info.pdf
     pandoc "corpora/corpora_info.md" -o "_knowledge/EwD Corpora & General Info.pdf" \
-    --pdf-engine=xelatex --template=eisvogel --listings \
-    -V mainfont="Linux Libertine PI" \
-    -V sansfont="Linux Libertine PI" \
-    -V monofont="Linux Libertine PI" \
-    -V disable-header-and-footers
-
-#  Changelog do IcD.pdf" \
-    pandoc "ewd_changelog.md" -o "_knowledge/Changelog do IcD.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \

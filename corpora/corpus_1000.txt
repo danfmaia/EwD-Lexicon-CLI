@@ -6,13 +6,13 @@ a | ** ⦚ {a̬, str: ā} < * > **
 in | 
 is | 
 it | 
-you | yöu
+you | yöu < * > **
 that | 
 he | 
 was | ** < {w(â/aᪿ)s, un: wa̬s} >
 for | ** ⦚ {fo͜r, str: fŏr} < * > **
 on | 
-are | a̍re
+are | a̍re < * > **
 with | 
 as | 
 I | 
@@ -21,16 +21,16 @@ they |
 be | 
 at | 
 one | ‹wun› ... [Eap]{‹one›}
-have | hăve
+have | hăve < * > **
 this | this̩
 from | ** ⦚ {from, un: fro̬m} < {fr(ô/ŏ)m, un: fro̬m} > **
-or | ** < {**, un: o͜r} >
+or | ** < {**, un: o͜r} > **
 had | 
 by | 
 not | 
 word | wo͡rd
 but | 
-what | ** < {wh(â/aᪿ)t, un: wha̬t} >
+what | ** < {wh(â/aᪿ)t, un: wha̬t} > **
 some | sôme
 we | 
 can | 
@@ -91,7 +91,7 @@ water | w(aᷱ/aᪿ)ter < w(aᷱ/aᪿ)te͜r >
 than | 
 call | ** < caᷱll >
 first | fı͡rst < ** > ** ¦ fı͡rst
-who | ẘhö
+who | ẘhö < * > whö
 may | 
 down | 
 side | 
@@ -773,7 +773,7 @@ doctor | ** < docto͜r >
 please | please
 protect | protĕct ⦚ prote̖ct < pro̬te̖ct > {vb: **}
 noon | no͞on
-whose | ẘhöse
+whose | ẘhöse < * > whöse
 locate | loc(ā/a̱)te ⦚ loc(a̖/a̗)te < * > ** ... [DS]
 ring | ** < rin͠g >
 character | c‍̤hăracter < c‍̤hăra̬cte͜r >

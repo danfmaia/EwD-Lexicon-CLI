@@ -2,7 +2,26 @@
 
 ## v2.8:
 
-1. O nível L3 não mais aplica acento Agudo na última sílaba de verbos oxítonas. Exemplos:
+1. **[Alteração de Nomenclatura]** Os quatro fonemas vocálicos resultantes do processo de Neutralização passarão a ser chamados de "xuá". Agora haverá então um paralelismo exato entre os tipos de Neutralização e as variedades de xuá. Confira abaixo o antes e depois:
+
+   > [Formato: pré-v2.8 > v2.8+]
+   >
+   > - Fonemas:
+   >
+   >   - ⟨u-curto⟩ t.c.c. ⟨neutra tônica⟩ > ⟨xuá tônico⟩ (t.c.c. ⟨u-curto⟩) ¹
+   >   - ⟨neutra tônica rótica⟩ t.c.c. ⟨"ur"⟩ > ⟨xuá tônico rótico⟩ (t.c.c. ⟨"ur"⟩) ²
+   >   - ⟨schwa⟩ t.c.c. ⟨neutra átona⟩ > ⟨xuá átono⟩ ³
+   >   - ⟨schwa rótico⟩ t.c.c. ⟨neutra átona rótica⟩ > ⟨xuá átono rótico⟩ ⁴
+   >
+   > ¹ Resultante da Neutralização Tônica.
+   >
+   > ² Resultante da Neutralização Tônica Rótica.
+   >
+   > ³ Resultante da Neutralização Átona.
+   >
+   > ⁴ Resultante da Neutralização Átona Rótica.
+
+2. O nível L3 não mais aplica acento Agudo na última sílaba de verbos oxítonas. Exemplos:
 
    > [Formato: v2.7 L3 > v2.8 L3]
    >
@@ -11,7 +30,7 @@
    > - comple̖te (vb.) > complete (vb.)
    > - re̯prese̖nt > re̯present
 
-2. O nível L3 em geral não mais indica elisão do "t" em encontros consontantais. Exemplos:
+3. O nível L3 em geral não mais indica elisão do "t" em encontros consontantais. Exemplos:
 
    > [Formato: v2.7 L3 > v2.8 L3]
    >
