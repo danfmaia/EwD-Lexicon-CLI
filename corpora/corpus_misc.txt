@@ -5,6 +5,8 @@ SE | L0 ⦚ L1 < L2 > L3 ¦ Full
 For more information, read corpus_info.md.
 ::::::::::
 
+  a
+
 academia | a̯cad(ē/ĕ)mia < a̯ca̬d(ē/ĕ)mia̬ >  ... (CP/LCP)
 academic | a̯cadĕmic < a̯ca̬dĕmic >
 accent_n | accĕnt ⦚ acce̗nt < * > **
@@ -30,6 +32,9 @@ Arabic | A̖rabic < A̖ra̬bic >
 archipelago | arc‍̤hipĕlago < arc‍̤hipĕla̬go >
 aspect | aspe̯ct ⦚ aspe̗ct < * > ** ¦ a̖spe̗ct
 asthma | as(t‍̥h/th)ma < as(t‍̥h/th)ma̬ >
+
+  b
+
 baroque | (barōque/ba̯rŏque) ⦚ (baro̖que/ba̯rŏque) < (ba̬ro̖que/ba̯rŏque) > bar(o̖/ŏ)que ¦ (ba̬ro̖qůe̊/ba̯rŏqůe̊) ... (GA/GB)
 basement | bas̩e̊ment < * > basement ... [DC]{base, basement}
 beloved_1 | belôvẹd < bẹlôvẹd > ... [DC]{beloved_1, beloved_2} [DC]{beloved, naked, ragged}
@@ -44,6 +49,9 @@ bull | büll
 bustle | bust̊le < bust̊͢le > **
 busy | bu̇sy
 business | bu̇si̊ness < bu̇si̊nẹss >
+
+  c
+
 Caesar | Cåesar < Cåesa͜r >
 cache | cac‍̩he
 canine | cani̱ne
@@ -71,6 +79,9 @@ country | co᷍untry
 cough | c(‹aw›/o)ff ... (GA/GB) ... [Eap]{c‹ough›}
 cover | côver < côve͜r >
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
+
+  d
+
 Danish | 
 debt | deb̊t ... [FE]
 default_n | d(e/ē)fault < d(ẹ/ē)fault >
@@ -87,6 +98,9 @@ didactic | didăctic ⦚ dida̖ctic < d(i̱/i)da̖ctic >
 done | dône
 don't | dōn't
 dull | dŭll
+
+  e
+
 ease | ease
 easy | easy
 echo | ec‍̤ho
@@ -101,11 +115,15 @@ endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... [BS]
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
+era | (e/e)ra
 everybody | ĕve̊ry·b(ŏ/ô)dy < * > ĕve̊ryb(ŏ/ô)dy
 everyday | ĕve̊ry·day < * > ĕve̊ryday
 everyone | ĕve̊ry·‹wun› < * > ĕve̊ry‹wun› ... [S½]{ĕve̊ry‹one›}
 everything | ĕve̊ry·t‍̤hing < ĕve̊ry·t‍̤hin͠g > ĕve̊ryt‍̤hing
 exaggerate | exăggerate ⦚ exa̖ggerate < ẹxa̖gge̬rate > * ¦ ẹxa̖g͝ge̬ra̗te
+
+  f
+
 flood | flo᷍od ... [DS]
 focus | focus̩ < focu̬s̩ >
 foe | foe̊ < ** > **
@@ -113,7 +131,11 @@ format | forma̯t ⦚ forma̗t < * > **
 formidable | form(i/ĭ)dable < (formida̬b͢le/fo̬rmĭda̬b͢le) > ... (GA/GB)
 friend | fri̊end
 fiend | 
+finite | fini̱te < * > ** ... [DC]{infinity, infinite, finite}
 fundamental | fundamĕntal ⦚ fundame̖ntal < funda̬me̖nta̬l > * ¦ fu̗nda̬me̖nta̬l
+
+  g
+
 Ganesha | Ganësha < Ga̬nësha̬ >
 gasoline | g(ă/a̯)s̩olïne < g(ă/a̯)s̩o̬lïne > ... (GA/GB)
 ghost | ghōst ... [FE]
@@ -124,12 +146,18 @@ ginger | ** < ginge͜r >
 gone | gŏne
 guitar | guita̍r ⦚ guita̖r < * > {n: *, vb: **} ¦ gůita̖r
 guy | 
+
+  h
+
 honest | h̊ŏnest < h̊ŏn(ẹ/e̬)st >
 honor | h̊ŏnor < h̊ŏno͜r >
 hierarch | hīera̍rc‍̤h ⦚ hīera̗rc‍̤h < hī(e̬/e̥)ra̗rc‍̤h >
 hierarchical | hi̱era̍rc‍̤hical ⦚ hi̱era̖rc‍̤hical < hi̱(e̬/e̥)ra̖rc‍̤hica̬l >
 hierarchy | hīera̍rc‍̤hy ⦚ hīera̗rc‍̤hy < hī(e̬/e̥)ra̗rc‍̤hy > * ¦ hī(e̬/e̥)ra̗rc‍̤hy
 hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene ¦ h(ȳ/y̱)giene ... [DS]
+
+  i
+
 identify | idĕntify̱ ⦚ ide̖ntify̱ < (i̱/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
 imam | ima̍m
 infinity | infĭnity ... [DC]{infinity, infinite, finite}
@@ -139,9 +167,14 @@ inside |
 intact | intăct ⦚ inta̖ct
 isn't | is͢n't < * > **
 itself | it꞉self < * > **
+
+  j
+
 journal | jo͡urnal < jo͡urna̬l >
 journey | jo͡urney < jo͡urne̱y >
-finite | fini̱te < * > ** ... [DC]{infinity, infinite, finite}
+
+  f
+
 language | language < languạge >
 laugh | l‹aff› ... [Eap]{l‹augh›}
 laughter | l‹af›ter < l‹af›te͜r > ... [Eap]{l‹augh›} [DC]
@@ -152,6 +185,9 @@ loan | loan ... [DC]
 lone | ... [DC]
 loose | lo͞os̩e ... [DC]
 lose | löse ... [DC]
+
+  m
+
 many | mäny
 martyr | ** < marty͜r >
 mature | matūre ⦚ matu̖re < ma̬tu̖re > {adj: *, vb: **}
@@ -164,6 +200,9 @@ muscle | musc̊le < musc̊͢le >
 muscular | < muscū̬la͜r >
 Mycenae | My̱cēnåe̱ ⦚ My̱ce̖nåe̱ < * > Myce̖nåe̱
 Mycenaean | My̱cenåēa̬n < Mycẹnåēa̬n > Mycenåēan ¦ My̱cẹnåēa̬n
+
+  n
+
 naive | naïve < na̬ïve > ... [DC]
 naïve | < na̬ïve > ... [DC]
 naked | nakẹd ... [DC]{beloved, naked, ragged}
@@ -175,8 +214,14 @@ none | nône
 nonetheless | nône·the̬꞉less < * > nône·the꞉less
 nourish | no᷍urish
 nuance | nū(a̍/a̖̍)nce < * > {n: *, vb: nūa̍nce} ... (CP/LCP)
+
+  o
+
 oven | ôven < ôve̬n >
 over | ** < ove͜r >
+
+  p
+
 paradigm | paradi̱g̊m < para̬di̱gm > paradi̱gm
 peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(u̬/ū̬)la̬ > ... (GA/GB)
 pineapple | pine·apple < pine·app͢le > ** ... [DS]
@@ -198,7 +243,13 @@ pronounce | ** < pro̬nounce > ... [DC]
 pronunciation | pronu̯nciātion ⦚ pronu̗ncia̖tion < pro̬nu̗ncia̖tio̬n > ... [DC]
 purpose | pu͡rpos̩e ⦚ pu͡rpo̬s̩e < purpo̬s̩e > purpos̩e
 pursuit | pursui̊t < pu͜rsui̊t >
+
+  q
+
 query | qu{(ē/ĕ)/ē}ry ... {GA/GB}
+
+  r
+
 ragged | raggẹd ... [DC]{beloved, naked, ragged}
 real | ** ⦚ (rea̬l/reḁl) < * > **
 realism | ** ⦚ rea̬lis͢m < rea̬li̗s͢m > **
@@ -213,6 +264,9 @@ resource | r{ē/e}(s̩/s)(ŏur/ōur)ce < r{ē/ẹ}(s̩/s)(ŏur/ōur)ce > .
 rigor | rĭgor < rĭgo͜r >
 route | r{(öu/ou)/öu}te ... {GA/GB}
 routine | röutï̖ne
+
+  s
+
 saga | sa̍ga < sa̍ga̬ >
 said | säid
 says | säys
@@ -237,6 +291,9 @@ spontaneity | spontan(ē/ë)ity < sponta̬n(ē/ë)(i/i̬)ty > ... (GA/GB)?
 subtle | sub̊tle < sub̊t͢le >
 subtlety | sub̊tle̊ty < sub̊t͢le̊ty > sub̊tlety
 Sunni | Sünni
+
+  t
+
 thorough | t‍̤hôr(o̱u/o͢u)gh
 though | thōugh
 thyme | (th̊/th)yme ... (CP/SP)
@@ -245,6 +302,9 @@ today | < t(o̤/o̬)day >
 tomb | tömb̊ < * > tömb
 tourism | töuris͢m < * > töurism ¦ töuri̗s͢m
 truth | trūth ... [DC]{true, truth}
+
+  u
+
 undergo | undergō ⦚ undergo̖ < unde͜rgo̖ > {vb: **}
 underwent | underwĕnt ⦚ underwe̖nt < unde͜rwe̖nt > {vb: **}
 understand | understănd ⦚ understa̖nd < unde͜rsta̖nd > {vb: **}
@@ -252,6 +312,9 @@ understood | understo͝od < unde͜rsto͝od >
 unique | u̱nïque < unïque > unïque ¦ u̱nïqůe̊
 upend | up꞉end
 upon | upŏn ⦚ upo̖n < u̬po̖n >
+
+  v
+
 vague | ** ¦ vagůe̊
 vaguely | vagůe̊ly
 variant | ** < varia̬nt >
@@ -262,6 +325,9 @@ vernacular | vernăcular < ve͜rnăcū̬la͜r >
 versatile | ve͡rsatile < {versa̬t(i̗le/i̬le)/versa̬ti̗le} > ** ¦ {ve͡rsa̬t(i̗le/i̬le)/ve͡rsa̬ti̗le} ... {GA/GB}
 volley | < vŏlle̱y >
 volleyball | < vŏlle̱ybaᷱll >
+
+  w
+
 were | we͡re
 whilst | whīlst
 without | … [DCtba]{with, without}
