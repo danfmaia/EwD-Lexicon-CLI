@@ -25,11 +25,11 @@ another | anôther < a̬nôthe͜r > ... [DS]
 Antarctica | Ant꞉ar(c/c̥)tica < Ant꞉ar(c/c̥)tica̬ >
 anywhere | äny·whĕre < * > änywhĕre
 apostrophe | apŏstrophe̱ ⦚ apo̖strophe̱ < a̬po̖stro̬phe̱ >
-applicable | appl(i/ĭ)cable < (applica̬b͢le/a̬pplĭca̬b͢le) > appl(i/i̖)cable
+applicable | appl(i/ĭ)cable < (applica̬b͢le/a̬pplĭca̬b͢le) >
 Arab | Ara̬b
 Arabian | Arābian ⦚ Ara̖bian < A̬rabia̬n > ** ¦ A̬ra̖bia̬n
 Arabic | A̖rabic < A̖ra̬bic >
-archipelago | arc‍̤hipĕlago < arc‍̤hipĕla̬go > arc‍̤hipe̖lago
+archipelago | arc‍̤hipĕlago < arc‍̤hipĕla̬go >
 aspect | aspe̯ct ⦚ aspe̗ct < * > ** ¦ a̖spe̗ct
 asthma | as(t‍̥h/th)ma < as(t‍̥h/th)ma̬ >
 
@@ -39,9 +39,9 @@ baroque | (barōque/ba̯rŏque) ⦚ (baro̖que/ba̯rŏque) < (ba̬ro̖que/ba�
 basement | bas̩e̊ment < * > basement ... [DC]{base, basement}
 beloved_1 | belôvẹd < bẹlôvẹd > ... [DC]{beloved_1, beloved_2} [DC]{beloved, naked, ragged}
 beloved_2 | belôve̊d < bẹlôve̊d > belôved ... [DC]{beloved_1, beloved_2}
-biological | bi̱olŏgical ⦚ biolŏgical < bio̬lŏgica̬l > biolo̖gical ¦ bi̱o̬lŏgica̬l
+biological | bi̱olŏgical ⦚ biolŏgical < bio̬lŏgica̬l > * ¦ bi̱o̬lŏgica̬l
 biological | bi̱olŏgic ⦚ biolŏgic < bio̬lŏgic > * ¦ bi̱o̬lŏgic
-biology | bi̱ŏlogy ⦚ biŏlogy < bi̱ŏlo̬gy > bio̖logy ¦ bi̱ŏlo̬gy
+biology | bi̱ŏlogy ⦚ biŏlogy < bi̱ŏlo̬gy > * ¦ bi̱ŏlo̬gy
 bough | b‹o̍w› ... [Eap]{b‹ough›}
 breath | brĕath
 breathe | breathe
@@ -58,7 +58,7 @@ canine | cani̱ne
 cannabis | cannabis̩ < canna̬bis̩ >
 carnival | ** < carni̬val >
 castle | cast̊le < cast̊͢le > **
-category | cătegory < căt(e̬/ẹ)g(o̗/(o̬/o̥))ry > ** ... (GA/GB)
+category | cătegory < căt(e̬/ẹ)g(o̗/(o̬/o̥))ry > ... (GA/GB)
 cater | ** < cate͜r >
 chorus | c‍̤horus̩ < c‍̤horu̬s̩ >
 chough | ch‹uff› ... [Eap]{ch‹ough›}
@@ -67,7 +67,7 @@ climb | clīmb̊ < * > clīmb
 closure | ** ¦ cloṣure
 compass | cômpa̬ss
 complex | compl(ĕ/e̯)x ⦚ compl(e̖/e̗)x < (co̬mple̖x/comple̗x) > {etc: *, vb: **} ... (GA/GB)
-composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > comp(o̖/o)site ... (GA/GB)
+composite | comp(ŏ/o)si̯te < (co̬mpŏsi̯te/compo̬si̯te) > comp(ŏ/o)site ... (GA/GB)
 company | cômpany < cômpa̬ny >
 component | compōnent ⦚ compo̖nent < c(o̬/o̗)mpo̖ne̬nt > *
 content_1 | conte̯nt ⦚ conte̗nt < * > **
@@ -104,22 +104,22 @@ dull | dŭll
 ease | ease
 easy | easy
 echo | ec‍̤ho
-educate | ĕducate < ĕducate > ** ¦ ĕduca̗te
+educate | ĕducate < ĕducate > * ¦ ĕduca̗te
 education | e̯ducātion ⦚ e̯duca̖tion < e̯ducatio̬n > e̯ducation ¦ e̯duca̖tio̬n
 efficacy | ** < effica̬cy >
 echo | ec‍̤ho
 efficacious | efficācio͢us̩ ⦚ effica̖cio͢us̩ < e̗ffica̖cio͢us̩ >
-eloquent | ĕloquent < ĕlo̬que̬nt > **
+eloquent | ĕloquent < ĕlo̬que̬nt >
 endeavor | endĕavor < ẹndĕavor > ... [AS]
 endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... [BS]
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
 era | (e/e)ra
-everybody | ĕve̊ry·b(ŏ/ô)dy < * > everyb(ŏ/ô)dy
-everyday | ĕve̊ry·day < * > **
-everyone | ĕve̊ry·‹wun› < * > every‹wun› ... [S½]{ĕve̊ry‹one›}
-everything | ĕve̊ry·t‍̤hing < ĕve̊ry·t‍̤hin͠g > everyt‍̤hing
+everybody | ĕve̊ry·b(ŏ/ô)dy < * > ĕve̊ryb(ŏ/ô)dy
+everyday | ĕve̊ry·day < * > ĕve̊ryday
+everyone | ĕve̊ry·‹wun› < * > ĕve̊ry‹wun› ... [S½]{ĕve̊ry‹one›}
+everything | ĕve̊ry·t‍̤hing < ĕve̊ry·t‍̤hin͠g > ĕve̊ryt‍̤hing
 exaggerate | exăggerate ⦚ exa̖ggerate < ẹxa̖gge̬rate > * ¦ ẹxa̖g͝ge̬ra̗te
 
   f
@@ -128,7 +128,7 @@ flood | flo᷍od ... [DS]
 focus | focus̩ < focu̬s̩ >
 foe | foe̊ < ** > **
 format | forma̯t ⦚ forma̗t < * > **
-formidable | form(i/ĭ)dable < (formida̬b͢le/fo̬rmĭda̬b͢le) > form(i/i̖)dable ... (GA/GB)
+formidable | form(i/ĭ)dable < (formida̬b͢le/fo̬rmĭda̬b͢le) > ... (GA/GB)
 friend | fri̊end
 fiend | 
 finite | fini̱te < * > ** ... [DC]{infinity, infinite, finite}
@@ -141,7 +141,7 @@ gasoline | g(ă/a̯)s̩olïne < g(ă/a̯)s̩o̬lïne > ... (GA/GB)
 ghost | ghōst ... [FE]
 geographical | ge̱ogrăphical ⦚ ge̱ogra̖phical < geo̬gra̖phica̬l > geogra̖phical ¦ ge̱o̬gra̖phica̬l
 geographic | ge̱ogrăphic ⦚ ge̱ogra̖phic < geo̬gra̖phic > geogra̖phic ¦ ge̱o̬gra̖phic
-geography | ge̱ŏgraphy < geŏgra̬phy > geo̖graphy ¦ ge̱ŏgra̬phy
+geography | ge̱ŏgraphy < geŏgra̬phy > geŏgraphy ¦ ge̱ŏgra̬phy
 ginger | ** < ginge͜r >
 gone | gŏne
 guitar | guita̍r ⦚ guita̖r < * > {n: *, vb: **} ¦ gůita̖r
@@ -160,8 +160,8 @@ hygiene | h(ȳ/y̱)giene < h(ȳ/y)giene > h(ȳ/y)giene ¦ h(ȳ/y̱)giene ...
 
 identify | idĕntify̱ ⦚ ide̖ntify̱ < (i̱/i)de̖nti̬fy̱ > ide̖ntify ¦ (i̱/i)de̖nti̬fy̱
 imam | ima̍m
-infinity | infĭnity < * > ** ... [DC]{infinity, infinite, finite}
-infinite | infini̯te < inf‌i̬ni̯te > ** ... [DC]{infinity, infinite, finite}
+infinity | infĭnity ... [DC]{infinity, infinite, finite}
+infinite | infini̯te < infi̬ni̯te > ** ... [DC]{infinity, infinite, finite}
 inquiry | inqu{ī/i}ry ⦚ inqu{i̖/i}ry ... {(GA1&GB)/GA2}
 inside | 
 intact | intăct ⦚ inta̖ct
@@ -190,9 +190,9 @@ lose | löse ... [DC]
 
 many | mäny
 martyr | ** < marty͜r >
-mature | matūre ⦚ matu̖re < ma̬tu̖re > {adj: *, vb: **} … [DC]{mature, nature}
+mature | matūre ⦚ matu̖re < ma̬tu̖re > {adj: *, vb: **}
 meadow | mĕadow
-medicine | mĕdici̯ne < mĕdi̬ci̯ne > **
+medicine | mĕdici̯ne < mĕdi̬ci̯ne > mĕdicine
 mentor | ment(o̗r/or) < ment(o̗r/o͜r) >
 Messiah | Messīah < Mẹssīa̬h >
 Michael | Mīc‍̤ha͢el
@@ -206,7 +206,7 @@ Mycenaean | My̱cenåēa̬n < Mycẹnåēa̬n > Mycenåēan ¦ My̱cẹna�
 naive | naïve < na̬ïve > ... [DC]
 naïve | < na̬ïve > ... [DC]
 naked | nakẹd ... [DC]{beloved, naked, ragged}
-natural | nătural < năt(ū̬/u̥)ra̬l > ** ... [DC]{nature, natural}
+natural | nătural < năt(ū̬/u̥)ra̬l > ... [DC]{nature, natural}
 Nazi | N(a̍/ă)z̤i
 nestle | nest̊le < nest̊͢le > **
 nineteenth | nine·teenth· < * > **
@@ -233,7 +233,7 @@ possession | pos᷼sĕssion ⦚ pos᷼se̖ssion < po̬s᷼sessio̬n > pos᷼ses
 prayer_1 | praye̊r ... [DC]
 prayer_2 | ** < praye͜r > ... [DC]
 primary | < prim(a̗/a̬)ry > ... (GA/GB)
-primarily | prim(ă/a)rily < (primări̬ly/prima̯ri̬ly/prima̬ri̬ly) > prim(a̖/a)rily 
+primarily | prim(a̖/a)rily < (prima̖ri̬ly/prima̗ri̬ly/prima̬ri̬ly) >
 progress_n | (prŏgress/progre̯ss) ⦚ (prŏgress/progre̗ss) < (prŏgr(e̗/e̬)ss/progre̗ss) > pr(ŏ/o)gress ... (GA/GB) ... [DC]
 progress_vb | progrĕss ⦚ progre̖ss < pro̬gre̖ss > ** ... [DC]
 project | prŏject < prŏj(e̗/ẹ)ct >
@@ -253,10 +253,10 @@ query | qu{(ē/ĕ)/ē}ry ... {GA/GB}
 ragged | raggẹd ... [DC]{beloved, naked, ragged}
 real | ** ⦚ (rea̬l/reḁl) < * > **
 realism | ** ⦚ rea̬lis͢m < rea̬li̗s͢m > **
-realistic | realĭstic ⦚ rea̬li̖stic < * > reali̖stic
-reality | re̱ălity < reălity > rea̖lity
+realistic | realĭstic ⦚ rea̬li̖stic
+reality | re̱ălity < reălity >
 receipt | recēip̊t < rẹcēip̊t >
-recipe | rĕcipe̱ < rĕc(i/i̬)pe̱ > recipe̱
+recipe | rĕcipe̱ < rĕc(i/i̬)pe̱ > rĕcipe̱
 release | releas̩e < r(ẹ/e̬)leas̩e >
 rendezvous | {r‹ŏn›d(e̬/ë)z̊vöus̊/r‹ŏn›d(ẹ/ë)z̊vöus̊} ... {GA/GB} ... [Eap]{r‹en›dezvous} [DS]
 research | r(ē/ẹ)s̩e͡arch < r(ē/e)s̩e͡arch > ... (GA/GB)
@@ -321,7 +321,7 @@ variant | ** < varia̬nt >
 variation | variātion ⦚ varia̖tion < varia̖tio̬n >
 variety | varīety < va̬rī(ẹ/e̬)ty >
 various | vario͢us̩ < * > various̩
-vernacular | vernăcular < ve͜rnăcū̬la͜r > verna̖cular
+vernacular | vernăcular < ve͜rnăcū̬la͜r >
 versatile | ve͡rsatile < {versa̬t(i̗le/i̬le)/versa̬ti̗le} > ** ¦ {ve͡rsa̬t(i̗le/i̬le)/ve͡rsa̬ti̗le} ... {GA/GB}
 volley | < vŏlle̱y >
 volleyball | < vŏlle̱ybaᷱll >
@@ -353,14 +353,14 @@ Monday | Mônday < Mônd(ay/ḁy) >
 Tuesday | ** ⦚ Tue̊sday < Tuesd(ay/ḁy) >
 Wednesday | Wed̊ne̊sday < Wed̊ne̊sd(ay/ḁy) >
 Thirsday | Thı͡rsday < Thirsd(ay/ḁy) > ** ¦ Thı͡rsd(ay/ḁy)
-Friday | ** < Frid(ay/ḁy) > **
-Saturday | Săturday < Sătu͜rd(ay/ḁy) > **
-Sunday | ** < Sund(ay/ḁy) > **
+Friday | ** < Frid(ay/ḁy) >
+Saturday | Săturday < Sătu͜rd(ay/ḁy) >
+Sunday | ** < Sund(ay/ḁy) >
 
-January | Jănuary < Jănu(a̗/a̬)ry > ** ... (GA/GB)
-February | Fĕb(r/r̥)¹uary < Fĕb(r/r̥)¹u(a̗/a̬)²ry (or Fĕbr̥u̥ḁry)³ > Feb(r/r̥)¹uary ¦ Fĕb(r/r̥)¹ua̗ry ... ¹(CP/LCP) ²(GA/GB)
+January | Jănuary < Jănu(a̗/a̬)ry > ... (GA/GB)
+February | Fĕb(r/r̥)¹uary < Fĕb(r/r̥)¹u(a̗/a̬)²ry (or Fĕbr̥u̥ḁry)³ > * ¦ Fĕb(r/r̥)¹ua̗ry ... ¹(CP/LCP) ²(GA/GB)
 March | 
-April | ** < Apri̬l > **
+April | ** < Apri̬l >
 May | 
 June | 
 July | Julȳ < Ju̬lȳ >

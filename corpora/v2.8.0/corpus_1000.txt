@@ -118,7 +118,7 @@ man |
 year | year
 came | 
 show | shōw
-every | ĕve̊ry < * > **
+every | ĕve̊ry
 good | go͝od
 me | 
 give | g̍ĭve < * > gĭve
@@ -191,7 +191,7 @@ picture | ** < pictū͜re >
 try | 
 us | {str: [us̩/(us̩/us)], un: (us̩/us)} ... [GA/GB]
 again | ag(äin/ain) < a̬g(äin/ain) > ag(äin/ain)
-animal | ănimal < ăni̬ma̬l > **
+animal | ănimal < ăni̬ma̬l >
 point | point
 mother | môther < môthe͜r >
 world | wo͡rld
@@ -318,7 +318,7 @@ bird | bı͡rd < ** > ** ¦ bı͡rd
 soon | so͞on
 body | bŏdy
 dog | 
-family | fămily < fămi̬ly > **
+family | fămily < fămi̬ly >
 direct | dirĕct ⦚ dire̖ct < * > {n: *, vb: **} ... [DStba]
 pose | 
 leave | leave
@@ -378,7 +378,7 @@ less |
 morning | ** < mornin͠g >
 ten | 
 simple | ** < simp͢le >
-several | sĕveral < sĕve̬ra̬l > **
+several | sĕveral < sĕve̬ra̬l >
 vowel | ** < vowe̬l >
 toward | towa̖rd < t(o̬/o̥)waᷱrd >
 war | ** < waᷱr >
@@ -413,7 +413,7 @@ lead_1 | lead
 lead_2 | lĕad
 cry | 
 dark | 
-technology | tec‍̤hnŏlogy < te̗c‍̤hnŏlo̬gy > tec‍̤hno̖logy
+technology | tec‍̤hnŏlogy < te̗c‍̤hnŏlo̬gy >
 machine | mac‍̩hïne < ma̬c‍̩hïne > ... [DS]
 note | 
 wait | 
@@ -530,7 +530,7 @@ vary |
 settle | ** < sett͢le >
 speak | speak
 weight | 
-general | gĕneral < gĕne̬ra̬l > **
+general | gĕneral < gĕne̬ra̬l >
 ice | 
 matter | ** < matte͜r >
 circle | cı͡rcle < circ͢le > ** ¦ cı͡rc͢le
@@ -553,7 +553,7 @@ subject_vb | subjĕct ⦚ subje̖ct < su̬bje̖ct > **
 region | ** < regio̬n >
 energy | ĕnergy < ĕne͜rgy >
 hunt | 
-probable | prŏbable < prŏba̬b͢le > **
+probable | prŏbable < prŏba̬b͢le >
 bed | 
 brother | brôther < brôthe͜r >
 egg | 
@@ -657,7 +657,7 @@ fight |
 lie | 
 beat | beat
 excite | excīte ⦚ exci̖te < ẹxci̖te > {vb: **}
-natural | nătural < năt(ū͜r/ū̥r)a̬l > **
+natural | nătural < nătū͜ra̬l >
 view | v‹ū› < ** > ** ¦ v‹ū› ... [Eap01]{v‹iew›}
 sense | 
 ear | ear
@@ -697,8 +697,8 @@ cool | co͞ol
 design | desīg̊n < dẹsīgn > desīgn
 poor | 
 lot | 
-experiment_n | expĕriment < ẹxpĕri̬me̬nt > **
-experiment_vb | e̯xpĕrime̯nt ⦚ e̗xpĕrime̗nt < e̗xpĕri̬me̗nt > **
+experiment_n | expĕriment < ẹxpĕri̬me̬nt >
+experiment_vb | e̯xpĕrime̯nt ⦚ e̗xpĕrime̗nt < e̗xpĕri̬me̗nt > expĕriment
 bottom | ** < botto̬m >
 key | kēy
 iron | iro̊n ... [DS]
@@ -711,7 +711,7 @@ smile |
 crease | creas̩e
 hole | 
 trade | 
-melody | mĕlo̬dy < * > **
+melody | mĕlo̬dy
 trip | 
 office | 
 receive | recēive < rẹcēive >
@@ -761,12 +761,12 @@ collect_1 | collĕct ⦚ colle̖ct < co̬lle̖ct > {vb: **, etc: *} ... [DC]
 collect_2 | colle̯ct ⦚ colle̗ct < * > ** ... [DC]
 save | 
 control | contrōl < co̬ntrōl >
-decimal | dĕcima̬l < dĕci̬ma̬l > **
+decimal | dĕcima̬l < dĕci̬ma̬l >
 gentle | ** < gent͢le >
 woman | w‹o͝o›man < w‹o͝o›ma̬n > ... [Eap]{w‹o›man} [DC]{woman, women}
 captain | capta͢in
 practice | practi̯ce < * > **
-separate_etc | sĕparạte < sĕp(a̬/ḁ)rạte > **
+separate_etc | sĕparạte < sĕp(a̬/ḁ)rạte > sĕparate
 separate_vb | sĕparate < sĕpa̬rate > * ¦ sĕpa̬ra̗te
 difficult | ** < diffic(u̗/u̬)lt >
 doctor | ** < docto͜r >
@@ -776,7 +776,7 @@ noon | no͞on
 whose | ẘhöse < * > whöse
 locate | loc(ā/a̱)te ⦚ loc(a̖/a̗)te < * > ** ... [DS]
 ring | ** < rin͠g >
-character | c‍̤hăracter < c‍̤hăra̬cte͜r > c‍̤haracter
+character | c‍̤hăracter < c‍̤hăra̬cte͜r >
 insect | inse̯ct ⦚ inse̗ct < * > **
 caught | 
 period | < perio̬d >
@@ -791,7 +791,7 @@ electric | elĕctric ⦚ ele̖ctric < (ẹ/e̬)le̖ctric > ... [DC]
 expect | expĕct ⦚ expe̖ct < (ẹ/e̗)xpe̖ct > {vb: **} ... [DC]
 crop | 
 modern | mŏdern < mŏde͜rn >
-element | ĕlement < ĕle̬me̬nt > **
+element | ĕlement < ĕle̬me̬nt >
 hit | 
 student | ** < stude̬nt >
 corner | ** < corne͜r >
@@ -803,7 +803,7 @@ imagine | imăgi̯ne < * > imăgine
 provide | provīde ⦚ provi̖de < pro̬vi̖de > {vb: **}
 agree | ** < a̬gree >
 thus | thus̩
-capital | căpital < căpita̬l > **
+capital | căpital < căpita̬l >
 won't | w(ō/ô)n't
 chair | 
 danger | dānger < dānge͜r > **
@@ -812,9 +812,9 @@ rich |
 thick | t‍̤hick
 soldier | sōldier < soldie͜r > ** ¦ sōldie͜r
 process | (prŏcess/proce̯ss) ⦚ (prŏcess/proce̗ss) < (prŏc(e̗/e̬)ss/proce̗ss) > pr(ŏ/o)cess ... (GA/GB) ... [DS]
-operate | ŏperate < ŏpe̬rate > ** ¦ ŏpe̬ra̗te
+operate | ŏperate < ŏpe̬rate > * ¦ ŏpe̬ra̗te
 guess | ** ¦ gůess
-necessary | nĕcessary < nĕce̬ss(a̗/(a̬/ḁ))ry > ** ... (GA/GB) 
+necessary | nĕcessary < nĕce̬ss(a̗/(a̬/ḁ))ry > ... (GA/GB) 
 sharp | 
 wing | ** < win͠g >
 create | cre̱āte ⦚ cre̱a̖te < crea̖te > {vb: **} ... [DS]
@@ -840,7 +840,7 @@ fear | fear
 sight | 
 thin | t‍̤hin
 triangle | tria̯ngle ⦚ tria̗ngle < tria̗ng͢le > ** ¦ tria̗ng͢le
-planet | plănet < plăn(ẹ/e̬)t > **
+planet | plănet < plăn(ẹ/e̬)t >
 hurry | 
 chief | 
 colony | cŏlony < cŏlo̬ny >
@@ -873,7 +873,7 @@ success | succĕss ⦚ succe̖ss < su̬cce̖ss >
 company | cômpany < cômpa̬ny >
 subtract | subtrăct ⦚ subtra̖ct < su̬btra̖ct > {vb: **}
 event | evĕnt ⦚ eve̖nt < (ẹ/e̬)ve̖nt > {n: *, etc: **} ... [DS]
-particular | partĭcular < pa͜rtĭcū̬la͜r > parti̖cular
+particular | partĭcular < pa͜rtĭcū̬la͜r >
 deal | 
 swim | 
 term | te͡rm < ** > **
@@ -900,9 +900,9 @@ shop |
 stretch | 
 throw | t‍̤hrōw
 shine | 
-property | prŏperty < prŏpe͜rty > **
+property | prŏperty < prŏpe͜rty >
 column | cŏlumn̊ < cŏlu̬mn̊ > cŏlumn
-molecule | mŏlecule < mŏle̬cule > ** ¦ mŏle̬cu̗le
+molecule | mŏlecule < mŏle̬cule > * ¦ mŏle̬cu̗le
 select | selĕct ⦚ sele̖ct < sẹle̖ct > {vb: **, adj: *}
 wrong | < ẘr(oᷱn͠g/on͠g) > ... (GA/GB)
 gray | ... [AS]
@@ -940,7 +940,7 @@ sister | ** < siste͜r >
 steel | 
 discuss | discŭss ⦚ discu̖ss < * > {vb: **}
 forward | ** < forwa͜rd >
-similar | sĭmilar < sĭmi̬la͜r > **
+similar | sĭmilar < sĭmi̬la͜r >
 guide | ** ¦ gůide
 experience | expērience ⦚ expe̖rience < ẹxpe̖rie̬nce >
 score | 
@@ -983,7 +983,7 @@ spend |
 chord | c‍̤hord
 fat | 
 glad | 
-original | orĭginal < o̬rĭgi̬na̬l > ori̖ginal
+original | orĭginal < o̬rĭgi̬na̬l >
 share | 
 station | ** < statio̬n >
 dad | 
@@ -999,10 +999,10 @@ duck |
 instant | ** < insta̬nt >
 market | ** < mark(ẹ/e̬)t >
 degree | ** < dẹgree >
-populate | pŏpulate < pŏpū̬late > ** ¦ pŏpū̬la̗te
+populate | pŏpulate < pŏpū̬late > * ¦ pŏpū̬la̗te
 chick | 
 dear | dear
-enemy | ĕnemy < ĕne̬my > **
+enemy | ĕnemy < ĕne̬my >
 reply | replȳ < rẹplȳ >
 drink | 
 occur | occu͡r < o̬ccu̖r > {vb: **} ¦ o̬ccu͡r
