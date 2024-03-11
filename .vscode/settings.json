@@ -13,7 +13,7 @@
   // extend plaintext settings to other files
   "files.associations": {
     "*.plaintext": "plaintext",
-    // "*.md": "md",
+    "*.md": "md",
     // "*.md": "plaintext",
     "**/src/common/preliminary_replacements.py": "plaintext"
   },
