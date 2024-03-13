@@ -28,9 +28,9 @@ Total: 21
 
   -  ej  oj  ew  ow
 
-- Ditongos Fechados (e u-longo):
+- Ditongos Fechados:
 
-  -  iw  uj  uː
+  -  iw  uj  uw
 
 ### Nasais
 

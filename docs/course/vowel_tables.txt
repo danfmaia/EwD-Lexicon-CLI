@@ -1,0 +1,82 @@
+Português – Sotaque BM:
+
+        | Ñ-Nasais| Nasais  |
+        |         |         |
+        | M Dj Dw | M Dj Dw |
+--------|---------|---------|
+        | a aj aw |         |
+Abertas | ɛ ɛj ɛw |         |
+        | ɔ ɔj ɔw |         |
+--------|---------|---------|
+        | ɐ       | ɐ̃ ɐ͠j ɐ͠w |
+ Médias | e ej ew | ẽ e͠j    |
+        | o oj ow | õ o͠j o͠w |
+--------|---------|---------|
+Fechadas| i    iw | ĩ       |
+        | u uj uw | ũ u͠j    |
+--------|---------|---------|
+
+Inglês – Sotaque GA:
+
+            |  Longas   |Curtas|
+            |           |      |
+      | Fon | NR    R   | NR R |
+------|-----|-----------|------|
+      | ⟨a⟩ | eɪ    ɛɚ  | æ    |
+      | ⟨e⟩ | i(ː)  ɪɚ  | ɛ    |
+  F   | ⟨i⟩ | aɪ    aɪɚ | ɪ    |
+  o   | ⟨o⟩ | oʊ    ɔɹ² | ɑ¹   |
+  r   | ⟨oo⟩| u(ː)  ʊɚ  | ʊ    |
+  t   | ⟨u⟩ |ju(ː) jʊɚ  | ʌ  ɝ |
+  e   |-----|-----------|------|
+  s   | ⟨ah⟩| ɑ¹    ɑɹ  |      |
+      | ⟨ow⟩| ɑʊ    aʊɚ |      |
+      | ⟨aw⟩| ɔ     ɔɹ² |      |
+      | ⟨oy⟩| ɔɪ        |      |
+------|-----|-----------|------|
+      |⟨IC⟩f|           | ɪ    |
+Fracas|⟨XA⟩ |           | ə  ɚ |
+      |⟨UL⟩f| jə   jɚ   |      |
+------|-----|-----------|------|
+
+  Mergers:
+    1. father-bother merger
+    2. horse-hoarse merger
+
+Inglês – Sotaque GB:
+
+             | Longas |Curtas|
+             |        |      |
+      | Fon. | NR  R  | NR R |
+------|------|--------|------|
+      | ⟨a⟩  | eɪ  ɛə | æ    |
+      | ⟨e⟩  | iː  ɪə | ɛ    |
+      | ⟨i⟩  | aɪ  aɪə| ɪ    |
+  F   | ⟨o⟩  | əʊ  ɔː²| ɒ    |
+  o   | ⟨oo⟩ | uː  ʊə | ʊ    |
+  r   | ⟨u⟩  |juː  jʊə|      |
+  t   | ⟨XT⟩ |     ɜː | ʌ    |
+  e   |------|--------|------|
+  s   | ⟨ah⟩ | ɑː¹ ɑː¹|      |
+      | ⟨ow⟩ | ɑʊ  aʊə|      |
+      | ⟨aw⟩ | ɔː² ɔː²|      |
+      | ⟨oy⟩ | ɔɪ     |      |
+------|------|--------|------|
+      | ⟨IC⟩f|        | ɪ    |
+Fracas| ⟨XA⟩ |        | ə³ ə³|
+      | ⟨UL⟩f| jə³ jə³|      |
+------|------|--------|------|
+
+  Mergers:
+   1. father-farther merger
+   2. sought-sort-horse-hoarse merger
+   3. Marta-martyr merger
+
+  Legenda:
+   - Fon.: Fonema
+   - NR: Não Róticas
+   - R:  Róticas
+   - ⟨XT⟩: ⟨xuá tônico⟩
+   - ⟨XA⟩: ⟨xuá átono⟩
+   - ⟨IC⟩f: ⟨i-curto⟩ fraco
+   - ⟨UL⟩f: ⟨u-longo⟩ fraco
