@@ -1,101 +1,141 @@
-# Cheatsheet de Vogais (em IPA)
+---
+header-includes:
+  - \usepackage{geometry}
+  - \geometry{paperwidth=3.50in, paperheight=25.00in, margin=0.10in, vmargin= 0in}
+---
 
-## Português – Sotaque Brasileiro Geral (BG)
+# Cheatsheet IPA de Vogais p/ o Português e o Inglês
+
+## 1. Português – Sotaque Brasileiro Médio
 
 Total: 32
 
-### Não Nasais
+### 1.1. Não Nasais
 
 Total: 21
 
-- Monotongos Abertos:
+- _Monotongos Abertos:_
 
   -  a  ɛ  ɔ
 
-- Monotongos Médios:
+- _Monotongos Médios:_
 
   -  ɐ  e  o
 
-- Monotongos Fechados:
+- _Monotongos Fechados:_
 
   -  i  u
 
-- Ditongos Abertos:
+- _Ditongos Abertos:_
 
   -  aj  ɛj  ɔj  aw  ɛw  ɔw
 
-- Ditongos Médios:
+- _Ditongos Médios:_
 
   -  ej  oj  ew  ow
 
-- Ditongos Fechados (e u-longo):
+- _Ditongos Fechados (e u-longo):_
 
   -  iw  uj  uː
 
-### Nasais
+### 1.2. Nasais
 
 Total: 11
 
-- Monotongos Médios:
+- _Monotongos Médios:_
 
   -  ɐ̃  ẽ  õ
 
-- Monotongos Fechados:
+- _Monotongos Fechados:_
 
   -  ĩ  ũ
 
-- Ditongos Médios:
+- _Ditongos Médios:_
 
   -  ɐ͠j  ɐ͠w  e͠j  o͠j  o͠w
 
-- Ditongo Fechado:
+- _Ditongo Fechado:_
 
   -  u͠j
 
-## Inglês – Sotaque General American (GA)
+## 2. Inglês – Sotaque General American (GA)
 
 Total: 29
 
-### Fortes Não Róticas
+### 2.1. Fortes Não Róticas
 
 Total: 15
 
-- Longas:
+- _Longas:_
 
   -  eɪ  i(ː)  aɪ  oʊ  u(ː)  ju(ː)
 
-- Curtas:
+- _Curtas:_
 
   -  æ  ɛ  ɪ  ɑ  ʊ  ʌ
 
-- Não Pareadas:
+- _Não Pareadas:_
 
   -  ɔɪ  ɔ  ɑʊ
 
-### Fortes Róticas
+### 2.2. Fortes Róticas
 
 Total: 9
 
-- Derivadas de Longas:
+- _Derivadas de Longas:_
 
   -  ɛɚ  ɪɚ  aɪɚ  ʊɚ  jʊɚ
 
-- Derivada de Curtas:
+- _Derivada de Curtas:_
 
   -  ɝ
 
-- Derivadas de Não Pareadas:
+- _Derivadas de Não Pareadas:_
 
   -  ɑɹ  ɔːɹ  aʊɚ
 
-### Fracas
+### 2.3. Fracas
 
 Total: 5
 
-- Não Róticas:
+- _Não Róticas:_
 
   -  ɪ  ə  jə
 
-- Róticas:
+- _Róticas:_
 
   -  ɚ  jɚ
+
+## 3. Resumo
+
+### 3.1. Português – Sotaque Brasileiro Médio
+
+- _Monotongos:_
+
+  -  a  ɛ  ɔ  |  ɐ  e  o  |  i  u
+
+  -  aj  ɛj  ɔj  aw  ɛw  ɔw  |  ej  oj  ew  ow  |  iw  uj  uː
+
+- _Ditongos:_
+
+  -  ɐ̃  ẽ  õ  |  ĩ  ũ
+
+  -  ɐ͠j  ɐ͠w  e͠j  o͠j  o͠w  |  u͠j
+
+### 3.2. Inglês – Sotaque General American (GA)
+
+- _Fortes Não Róticas:_
+
+  -  eɪ  i(ː)  aɪ  oʊ  u(ː)  ju(ː)  |  æ  ɛ  ɪ  ɑ  ʊ  ʌ
+
+  -  ɔɪ  ɔ  ɑʊ
+
+- _Fortes Róticas:_
+
+  -  ɛɚ  ɪɚ  aɪɚ  ʊɚ  jʊɚ  |  ɝ
+
+  -  ɑɹ  ɔːɹ  aʊɚ
+
+- _Fracas:_
+
+  -  ɪ  ə  jə  |  ɚ  jɚ

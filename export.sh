@@ -25,6 +25,18 @@ cp "corpora/corpus_1000.txt"  "_knowledge/"
 # corpus_misc.txt
 cp "corpora/corpus_misc.txt"  "_knowledge/"
 
+#
+# docs
+#
+
+# Cheatsheet IPA p/ Vogais do Português e do Inglês.pdf
+pandoc "docs/course/Cheatsheet IPA de Vogais.md" -o "docs/course/Curso IcD – Cheatsheet IPA de Vogais pro Português e Inglês.pdf" \
+--pdf-engine=xelatex --template=eisvogel --listings \
+-V mainfont="Linux Libertine PI" \
+-V sansfont="Linux Libertine PI" \
+-V monofont="Linux Libertine PI" \
+-V disable-header-and-footers
+
 # EwD Corpora & General Info (in EwD v2.8 L1).pdf
 pandoc "corpora/corpora_info_in_ewd.md" -o "_knowledge/EwD Corpora & General Info (in EwD v2.8 L1).pdf" \
 --pdf-engine=xelatex --template=eisvogel --listings \
