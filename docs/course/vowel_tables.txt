@@ -37,9 +37,9 @@ Inglês – Sotaque GA:
       | ⟨aw⟩ |  ɔ   ɔɹ² |
       | ⟨oy⟩ |  ɔɪ      |
 ──────┼──────┼──────────┤
-      | ⟨IC⟩f|  ɪ       |
+      |⟨i-c⟩f|  ɪ       |
 Fracas| ⟨XA⟩ |  ə   ɚ   |
-      | ⟨UL⟩f| jə  jɚ   |
+      |⟨u-L⟩f| jə  jɚ   |
 ──────┴──────┴──────────┘
 
   Mergers:
@@ -67,9 +67,9 @@ Inglês – Sotaque GB:
       | ⟨aw⟩ |  ɔː² ɔː² |
       | ⟨oy⟩ |  ɔɪ      |
 ──────┼──────┼──────────┤
-      | ⟨IC⟩f|  ɪ       |
+      |⟨i-c⟩f|  ɪ       |
 Fracas| ⟨XA⟩ |  ə³  ə³  |
-      | ⟨UL⟩f| jə³ jə³  |
+      |⟨u-L⟩f| jə³ jə³  |
 ──────┴──────┴──────────┘
 
   Mergers:
@@ -83,5 +83,5 @@ Fracas| ⟨XA⟩ |  ə³  ə³  |
    - R:     Róticas
    - ⟨XT⟩:  ⟨xuá tônico⟩
    - ⟨XA⟩:  ⟨xuá átono⟩
-   - ⟨IC⟩f: ⟨i-curto⟩ fraco
-   - ⟨UL⟩f: ⟨u-longo⟩ fraco
+   - ⟨i-c⟩f: ⟨i-curto⟩ fraco
+   - ⟨u-L⟩f: ⟨u-longo⟩ fraco
