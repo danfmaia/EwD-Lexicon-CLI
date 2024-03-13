@@ -1,11 +1,8 @@
 {
-  // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-  // "editor.letterSpacing": -0.35,
-  // "editor.fontFamily": "'Noto Sans PI', 'Droid Sans Mono', 'monospace', monospace",
-  // "editor.letterSpacing": 0.5,
-
   "[plaintext]": {
-    "editor.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
+    // "editor.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
+    // "editor.fontFamily": "'Noto Sans PI', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Noto Mono', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 18,
     "editor.letterSpacing": 0.2
   },
