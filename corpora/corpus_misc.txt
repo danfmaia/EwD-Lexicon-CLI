@@ -24,6 +24,7 @@ amoeba | amo̊ēba ⦚ amo̊e̖ba < a̬mo̊e̖ba̬ >
 another | anôther < a̬nôthe͜r > ... [DS]
 Antarctica | Ant꞉ar(c/c̥)tica < Ant꞉ar(c/c̥)tica̬ >
 anywhere | äny·whĕre < * > änywhĕre
+apostle | apŏst̊le ⦚ apo̖st̊le < apo̖st̊͢le > apo̖stle
 apostrophe | apŏstrophe̱ ⦚ apo̖strophe̱ < a̬po̖stro̬phe̱ >
 applicable | appl(i/ĭ)cable < (applica̬b͢le/a̬pplĭca̬b͢le) > appl(i/i̖)cable
 Arab | Ara̬b
@@ -97,6 +98,7 @@ diaeresis | diå(ĕ/ē)res̩is̩ < diå(ĕ/ē)r(ẹ/e̬)s̩is̩ > * ¦ dia
 didactic | didăctic ⦚ dida̖ctic < d(i̱/i)da̖ctic > 
 done | dône
 don't | dōn't
+dopamine | dōpamïne < dōpa̬mïne >
 dull | dŭll
 
   e
@@ -115,7 +117,7 @@ endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... [BS]
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
-era | (e/e)ra
+era | (ĕ/ē)ra … (GA/GB)
 everybody | ĕve̊ry·b(ŏ/ô)dy < * > everyb(ŏ/ô)dy
 everyday | ĕve̊ry·day < * > **
 everyone | ĕve̊ry·‹wun› < * > every‹wun› ... [S½]{ĕve̊ry‹one›}
@@ -224,6 +226,7 @@ over | ** < ove͜r >
 
 paradigm | paradi̱g̊m < para̬di̱gm > paradi̱gm
 peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(u̬/ū̬)la̬ > ... (GA/GB)
+perseverance | pe͡rsevē̖rance ⦚ pe͡rseve̖rance < perse̬ve̖ra̬nce > perseve̖rance
 pineapple | pine·apple < pine·app͢le > ** ... [DS]
 pizza | pïz‍̤za < pïz‍̤za̬ > ... [DS]
 plaque | pl(ă/a̍)que ¦ pl(ă/a̍)qůe̊ ... (GA/GB)
@@ -262,6 +265,7 @@ rendezvous | {r‹ŏn›d(e̬/ë)z̊vöus̊/r‹ŏn›d(ẹ/ë)z̊vöus̊}
 research | r(ē/ẹ)s̩e͡arch < r(ē/e)s̩e͡arch > ... (GA/GB)
 resource | r{ē/e}(s̩/s)(ŏur/ōur)ce < r{ē/ẹ}(s̩/s)(ŏur/ōur)ce > ... {GA/GB}
 rigor | rĭgor < rĭgo͜r >
+robin | rŏbin
 route | r{(öu/ou)/öu}te ... {GA/GB}
 routine | röutï̖ne
 
@@ -270,6 +274,7 @@ routine | röutï̖ne
 saga | sa̍ga < sa̍ga̬ >
 said | säid
 says | säys
+
 scarce | sc‹air›ce < scārce > scārce ... [Eap01]{sc‹ar›ce}
 scarcity | sc‹air›city < scārcity > scārcity ... [Eap01]{sc‹ar›city}
 schedule | (sc‍̤h/sch)ĕdule ... (GA/GB)
@@ -277,17 +282,25 @@ schema | sc‍̤hema
 schizophrenic | sc‍̤hĭz̤ophrĕ̖nic < sc‍̤hĭz̤o̬phrĕ̖nic >
 scissors | scis᷼sors < scis᷼so͜rs > ... [FE]
 scone | sc(one/ŏne)
+
 seismic | se̍ismic
+serotonin | se̯rotōnin ⦚ se̯roto̖nin < se̯ro̬to̖nin >
+
 Shiah | Shïah < Shïa̬h >
 shoe | shöe̊ < shöe > shöe
+
 simplify | simplify̱ < simpl(i/i̬)fy̱ > **
+
 smooth | smo͞ot᷼h
+
 something | sôme·t‍̤hing < * > sômet‍̤hing
 soul | sōul
 Southampton | South꞉(/‹h›)ampton < South꞉(/‹h›)ampto̬n > ... (CP/LCP) ... [Esp]{South‹›ampton}
+
 species_sing | (specie̱s/species/speciẹs̩) ... (CP/LCP/AP)
 species_pl | (specie̱s/species/specie̱s) ... (CP/LCP/AP)
 spontaneity | spontan(ē/ë)ity < sponta̬n(ē/ë)(i/i̬)ty > ... (GA/GB)?
+
 subtle | sub̊tle < sub̊t͢le >
 subtlety | sub̊tle̊ty < sub̊t͢le̊ty > sub̊tlety
 Sunni | Sünni
@@ -302,6 +315,7 @@ today | < t(o̤/o̬)day >
 tomb | tömb̊ < * > tömb
 tourism | töuris͢m < * > töurism ¦ töuri̗s͢m
 truth | trūth ... [DC]{true, truth}
+triple | trĭple < trĭp͢le >
 
   u
 

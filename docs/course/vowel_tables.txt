@@ -1,10 +1,12 @@
-# Português
+# Vogais do Português e Inglês
 
-Fonética do tipo Combinatória.
+## Português
 
-## Sotaque Brasileiro Médio
+Sistema vocálico >Combinatório<.
 
-Tabela de sons:
+### Sotaque Brasileiro Médio
+
+Tabela de Vogais:
 
         | Ñ-Nasais| Nasais  |
         |         |         |
@@ -22,14 +24,78 @@ Fechadas| i    iw | ĩ i͠j    |
         | u uj uw | ũ u͠j u͠w |
 ────────┴─────────┴─────────┘
 
+Exemplos p/ Abertas Não-Nasais:
+
+- [a]:  c(a)sa, (á)tomo
+- [aj]: p(ai), n(ái)lon
+- [aw]: c(au)sa, (al)to, (ao)
+- [ɛ]:  exc(e)to, (é)
+- [ɛj]: id(ei)a, pap(éi)s
+- [ɛw]: c(éu), c(el)ta, n(eo)
+- [ɔ]:  n(o)ta, n(ó)
+- [ɔj]: j(oi)a, her(ói)
+- [ɔw]: s(ol), s(ol)da
+
+Exemplos p/ Médias Não-Nasais:
+ 
+- [ɐ]:  cas(a), r(u)gby
+- [e]:  t(e)rmo, voc(ê)
+- [ej]: (ei), pl(êi)ade
+- [ew]: (eu), terap(êu)tico
+- [o]:  op(o)r, p(ô)r
+- [oj]: (oi), d(oi)s
+- [ow]: (ou), g(ol)
+
+Exemplos p/ Fechadas Não-Nasais:
+
+- [i]:  c(i)clo, c(í)clico
+- [iw]: abr(iu), abr(il)
+- [u]:  tat(u), (ú)til
+- [uj]: int(ui)to, az(ui)s
+- [uw]: az(ul), (úl)timo
+
+Exemplos p/ Médias Nasais:
+
+- [ɐ̃]:  irm(ã), (an)ta, (am)plo
+- [ɐ͠j]: m(ãe), c(âim)bra
+- [ɐ͠w]: n(ão), for(am)
+- [ẽ]:  s(en)so, t(em)po
+- [e͠j]: b(em), B(en)
+- [õ]:  (on)de*, c(om)pra*
+- [o͠j]: p(õe), p(õem)
+- [o͠w]: b(om), í(on)
+
+* A pronúncia oscila entre [õ] e [o͠w].
+
+Exemplos p/ Fechadas Nasais:
+
+- [ĩ]:  l(im)po, c(in)to, c(i)ma¹, h(i)no¹
+- [i͠j]: s(im), Yasm(in)
+- [ũ]:  (u)ma², d(u)na²
+- [u͠j]: m(ui)to, r(uim)³
+- [u͠w]: (um), c(um)pra, s(un)ga
+
+¹ A pronúncia oscila entre [ĩ] e [i].
+
+² A pronúncia oscila entre [ũ] e [u].
+
+³ A pronúncia dessa palavra oscila entre [ru͠j] e [ru'i͠j].
+
+
 Reduções átonas:
- - a   > ɐ
- - e,i > ɪ
- - o,u > ʊ
+ - a   > [ɐ]
+ - e,i > [ɪ]
+ - o,u > [ʊ]
+
+Legenda:
+ - M:  monotongos
+ - Dj: ditongos com [j]
+ - Dw: ditongos com [w]
 
 # Inglês
 
-Fonética do tipo Fonêmica.
+Sistema vocálico >Engessado<
+  (baseado em fonemas).
 
 ## Inglês - Sotaque GA
 
@@ -58,8 +124,8 @@ Fracas| ⟨XA⟩ |  ə   ɚ   |
 ──────┴──────┴──────────┘
 
 Mergers:
-  1. father-bother merger
-  2. horse-hoarse merger
+ 1. father-bother merger
+ 2. horse-hoarse merger
     
 Quadro de reduções:
 
