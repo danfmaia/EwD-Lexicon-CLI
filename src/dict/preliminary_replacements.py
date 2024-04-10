@@ -6,7 +6,7 @@ PRELIMINARY_REPLACEMENTS: Dict[str, List[str]] = {
     'the': ['the̬', 'the̬', 'the', 'the̬'],
     'a': ['a̬', 'a̬', 'a', 'a̬'],
     'an': ['a̬n', 'a̬n', 'an', 'a̬n'],
-    'of': ['o̬‹v›', 'o̬‹v›', 'of', 'o̬‹v›'],
+    'of': ['o̬f', 'o̬f', 'of', 'o̬f'],
     'to': ['to̬', 'to̬', 'to', 'to̬'],
     'you': ['yöu', 'yöu', 'yöu', 'yöu'],
     'your': ['yöur', 'yöur', 'yöur', 'yöur'],
@@ -16,4 +16,5 @@ PRELIMINARY_REPLACEMENTS: Dict[str, List[str]] = {
     'from': ['fro̬m', 'fro̬m', 'from', 'fro̬m'],
     # alphabetical order
     'been': ['be͝en', 'be͝en', 'be͝en', 'be͝en'],
+    'was': ['was', 'wa̬s', 'wa̬s', 'was']
 }

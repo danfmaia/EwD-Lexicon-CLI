@@ -2,6 +2,8 @@
 ::  PI Text Transcriber
 ::
 
+    python src/main.py transcribe --file io/input.txt --variation VARIATION]
+
     python src/main.py transcribe --file io/input.txt
 
 ::
