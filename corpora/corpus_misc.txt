@@ -17,6 +17,7 @@ across | acrŏss ⦚ acro̖ss < a̬cro̖ss >
 ache | āc‍̤he
 
 adhere | a̯dhēre ⦚ a̗dhe̖re < * > {vb: **}
+admission | a̯dmĭssion < a̯dmissio̬n > **
 
 alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm > {n: *, vb: **}
 albeit | al꞉be·it < aᷱl꞉be·it >
@@ -24,6 +25,9 @@ almond | (a̍l̊/ăl)mond < (a̍l̊/ăl)mo̬nd >  ... (CP/SP)
 
 amateur | ăma(te͜ur/te͡ur/‹chə͜r›/‹chuə͜r›) ... [Esp]{ama‹teur›}
 amoeba | amo̊ēba ⦚ amo̊e̖ba < a̬mo̊e̖ba̬ >
+amuse | amūse < a̬mūse > amúse
+amusement | amūse·ment < a̬mūse·me̬nt > amúsement
+
 another | anôther < a̬nôthe͜r > ... [DS]
 Antarctica | Ant꞉ar(c/c̥)tica < Ant꞉ar(c/c̥)tica̬ >
 anywhere | äny·whĕre < * > änywhĕre
@@ -97,6 +101,9 @@ cover | côver < côve͜r >
 
 creation | cre̱a̖tion < cre̱atio̬n > ** ¦ crea̖tio̬n
 
+curiosity | curiŏs̩ity < curiŏs̩ity > curiós̩ity
+curious | curio͢us̩
+
 :: d ::
 
 Danish | 
@@ -115,6 +122,8 @@ detailed | d(e/ē)taile̊d < d(ẹ/ē)taile̊d > d(e/ē)tailed
 diacritic | diacrĭtic < dia̬crĭtic > * ¦ dia̬crĭtic
 diaeresis | diå(ĕ/ē)res̩is̩ < diå(ĕ/ē)r(ẹ/e̬)s̩is̩ > * ¦ diå(ĕ/ē)r(ẹ/e̬)s̩is̩
 didactic | didăctic ⦚ dida̖ctic < d(i̱/i)da̖ctic > 
+disaster | disăster < disăste͜r > disáster
+disastrous | disăstro͢us̩ < * > disástrous̩
 
 done | dône
 don't | dōn't
@@ -139,14 +148,14 @@ eloquent | ĕloquent < ĕlo̬que̬nt > **
 
 endeavor | endĕavor < ẹndĕavor > ... [AS]
 endeavour | endĕavo͜ur < ẹndĕavo͜ur > ... [BS]
-
 England | Ėngland < Ėngla̬nd >
 English | Ėnglish
+enjoy | ** ¦ (ẹ/e̬/e̯)njoy
 entrepreneur | ‹ah›ntre̬pre̬n(e͡ur/‹oor›)
 
 era | (ĕ/ē)ra … (GA/GB)
 
-escalate | ** < esca̬làte >
+escalate | ** < esca̬la̱te >
 
 everybody | ĕve̊ry·b(ŏ/ô)dy < * > everyb(ŏ/ô)dy
 everyday | ĕve̊ry·day < * > **
@@ -154,6 +163,7 @@ everyone | ĕve̊ry·‹wun› < * > every‹wun› ... [S½]{ĕve̊ry‹one�
 everything | ĕve̊ry·t‍̤hing < ĕve̊ry·t‍̤hin͠g > everyt‍̤hing
 
 exaggerate | exăggerate ⦚ exa̖ggerate < ẹxa̖gge̬rate > * ¦ ẹxa̖g͝ge̬ra̗te
+exterminate | exte͡rminate < ẹxtérmina̱te > extérminate ¦ ẹxte͡rmina̱te
 
 :: f
 
@@ -164,6 +174,7 @@ foe | foe̊ < ** > **
 format | forma̯t ⦚ forma̗t < * > **
 formidable | form(i/ĭ)dable < (formida̬b͢le/fo̬rmĭda̬b͢le) > form(i/i̖)dable ... (GA/GB)
 friend | fri̊end
+frustrated | (frŭstrated/frustrāted) < (frŭstra̱tẹd/frustrātẹd) > **
 
 fiend | 
 finite | fini̱te < * > ** ... [DC]{infinity, infinite, finite}
@@ -207,6 +218,8 @@ identify | idĕntify̱ ⦚ ide̖ntify̱ < (i̱/i)de̖nti̬fy̱ > ide̖ntify ¦ 
 
 imam | ima̍m
 
+infamous | infa̬mo͢us̩ < * > infamous̩
+infamy | infa̬my < * > **
 infinity | infĭnity < * > ** ... [DC]{infinity, infinite, finite}
 infinite | infini̯te < inf‌i̬ni̯te > ** ... [DC]{infinity, infinite, finite}
 inquiry | inqu{ī/i}ry ⦚ inqu{i̖/i}ry ... {(GA1&GB)/GA2}
@@ -250,6 +263,8 @@ Messiah | Messīah < Mẹssīa̬h >
 
 Michael | Mīc‍̤ha͢el
 
+mouse | mous̩e
+
 muscle | musc̊le < musc̊͢le >
 muscular | < muscū̬la͜r >
 
@@ -270,6 +285,7 @@ nineteenth | nine·teenth· < * > **
 
 none | nône
 nonetheless | nône·the̬꞉less < * > nône·the꞉less
+notorious | notório͢us̩ < notório͢us̩ > notórious̩ ¦ n(o̬/o̱)tório͢us̩
 nourish | no᷍urish
 nuance | nū(a̍/a̖̍)nce < * > {n: *, vb: nūa̍nce} ... (CP/LCP)
 
@@ -277,9 +293,12 @@ nuance | nū(a̍/a̖̍)nce < * > {n: *, vb: nūa̍nce} ... (CP/LCP)
 
 oven | ôven < ôve̬n >
 over | ** < ove͜r >
+overwhelm | over꞉whelm < ove͜r꞉whelm > **
+overwhelming | over꞉whelming < ove͜r꞉whelming > **
 
 :: p ::
 
+parade | parāde < pa̬rāde > paráde
 paradigm | paradi̱g̊m < para̬di̱gm > paradi̱gm
 
 peninsula | penĭnsula ⦚ peni̖nsula < pe̬ni̖ns(u̬/ū̬)la̬ > ... (GA/GB)
@@ -379,6 +398,9 @@ though | thōugh
 thyme | (th̊/th)yme ... (CP/SP)
 through | t‍̤hröugh
 
+tenacious | tenācio͢us̩ < tenācio͢us̩ > tenācious̩
+tenacity | tenăcity < te̬năcity > tenácity ¦ te̬năc(i̬/i)ty ... (GA/GB)
+
 today | < t(o̤/o̬)day >
 tomb | tömb̊ < * > tömb
 tourism | töuris͢m < * > töurism ¦ töuri̗s͢m
@@ -413,6 +435,7 @@ volleyball | < vŏlle̱ybaᷱll >
 
 :: w ::
 
+weary | wĕary
 were | we͡re
 
 whilst | whīlst
