@@ -452,7 +452,7 @@ mind | mīnd
 behind | behīnd < b(ẹ/e̬)hīnd >
 clear | clear
 tail | 
-produce_vb | prodūce ⦚ produ̖ce < pro̬du̖ce > **
+produce_v | prodūce ⦚ produ̖ce < pro̬du̖ce > **
 produce_n | pr(ŏ/o)duce
 fact | 
 street | 
@@ -466,7 +466,7 @@ full | füll
 force | 
 blue | ** ⦚ blue̊ < ** > **
 object_etc | ** < obj(ẹ/e̗)ct >
-object_vb | objĕct ⦚ obje̖ct < o̬bje̖ct > **
+object_v | objĕct ⦚ obje̖ct < o̬bje̖ct > **
 decide | decīde ⦚ deci̖de < dẹci̖de > **
 surface | su͡rface < surf(a̬/ạ)ce > ** ¦ su͡rf(a̬/ạ)ce ... (GA/GB) ... [DS]
 deep | 
@@ -477,7 +477,7 @@ system | ** < syste̬m >
 busy | bu̇sy
 test | 
 record_etc | rĕc(or/o̗r)d ⦚ rĕc(or/o̗r)d < rĕc(o͜r/o̗r)d > rĕcord
-record_vb | recŏrd ⦚ reco̖rd < rẹco̖rd > **
+record_v | recŏrd ⦚ reco̖rd < rẹco̖rd > **
 boat | 
 common | < commo̬n >
 gold | gōld < ** > ** ¦ gōld
@@ -549,7 +549,7 @@ length | ** < len͠g(k)th >
 represent | re̯presĕnt ⦚ re̯prese̖nt < re̯prẹse̖nt > {vb: re̯present}
 art | 
 subject_etc | ** < subj(ẹ/e̗)ct >
-subject_vb | subjĕct ⦚ subje̖ct < su̬bje̖ct > **
+subject_v | subjĕct ⦚ subje̖ct < su̬bje̖ct > **
 region | ** < regio̬n >
 energy | ĕnergy < ĕne͜rgy >
 hunt | 
@@ -698,7 +698,7 @@ design | desīg̊n < dẹsīgn > desīgn
 poor | 
 lot | 
 experiment_n | expĕriment < ẹxpĕri̬me̬nt > **
-experiment_vb | e̯xpĕrime̯nt ⦚ e̗xpĕrime̗nt < e̗xpĕri̬me̗nt > **
+experiment_v | e̯xpĕrime̯nt ⦚ e̗xpĕrime̗nt < e̗xpĕri̬me̗nt > **
 bottom | ** < botto̬m >
 key | kēy
 iron | iro̊n ... [DS]
@@ -767,7 +767,7 @@ woman | w‹o͝o›man < w‹o͝o›ma̬n > ... [Eap]{w‹o›man} [DC]{woman, w
 captain | capta͢in
 practice | practi̯ce < * > **
 separate_etc | sĕparạte < sĕp(a̬/ḁ)rạte > **
-separate_vb | sĕparate < sĕpa̬rate > * ¦ sĕpa̬ra̗te
+separate_v | sĕparate < sĕpa̬rate > * ¦ sĕpa̬ra̗te
 difficult | ** < diffic(u̗/u̬)lt >
 doctor | ** < docto͜r >
 please | please
@@ -931,7 +931,7 @@ thank | t‍̤hank
 branch | 
 match | 
 suffix_n | 
-suffix_vb | suff(i/ĭ)x ⦚ suff(i/i̖)x < (suffix/su̬ff‌i̖x) > **
+suffix_v | suff(i/ĭ)x ⦚ suff(i/i̖)x < (suffix/su̬ff‌i̖x) > **
 especially | espĕcially < (ẹ/e̬/e̗)spĕcia̬lly >
 fig | 
 afraid | ** < a̬fraid >
@@ -993,7 +993,7 @@ proper | ** < prope͜r >
 bar | 
 offer | ** < offe͜r >
 segment_n | ** < segme̬nt > ... [DCtba]
-segment_vb | (segme̯nt/se̯gmĕnt) ⦚ (segme̗nt/se̗gme̖nt) < * > ** ... [DCtba]
+segment_v | (segme̯nt/se̯gmĕnt) ⦚ (segme̗nt/se̗gme̖nt) < * > ** ... [DCtba]
 slave | 
 duck | 
 instant | ** < insta̬nt >
