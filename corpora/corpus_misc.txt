@@ -17,7 +17,7 @@ across | acrŏss ⦚ acro̖ss < a̬cro̖ss >
 ache | āc‍̤he
 
 adhere | a̯dhēre ⦚ a̗dhe̖re < * > {vb: **}
-admission | a̯dmĭssion < a̯dmissio̬n > **
+admission | a̯dmĭssion < a̯dmĭssio̬n > **
 
 alarm | ala̍rm ⦚ ala̖rm < a̬la̖rm > {n: *, vb: **}
 albeit | al꞉be·it < aᷱl꞉be·it >
@@ -57,6 +57,7 @@ beloved_2 | belôve̊d < bẹlôve̊d > belôved ... [DC]{beloved_1, beloved_
 biological | bi̱olŏgical ⦚ biolŏgical < bio̬lŏgica̬l > biolo̖gical ¦ bi̱o̬lŏgica̬l
 biological | bi̱olŏgic ⦚ biolŏgic < bio̬lŏgic > * ¦ bi̱o̬lŏgic
 biology | bi̱ŏlogy ⦚ biŏlogy < bi̱ŏlo̬gy > bio̖logy ¦ bi̱ŏlo̬gy
+bizarre | biza̍rre
 
 bough | b‹o̍w› ... [Eap]{b‹ough›}
 
@@ -175,7 +176,7 @@ foe | foe̊ < ** > **
 format | forma̯t ⦚ forma̗t < * > **
 formidable | form(i/ĭ)dable < (formida̬b͢le/fo̬rmĭda̬b͢le) > form(i/i̖)dable ... (GA/GB)
 friend | fri̊end
-frustrated | (frŭstrated/frustrāted) < (frŭstra̱tẹd/frustrātẹd) > ** ... (GA/GB)
+frustrated | (frŭstrated/frustrāted) < (frŭstra̱tẹd/frustrātẹd) > **
 
 fiend | 
 finite | fini̱te < * > ** ... [DC]{infinity, infinite, finite}
@@ -260,7 +261,7 @@ mature | matūre ⦚ matu̖re < ma̬tu̖re > {adj: *, vb: **} … [DC]{mature, 
 
 meadow | mĕadow
 medicine | mĕdici̯ne < mĕdi̬ci̯ne > **
-memorabilia | mĕmorabĭlia < mĕmo̬ra̬bĭ́lia̬ > mèmorabĭlia
+memorabilia | mĕmorabĭlia < mĕmo̬ra̬bĭ́lia̬ > * » mèmorabília
 mentor | ment(o̗r/or) < ment(o̗r/o͜r) >
 Messiah | Messīah < Mẹssīa̬h >
 
