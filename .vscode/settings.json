@@ -6,16 +6,16 @@
     "editor.fontSize": 18,
     "editor.letterSpacing": 0.2
   },
-  "[markdown]": {
-    "editor.fontSize": 16
-  },
-
   // extend plaintext settings to other files
   "files.associations": {
     "*.plaintext": "plaintext",
     // "*.md": "md",
     // "*.md": "plaintext",
     "**/src/common/preliminary_replacements.py": "plaintext"
+  },
+
+  "[markdown]": {
+    "editor.fontSize": 16
   },
   "markdown.preview.fontFamily": "'Linux Libertine PI', 'Droid Sans Mono', 'monospace', monospace",
   "markdown.preview.fontSize": 24,
@@ -28,10 +28,14 @@
     "editor.rulers": [80]
   },
   "autopep8.args": ["--max-line-length=79"],
-
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoFormatStrings": true,
+
+  "[ruby]": {
+    "editor.fontFamily": "'Noto Mono', 'Droid Sans Mono', 'monospace', monospace"
+    // "editor.fontSize": 18
+  },
 
   "[yaml]": {
     "editor.tabSize": 4,

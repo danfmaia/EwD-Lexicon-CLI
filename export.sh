@@ -1,29 +1,13 @@
 #!/bin/bash
 
-#  EwD Lexicon CLI - Readme.pdf" \
+#  EwD Lexicon CLI - Readme.md&pdf" \
     cp "readme.md"  "_knowledge/EwD Lexicon CLI - Readme.md"
-
-#  EwD Lexicon CLI - Readme.pdf" \
     pandoc "readme.md" -o "_knowledge/EwD Lexicon CLI - Readme.pdf" \
     --pdf-engine=xelatex --template=eisvogel --listings \
     -V mainfont="Linux Libertine PI" \
     -V sansfont="Linux Libertine PI" \
     -V monofont="Linux Libertine PI" \
     -V disable-header-and-footers
-
-#  Changelog do IcD.pdf" \
-    pandoc "ewd_changelog.md" -o "_knowledge/Changelog do IcD.pdf" \
-    --pdf-engine=xelatex --template=eisvogel --listings \
-    -V mainfont="Linux Libertine PI" \
-    -V sansfont="Linux Libertine PI" \
-    -V monofont="Linux Libertine PI" \
-    -V disable-header-and-footers
-
-# corpus_1000.txt
-cp "corpora/corpus_1000.txt"  "_knowledge/"
-
-# corpus_misc.txt
-cp "corpora/corpus_misc.txt"  "_knowledge/"
 
 #
 # docs
