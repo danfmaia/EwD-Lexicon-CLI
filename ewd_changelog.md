@@ -1,4 +1,58 @@
-# Changelog do Inglês com Diacríticos (IcD)
+# Changelog do Inglês com Diacríticos (EwD)
+
+## v3.0:
+
+### Alterações
+
+1. **Mudança de Paradigma** (Alteração Principal)
+
+   Nessa nova versão _major_ do EwD, o Paradigma central e mandatório será o seguinte:
+
+   > _Os Acentos fortes ficarão acima das vogais e os Acentos fracos ficarão abaixo das vogais._
+
+   Discussão:
+   
+   - Na v2 isso até já era feito, mas havia o Agudo Refletido—o Acento mais forte de todos—que acabava quebrando com muita frequência o paradigma.
+
+2. **L1 e L2 com Redudância**
+
+   Os Níveis L1 e L2 agora terão a Redudância ativada por padrão. 
+
+   Discussão:
+
+   - Isso quer dizer que as sílabas tônicas serão, sempre que possível, indicadas com Acentos de qualidade (mais frequentemente com Macron e Breve).
+
+   - Há alguns poucos casos onde o Agudo será usado nesses Níveis, quando nenhum Acento de qualidade for aplicável.
+
+3. **Fim do L0**
+
+   O Nível L0 foi derrubado. Com isso, o Nível inicial volta a ser o L1.
+   
+   Motivação:
+
+   - Conforme mencionado na Alteração 1, o L1 agora terá a Redudância ativada por padrão. Como essa era a principal diferença entre o L0 e L1, não há mais tanta necessidade de um nível introdutório extra.
+
+4. **Agudo e Grave Normais**
+
+   O Acentos Agudo e Grave deixarão de ser os refletidos e passarão a ser os normais, posicionados acima de suas respectivas letras.
+   
+   Motivação:
+
+   - O Paradigma mencionado na Alteração 1 é o principal motivo p/ essa Alteração. Outro motivo é o estranhamento de alguns usuários p/ os acentos Agudo e Grave Refletidos da v2.
+
+   Discussão:
+
+   - Por conta de os Níveis L3 e L4* serem os únicos com a Redundância desativada por padrão, o Agudo será usado principalmente nesses Níveis.
+
+   - No entanto, como esses Níveis são bastante econômicos quanto a Acentos em geral—sendo o L4 ainda mais que o L3—o Agudo não terá uma frequência tão elevada assim nesses Níveis.
+   
+5. **Padronização da Sigla EwD**
+
+   A sigla EwD será usada em conteúdos tanto em inglês quanto em português. Em português, no entanto, o nome por extenso segue sendo Inglês com Diacríticos.
+
+### Conclusão e Expectativa p/ a v3
+
+Essas alterações poderão deixar o EwD ainda mais palatável p/ iniciantes, pois ele manter-se-ia fiel a um paradigma que, quando compreendido, tem o potencial de tornar o sistema bem intuitivo aos olhos dos aprendizes.
 
 ## v2.8:
 
