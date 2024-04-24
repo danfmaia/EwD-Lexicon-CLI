@@ -91,13 +91,13 @@ EwD Lexicon CLI is a pivotal element of a pioneering research initiative aimed a
 
 Contributions to EwD Lexicon CLI are encouraged. See `CONTRIBUTING.md` for more details.
 
-## License
-
-Licensed under Creative Commons Attribution 4.0 International. For more information, visit [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/) or contact Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
 ## Contact
 
-For inquiries or support, please email [contact@thepimethod.org](mailto:contact@thepimethod.org).
+For inquiries or support, please email [contact@ewdproject.org](mailto:contact@ewdproject.org).
+
+## License
+
+[GNU GPLv3](./LICENCE.txt)
 
 ---
 
